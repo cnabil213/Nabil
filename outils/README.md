@@ -57,3 +57,58 @@ silences : il sous-estime massivement les blancs. Testé — un blanc réel de 1
   analyser la **structure**, pas à être publiée telle quelle en sous-titres.
 - L'analyse porte sur le **texte, le rythme et les images fixes**. Le jeu d'acteur,
   l'énergie, le timing comique d'une mimique — ça, ça ne se lit pas dans un rapport.
+
+---
+
+## `vision-video.py` — voir la vidéo
+
+L'outil précédent lit le **texte** d'un rush. Celui-ci en donne l'**image**.
+
+Principe : une vidéo, c'est une suite d'images, et Claude sait lire les images.
+On extrait donc à cadence élevée et on assemble en planches contact horodatées.
+
+### Usage
+
+```bash
+python3 outils/vision-video.py /mnt/user-data/working/ma-video.mp4
+```
+
+Options : `--fps 2` (cadence sur le corps) · `--fps-hook 4` (cadence sur les
+4 premières secondes) · `-o dossier`.
+
+Pour une vidéo d'une minute : ~130 images, soit une douzaine de planches.
+
+### Ce que ça sort
+
+```
+vision-ma-video/
+├── VISION.md                  ← le rapport
+├── planche-hook-01.jpg …      ← 4 images/s sur les 4 premières secondes
+├── planche-corps-01.jpg …     ← 2 images/s sur le reste
+└── forme-onde.png             ← l'énergie vocale, visuellement
+```
+
+Chaque vignette porte son **timecode réel** en haut à gauche, incrusté dans
+l'image. Les planches font 1080×1500 : sous la limite de redimensionnement à la
+lecture, donc le détail des visages est préservé.
+
+Le rapport mesure aussi l'énergie vocale : **dynamique** (est-ce que la voix
+joue, ou est-ce plat), niveau moyen, saturation, et la **liste des moments où
+l'énergie retombe**, avec leurs timecodes.
+
+### Deux pièges corrigés, à ne pas réintroduire
+
+1. **Le timecode.** `-ss` remet le PTS à zéro : `%{pts}` affichait `6.0s` sur une
+   image réellement à `10.0s`. Un timecode faux rend toutes les notes
+   inexploitables. Le décalage est donc reconstruit explicitement.
+   `%{pts:flt:offset}` corrige bien le décalage mais ignore la précision demandée
+   et sort six décimales — d'où le formatage manuel via `eif`.
+2. **La taille des planches.** Au-delà de ~1568 px, l'image est redimensionnée à
+   la lecture et les visages deviennent illisibles. La grille 4×3 en cellules
+   264×470 est calibrée pour rester dessous.
+
+### Ce que ça ne donne toujours pas
+
+**Le son.** L'énergie vocale est *mesurée*, pas *entendue* : l'intonation, la
+justesse d'une vanne à l'oreille, si une punchline « sonne » — ça ne se déduit
+pas d'une courbe. C'est la vraie limite qui reste.
