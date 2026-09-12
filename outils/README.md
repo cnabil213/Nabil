@@ -10,6 +10,7 @@ servent à décrire, jamais à deviner. Le pourquoi de chaque choix est dans
 | [`ecoute-video.py`](ecoute-video.py) | **L'oreille.** Transcription juste (whisper turbo), fiche captation (saturation, loudness, bruit), carte d'identité vocale (Praat), ligne de temps par phrase avec verdict ENVOYÉE / PLATE, alertes horodatées (tu retombes, monotone, trop lent), score de chute, mots appuyés, énergie d'articulation | [`README-ecoute.md`](README-ecoute.md) |
 | [`ecoute/comparer-prises.py`](ecoute/comparer-prises.py) | **Deux prises de la même vanne** → laquelle est la plus forte, la plus vivante, la plus rapide, la pause avant la chute la plus nette — verdict + pourquoi | ci-dessous |
 | [`vision-video.py`](vision-video.py) | **Les yeux.** Planches contact horodatées (4 images/s sur le hook, 2 ensuite), forme d'onde, fiche captation | ci-dessous |
+| [`monter.py`](monter.py) | **Le montage.** Coupe le rush sur les segments à garder (à la frame près) et normalise le son pour les plateformes | ci-dessous |
 | [`recuperer.sh`](recuperer.sh) | **Faire entrer un rush trop lourd pour le chat** à partir d'un lien de partage (Drive, Dropbox, WeTransfer, lien direct) | ci-dessous |
 
 ## Installation (à refaire à chaque nouvelle session : le container est neuf)
@@ -25,6 +26,31 @@ python3 -m venv ~/venv-ecoute-arousal
 
 Les modèles (whisper turbo ~1,6 Go, audeering ~0,6 Go) se téléchargent seuls au premier lancement.
 Détail, pièges (PEP 668) et emplacement du venv : [`README-ecoute.md`](README-ecoute.md) §Installation.
+
+## `monter.py` — couper et normaliser
+
+```bash
+python3 outils/monter.py rush.mov -o MONTAGE.mp4 --garder 6.40-27.70 32.45-37.55 40.20-66.60
+```
+
+On donne les segments à **garder** (en secondes, timecodes du `RAPPORT-ECOUTE.md`) ; tout le reste saute.
+La coupe est faite par `trim`/`concat`, donc à la frame près — pas de seek sur keyframe qui décalerait
+de une à deux secondes. Le son est ensuite ramené à **−14 LUFS / −1,5 dBTP** en deux passes (mesure puis
+correction linéaire) : sans ça la plateforme remonte le niveau elle-même, et le souffle avec. La rotation
+du téléphone est appliquée automatiquement (un rush portrait reste portrait). `--sans-normalisation`
+pour ne pas toucher au son, `--crf` pour la qualité vidéo (défaut 19).
+
+> **Le décalage audio, à ne pas réintroduire.** Sur un rush de téléphone la piste audio ne démarre pas à
+> zéro (iPhone : **0,283 s** sur le rush du 12/09). Les timecodes du rapport viennent du wav extrait,
+> dont l'instant 0 est le premier échantillon audio, alors que `trim`/`atrim` travaillent sur les PTS du
+> conteneur. Sans recalage les coupes tombent ~0,3 s trop tôt, en pleine queue de mot — mesuré :
+> −16 dBFS au raccord au lieu du silence. L'outil lit `start_time` et décale **vidéo et audio de la même
+> valeur**, donc la synchro lèvres/son est préservée.
+
+**Poser une coupe.** La prendre dans un silence réel, pas sur une borne de mot : Whisper termine les mots
+trop tôt (« cardi-bés » finit à 27,48 s alors que Whisper annonce 27,10). Les pauses de la section 7 du
+rapport, ou une mesure d'enveloppe à −40 dBFS, donnent les bonnes bornes. Vérifier après coup que le
+niveau juste avant et juste après le raccord est bien celui d'un silence.
 
 ## `recuperer.sh` — un rush trop lourd pour le chat
 
