@@ -1,0 +1,19 @@
+# Les rushes ne vont JAMAIS dans git : trop lourds, et git ne sait pas
+# versionner du binaire. On dépose les vidéos dans /mnt/user-data/working.
+*.mp4
+*.mov
+*.MP4
+*.MOV
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.m4a
+
+# Sorties d'analyse : régénérables en une commande, on garde le dépôt léger.
+analyse-*/
+!analyses/
+
+# Python
+__pycache__/
+*.pyc

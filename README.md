@@ -33,6 +33,13 @@ pas avant que la Phase 1 ait produit de la notoriété.
 | [`phase-2-genzed/03-technique-et-budget.md`](phase-2-genzed/03-technique-et-budget.md) | Setup multi-cam, workflow de tournage, studios en Belgique, budgets |
 | [`phase-2-genzed/04-historique-concepts.md`](phase-2-genzed/04-historique-concepts.md) | Tous les concepts proposés, validés ou rejetés — **et pourquoi** |
 
+### Outils
+
+| Fichier | Contenu |
+| :--- | :--- |
+| [`outils/analyse-video.py`](outils/analyse-video.py) | Analyse un rush : transcription horodatée, hook, temps morts, images |
+| [`outils/README.md`](outils/README.md) | Mode d'emploi et limites de l'outil |
+
 ### Contexte IA
 
 [`CLAUDE.md`](CLAUDE.md) — les règles de travail chargées automatiquement par
