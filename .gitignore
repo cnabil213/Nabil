@@ -27,3 +27,6 @@ comparaison-*/
 venv*/
 outils/venv-arousal/
 .pytest_cache/
+
+# Cache de transcriptions de comparer-prises
+outils/ecoute/cache/

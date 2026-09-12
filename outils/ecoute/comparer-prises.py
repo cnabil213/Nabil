@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """COMPARAISON DE DEUX PRISES du même texte : comparer-prises.py A.wav B.wav [--phrase "texte de la chute"] [--arousal] [--json out.json]
-1. transcription faster-whisper large-v3-turbo (int8, CPU ; cache <dossier du script>/cache/<nom>_turbo_mots.json)
+1. transcription faster-whisper large-v3-turbo (int8, CPU ; cache ~/.cache/ecoute-prises/<nom>_<taille>_<date>_turbo_mots.json)
 2. alignement mot à mot (difflib sur mots normalisés) -> similarité, mots qui diffèrent
 3. mesures globales (chute.py) : durée parlée, p90 dBFS, débit syll/s, étendue F0 st, arousal (optionnel, audeering via le venv mesures-emotion)
 4. chute = --phrase (meilleure correspondance floue dans chaque prise) ou, par défaut, la DERNIÈRE phrase ; score chute de chute.py
@@ -11,11 +11,15 @@ VERDICT (poids documentés) : marge = 0.40*Δscore_chute/20 + 0.20*ΔdB/6 + 0.20
 import sys, os, json, time, argparse, difflib, re, subprocess, unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import chute
-CACHE = os.path.join(HERE, "cache"); os.makedirs(CACHE, exist_ok=True)
+# Cache hors du paquet (le dépôt reste propre) et clé nom + taille + date : deux exports nommés
+# pareil (« rush.mp4 ») ne se contaminent pas.
+CACHE = os.path.join(os.path.expanduser("~"), ".cache", "ecoute-prises"); os.makedirs(CACHE, exist_ok=True)
+def cle_cache(wav):
+    st = os.stat(wav); return f"{os.path.basename(wav).rsplit('.', 1)[0]}_{st.st_size}_{int(st.st_mtime)}"
 VENV = os.path.join(HERE, "..", "..", "mesures-emotion")
 
 def transcrire(wav, model_holder, log):
-    out = os.path.join(CACHE, os.path.basename(wav).rsplit(".", 1)[0] + "_turbo_mots.json")
+    out = os.path.join(CACHE, cle_cache(wav) + "_turbo_mots.json")
     if os.path.exists(out): log.append(f"transcription {os.path.basename(wav)} : cache"); return out
     from faster_whisper import WhisperModel
     if model_holder[0] is None:
@@ -26,7 +30,7 @@ def transcrire(wav, model_holder, log):
     log.append(f"transcription {os.path.basename(wav)} : {dt:.1f} s ({sum(len(s['words']) for s in res)} mots)"); return out
 
 def arousal_json(wav, log):
-    out = os.path.join(CACHE, os.path.basename(wav).rsplit(".", 1)[0] + "_aud")
+    out = os.path.join(CACHE, cle_cache(wav) + "_aud")
     if not os.path.exists(out + ".json"):
         t0 = time.time(); subprocess.run([os.path.join(VENV, "venv/bin/python"), os.path.join(VENV, "emotion_windows.py"), wav, "--models", "audeering", "--no-plot", "--out", out], check=True, capture_output=True); log.append(f"arousal {os.path.basename(wav)} : {time.time()-t0:.1f} s")
     return out + ".json"
