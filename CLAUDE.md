@@ -57,3 +57,19 @@ Masculin, cash, tranchant, drôle. Il parle **directement à son audience**
 - Une idée rejetée ne se supprime pas : elle se documente **avec sa raison de
   refus**, pour ne pas la voir revenir.
 - Ne jamais réécrire un script déjà marqué validé sans que Nabil le demande.
+
+## Relire un rush (vidéo tournée)
+
+Claude ne perçoit que texte et images : **il n'entend pas**. Pour juger la manière de parler, lancer
+`outils/ecoute-video.py` (voir `outils/README.md`) et travailler dans cet ordre :
+
+1. **Les chiffres d'abord** : `RAPPORT-ECOUTE.md` borne déjà en secondes les zones où la voix retombe,
+   les phrases plates / envoyées, le score de chute, la saturation.
+2. **L'image ensuite, pour décrire** : ouvrir la partition de la fenêtre concernée et commenter ce qu'on y
+   voit. Ne jamais *découvrir* un défaut sur l'image (test en aveugle : 6/6 faux positifs en question
+   ouverte), ne jamais lire un dB sur le graphe (biais ~+3 dB).
+3. **Relier au script** : chaque note renvoie à un timecode et aux mots exacts.
+
+Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèle qui « écoute et décrit »
+(local ou hébergé) sans les recouper avec les mesures — testé, ils inventent. Détail et pistes closes :
+`outils/RECHERCHE-ECOUTE.md`.

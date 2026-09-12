@@ -37,8 +37,11 @@ pas avant que la Phase 1 ait produit de la notoriété.
 
 | Fichier | Contenu |
 | :--- | :--- |
-| [`outils/analyse-video.py`](outils/analyse-video.py) | Analyse un rush : transcription horodatée, hook, temps morts, images |
-| [`outils/README.md`](outils/README.md) | Mode d'emploi et limites de l'outil |
+| [`outils/ecoute-video.py`](outils/ecoute-video.py) | **L'oreille** : transcription, captation, prosodie, verdicts par phrase, alertes horodatées, score de chute |
+| [`outils/ecoute/comparer-prises.py`](outils/ecoute/comparer-prises.py) | Deux prises de la même vanne → laquelle garder, et pourquoi |
+| [`outils/vision-video.py`](outils/vision-video.py) | **Les yeux** : planches contact horodatées, forme d'onde |
+| [`outils/README.md`](outils/README.md) · [`outils/README-ecoute.md`](outils/README-ecoute.md) | Installation, usage, vocabulaire du rapport, limites |
+| [`outils/RECHERCHE-ECOUTE.md`](outils/RECHERCHE-ECOUTE.md) | Pourquoi Claude n'entend pas, ce qui marche à la place, et les pistes closes |
 
 ### Contexte IA
 

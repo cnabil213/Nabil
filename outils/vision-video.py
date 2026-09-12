@@ -123,16 +123,34 @@ def energie(wav, duree, fenetre=0.5):
         return None
     blocs = x[:nb * n].reshape(nb, n)
     rms = np.sqrt((blocs ** 2).mean(axis=1)) + 1e-9
-    db = 20 * np.log10(rms)
+    db = 20 * np.log10(rms)  # enveloppe en dBFS RMS par bloc (reference 0 dBFS)
     parle = db[db > db.max() - 35]  # on ignore les silences
+    # crete = max(|x|) sur les echantillons, PAS le max du RMS par bloc
+    # (le RMS d'un bloc de 0,5 s est 10 a 20 dB sous la crete : il ne peut pas detecter la saturation)
+    crete = float(20 * np.log10(np.abs(x).max() + 1e-9))
     return {
         "db": db,
         "fenetre": fenetre,
-        "pic": float(db.max()),
+        "pic": crete,
         "moyen": float(parle.mean()) if parle.size else float(db.mean()),
         "dynamique": float(np.percentile(parle, 90) - np.percentile(parle, 10))
         if parle.size > 1 else 0.0,
     }
+
+
+def fiche_captation(fichier):
+    """Crete / true peak / LUFS / plancher de bruit / LRA via captation.py (ffmpeg astats + ebur128).
+    Mesure sur le fichier d'origine (pas le wav 16 kHz reechantillonne, qui ecrete a 0 dBFS)."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    try:
+        from ecoute import captation
+    except ImportError:
+        return None
+    try:
+        return captation.fiche(fichier)
+    except Exception as e:  # ffmpeg absent d'un filtre, fichier muet...
+        print(f"      (fiche captation indisponible : {e})")
+        return None
 
 
 def forme_onde(wav, sortie):
@@ -187,6 +205,7 @@ def main():
     run(["ffmpeg", "-y", "-v", "error", "-i", args.video, "-vn", "-ac", "1",
          "-ar", "16000", "-c:a", "pcm_s16le", wav])
     ndg = energie(wav, duree) if os.path.exists(wav) else None
+    cap = fiche_captation(args.video)
     onde = forme_onde(wav, os.path.join(sortie, "forme-onde.png")) if os.path.exists(wav) else None
 
     L = [f"# Vision — {os.path.basename(args.video)}\n",
@@ -200,6 +219,7 @@ def main():
 
     if ndg:
         L.append("## Énergie vocale\n")
+        L.append("Échelle : niveaux en dBFS RMS (0 dBFS = pleine échelle), crête en dBFS / dBTP, loudness en LUFS.\n")
         L.append("| Mesure | Valeur | Lecture |")
         L.append("| :--- | :--- | :--- |")
         dy = ndg["dynamique"]
@@ -209,8 +229,18 @@ def main():
         L.append(f"| Dynamique | {dy:.1f} dB | {lect} |")
         L.append(f"| Niveau moyen (parole) | {ndg['moyen']:.1f} dBFS | "
                  f"{'✅' if -20 <= ndg['moyen'] <= -8 else '🟡 à normaliser au montage'} |")
-        L.append(f"| Pic | {ndg['pic']:.1f} dBFS | "
-                 f"{'🔴 ça sature' if ndg['pic'] > -0.5 else '✅ pas de saturation'} |\n")
+        if cap:
+            V = cap["verdicts"]
+            L.append(f"| Crête échantillon | {cap['crete_dbfs']:.2f} dBFS | "
+                     f"{'🔴' if cap['crete_dbfs'] > -1.0 else '✅'} (wav 16 kHz : {ndg['pic']:.2f} dBFS) |")
+            L.append(f"| True peak | {cap['true_peak_dbtp']:+.1f} dBTP | {V['saturation']['icone']} {V['saturation']['texte']} |")
+            L.append(f"| Loudness intégrée | {cap['lufs_integre']:.1f} LUFS | {V['loudness']['icone']} {V['loudness']['texte']} |")
+            nf = cap['plancher_bruit_dbfs']
+            L.append(f"| Plancher de bruit | {'−∞' if nf == float('-inf') else f'{nf:.1f}'} dBFS | {V['bruit']['icone']} {V['bruit']['texte']} |")
+            L.append(f"| Dynamique (LRA) | {cap['lra_lu']:.1f} LU | {V['dynamique']['icone']} {V['dynamique']['texte']} |\n")
+        else:
+            L.append(f"| Crête échantillon | {ndg['pic']:.2f} dBFS | "
+                     f"{'🔴 ça sature' if ndg['pic'] > -1.0 else '🟡 limite' if ndg['pic'] > -3.0 else '✅ pas de saturation'} |\n")
         db = ndg["db"]
         seuil = np.percentile(db[db > db.max() - 35], 25) if (db > db.max() - 35).any() else db.mean()
         creux = [(i * ndg["fenetre"], float(v)) for i, v in enumerate(db)

@@ -17,3 +17,13 @@ analyse-*/
 # Python
 __pycache__/
 *.pyc
+
+# Sorties de ecoute-video / vision-video / comparer-prises : régénérables
+ecoute-*/
+vision-*/
+comparaison-*/
+
+# venvs locaux (torch pour l'arousal) et caches python
+venv*/
+outils/venv-arousal/
+.pytest_cache/
