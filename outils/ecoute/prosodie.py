@@ -200,7 +200,22 @@ for z in lentes:
     if merged and z["debut"] <= merged[-1]["fin"] + 1.0: merged[-1]["fin"] = max(merged[-1]["fin"], z["fin"]); merged[-1]["syll_par_s"] = min(merged[-1]["syll_par_s"], z["syll_par_s"])
     else: merged.append(dict(z))
 lentes = [z for z in merged if z["fin"] - z["debut"] >= DUREE_LENTE_MIN]
-for z in lentes: z["syll_par_s_min"] = round(z.pop("syll_par_s"), 2); z["duree"] = round(z["fin"] - z["debut"], 2); z["ratio_vs_global"] = round(z["syll_par_s_min"] / max(0.1, rate_art_g), 2); z["syllabes"] = int(((nuclei >= z["debut"]) & (nuclei < z["fin"])).sum())
+# Le debit annonce doit porter sur TOUTE la zone fusionnee. Garder le min des fenetres de 1,5 s
+# faisait passer une zone de 9 s pour aussi lente que sa pire fenetre (rush du 12/09 : 1,45 syll/s
+# annonce contre 3,79 mesures sur la zone entiere, soit 27 % au lieu de 71 %). On recalcule donc
+# noyaux / temps de parole sur la zone entiere, et une zone qui ne tient plus le critere sur toute
+# sa duree n'est pas une zone lente : la fusion etait trop large, on la retire.
+qual = []
+for z in lentes:
+    z["syll_par_s_min_fenetre"] = round(z.pop("syll_par_s"), 2)
+    z["duree"] = round(z["fin"] - z["debut"], 2)
+    z["syllabes"] = int(((nuclei >= z["debut"]) & (nuclei < z["fin"])).sum())
+    mz = (grid >= z["debut"]) & (grid < z["fin"]); tsp = float(speech[mz].sum()) * TS
+    if tsp <= 0.2: continue
+    z["syll_par_s"] = round(z["syllabes"] / tsp, 2)
+    z["ratio_vs_global"] = round(z["syll_par_s"] / max(0.1, rate_art_g), 2)
+    if z["ratio_vs_global"] < 0.65: qual.append(z)
+lentes = qual
 
 # ---- stats par zone (fournies + molles auto)
 def zone_stats(nom, a, b):

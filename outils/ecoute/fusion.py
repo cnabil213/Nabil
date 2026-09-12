@@ -131,6 +131,19 @@ def _fusionner_proches(zs, gap=1.0):
             out[-1] = n
         else: out.append(dict(z))
     return out
+def _debit_zone(M, a, b, ref):
+    """Debit d'articulation (noyaux / temps de parole) sur [a, b], recalcule depuis les mesures.
+    Necessaire apres une fusion de zones : la valeur d'une sous-zone ne vaut pas pour l'intervalle
+    elargi. Renvoie (syll/s, ratio vs global) ou None si la zone ne contient pas assez de parole."""
+    noy = M.get("noyaux_syllabiques_s") or []
+    n = sum(1 for t in noy if a <= t < b)
+    pause = sum(min(p["fin"], b) - max(p["debut"], a) for p in M.get("pauses", []) if p["fin"] > a and p["debut"] < b)
+    parole = (b - a) - pause
+    if parole <= 0.2 or not ref: return None
+    r = n / parole
+    return round(r, 2), round(r / ref, 2)
+
+
 GRAVITE = {"MONOTONE": 5, "ZONE MOLLE": 4, "CHUTE D'INTONATION": 4, "NIVEAU": 4, "CREUX": 3, "ZONE LENTE": 3, "PIC": 2, "PEU VARIÉ": 2, "mot suspect": 1}
 MAX_ALERTES = 10
 
@@ -194,8 +207,15 @@ def fusionner(wav, mots_json, mesures_json, audeering_json, captation_json, out_
     P(f"## 4. Alertes horodatées (détectées par les chiffres, pas par lecture d'image ; {MAX_ALERTES} plus graves, le reste dans mesures.json → alertes_toutes)")
     al = []   # (t, type, gravite, duree, texte)
     def A(z, typ, txt): al.append((z["debut"], typ, GRAVITE[typ], z.get("duree", 0), txt))
+    ref = g.get("syll_par_s_articulation_ref_lentes") or g.get("syll_par_s_articulation")
     for z in _fusionner_proches(M["zones_molles_auto"]): A(z, "ZONE MOLLE", f"🔻 **ZONE MOLLE {z['debut']}–{z['fin']} s** ({z['duree']} s, {z['syllabes']} syll.) : pics {z['int_p90_db']} dBFS soit **{z['ecart_pics_vs_global_db']} dB** sous tes pics → tu retombes")
-    for z in _fusionner_proches(M["zones_lentes_auto"]): A(z, "ZONE LENTE", f"🐢 **ZONE LENTE {z['debut']}–{z['fin']} s** ({z['duree']} s) : {z['syll_par_s_min']} syll/s hors silences = {int(100*z['ratio_vs_global'])} % de ton débit d'articulation")
+    # _fusionner_proches elargit la zone : on recalcule le debit sur la zone finale (sinon on
+    # affiche la valeur d'une sous-zone sur un intervalle plus long) et on retire ce qui ne tient
+    # plus le critere des 65 %.
+    for z in _fusionner_proches(M["zones_lentes_auto"]):
+        d = _debit_zone(M, z["debut"], z["fin"], ref)
+        if d is None or d[1] >= 0.65: continue
+        A(z, "ZONE LENTE", f"🐢 **ZONE LENTE {z['debut']}–{z['fin']} s** ({z['duree']} s) : {d[0]} syll/s hors silences = {int(100*d[1])} % de ton débit d'articulation")
     for z in _fusionner_proches(M["passages_monotones_auto"]): A(z, "MONOTONE", f"➖ **MONOTONE {z['debut']}–{z['fin']} s** ({z['duree']} s) : écart-type F0 {z['f0_ecart_type_st']} st (< 0,8) → tu parles sur une note")
     for z in _fusionner_proches(M.get("passages_peu_varies_auto", [])): A(z, "PEU VARIÉ", f"〰️ PEU VARIÉ {z['debut']}–{z['fin']} s ({z['duree']} s) : écart-type F0 {z['f0_ecart_type_st']} st (0,8–1,3)")
     for z in _fusionner_proches(M.get("chutes_intonation_auto", [])): A(z, "CHUTE D'INTONATION", f"📉 **CHUTE D'INTONATION {z['debut']}–{z['fin']} s** ({z['duree']} s) : F0 sd {z['f0_ecart_type_st']} st = moitié de ta variation habituelle ({g.get('f0_sd_mediane_fenetres_2s_st')} st)")
