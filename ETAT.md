@@ -28,14 +28,14 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 | Son | normalisé à −14 LUFS, sample « JORDAN » de Doumbé à 28,40 s |
 | Image | bouton du nez retiré sur 1266 des 1288 images |
 | Livré | [`livraisons/12sept-casser-des-nuques-HQ.mp4`](livraisons/) — 53,7 Mio, 10,3 Mb/s |
-| **Rush A du 30/08** | Vidéo 3 (Business Bro), 59 s, analysée. **Montable**, la fin est à couper |
+| **Vidéo 3 — Business Bro** | ✅ **Montée et livrée** : [`livraisons/30aout-business-bro-HQ.mp4`](livraisons/) — 24,5 s |
 | **Rush B du 30/08** | Vidéo 4 (l'otage du téléphone), 61 s, analysée. Chute et hook manquants |
 
 ## En cours / pas fait
 
-- **Vidéo 3 et Vidéo 4** : tournées le 30/08, jamais montées. **Les fichiers sont perdus**
-  (conteneur effacé) : demander à Nabil de renvoyer `prise-A-30aout.mp4` et `prise-B-30aout.mp4`.
-  Tout ce qu'on sait d'elles est dans [`02-scripts-valides.md`](phase-1-solo/02-scripts-valides.md).
+- **Vidéo 4** (rush B du 30/08) : tournée, pas montée. **Le fichier est perdu** (conteneur effacé) :
+  demander à Nabil de renvoyer `prise-B-30aout.mp4`. Ce qu'on en sait est dans
+  [`02-scripts-valides.md`](phase-1-solo/02-scripts-valides.md).
 - **Publication** : aucun compte ouvert, aucun nom arrêté, rien en ligne.
 - **Sous-titres** : proposés dans la DA, jamais produits. Aucun outil ne les génère encore.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
@@ -44,8 +44,8 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 
 ## Les 3 prochaines actions
 
-1. **Faire renvoyer les deux rushs du 30/08** — il y a une vidéo montable dedans (Business Bro),
-   et c'est peut-être elle qui doit sortir en premier, pas celle du 12/09.
+1. **Choisir laquelle sort en premier** : Business Bro (24,5 s, la plus dense) ou celle du 12/09
+   (43 s). Deux montages sont prêts dans [`livraisons/`](livraisons/).
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
 3. Écrire la chute de la Vidéo 4, à partir de ce qu'il a trouvé en improvisant.
 
