@@ -6,7 +6,11 @@ Claude choisit dans ce catalogue à chaque montage et les pose dans les trous de
 
 Clips courts uniquement (quelques secondes) : c'est un dépôt git, pas un disque dur.
 
-_Vide pour l'instant — envoie les clips, ils apparaîtront ici._
+| Son | Durée | Ce que c'est | Quand l'utiliser | Tags |
+| :--- | ---: | :--- | :--- | :--- |
+| `doumbe-jordan-tes-mort.wav` | 2.98 s | Doumbè à Zébo, KO en 5 s (RMC Sport, sept. 2023) : « Jordan, t'es mort » + la foule qui explose | après le nom de Doumbè, après une menace, ou quand quelqu'un se croit intouchable | mma, doumbe, menace, ko, foule |
+
+Niveaux (RMS) : doumbe-jordan-tes-mort -16 dBFS
 
 ## Poser un son
 

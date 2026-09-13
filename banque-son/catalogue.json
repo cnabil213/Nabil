@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "nom": "doumbe-jordan-tes-mort",
+  "fichier": "doumbe-jordan-tes-mort.wav",
+  "desc": "Doumbè à Zébo, KO en 5 s (RMC Sport, sept. 2023) : « Jordan, t'es mort » + la foule qui explose",
+  "usage": "après le nom de Doumbè, après une menace, ou quand quelqu'un se croit intouchable",
+  "tags": [
+   "mma",
+   "doumbe",
+   "menace",
+   "ko",
+   "foule"
+  ],
+  "duree_s": 2.98,
+  "rms_dbfs": -16.2,
+  "crete_dbfs": -3.0,
+  "canaux": 2,
+  "source": "14bc5f57-ScreenRecording_09-13-2026_22-23-54_1.mov",
+  "passage": null
+ }
+]
