@@ -89,6 +89,24 @@ tournage, le plafond était posé à 720p avant même la première coupe. Passer
 fichier par AirDrop, WeTransfer ou un lien — jamais par Snapchat, WhatsApp ou Instagram, qui
 réencodent en 720p au passage.
 
+**Preuve par la mesure, faite le 12/09.** Nabil a envoyé deux captures d'écran du même instant, la
+même image, à la même taille : son original dans Photos, et le montage livré. Énergie de détail
+(écart-type du passe-haut, σ = 1,6 px) sur trois zones du visage :
+
+| source | yeux + monture | cheveux | bouche + barbe |
+| :-- | --: | --: | --: |
+| son original (Photos) | 0,86 | 0,30 | **3,53** |
+| le rush qu'il m'a envoyé | 0,47 | 0,26 | 1,16 |
+| le montage livré | 0,46 | 0,26 | 1,14 |
+
+Le montage est **indiscernable du rush reçu** (écart < 2 %) : la chaîne de montage ne perd rien.
+Mais le rush reçu contient **3 fois moins de détail que l'original resté sur le téléphone**, et sa
+coupure fréquentielle est 1,4 fois plus basse — le rapport attendu entre 1080p et 720p.
+
+**Comment Nabil doit envoyer un rush** : Photos → « Enregistrer dans Fichiers », puis envoyer CE
+fichier (WeTransfer par Safari, ou AirDrop). Ne jamais faire passer un rush par Snapchat, WhatsApp
+ou Instagram, et ne jamais l'envoyer depuis un partage qui propose « qualité réduite ».
+
 **Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams` et lire
 la résolution + les tags. Si ce n'est pas la Caméra native, le dire à Nabil tout de suite, avant de
 monter, et avant toute discussion sur la qualité de sortie.
