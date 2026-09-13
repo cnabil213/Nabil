@@ -67,7 +67,12 @@ def main():
     p.add_argument("-o", "--sortie", required=True)
     p.add_argument("--garder", nargs="+", required=True, metavar="DEBUT-FIN",
                    help="segments à garder, en secondes (ex. 6.40-27.75)")
-    p.add_argument("--crf", type=int, default=19, help="qualité vidéo, plus bas = meilleur (défaut 19)")
+    p.add_argument("--crf", type=int, default=16, help="qualité vidéo, plus bas = meilleur (défaut 16 ; 18 reste très bon, 23 se voit)")
+    p.add_argument("--preset", default="slow", help="préréglage x264 (défaut slow : meilleure qualité à débit égal)")
+    p.add_argument("--image", default=None, metavar="FILTRE",
+                   help="filtre ffmpeg d'étalonnage appliqué DANS la même passe que la coupe "
+                        "(ex. \"eq=brightness=0.06:contrast=1.10,curves=m='0/0 0.25/0.33 1/1'\"). "
+                        "Le faire après coûterait un réencodage entier.")
     p.add_argument("--sans-normalisation", action="store_true", help="ne pas toucher au niveau sonore")
     a = p.parse_args()
 
@@ -95,15 +100,16 @@ def main():
         print(f"   (recalage : la piste audio demarre a {off:.3f} s, les coupes sont decalees d'autant)")
     # --- coupe : trim/atrim + concat (précision à la frame, contrairement à un seek sur keyframe)
     parts, lab = [], []
+    img = ("," + a.image) if a.image else ""
     for i, (x, b) in enumerate(segs):
         xo, bo = round(x + off, 3), round(b + off, 3)
-        parts.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS[v{i}];[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
+        parts.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS{img}[v{i}];[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
         lab.append(f"[v{i}][a{i}]")
     fc = ";".join(parts) + ";" + "".join(lab) + f"concat=n={len(segs)}:v=1:a=1[v][a]"
     tmp = a.sortie + ".coupe.mp4"
     print("→ coupe…")
     r = run(["ffmpeg", "-v", "error", "-y", "-i", a.fichier, "-filter_complex", fc,
-             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", str(a.crf), "-preset", "medium",
+             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", str(a.crf), "-preset", a.preset,
              "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp])
     if r.returncode != 0 or not os.path.exists(tmp):
         sys.exit(f"ERREUR : coupe échouée\n{r.stderr[-1200:]}")
@@ -132,7 +138,11 @@ def main():
     v2, _, dur2 = sonde(a.sortie)
     apres = mesure_loudness(a.sortie)
     print(f"\n✅ {a.sortie}")
+    br_src = (os.path.getsize(a.fichier) * 8 / dur) / 1e6
+    br_out = (os.path.getsize(a.sortie) * 8 / dur2) / 1e6
     print(f"   {dur2:.2f} s · {v2['width']}×{v2['height']} · {os.path.getsize(a.sortie) / 1048576:.1f} Mo")
+    print(f"   débit : {br_src:.2f} Mb/s (source) -> {br_out:.2f} Mb/s"
+          + ("  ⚠ perte marquée, baisser --crf" if br_out < br_src * 0.45 else "  ✅"))
     if apres:
         print(f"   après : {float(apres['input_i']):.1f} LUFS, true peak {float(apres['input_tp']):+.1f} dBTP")
     print(f"\n   Relire le résultat :  python3 outils/ecoute-video.py \"{a.sortie}\"")

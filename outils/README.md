@@ -40,7 +40,19 @@ La coupe est faite par `trim`/`concat`, donc à la frame près — pas de seek s
 de une à deux secondes. Le son est ensuite ramené à **−14 LUFS / −1,5 dBTP** en deux passes (mesure puis
 correction linéaire) : sans ça la plateforme remonte le niveau elle-même, et le souffle avec. La rotation
 du téléphone est appliquée automatiquement (un rush portrait reste portrait). `--sans-normalisation`
-pour ne pas toucher au son, `--crf` pour la qualité vidéo (défaut 19).
+pour ne pas toucher au son, `--crf` pour la qualité (défaut 16, `--preset` slow), `--image` pour étalonner sans passe supplémentaire.
+
+> **Un seul réencodage, jamais deux.** Chaque passe h264 coûte de la qualité, et ça s'empile. Mesuré
+> sur le rush du 12/09, contre un étalon sans perte construit au même `trim` : la chaîne
+> coupe → étalonnage → copie d'envoi (trois passes, dont une à CRF 24) ressort à **SSIM 0,979 /
+> 39,2 dB**, contre **0,988 / 40,1 dB** pour la même vidéo faite en **une seule passe à CRF 19** —
+> et le débit passe de 2,95 à 5,81 Mb/s. D'où l'option `--image` : l'étalonnage se fait DANS la passe
+> de coupe. Pris isolément, même CRF 24 est invisible (SSIM 0,9855) : le coupable n'est pas le CRF,
+> c'est le nombre de passes. `sonoriser.py` copie le flux vidéo, il ne compte pas comme une passe.
+>
+> Pour mesurer une perte, construire l'étalon avec le **même `trim`** que le montage : un étalon fait
+> au `-ss` cale sur une image-clé, le décalage d'une ou deux images fait chuter le SSIM à 0,88 pour
+> tout le monde et la mesure ne veut plus rien dire.
 
 > **Le décalage audio, à ne pas réintroduire.** Sur un rush de téléphone la piste audio ne démarre pas à
 > zéro (iPhone : **0,283 s** sur le rush du 12/09). Les timecodes du rapport viennent du wav extrait,
