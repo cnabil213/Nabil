@@ -40,3 +40,7 @@ samples/
 
 # modèle de visage (3,6 Mo, se retéléchargé : voir outils/README.md)
 outils/face_landmarker.task
+
+# les livraisons finales, elles, sont versionnées (le chat plafonne à 30 Mio, pas GitHub)
+!livraisons/
+!livraisons/*.mp4
