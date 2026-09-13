@@ -37,7 +37,7 @@ export ECOUTE_VENV_PY=/chemin/vers/venv/bin/python
 ```
 
 Fichiers : `ecoute-video.py` (point d'entrée) + paquet `ecoute/` (captation.py, transcribe.py, prosodie.py, seuil.py, rapport.py,
-arousal_windows.py, chute.py, fusion.py, _run.py). Copier le dossier entier. Tests : `bash tests/lance_tests.sh` (chemins relatifs au script).
+arousal_windows.py, chute.py, fusion.py, _run.py). Copier le dossier entier. (Les tests de la phase de construction n'ont pas été versionnés.)
 
 ## Usage
 

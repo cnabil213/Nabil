@@ -1,21 +1,42 @@
 # Contexte de travail — Dépôt stratégie Nabil
 
-Ce dépôt n'est pas un projet de code. C'est la **mémoire stratégique** de Nabil,
-créateur de contenu. Toute IA qui travaille ici est un **outil de génération
-d'idées originales**, pas un assistant généraliste.
+Ce dépôt n'est pas un projet de code. C'est la **mémoire de travail de Nabil**, créateur de
+contenu, et elle est faite pour le suivre d'une session à l'autre. Toute IA qui travaille ici
+est un **outil de génération d'idées originales** et un **monteur**, pas un assistant généraliste.
+
+---
+
+## Démarrer et finir une session
+
+**Au démarrage** — [`ETAT.md`](ETAT.md) est injecté automatiquement par le hook de session.
+Il dit où on en est, ce qui est en cours, et les prochaines actions. Le lire avant toute chose.
+
+**À la fin** — deux gestes, jamais l'un sans l'autre :
+
+1. Réécrire [`ETAT.md`](ETAT.md) pour qu'il colle à la réalité (il se remplace, il ne s'empile pas).
+2. Ajouter une entrée en haut de [`JOURNAL.md`](JOURNAL.md) : ce qui a été fait, ce qui a été
+   décidé, ce qui a été appris.
+
+**Le conteneur est effacé entre deux sessions.** Rushs, montages et analyses ne survivent pas.
+Seul ce qui est commité reste. Un commit = une décision ou un livrable, avec un message qui dit
+*pourquoi*, pas seulement *quoi* : c'est ce message que la session suivante lira.
+
+---
 
 ## Le créateur
 
-Homme, 22 ans. Phase 1 en cours : **contenu short-form solo** (TikTok, Reels,
-Shorts), face caméra, en solo. Phase 2 à terme : l'émission studio **GENZED**.
+Homme, 22 ans. Phase 1 en cours : **contenu short-form solo** (TikTok, Reels, Shorts), face
+caméra, en solo. Phase 2 à terme : l'émission studio **GENZED**.
 
 ## Ton attendu de l'IA
 
 - **Énergique, direct, concis.** On va au script, pas au préambule.
 - **Zéro flatterie.** Ne pas complimenter une idée de Nabil pour meubler.
-- **Tranchant sur le refus.** Si une idée est déjà vue, le dire en une ligne et
-  proposer autre chose — ne pas la sauver poliment.
+- **Tranchant sur le refus.** Si une idée est déjà vue, le dire en une ligne et proposer autre
+  chose — ne pas la sauver poliment.
 - Proposer **peu d'idées mais abouties** plutôt qu'une liste de dix pitchs vagues.
+- **Annoncer ce qui va prendre du temps.** Un travail de fond est bienvenu, une attente non
+  annoncée ne l'est pas : prévenir avant, et donner d'abord la version rapide si elle existe.
 
 ## Ton attendu du contenu (ce qui est écrit POUR la caméra)
 
@@ -33,12 +54,11 @@ Masculin, cash, tranchant, drôle. Il parle **directement à son audience**
 
 ### ✅ Ce qui marche
 
-- **Hook cash dans les 2 à 4 premières secondes.** Pas d'intro, pas de mise en
-  contexte : la première phrase doit déjà être la vanne ou la promesse.
-- L'observation sociale ultra-précise (le détail que tout le monde a vécu mais
-  que personne n'a formulé).
-- L'escalade : on part d'un constat banal et on monte en absurde jusqu'à la
-  chute.
+- **Hook cash dans les 2 à 4 premières secondes.** Pas d'intro, pas de mise en contexte : la
+  première phrase doit déjà être la vanne ou la promesse.
+- L'observation sociale ultra-précise (le détail que tout le monde a vécu mais que personne n'a
+  formulé).
+- L'escalade : on part d'un constat banal et on monte en absurde jusqu'à la chute.
 - Le **contraste** (avant/maintenant, ce qu'il prétend être / ce qu'il est).
 
 ## Méthode de travail sur un script
@@ -47,120 +67,91 @@ Masculin, cash, tranchant, drôle. Il parle **directement à son audience**
 2. **Le hook** — les 2-4 premières secondes, écrites au mot près.
 3. **L'escalade** — 2 à 4 exemples qui montent en absurde.
 4. **La chute** — la pique finale, la plus courte possible.
-5. **Le filtre** — repasser le script sur la grille des interdits ci-dessus
-   avant de le déclarer tournable.
+5. **Le filtre** — repasser le script sur la grille des interdits ci-dessus avant de le déclarer
+   tournable.
 
 ## Règles d'écriture dans ce dépôt
 
-- **Tout en français**, dans la voix de Nabil (oral, apostrophes, « t'as »,
-  « frère », « les gars »). Ne pas lisser en français écrit soutenu.
-- Une idée rejetée ne se supprime pas : elle se documente **avec sa raison de
-  refus**, pour ne pas la voir revenir.
+- **Tout en français**, dans la voix de Nabil (oral, apostrophes, « t'as », « frère »,
+  « les gars »). Ne pas lisser en français écrit soutenu.
+- Une idée rejetée ne se supprime pas : elle se documente **avec sa raison de refus**, pour ne
+  pas la voir revenir.
 - Ne jamais réécrire un script déjà marqué validé sans que Nabil le demande.
 
-## Relire un rush (vidéo tournée)
+---
 
-Claude ne perçoit que texte et images : **il n'entend pas**. Pour juger la manière de parler, lancer
-`outils/ecoute-video.py` (voir `outils/README.md`) et travailler dans cet ordre :
+## La règle qui prime : rien sans mesure
 
-1. **Les chiffres d'abord** : `RAPPORT-ECOUTE.md` borne déjà en secondes les zones où la voix retombe,
-   les phrases plates / envoyées, le score de chute, la saturation.
-2. **L'image ensuite, pour décrire** : ouvrir la partition de la fenêtre concernée et commenter ce qu'on y
-   voit. Ne jamais *découvrir* un défaut sur l'image (test en aveugle : 6/6 faux positifs en question
-   ouverte), ne jamais lire un dB sur le graphe (biais ~+3 dB).
-3. **Relier au script** : chaque note renvoie à un timecode et aux mots exacts.
+**On ne juge rien à l'œil ni à l'oreille sans un chiffre derrière.** Claude n'entend pas, et se
+trompe quand il « regarde » une image sans mesure préalable. Les contre-exemples, tous vécus sur
+ce projet :
 
-Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèle qui « écoute et décrit »
-(local ou hébergé) sans les recouper avec les mesures — testé, ils inventent. Détail et pistes closes :
-`outils/RECHERCHE-ECOUTE.md`.
+| Ce qui a été affirmé | Ce que la mesure disait |
+| :--- | :--- |
+| « Ce défaut se voit sur l'image » (question ouverte, en aveugle) | 6 faux positifs sur 6 |
+| « Il parle plus fort ici » (modèle audio local) | Timecodes inventés, biais de position 8/8 |
+| « Le H.265 est meilleur, son PSNR est plus haut » | Il conservait **moins** de détail (91,3 % contre 92,8 %) |
+| « Son original est en 1080p » | Ses métadonnées disaient 720p |
+| « Ces deux captures montrent le même moment » | 0,17 s d'écart : l'une nette, l'autre floue |
+| « La qualité a baissé » → une explication | Mesurer **d'abord**, répondre ensuite |
 
-## Tourner : le plafond de qualité se joue AVANT le montage
+Corollaire : quand Nabil signale un problème, la première réponse est une mesure, pas une
+hypothèse. Et quand une mesure contredit ce qu'on a affirmé plus tôt, **on se corrige
+explicitement** — dans la réponse et dans le dépôt.
 
-Le rush du 12/09 est sorti de **Snapchat**, pas de l'app Caméra. Ses métadonnées le disent en clair
-(`com.apple.quicktime.description` → « Snapchat/14.20.0.56 (iPhone18,2 ; iOS 26.5.2) ») et ça se voit
-au format : **1280×720**, là où cet iPhone filme en 1080p ou en 4K.
+---
 
-**Aucun réglage d'encodage ne rattrape ça.** Un montage ne peut pas être plus net que son rush : sur ce
-tournage, le plafond était posé à 720p avant même la première coupe. Passer de 720p à 1080p, c'est
-2,25 fois plus de pixels — sans commune mesure avec les 7 % de détail que coûte une compression à
-5 Mb/s.
+## Technique : les cinq règles, et où est le détail
 
-**La règle : filmer avec l'app Caméra** (1080p 60 i/s, ou 4K si le téléphone suit), puis passer le
-fichier par AirDrop, WeTransfer ou un lien — jamais par Snapchat, WhatsApp ou Instagram, qui
-réencodent en 720p au passage.
+Le mode d'emploi complet des outils est dans [`outils/README.md`](outils/README.md).
+Ce qui suit, ce sont les règles qu'on ne redécouvre pas.
 
-**Preuve par la mesure, faite le 12/09.** Nabil a envoyé deux captures d'écran du même instant, la
-même image, à la même taille : son original dans Photos, et le montage livré. Énergie de détail
-(écart-type du passe-haut, σ = 1,6 px) sur trois zones du visage :
+### 1. Relire un rush → [`outils/ecoute-video.py`](outils/ecoute-video.py)
 
-| source | yeux + monture | cheveux | bouche + barbe |
-| :-- | --: | --: | --: |
-| son original (Photos) | 0,86 | 0,30 | **3,53** |
-| le rush qu'il m'a envoyé | 0,47 | 0,26 | 1,16 |
-| le montage livré | 0,46 | 0,26 | 1,14 |
+Les chiffres d'abord (`RAPPORT-ECOUTE.md` borne les zones en secondes), **l'image seulement pour
+décrire** ce que les chiffres ont déjà trouvé. Ne jamais lire un dB sur un graphe (biais ~+3 dB).
+Vocabulaire et limites : [`outils/README-ecoute.md`](outils/README-ecoute.md). Pistes closes :
+[`outils/RECHERCHE-ECOUTE.md`](outils/RECHERCHE-ECOUTE.md).
 
-Le montage est **indiscernable du rush reçu** (écart < 2 %) : la chaîne de montage ne perd rien.
-Mais le rush reçu contient **3 fois moins de détail que l'original resté sur le téléphone**, et sa
-coupure fréquentielle est 1,4 fois plus basse — le rapport attendu entre 1080p et 720p.
+### 2. Monter → [`outils/monter.py`](outils/monter.py)
 
-**Comment Nabil doit envoyer un rush** : Photos → « Enregistrer dans Fichiers », puis envoyer CE
-fichier (WeTransfer par Safari, ou AirDrop). Ne jamais faire passer un rush par Snapchat, WhatsApp
-ou Instagram, et ne jamais l'envoyer depuis un partage qui propose « qualité réduite ».
+**Un seul réencodage**, toujours : coupe, étalonnage et retouche dans la même passe. Conserver la
+plage de couleur de la source. Poser les coupes dans un silence réel, mesuré à l'enveloppe — pas
+sur une borne de mot (Whisper finit les mots trop tôt, et une occlusive fabrique un silence *au
+milieu* d'un mot). **La première image gardée doit être nette** : sur TikTok, c'est la vignette.
 
-**Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams` et lire
-la résolution + les tags. Si ce n'est pas la Caméra native, le dire à Nabil tout de suite, avant de
-monter, et avant toute discussion sur la qualité de sortie.
+### 3. Sonoriser → [`outils/sonoriser.py`](outils/sonoriser.py)
 
-## Livrer une vidéo (qualité)
+Les sons viennent de [`banque-son/`](banque-son/), carte blanche pour y puiser. **Le son s'efface
+sous la voix, jamais l'inverse** : il descend de 10 dB dès que Nabil parle et remonte dans ses
+vraies pauses. La voix n'est jamais touchée — le vérifier par RMS sur blocs de 0,5 s, sonorisé
+contre nu : 0,0 dB partout hors du son. Deux sons par vidéo au maximum. Les bruitages
+synthétiques de `outils/sfx/` ne servent que sur demande explicite : un whoosh ne fait rire
+personne, un « JORDAN » de Doumbé si.
 
-- **Le chat refuse au-dessus de 30 Mio.** C'est la seule contrainte qui limite la qualité, pas l'outil.
-  Livrer en **H.265** (`--hevc --crf 16`) : à poids égal il rend ~1 dB de PSNR de plus que le H.264.
-  Un fichier au débit de l'original (10 Mb/s, ~54 Mo) ne passe pas par le chat.
-- **Un seul réencodage, toujours.** Coupe, étalonnage, retouche : tout dans la même passe
-  (`monter.py --image`, `retoucher.py`, `--garder-image`). `sonoriser.py` copie l'image, il ne compte pas.
-- **Vérifier avant d'envoyer** : PSNR contre le rush aux mêmes coupes, plage de couleur `pc` conservée,
-  et pour une retouche, que seul le défaut a bougé (carte des écarts).
-- Si Nabil dit que la qualité a baissé, **mesurer avant de répondre** : somme de contrôle du flux vidéo
-  entre les versions (identique = rien n'a bougé), puis PSNR et débit contre l'original.
+### 4. Livrer → [`livraisons/`](livraisons/)
 
-## Retoucher un défaut de peau
+Le chat plafonne à **30 Mio** et coûte 7 % de détail. Les montages finis vont dans `livraisons/`,
+au débit de la source, et se téléchargent depuis GitHub. Juger la qualité au **détail conservé**
+(écart-type du passe-haut, rapporté à la source), pas au PSNR. Tableau de mesures :
+[`livraisons/README.md`](livraisons/README.md).
 
-`outils/retoucher.py` (voir `outils/README.md`) efface un bouton sur toute la vidéo en le suivant sur le
-visage. Nabil envoie une capture d'écran avec un rond au feutre : le rouge s'isole en HSV, la capture
-est un plein écran (donc recadrée sur les côtés), et on retrouve l'image exacte par corrélation.
-Toujours **vérifier le point en zoomant dessus** (`--apercu`) avant d'encoder : une occlusive, une
-ombre ou la monture peuvent ressembler au défaut.
+### 5. Tourner : le plafond se joue avant le montage
 
-## Sonoriser un montage
+Le rush du 12/09 est **une capture Snapchat** — sa métadonnée `com.apple.quicktime.description`
+le dit en clair, et l'original dans Photos fait **720p, HEVC, 57 Mo**. Un montage ne peut pas être
+plus net que son rush.
 
-- **Les sons viennent de `banque-son/`** (catalogue : `banque-son/README.md`). Nabil a donné carte
-  blanche pour y puiser à chaque montage : choisir d'après la description et l'usage de chaque son.
-- **Le son s'efface sous la voix, jamais l'inverse.** Outil : `outils/sonoriser.py`. Le son est posé
-  à `0` à `-3` dB sous la voix parlée et **descend de 10 dB dès que Nabil parle** (40 ms d'avance), puis
-  remonte dans ses vraies pauses (≥ 0,25 s), jamais entre deux mots. Un clip de 3 s dans un trou de
-  0,5 s est donc plein dans le trou et en fond sous la phrase suivante — c'est le « il doit être en
-  fond fond car je parle » de Nabil, réglé par la machine, pas à l'oreille. `--sans-duck` seulement
-  pour une nappe volontairement fixe. **Réfléchir en monteur avant de régler** : où est le trou, où
-  reprend la phrase, ce qui doit rester intelligible (le Doumbè : « Jordan » dans le trou après
-  « …Cédric Doumbé », « t'es mort » et la foule en fond sous « 2-3 combats »).
-  - **La voix n'est jamais touchée** : même niveau, mêmes crêtes, mono conservé, pas de renormalisation.
-    Avant d'envoyer : RMS par blocs de 0,5 s, sonorisé contre nu, **0,0 dB partout hors du son**
-    (les essais avant la V8 du 12/09 baissaient toute la voix de 2 dB sans qu'on l'ait demandé — les
-    trois causes sont dans `outils/README.md`, sonoriser).
-  - Contrôler sur `--piste-effets` : le son dans le trou ≥ 12 dB au-dessus du plancher, sous la voix
-    entre −12 et −20 dB, et rien qui remonte entre deux mots.
-  - Vérifier l'intelligibilité contre la transcription du **montage nu, même fenêtre** — jamais
-    contre ce qu'on croit que le passage dit : Whisper varie d'une passe à l'autre (« t'as gagné »
-    n'a jamais existé, c'était « t'as regardé… »).
-- **Sources de sons** : `banque-son/` (ses clips) et le soundboard `3kh0/soundboard` (208 mèmes
-  anglophones, 128 kb/s, médiane 2,6 s — bruh, vine boom, Windows error, bad-um-tss, boxing bell…),
-  cloné à la demande et importé son par son : `python3 outils/banque-son.py importer "boxing bell"`.
-  Ce sont des références anglophones : les références françaises viennent de Nabil.
-- **Les bruitages synthétiques de `outils/sfx/` ne servent que sur demande explicite.** Ce ne sont pas
-  des vannes : un whoosh ne fait rire personne, un « Jordan t'es mort » si.
-- **Nouveau clip reçu** → `python3 outils/banque-son.py ajouter <fichier> --nom <slug> --desc "…"
-  [--debut --fin]` : il est découpé, débarrassé de ses silences, calé en niveau, catalogué. Sans ce
-  passage, le son tombe en retard sur son timecode.
-- **Livraison** : une version incrustée pour Reels et Shorts (leurs bibliothèques ne contiennent pas
-  ces sons) ; pour TikTok, incrustée aussi, ou nue si Nabil préfère ajouter le son dans l'app pour
-  profiter du feed de ce son.
+- **Filmer avec l'app Caméra**, pas dans Snapchat, qui plafonne à 720p là où l'iPhone fait du
+  1080p et du 4K.
+- **Envoyer le fichier tel quel** : Photos → « Enregistrer dans Fichiers », puis WeTransfer par
+  Safari ou AirDrop. Un partage direct vers une app fait reconvertir le HEVC en H.264 par iOS
+  (c'est pourquoi le fichier reçu pesait 98 Mo pour la même image que 57 Mo d'original).
+- **Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams`, lire la
+  résolution et les tags, et le dire à Nabil **avant** de monter.
+
+### En prime : retoucher un défaut de peau → [`outils/retoucher.py`](outils/retoucher.py)
+
+Efface un bouton sur toute la vidéo en le suivant sur le visage. Nabil envoie une capture annotée
+au feutre rouge ; le rouge s'isole en HSV et l'image exacte se retrouve par corrélation. Toujours
+**vérifier le point en zoomant dessus** (`--apercu`) avant d'encoder.
