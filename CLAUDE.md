@@ -74,6 +74,25 @@ Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèl
 (local ou hébergé) sans les recouper avec les mesures — testé, ils inventent. Détail et pistes closes :
 `outils/RECHERCHE-ECOUTE.md`.
 
+## Tourner : le plafond de qualité se joue AVANT le montage
+
+Le rush du 12/09 est sorti de **Snapchat**, pas de l'app Caméra. Ses métadonnées le disent en clair
+(`com.apple.quicktime.description` → « Snapchat/14.20.0.56 (iPhone18,2 ; iOS 26.5.2) ») et ça se voit
+au format : **1280×720**, là où cet iPhone filme en 1080p ou en 4K.
+
+**Aucun réglage d'encodage ne rattrape ça.** Un montage ne peut pas être plus net que son rush : sur ce
+tournage, le plafond était posé à 720p avant même la première coupe. Passer de 720p à 1080p, c'est
+2,25 fois plus de pixels — sans commune mesure avec les 7 % de détail que coûte une compression à
+5 Mb/s.
+
+**La règle : filmer avec l'app Caméra** (1080p 60 i/s, ou 4K si le téléphone suit), puis passer le
+fichier par AirDrop, WeTransfer ou un lien — jamais par Snapchat, WhatsApp ou Instagram, qui
+réencodent en 720p au passage.
+
+**Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams` et lire
+la résolution + les tags. Si ce n'est pas la Caméra native, le dire à Nabil tout de suite, avant de
+monter, et avant toute discussion sur la qualité de sortie.
+
 ## Livrer une vidéo (qualité)
 
 - **Le chat refuse au-dessus de 30 Mio.** C'est la seule contrainte qui limite la qualité, pas l'outil.

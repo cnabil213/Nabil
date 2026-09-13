@@ -32,6 +32,13 @@ celui du rush, pas le PSNR.
 Il n'y a pas de réglage magique sous 30 Mio : à 5 Mb/s on perd 7 % de détail, point. La seule vraie
 réponse, c'est le débit — donc ce dossier.
 
+## Le vrai plafond : le rush
+
+Ce rush est une capture **Snapchat** (métadonnée `com.apple.quicktime.description`), donc **1280×720**,
+alors que l'iPhone qui l'a filmé fait du 1080p et du 4K. La version livrée ici conserve 99,4 % du détail
+du rush : elle est au maximum de ce que le rush contient. Le reste se gagne à la prise de vue, pas au
+montage — app Caméra, 1080p, puis AirDrop ou WeTransfer, jamais Snapchat.
+
 ## Règle
 
 Une seule version finale par tournage, remplacée sur place quand elle change (l'historique git garde
