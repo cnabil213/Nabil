@@ -5,8 +5,13 @@
 
 Les coupes sont à la frame près (trim + concat, pas de seek sur keyframe) : les poser dans un
 silence (voir les pauses de RAPPORT-ECOUTE.md) pour qu'elles ne s'entendent pas.
-Le son est ramené à -14 LUFS / -1,5 dBTP en deux passes (mesure puis correction linéaire),
-la cible des plateformes : sans ça elles remontent le niveau elles-mêmes, et le souffle avec.
+Le son est ramené à -14 LUFS (cible des plateformes) par un GAIN FIXE mesuré sur la coupe, puis un
+limiteur retient les crêtes à -1,5 dBFS : ta voix garde ses contrastes d'une phrase à l'autre.
+(Avant : loudnorm en deux passes, qui repassait en mode « dynamique » dès que la crête du rush
+dépassait la cible — c'est le cas d'un iPhone — et faisait bouger le gain de ±1 dB pendant les
+phrases ; constaté sur le rush du 12/09. Il rééchantillonnait aussi le son à 96 kHz.)
+`--garder-image MONTAGE.mp4` réutilise l'image déjà encodée d'un montage aux mêmes coupes et ne
+refait que le son : zéro perte d'image, quelques secondes.
 La rotation du téléphone est appliquée automatiquement par ffmpeg (un rush portrait reste portrait).
 """
 import argparse, json, os, re, subprocess, sys
@@ -84,6 +89,27 @@ def args_codec(v, a):
     return c + tags, full
 
 
+def stats_limiteur(wav, gain_db, plafond_db=None, tranche_s=0.01):
+    """Quelle part du son le limiteur va toucher : % des tranches de 10 ms dont la crête, après le
+    gain fixe, dépasse le plafond, et de combien au plus. Chaine vide si numpy/soundfile manquent."""
+    try:
+        import numpy as np, soundfile as sf
+        x, sr = sf.read(wav)
+        if x.ndim > 1:
+            x = np.max(np.abs(x), axis=1)
+        n = max(1, int(sr * tranche_s)); nb = len(x) // n
+        if nb == 0:
+            return ""
+        pk = 20 * np.log10(np.max(np.abs(x[: nb * n]).reshape(nb, n), axis=1) + 1e-9) + gain_db
+        plafond = CIBLE_TP if plafond_db is None else plafond_db
+        sur = pk > plafond
+        if not sur.any():
+            return " : aucune crête à retenir"
+        return f" : {100 * sur.mean():.1f} % des tranches de 10 ms retenues, au plus {float(pk.max() - plafond):.1f} dB"
+    except Exception:
+        return ""
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("fichier")
@@ -100,6 +126,8 @@ def main():
                         "(ex. \"eq=brightness=0.06:contrast=1.10,curves=m='0/0 0.25/0.33 1/1'\"). "
                         "Le faire après coûterait un réencodage entier.")
     p.add_argument("--sans-normalisation", action="store_true", help="ne pas toucher au niveau sonore")
+    p.add_argument("--garder-image", metavar="MONTAGE.mp4", help="reprend l'image de ce montage (mêmes coupes), ne refait que le son")
+    p.add_argument("--cible", type=float, default=CIBLE_LUFS, metavar="LUFS", help=f"niveau visé (défaut {CIBLE_LUFS:.0f} ; -16 retient moins de crêtes)")
     a = p.parse_args()
 
     if not os.path.isfile(a.fichier):
@@ -116,6 +144,22 @@ def main():
         print(f"   garder {x:7.2f} – {b:7.2f} s  ({b - x:5.2f} s)")
     print(f"   => {garde:.2f} s gardées, {dur - garde:.2f} s coupées ({100 * (dur - garde) / dur:.0f} %)")
 
+    image = None
+    if a.garder_image:
+        if not os.path.isfile(a.garder_image):
+            sys.exit(f"ERREUR : --garder-image : fichier introuvable : {a.garder_image}")
+        vi, _, di = sonde(a.garder_image)
+        if vi is None:
+            sys.exit(f"ERREUR : --garder-image : pas de piste vidéo dans {a.garder_image}")
+        di = float(vi.get("duration") or di)   # durée du flux VIDÉO (le conteneur ajoute la queue AAC)
+        if abs(di - garde) > 0.08:   # deux images
+            sys.exit(f"ERREUR : --garder-image : l'image de {a.garder_image} dure {di:.2f} s et les segments gardés {garde:.2f} s : "
+                     "ce ne sont pas les mêmes coupes")
+        if a.image:
+            print("   ⚠ --image ignoré : l'image est reprise telle quelle", file=sys.stderr)
+        image = (a.garder_image, vi)
+        print(f"   image reprise de {a.garder_image} ({di:.2f} s, {vi.get('codec_name')}, plage {vi.get('color_range')}) : seul le son est refait")
+
     # --- recalage : sur un rush de telephone la piste audio ne demarre pas a 0 (iPhone : ~0,28 s).
     # Les timecodes du RAPPORT-ECOUTE viennent du wav extrait, dont l'instant 0 est le premier
     # echantillon audio ; trim/atrim, eux, travaillent sur les PTS du conteneur. Sans ce decalage
@@ -125,45 +169,57 @@ def main():
     if abs(off) > 0.005:
         print(f"   (recalage : la piste audio demarre a {off:.3f} s, les coupes sont decalees d'autant)")
     # --- coupe : trim/atrim + concat (précision à la frame, contrairement à un seek sur keyframe)
-    parts, lab = [], []
+    pv, pa = [], []
     img = ("," + a.image) if a.image else ""
     for i, (x, b) in enumerate(segs):
         xo, bo = round(x + off, 3), round(b + off, 3)
-        parts.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS{img}[v{i}];[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
-        lab.append(f"[v{i}][a{i}]")
-    fc = ";".join(parts) + ";" + "".join(lab) + f"concat=n={len(segs)}:v=1:a=1[v][a]"
-    tmp = a.sortie + ".coupe.mp4"
-    print("→ coupe…")
-    codec, full = args_codec(v, a)
-    print(f"   codec : {'H.265' if a.hevc else 'H.264'} CRF {a.crf} {a.preset}"
-          + (f" tune {a.tune}" if a.tune else "")
-          + f" · plage {'complète (comme la source)' if full else 'limitée'} · BT.709 étiqueté")
-    r = run(["ffmpeg", "-v", "error", "-y", "-i", a.fichier, "-filter_complex", fc,
-             "-map", "[v]", "-map", "[a]"] + codec +
-            ["-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp])
-    if r.returncode != 0 or not os.path.exists(tmp):
-        sys.exit(f"ERREUR : coupe échouée\n{r.stderr[-1200:]}")
-
-    if a.sans_normalisation:
-        os.replace(tmp, a.sortie)
+        pv.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS{img}[v{i}]")
+        pa.append(f"[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
+    n = len(segs)
+    fc_audio = ";".join(pa) + ";" + "".join(f"[a{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[a]"
+    if image:
+        fc = fc_audio
     else:
-        print("→ mesure du niveau…")
-        m = mesure_loudness(tmp)
+        fc = ";".join(pv + pa) + ";" + "".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]"
+
+    # --- niveau : mesuré sur la coupe audio seule (quelques secondes), puis gain fixe + limiteur
+    # appliqués DANS la passe de coupe : un seul encodage AAC, et le gain ne bouge pas d'une phrase
+    # a l'autre (contrairement a loudnorm en mode dynamique).
+    out_a = "[a]"
+    if not a.sans_normalisation:
+        tmpwav = a.sortie + ".coupe.wav"
+        print("→ mesure du niveau sur la coupe…")
+        r = run(["ffmpeg", "-v", "error", "-y", "-i", a.fichier, "-filter_complex", fc_audio,
+                 "-map", "[a]", "-c:a", "pcm_s16le", tmpwav])
+        m = mesure_loudness(tmpwav) if r.returncode == 0 else None
         if not m:
             print("   (mesure impossible : le son est laissé tel quel)", file=sys.stderr)
-            os.replace(tmp, a.sortie)
         else:
-            print(f"   avant : {float(m['input_i']):.1f} LUFS, true peak {float(m['input_tp']):+.1f} dBTP, LRA {float(m['input_lra']):.1f}")
-            print("→ normalisation…")
-            af = (f"loudnorm=I={CIBLE_LUFS}:TP={CIBLE_TP}:LRA={CIBLE_LRA}"
-                  f":measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
-                  f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true:print_format=summary")
-            r = run(["ffmpeg", "-v", "error", "-y", "-i", tmp, "-map", "0:v", "-map", "0:a",
-                     "-c:v", "copy", "-af", af, "-c:a", "aac", "-b:a", "192k",
-                     "-movflags", "+faststart", a.sortie])
-            if r.returncode != 0 or not os.path.exists(a.sortie):
-                sys.exit(f"ERREUR : normalisation échouée\n{r.stderr[-1200:]}")
-            os.remove(tmp)
+            I, tp = float(m["input_i"]), float(m["input_tp"])
+            gain = max(min(a.cible - I, 20.0), -20.0)
+            print(f"   avant : {I:.1f} LUFS, true peak {tp:+.1f} dBTP, LRA {float(m['input_lra']):.1f}")
+            print(f"   gain fixe {gain:+.1f} dB, puis limiteur à {CIBLE_TP:+.1f} dBFS" + stats_limiteur(tmpwav, gain))
+            fc += f";[a]volume={gain:.2f}dB,alimiter=limit={10 ** (CIBLE_TP / 20):.4f}:level=0:latency=1[aout]"
+            out_a = "[aout]"
+        if os.path.exists(tmpwav):
+            os.remove(tmpwav)
+
+    ent = ["-i", a.fichier] + (["-i", image[0]] if image else [])
+    if image:
+        video = ["-map", "1:v", "-c:v", "copy"]
+        full = image[1].get("color_range") == "pc"
+        print("→ son seul (image copiée)…")
+    else:
+        codec, full = args_codec(v, a)
+        video = ["-map", "[v]"] + codec
+        print("→ coupe…")
+        print(f"   codec : {'H.265' if a.hevc else 'H.264'} CRF {a.crf} {a.preset}"
+              + (f" tune {a.tune}" if a.tune else "")
+              + f" · plage {'complète (comme la source)' if full else 'limitée'} · BT.709 étiqueté")
+    r = run(["ffmpeg", "-v", "error", "-y"] + ent + ["-filter_complex", fc] + video +
+            ["-map", out_a, "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", a.sortie])
+    if r.returncode != 0 or not os.path.exists(a.sortie):
+        sys.exit(f"ERREUR : coupe échouée\n{r.stderr[-1200:]}")
 
     v2, _, dur2 = sonde(a.sortie)
     if full and v2.get("color_range") != "pc":
@@ -175,9 +231,10 @@ def main():
     br_out = (os.path.getsize(a.sortie) * 8 / dur2) / 1e6
     print(f"   {dur2:.2f} s · {v2['width']}×{v2['height']} · {os.path.getsize(a.sortie) / 1048576:.1f} Mo"
           f" · {v2.get('codec_name')} · plage {v2.get('color_range')} · {v2.get('color_space')}")
-    print(f"   débit : {br_src:.2f} Mb/s (source) -> {br_out:.2f} Mb/s"
-          + ("  ⚠ perte marquée, baisser --crf" if br_out < br_src * (0.27 if a.hevc else 0.45) else "  ✅"))
-    # (le H.265 tient la même qualité avec ~40 % de débit en moins : le seuil d'alerte en tient compte)
+    if not image:
+        print(f"   débit : {br_src:.2f} Mb/s (source) -> {br_out:.2f} Mb/s"
+              + ("  ⚠ perte marquée, baisser --crf" if br_out < br_src * (0.27 if a.hevc else 0.45) else "  ✅"))
+        # (le H.265 tient la même qualité avec ~40 % de débit en moins : le seuil d'alerte en tient compte)
     if apres:
         print(f"   après : {float(apres['input_i']):.1f} LUFS, true peak {float(apres['input_tp']):+.1f} dBTP")
     print(f"\n   Relire le résultat :  python3 outils/ecoute-video.py \"{a.sortie}\"")

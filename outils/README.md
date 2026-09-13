@@ -38,10 +38,24 @@ python3 outils/monter.py rush.mov -o MONTAGE.mp4 --garder 6.40-27.70 32.45-37.55
 
 On donne les segments à **garder** (en secondes, timecodes du `RAPPORT-ECOUTE.md`) ; tout le reste saute.
 La coupe est faite par `trim`/`concat`, donc à la frame près — pas de seek sur keyframe qui décalerait
-de une à deux secondes. Le son est ensuite ramené à **−14 LUFS / −1,5 dBTP** en deux passes (mesure puis
-correction linéaire) : sans ça la plateforme remonte le niveau elle-même, et le souffle avec. La rotation
-du téléphone est appliquée automatiquement (un rush portrait reste portrait). `--sans-normalisation`
-pour ne pas toucher au son, `--crf` pour la qualité (défaut 16, `--preset` slow), `--image` pour étalonner sans passe supplémentaire.
+de une à deux secondes. Le son est ramené à **−14 LUFS** par un **gain fixe** mesuré sur la coupe audio
+(quelques secondes), puis un **limiteur** retient les crêtes à −1,5 dBFS — le tout dans la passe de coupe,
+un seul encodage AAC. La rotation du téléphone est appliquée automatiquement (un rush portrait reste
+portrait). `--sans-normalisation` pour ne pas toucher au son, `--cible -16` pour retenir moins de crêtes,
+`--crf` pour la qualité (défaut 16, `--preset` slow), `--image` pour étalonner sans passe supplémentaire,
+**`--garder-image MONTAGE.mp4`** pour reprendre l'image déjà encodée d'un montage aux mêmes coupes et ne
+refaire que le son (zéro perte d'image, une dizaine de secondes ; l'outil vérifie que les durées collent).
+
+> **Le niveau : gain fixe + limiteur, pas `loudnorm`.** Un rush iPhone sort à −16…−17 LUFS avec des
+> crêtes à −0,1 dBTP (l'AGC du téléphone pousse à fond) : impossible d'atteindre −14 LUFS sans retenir
+> des crêtes. `loudnorm` en deux passes, censé être linéaire, repasse alors en mode **dynamique** sans le
+> dire et fait bouger le gain au fil des phrases (mesuré V6 contre rush, blocs de 0,5 s : de −0,5 à
+> +1,6 dB), en rééchantillonnant à 96 kHz au passage. Maintenant : `volume=+G dB` puis
+> `alimiter=limit=0.84:level=0:latency=1`. Sur le rush du 12/09 : +1,9 dB, le limiteur touche 9,9 % des
+> tranches de 10 ms, au plus 3,3 dB — les syllabes les plus fortes ressortent ~1,5 dB moins fort qu'au
+> rush, le reste est intact ; résultat −15,1 LUFS / −1,3 dBTP, synchro son/image à 0,3 ms. Le vrai
+> remède est à la prise : si la fiche captation annonce une crête au-dessus de −1 dBTP, reculer le
+> téléphone ou baisser le gain (app caméra à gain manuel) ; à −6 dBTP il n'y aurait plus rien à retenir.
 
 > **La plage de couleur de la source, jamais convertie.** Un rush d'iPhone est en plage *complète*
 > (`yuvj420p`, `color_range=pc` : noirs à 0, blancs à 255). Forcer `-pix_fmt yuv420p` le convertit en
@@ -121,29 +135,50 @@ son de tendance — leur usage relève de Nabil.
 ## `sonoriser.py` — poser des sons
 
 ```bash
-python3 outils/sonoriser.py MONTAGE.mp4 -o SONORISE.mp4 \
-    --son 4.02:outils/sfx/impact.wav:+2 \
-    --son 28.28:samples/jordan-t-es-mort.wav:-1
+python3 outils/sonoriser.py MASTER.mp4 -o MONTAGE-sonorise.mp4 \
+    --son 28.40:banque-son/doumbe-jordan-tes-mort.wav:-3 [--fond 10] [--piste-effets fx.wav]
 ```
 
-Un `--son` par effet : `temps:fichier:écart_dB`. **L'écart est relatif à la voix**, pas un gain brut :
-`0` = même niveau perçu, `+2` = deux dB au-dessus, `-3` = en dessous. L'outil mesure le RMS de la voix
-et celui du son, puis calcule le gain. C'est indispensable — les sons de percussion sont calés en crête
-mais leur RMS est 8 à 18 dB plus bas ; réglés en crête, ils sont inaudibles sous la parole.
+Un `--son` par effet : `temps:fichier:écart_dB`. **L'écart est relatif à la voix parlée** (RMS des
+passages où Nabil parle, pas la moyenne du fichier silences compris) : `0` = même niveau, `-3` = en
+dessous. L'outil mesure la voix et le son puis calcule le gain — indispensable, les percussions sont
+calées en crête mais leur RMS est 8 à 18 dB plus bas ; réglées en crête, elles sont inaudibles.
 
-La voix est automatiquement baissée sous chaque son (sidechain, ~4 dB, retour en 320 ms), la vidéo
-n'est pas réencodée, et le mix est remis à **−14 LUFS / −1,5 dBTP** en fin de chaîne — poser des effets
-fait monter le niveau, sans cette passe le fichier repasse au-dessus de 0 dBFS.
+**Le son s'efface sous la voix** (on baisse le son, jamais la voix). L'outil détecte où Nabil parle
+(blocs de 10 ms, seuil local), descend le son de `--fond` dB (10) **40 ms avant** chaque reprise de
+parole, et ne le laisse remonter que dans les pauses ≥ 0,25 s — entre deux mots il reste en fond, donc
+pas de pompage. L'enveloppe est calculée hors ligne (numpy) et appliquée par `amultiply` : déterministe,
+mesurable. Il affiche pour chaque son les plages « trou : son plein / tu parles : son en fond ».
+Mesuré sur le Doumbè du 12/09 (2,98 s posé à 28,40 s, écart −3, piste seule via `--piste-effets`) :
+« Jordan » à −15…−18 dBFS dans le trou de 0,5 s (+14 à +21 dB au-dessus du plancher), « t'es mort »
+et la foule entre −12 et −20 dB sous « 2-3 combats », la foule qui remonte dans la pause de 0,4 s à
+30,1 s puis redescend. `--sans-duck` = son fixe (nappe volontaire).
+
+**La voix n'est jamais modifiée.** Pas de sidechain sur la voix, pas de renormalisation, disposition
+(mono) et taux d'échantillonnage de la source conservés, un seul encodage AAC, vidéo copiée. Seul filet :
+un limiteur à −1,5 dBFS (`alimiter=limit=0.84:level=0:latency=1`) sur le mix. Vérification avant
+d'envoyer : RMS par blocs de 0,5 s, sonorisé contre nu = **0,0 dB partout hors du son** (V8 : ✅),
+et somme de contrôle du flux vidéo identique. Dépendances : numpy + soundfile (déjà requis par ecoute).
+
+> **Trois pièges mesurés, à ne pas réintroduire.** (1) `alimiter` a un **gain automatique activé par
+> défaut** (`level=1`) : il multiplie la sortie par 1/limit — à `limit=0.7` la voix prenait +3 dB avant
+> d'être recompressée, à 0.94 encore +0,5 dB. Toujours `level=0` (et `latency=1`, sinon 5 ms de retard).
+> (2) `aformat=channel_layouts=stereo` sur une voix mono fabrique un double-mono que le mesureur R128
+> compte **+3 LU** plus fort : la renormalisation qui suivait baissait alors **toute** la vidéo de 2,1 dB
+> (mesuré V6 → essai, blocs de 0,5 s, constant du début à la fin). Garder la disposition de la source.
+> (3) `loudnorm` « linéaire » en deux passes repasse en mode dynamique sans prévenir dès que la crête
+> dépasse la cible. Plus de `loudnorm` dans cet outil : une sonorisation ajoute ~0 LU au montage.
 
 **Où poser un son.** Dans un trou : la section 7 du `RAPPORT-ECOUTE.md` liste les pauses, et
-`ecoute-video` donne les timecodes des punchlines. Un son posé sur de la parole est masqué —
-mesuré sur le rush du 12/09 : le riser placé sous une phrase ressortait à **−0,4 dB**, c'est-à-dire
-rien. Vérifier après coup en mesurant l'effet **dans sa propre bande** (35–110 Hz pour un impact,
-2,5–7 kHz pour un souffle) : la crête large bande ne dit rien, elle est déjà occupée par la voix.
+`ecoute-video` donne les timecodes des punchlines — puis vérifier la borne réelle à l'enveloppe (blocs
+de 25–50 ms) : Whisper finit les mots trop tôt. Un son posé sur de la parole sans ducking est masqué —
+mesuré sur le rush du 12/09 : un riser sous une phrase ressortait à **−0,4 dB**, c'est-à-dire rien.
+Mesurer un effet **dans sa propre bande** (35–110 Hz pour un impact, 2,5–7 kHz pour un souffle) : la
+crête large bande ne dit rien, elle est déjà occupée par la voix.
 
-**Les samples de référence** (punchline d'un rappeur, d'un combattant, son de tendance) ne sont pas
-dans le kit et ne peuvent pas l'être : ils appartiennent à quelqu'un. Déposer le fichier dans
-`samples/` et le passer à l'outil comme n'importe quel autre son.
+**Les samples de référence** (punchline d'un combattant, son de tendance) passent par la banque :
+`banque-son.py ajouter` les découpe, cale et catalogue ; ils appartiennent à leurs auteurs, l'usage
+relève de Nabil.
 
 ## `recuperer.sh` — un rush trop lourd pour le chat
 

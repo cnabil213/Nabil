@@ -157,7 +157,9 @@ def lister(a):
               + (f"  [{', '.join(e['tags'])}]" if e.get("tags") else ""))
 
 
-SOUNDBOARD = os.path.expanduser("~/3kh0/soundboard")   # clone anonyme : voir README (git clone --depth 1)
+SOUNDBOARD = next((d for d in (os.environ.get("SOUNDBOARD_DIR", ""), "/home/user/3kh0/soundboard",
+                                os.path.expanduser("~/3kh0/soundboard")) if d and os.path.isdir(d)),
+                  "/home/user/3kh0/soundboard")   # clone anonyme : voir README (git clone --depth 1)
 
 
 def importer(a):

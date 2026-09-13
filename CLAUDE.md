@@ -78,12 +78,20 @@ Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèl
 
 - **Les sons viennent de `banque-son/`** (catalogue : `banque-son/README.md`). Nabil a donné carte
   blanche pour y puiser à chaque montage : choisir d'après la description et l'usage de chaque son.
-- **Le niveau dépend de ce qui se passe pendant le son.** Outil : `outils/sonoriser.py`.
-  - Son posé **dans un trou** (personne ne parle, ≤ la durée du trou) : `0` à `-3` dB sous la voix, ducking par défaut.
-  - Son qui **déborde sous la parole** (un clip de 3 s dans un trou de 0,5 s, une ambiance) : c'est un
-    **fond** — `-12` à `-18` dB, **`--sans-duck`** (la voix reste intacte). Nabil : « il doit être en
-    fond fond car je parle ». Posé à 0 dB, le clip Doumbè couvrait ses mots ; à -15 il est là dans le
-    trou et disparaît sous la phrase suivante. **Réfléchir en monteur avant de régler.**
+- **Le son s'efface sous la voix, jamais l'inverse.** Outil : `outils/sonoriser.py`. Le son est posé
+  à `0` à `-3` dB sous la voix parlée et **descend de 10 dB dès que Nabil parle** (40 ms d'avance), puis
+  remonte dans ses vraies pauses (≥ 0,25 s), jamais entre deux mots. Un clip de 3 s dans un trou de
+  0,5 s est donc plein dans le trou et en fond sous la phrase suivante — c'est le « il doit être en
+  fond fond car je parle » de Nabil, réglé par la machine, pas à l'oreille. `--sans-duck` seulement
+  pour une nappe volontairement fixe. **Réfléchir en monteur avant de régler** : où est le trou, où
+  reprend la phrase, ce qui doit rester intelligible (le Doumbè : « Jordan » dans le trou après
+  « …Cédric Doumbé », « t'es mort » et la foule en fond sous « 2-3 combats »).
+  - **La voix n'est jamais touchée** : même niveau, mêmes crêtes, mono conservé, pas de renormalisation.
+    Avant d'envoyer : RMS par blocs de 0,5 s, sonorisé contre nu, **0,0 dB partout hors du son**
+    (les essais avant la V8 du 12/09 baissaient toute la voix de 2 dB sans qu'on l'ait demandé — les
+    trois causes sont dans `outils/README.md`, sonoriser).
+  - Contrôler sur `--piste-effets` : le son dans le trou ≥ 12 dB au-dessus du plancher, sous la voix
+    entre −12 et −20 dB, et rien qui remonte entre deux mots.
   - Vérifier l'intelligibilité contre la transcription du **montage nu, même fenêtre** — jamais
     contre ce qu'on croit que le passage dit : Whisper varie d'une passe à l'autre (« t'as gagné »
     n'a jamais existé, c'était « t'as regardé… »).
