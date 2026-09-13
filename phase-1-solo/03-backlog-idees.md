@@ -8,7 +8,8 @@ tournable en l'état.
 
 | Idée | Où ça en est |
 | :--- | :--- |
-| **L'otage du téléphone** | Idée validée, script à écrire → détail dans [`02-scripts-valides.md`](02-scripts-valides.md#-vidéo-4--le-syndrome-de-lotage-du-téléphone) |
+| **L'otage du téléphone** | 🟠 **Déjà tournée en impro le 30/08** (61 s). Il manque la chute et le hook → [`02-scripts-valides.md`](02-scripts-valides.md#-vidéo-4--le-syndrome-de-lotage-du-téléphone) |
+| **Business Bro (Vidéo 3)** | 🟠 **Déjà tournée en impro le 30/08** (59 s). Montable en l'état, la fin est à couper → [`02-scripts-valides.md`](02-scripts-valides.md#-les-rushs-du-30082026--ce-qui-est-dans-la-boîte) |
 
 ## 🔵 À creuser
 

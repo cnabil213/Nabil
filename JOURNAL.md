@@ -6,6 +6,29 @@
 
 ---
 
+## 13/09/2026 (soir) — Les deux rushs du 30/08 enfin analysés
+
+**Fait**
+
+- Nabil demande pourquoi les deux autres vidéos du WeTransfer n'ont jamais été touchées. Réponse :
+  elles ne l'ont pas été, il n'y a pas d'excuse. Elles étaient encore sur le disque : analysées.
+- **Découverte : ce ne sont pas deux prises de la même vanne.** Le nom `prise-A` / `prise-B` avait
+  été inventé par moi, et il a induit tout le monde en erreur pendant deux jours.
+  - Rush A (18 h 55, 59 s) = la **Vidéo 3, Business Bro**, improvisée.
+  - Rush B (19 h 01, 61 s) = la **Vidéo 4, l'otage du téléphone** — que le dépôt déclarait
+    « script à écrire ». Elle est tournée.
+- Analyse complète des deux (`ecoute-video.py`), versée dans `02-scripts-valides.md` avant que le
+  conteneur ne l'efface : transcription, zones molles, scores de chute, son.
+
+**Appris**
+
+- **Le meilleur moment tourné à ce jour** est dans le rush A, à 16,0–22,8 s : l'imitation du faux
+  investisseur. +22,3 dB sur la phrase d'avant, score de chute 100/100.
+- Les deux rushs saturent en crête (−0,3 dBTP), comme celui du 12/09. C'est systématique : le gain
+  automatique du téléphone. À traiter à la prise, pas au montage.
+- **Ne jamais nommer un fichier d'après une hypothèse.** Nommer d'après ce qu'il contient, ou par
+  sa date. Un nom inventé devient un fait dans la mémoire du projet.
+
 ## 13/09/2026 — Montage, son, retouche, et une leçon sur la qualité
 
 **Fait**

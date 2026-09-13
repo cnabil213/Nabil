@@ -91,22 +91,83 @@ qui arrête le scroll, pas la phrase.
 
 ## 🎬 Vidéo 4 — Le syndrome de l'otage du téléphone
 
-**Statut :** 🟡 **En cours d'écriture** — idée validée, script à écrire
+**Statut :** 🟠 **TOURNÉE en impro le 30/08/2026** (61 s) — le script écrit n'existe toujours pas,
+mais la matière est là, et l'angle trouvé à la caméra est meilleur que celui du backlog.
 
-**L'idée de base :** le malaise quand un pote te force à regarder une vidéo pas drôle
-de 3 minutes sur son téléphone, en fixant tes réactions pour voir si tu rigoles.
+### Ce qui a été trouvé en tournant (et qui n'était pas prévu)
 
-### Pistes à exploiter
+- **Le pote ricane AVANT toi.** Il a déjà vu la vidéo, il te regarde la découvrir. C'est le meilleur
+  détail de l'impro, et il n'était pas dans les pistes écrites.
+- **La durée annoncée contre la durée réelle** : « elle fait trois minutes ». Il le dit deux fois,
+  et la deuxième fois est la bonne.
+- **La récidive** : « il fait ça une fois, deux fois, trois fois… quatre fois la famille. »
+- **Le rire de politesse** est bien là : « tu rigoles un peu pour lui faire comprendre : c'est bon,
+  j'ai vu, j'ai rigolé. » Et lui ne bouge pas. C'est le cœur de la vanne.
 
-- L'angle d'attaque n'est pas la vidéo, c'est **le regard du pote sur ton visage**
-  pendant que tu la regardes.
-- Le rire de politesse qu'il faut réussir à placer au bon moment sans avoir compris
-  la vanne.
-- La durée : il annonce « attends 2 secondes », la vidéo fait 3 minutes.
-- Le pire palier : il **rembobine** pour te remontrer le passage que t'as « raté ».
-- Chute possible à creuser : le moment où il te tend carrément le téléphone dans la
-  main — là t'es prisonnier, tu peux plus partir.
+### Ce qui manque encore
 
-> ⚠️ Vérifier au filtre : le sujet ne doit pas glisser vers le registre « batterie
-> sociale » (thème interdit). L'angle doit rester la **prise d'otage**, pas la fatigue
-> sociale.
+**La chute n'existe pas.** De 50 à 60 s, il répète six fois « j'ai déjà vu la vidéo » : c'est une
+recherche de sortie à voix haute, pas une chute. Les mesures le confirment — zone molle de 7,5 s
+entre 41,8 et 49,3 s (pics 8 dB sous les siens) et deux zones lentes à 40–44 s et 47,1–50,6 s.
+
+Le reste du mou est au début : 5,6–7,8 s et 14,7–19,8 s, soit 5 secondes où il retombe pendant qu'il
+pose le décor. Le hook est à reconstruire : l'impro démarre sur « enfin, il faut que je parle d'un
+type de personne », qui est une mise en contexte, donc un interdit.
+
+### Pistes d'origine (avant tournage)
+
+- L'angle d'attaque n'est pas la vidéo, c'est **le regard du pote sur ton visage**.
+- Le rire de politesse à placer au bon moment sans avoir compris la vanne.
+- Il annonce « attends 2 secondes », la vidéo fait 3 minutes.
+- Il **rembobine** pour te remontrer le passage que t'as « raté ».
+- Chute possible : il te tend le téléphone dans la main — là t'es prisonnier.
+
+> ⚠️ Vérifier au filtre : le sujet ne doit pas glisser vers le registre « batterie sociale »
+> (thème interdit). L'angle reste la **prise d'otage**, pas la fatigue sociale.
+
+---
+
+## 📼 Les rushs du 30/08/2026 — ce qui est dans la boîte
+
+Deux vidéos tournées à six minutes d'intervalle, en 720p HEVC. **Ce ne sont pas deux prises de la
+même vanne** : ce sont deux sujets différents. Les fichiers ne sont plus sur le serveur (conteneur
+effacé) — Nabil doit les renvoyer pour qu'on les monte.
+
+### Rush A — 18 h 55, 59 s — c'est la **Vidéo 3 (Business Bro)**, improvisée
+
+Le script validé plus haut est respecté dans l'esprit, pas au mot. On retrouve les trois piliers :
+« si tu veux faire de l'argent il faut que tu te lèves tôt » → « mais toi-même tu te lèves pas tôt »,
+« deux heures de l'après-midi je t'appelle, ta voix cassée », et « rends 8 balles… de mon grec ».
+
+**Le meilleur moment de tout ce qui a été tourné jusqu'ici**, mesuré : **16,0–22,8 s**, l'imitation
+du personnage (« Ouais ma famille, j'ai trouvé un bail, e-commerce, formation, je suis dans le bon,
+t'inquiète pas »). **+22,3 dB** sur la phrase précédente, score de chute **100/100**. C'est ça, la
+vidéo.
+
+Les autres pics : « mais toi-même tu te lèves pas tôt » (+8,5 dB, chute 70), « en vrai, non »
+(chute 99), « mais rends 8 balles ! » (+9,9 dB, chute 72).
+
+**Où ça tombe** : zone molle 13,6–15,7 s · **chute d'intonation de 6,8 s entre 30,5 et 37,3 s** ·
+zone molle 42,0–47,1 s (8,8 dB sous ses pics) · zone lente 46,2–49,4 s (47 % de son débit).
+
+**La fin traîne.** La vraie chute est « mais rends 8 balles ! » à 48,4–49,4 s. Après, il continue
+neuf secondes (répétition de « rends 8 balles », « je vais sortir la vidéo », « c'est vraiment pas
+mon dos »). Au montage : couper juste après la chute.
+
+### Rush B — 19 h 01, 61 s — c'est la **Vidéo 4 (l'otage du téléphone)**
+
+Voir la fiche Vidéo 4 ci-dessus.
+
+### Le son des deux rushs
+
+| | Rush A | Rush B |
+| :--- | :--- | :--- |
+| True peak | 🔴 −0,3 dBTP | 🔴 −0,3 dBTP |
+| Loudness | −17,3 LUFS | −17,3 LUFS |
+| Plancher de bruit | ✅ −52,6 dBFS | 🟡 −45,8 dBFS (souffle audible) |
+| F0 médiane | 215 Hz | 172 Hz |
+| Débit | 5,82 syll/s (rapide) | 5,61 syll/s (rapide) |
+| Pauses | 10,0 s sur 59 | 15,0 s sur 61 |
+
+Les deux saturent en crête : le gain automatique du téléphone pousse à fond. C'est la même
+signature que le rush du 12/09 — voir [`CLAUDE.md`](../CLAUDE.md), « Tourner ».
