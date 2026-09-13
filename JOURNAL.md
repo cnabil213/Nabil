@@ -6,6 +6,23 @@
 
 ---
 
+## 13/09/2026 (nuit) — Business Bro monté, après un premier montage raté
+
+**Fait**
+
+- Première version : départ direct sur l'imitation, 24,5 s. **Refusée par Nabil** : « on comprend
+  pas le contexte, y'a plus de sens du tout à la vanne ». Il avait raison.
+- Deuxième version, livrée : 36,5 s, la mise en place gardée entière, les coupes faites à
+  l'intérieur (triple redite sur « s'immiscent », redite sur les conseils, 7 s de mou avant la fin).
+
+**Appris — la faute de méthode, écrite dans CLAUDE.md §2 bis**
+
+J'avais pris le moment le mieux noté par les mesures (+22,3 dB, chute 100/100) et je l'avais mis en
+ouverture, en invoquant la règle du hook. Mais **les mesures disent où ça retombe, elles ne disent
+pas ce qui se comprend.** Une vanne est une chaîne de sens : qui est le personnage, ce qu'il fait,
+ce que toi tu fais face à lui, l'escalade, la chute. On coupe DANS les maillons, jamais un maillon
+entier. Et on relit la transcription du montage avant de livrer.
+
 ## 13/09/2026 (soir) — Les deux rushs du 30/08 enfin analysés
 
 **Fait**

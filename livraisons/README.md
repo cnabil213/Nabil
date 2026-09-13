@@ -6,16 +6,16 @@ débit de l'original, et se téléchargent directement depuis le dépôt.
 | fichier | durée | poids | débit | détail conservé |
 | :-- | --: | --: | --: | --: |
 | `12sept-casser-des-nuques-HQ.mp4` | 42,9 s | 53,7 Mio | 10,3 Mb/s | **99,4 %** du rush |
-| `30aout-business-bro-HQ.mp4` | 24,5 s | 30,8 Mio | 10,6 Mb/s | **99,3 %** du rush |
+| `30aout-business-bro-HQ.mp4` | 36,5 s | 46,8 Mio | 10,8 Mb/s | **99,5 %** du rush |
 
 Le rush d'origine fait 10,5 Mb/s : cette version est à son niveau.
 
-**Contenu de la version du 30/08 (Business Bro)** : 3 coupes dans le rush A, 59 s ramenées à 24,5 s.
-Départ sur l'imitation du faux investisseur (le meilleur moment mesuré : +22,3 dB, chute 100/100),
-coupe de la redite sur les conseils (28,76–30,70 s du rush), coupe des 7 s de mou avant la fin
-(39,98–47,12 s), fin nette sur « mais rends 8 balles ! ». Première image choisie comme la plus nette
-du silence de départ (1,52 contre 0,66 quatorze images plus tôt). Son : gain fixe +2,5 dB puis
-limiteur, −15,3 LUFS.
+**Contenu de la version du 30/08 (Business Bro)** : 3 coupes dans le rush A, 59 s ramenées à 36,5 s.
+La mise en place est gardée **entière** — une première version qui démarrait sur l'imitation a été
+refusée par Nabil (« on comprend pas le contexte »), voir [`CLAUDE.md`](../CLAUDE.md) §2 bis. Les
+coupes sont à l'intérieur : la triple redite sur « s'immiscent » (6,86–10,70), la redite sur les
+conseils (28,76–30,70), et les 7 s de mou avant la fin (39,98–47,12). Fin nette sur « mais rends
+8 balles ! ». Son : gain fixe +2,5 dB puis limiteur, −15,4 LUFS, true peak −1,2 dBTP.
 
 **Contenu de la version du 12/09** : montage 6 coupes, son à −14 LUFS, sample « JORDAN » de Doumbé à
 28,40 s (il s'efface sous la voix), bouton du nez retiré sur 1266 des 1288 images.

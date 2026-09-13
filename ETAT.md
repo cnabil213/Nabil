@@ -28,7 +28,7 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 | Son | normalisé à −14 LUFS, sample « JORDAN » de Doumbé à 28,40 s |
 | Image | bouton du nez retiré sur 1266 des 1288 images |
 | Livré | [`livraisons/12sept-casser-des-nuques-HQ.mp4`](livraisons/) — 53,7 Mio, 10,3 Mb/s |
-| **Vidéo 3 — Business Bro** | ✅ **Montée et livrée** : [`livraisons/30aout-business-bro-HQ.mp4`](livraisons/) — 24,5 s |
+| **Vidéo 3 — Business Bro** | ✅ **Montée et livrée** : [`livraisons/30aout-business-bro-HQ.mp4`](livraisons/) — 36,5 s |
 | **Rush B du 30/08** | Vidéo 4 (l'otage du téléphone), 61 s, analysée. Chute et hook manquants |
 
 ## En cours / pas fait

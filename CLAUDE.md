@@ -120,6 +120,28 @@ plage de couleur de la source. Poser les coupes dans un silence réel, mesuré �
 sur une borne de mot (Whisper finit les mots trop tôt, et une occlusive fabrique un silence *au
 milieu* d'un mot). **La première image gardée doit être nette** : sur TikTok, c'est la vignette.
 
+### 2 bis. Monter une vanne : on ne coupe JAMAIS la prémisse
+
+**La règle du hook ne donne pas le droit de supprimer ce qui rend la vanne compréhensible.**
+Erreur commise le 13/09 sur le Business Bro : le meilleur moment mesuré était l'imitation du
+personnage (+22,3 dB, chute 100/100), j'ai démarré le montage dessus, et Nabil a répondu
+« on comprend pas le contexte, y'a plus de sens du tout à la vanne ». Il avait raison : sans le
+pote qui fait le mec business, l'imitation tombe sur rien.
+
+La méthode, dans cet ordre :
+
+1. **Écrire la chaîne de sens** avant de toucher aux ciseaux : qui est le personnage → ce qu'il
+   fait → ce que TOI tu fais face à lui → l'escalade → la chute. Chaque maillon manquant casse tout.
+2. **Couper DANS les maillons, jamais un maillon entier.** Sur ce rush, « s'immiscent » était dit
+   trois fois de suite : on garde la seule phrase qui nomme le sujet ET son domaine
+   (« ils s'immiscent dans les e-commerce, dans le trading »), on jette les deux redites.
+3. **Ne couper que sur un silence mesuré** (≥ 0,10 s à l'enveloppe). Une redite sans silence autour
+   d'elle ne se coupe pas : on la garde.
+4. **Relire la transcription du montage** avant de livrer. Si elle ne se tient pas toute seule à la
+   lecture, le montage est faux, quels que soient les chiffres.
+
+Les mesures disent où ça retombe et où ça envoie. **Elles ne disent pas ce qui se comprend.**
+
 ### 3. Sonoriser → [`outils/sonoriser.py`](outils/sonoriser.py)
 
 Les sons viennent de [`banque-son/`](banque-son/), carte blanche pour y puiser. **Le son s'efface
