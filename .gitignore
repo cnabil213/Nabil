@@ -30,3 +30,6 @@ outils/venv-arousal/
 
 # Cache de transcriptions de comparer-prises
 outils/ecoute/cache/
+
+# Samples fournis par Nabil (contenu tiers, jamais dans le dépôt)
+samples/

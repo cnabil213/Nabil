@@ -11,6 +11,8 @@ servent à décrire, jamais à deviner. Le pourquoi de chaque choix est dans
 | [`ecoute/comparer-prises.py`](ecoute/comparer-prises.py) | **Deux prises de la même vanne** → laquelle est la plus forte, la plus vivante, la plus rapide, la pause avant la chute la plus nette — verdict + pourquoi | ci-dessous |
 | [`vision-video.py`](vision-video.py) | **Les yeux.** Planches contact horodatées (4 images/s sur le hook, 2 ensuite), forme d'onde, fiche captation | ci-dessous |
 | [`monter.py`](monter.py) | **Le montage.** Coupe le rush sur les segments à garder (à la frame près) et normalise le son pour les plateformes | ci-dessous |
+| [`sonoriser.py`](sonoriser.py) | **Le son.** Pose des samples et des effets à des timecodes précis, avec ducking automatique de la voix | ci-dessous |
+| [`sfx/`](sfx/) | Kit de six sons de ponctuation synthétisés (libres de droits) | [`sfx/README.md`](sfx/README.md) |
 | [`recuperer.sh`](recuperer.sh) | **Faire entrer un rush trop lourd pour le chat** à partir d'un lien de partage (Drive, Dropbox, WeTransfer, lien direct) | ci-dessous |
 
 ## Installation (à refaire à chaque nouvelle session : le container est neuf)
@@ -51,6 +53,33 @@ pour ne pas toucher au son, `--crf` pour la qualité vidéo (défaut 19).
 trop tôt (« cardi-bés » finit à 27,48 s alors que Whisper annonce 27,10). Les pauses de la section 7 du
 rapport, ou une mesure d'enveloppe à −40 dBFS, donnent les bonnes bornes. Vérifier après coup que le
 niveau juste avant et juste après le raccord est bien celui d'un silence.
+
+## `sonoriser.py` — poser des sons
+
+```bash
+python3 outils/sonoriser.py MONTAGE.mp4 -o SONORISE.mp4 \
+    --son 4.02:outils/sfx/impact.wav:+2 \
+    --son 28.28:samples/jordan-t-es-mort.wav:-1
+```
+
+Un `--son` par effet : `temps:fichier:écart_dB`. **L'écart est relatif à la voix**, pas un gain brut :
+`0` = même niveau perçu, `+2` = deux dB au-dessus, `-3` = en dessous. L'outil mesure le RMS de la voix
+et celui du son, puis calcule le gain. C'est indispensable — les sons de percussion sont calés en crête
+mais leur RMS est 8 à 18 dB plus bas ; réglés en crête, ils sont inaudibles sous la parole.
+
+La voix est automatiquement baissée sous chaque son (sidechain, ~4 dB, retour en 320 ms), la vidéo
+n'est pas réencodée, et le mix est remis à **−14 LUFS / −1,5 dBTP** en fin de chaîne — poser des effets
+fait monter le niveau, sans cette passe le fichier repasse au-dessus de 0 dBFS.
+
+**Où poser un son.** Dans un trou : la section 7 du `RAPPORT-ECOUTE.md` liste les pauses, et
+`ecoute-video` donne les timecodes des punchlines. Un son posé sur de la parole est masqué —
+mesuré sur le rush du 12/09 : le riser placé sous une phrase ressortait à **−0,4 dB**, c'est-à-dire
+rien. Vérifier après coup en mesurant l'effet **dans sa propre bande** (35–110 Hz pour un impact,
+2,5–7 kHz pour un souffle) : la crête large bande ne dit rien, elle est déjà occupée par la voix.
+
+**Les samples de référence** (punchline d'un rappeur, d'un combattant, son de tendance) ne sont pas
+dans le kit et ne peuvent pas l'être : ils appartiennent à quelqu'un. Déposer le fichier dans
+`samples/` et le passer à l'outil comme n'importe quel autre son.
 
 ## `recuperer.sh` — un rush trop lourd pour le chat
 
