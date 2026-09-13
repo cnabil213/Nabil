@@ -2,18 +2,18 @@
  {
   "nom": "doumbe-jordan",
   "fichier": "doumbe-jordan.wav",
-  "desc": "Doumbè : « JORDAN » (le mot seul, la foule derrière)",
-  "usage": "sur un nom qu'on vient de citer, dans un trou de 0,5 s — la version courte, quand la phrase entière mordrait sur la parole",
+  "desc": "Doumbè : « JORDAN » (mot entier, foule derrière, fondu avant « t'es mort »)",
+  "usage": "sur un nom qu'on vient de citer — 0,94 s, la fermeture du « d » resserrée pour qu'il tienne au plus près du trou",
   "tags": [
    "mma",
    "menace",
    "court"
   ],
-  "duree_s": 0.55,
-  "rms_dbfs": -15.0,
+  "duree_s": 0.94,
+  "rms_dbfs": -14.5,
   "crete_dbfs": -3.0,
   "canaux": 2,
-  "source": "jordan.wav",
+  "source": "jordan3.wav",
   "passage": null
  },
  {
