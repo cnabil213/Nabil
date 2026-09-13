@@ -23,6 +23,7 @@ pas avant que la Phase 1 ait produit de la notoriété.
 | [`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) | Le persona, le ton, les interdits absolus, l'anatomie d'un script |
 | [`phase-1-solo/02-scripts-valides.md`](phase-1-solo/02-scripts-valides.md) | Les scripts finaux tournables + l'historique de leurs itérations |
 | [`phase-1-solo/03-backlog-idees.md`](phase-1-solo/03-backlog-idees.md) | Pipeline des idées : en cours, à creuser, brûlées |
+| [`phase-1-solo/04-da-tiktok.md`](phase-1-solo/04-da-tiktok.md) | **Direction artistique TikTok** + fichier de passation : où on en est, ce qui est arrêté, ce que Nabil doit trancher |
 
 ### Phase 2 — Émission GENZED
 
@@ -42,6 +43,11 @@ pas avant que la Phase 1 ait produit de la notoriété.
 | [`outils/vision-video.py`](outils/vision-video.py) | **Les yeux** : planches contact horodatées, forme d'onde |
 | [`outils/README.md`](outils/README.md) · [`outils/README-ecoute.md`](outils/README-ecoute.md) | Installation, usage, vocabulaire du rapport, limites |
 | [`outils/RECHERCHE-ECOUTE.md`](outils/RECHERCHE-ECOUTE.md) | Pourquoi Claude n'entend pas, ce qui marche à la place, et les pistes closes |
+| [`outils/monter.py`](outils/monter.py) | Couper un rush et normaliser le son, en un seul réencodage |
+| [`outils/sonoriser.py`](outils/sonoriser.py) | Poser un sample qui s'efface sous la voix |
+| [`outils/retoucher.py`](outils/retoucher.py) | Effacer un défaut de peau sur toute la vidéo, suivi sur le visage |
+| [`outils/banque-son.py`](outils/banque-son.py) · [`banque-son/`](banque-son/) | La banque de sons de Nabil, dans le dépôt |
+| [`livraisons/`](livraisons/) | **Les montages finis, en haute qualité** — le chat plafonne à 30 Mio, pas GitHub |
 
 ### Contexte IA
 
@@ -51,6 +57,10 @@ Claude Code dans ce dépôt : ton, interdits, méthode de proposition d'idées.
 ## 🤖 Comment s'en servir avec une IA
 
 **Avec Claude Code, dans ce dépôt :** rien à faire, `CLAUDE.md` est chargé tout seul.
+
+**Nouvelle conversation sur la Phase 1 :** commencer par
+[`phase-1-solo/04-da-tiktok.md`](phase-1-solo/04-da-tiktok.md) — il dit où on en est,
+ce qui est arrêté, ce qui reste à trancher, et les erreurs à ne pas refaire.
 
 **Avec une autre IA (ChatGPT, Gemini…) :** coller au minimum
 `CLAUDE.md` + `phase-1-solo/01-persona-et-regles.md` + `phase-1-solo/02-scripts-valides.md`
