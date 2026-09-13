@@ -42,6 +42,23 @@ correction linéaire) : sans ça la plateforme remonte le niveau elle-même, et 
 du téléphone est appliquée automatiquement (un rush portrait reste portrait). `--sans-normalisation`
 pour ne pas toucher au son, `--crf` pour la qualité (défaut 16, `--preset` slow), `--image` pour étalonner sans passe supplémentaire.
 
+> **La plage de couleur de la source, jamais convertie.** Un rush d'iPhone est en plage *complète*
+> (`yuvj420p`, `color_range=pc` : noirs à 0, blancs à 255). Forcer `-pix_fmt yuv420p` le convertit en
+> plage *limitée* (16–235) et, sans étiquettes couleur (`color_space=unknown`), le lecteur affiche un
+> contraste écrasé. Mesuré sur le rush du 12/09 : noirs à **3** dans la source, à **19** dans le fichier
+> livré — alors que le SSIM de compression était bon. C'était ça, « la vidéo perd en qualité ». L'outil
+> lit maintenant la plage de la source, la conserve, étiquette BT.709 explicitement, et avertit si la
+> sortie ne la respecte pas. Vérification : les percentiles de luminance (0,5 / 50 / 99,5 %) doivent être
+> identiques entre la source et le montage.
+>
+> **Pas d'étalonnage qu'on n'a pas demandé.** Une reprise d'expo (`--image`) change l'image par
+> définition : à côté de l'original, elle se lit comme une perte, et sur une vidéo sombre elle remonte
+> le grain des ombres. Ne l'appliquer que sur demande, jamais d'initiative.
+>
+> **`--hevc`** : H.265 tient la même qualité avec ~40 % de débit en moins (CRF 15 H.265 ≈ 29,7 Mo là où
+> CRF 18 H.264 fait 30,9). iPhone et TikTok le lisent ; la prévisualisation dans un navigateur, pas
+> toujours. Pour un fichier que Nabil regarde dans le chat, H.264 reste le choix sûr.
+
 > **Un seul réencodage, jamais deux.** Chaque passe h264 coûte de la qualité, et ça s'empile. Mesuré
 > sur le rush du 12/09, contre un étalon sans perte construit au même `trim` : la chaîne
 > coupe → étalonnage → copie d'envoi (trois passes, dont une à CRF 24) ressort à **SSIM 0,979 /

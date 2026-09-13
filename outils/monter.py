@@ -61,6 +61,29 @@ def segments(specs, duree):
     return out
 
 
+def args_codec(v, a):
+    """Arguments d'encodage qui respectent la source.
+
+    Un rush d'iPhone est en plage COMPLETE (yuvj420p, color_range=pc : noirs a 0, blancs a 255).
+    Forcer -pix_fmt yuv420p le convertit en plage limitee (16-235) : c'est lossy, et si les
+    etiquettes couleur manquent (color_space=unknown), le lecteur affiche un contraste ecrase.
+    Constate sur le rush du 12/09 : « la video perd en qualite », alors que le SSIM etait bon.
+    On garde donc la plage de la source et on etiquette explicitement BT.709."""
+    full = (v.get("color_range") == "pc") or str(v.get("pix_fmt", "")).startswith("yuvj")
+    pf = "yuvj420p" if full else "yuv420p"
+    tags = ["-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
+            "-color_range", "pc" if full else "tv"]
+    if a.hevc:
+        params = f"colorprim=bt709:transfer=bt709:colormatrix=bt709:range={'full' if full else 'limited'}"
+        c = ["-c:v", "libx265", "-crf", str(a.crf), "-preset", a.preset, "-pix_fmt", pf,
+             "-tag:v", "hvc1", "-x265-params", params]
+    else:
+        c = ["-c:v", "libx264", "-crf", str(a.crf), "-preset", a.preset, "-pix_fmt", pf]
+    if a.tune:
+        c += ["-tune", a.tune]
+    return c + tags, full
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("fichier")
@@ -69,6 +92,9 @@ def main():
                    help="segments à garder, en secondes (ex. 6.40-27.75)")
     p.add_argument("--crf", type=int, default=16, help="qualité vidéo, plus bas = meilleur (défaut 16 ; 18 reste très bon, 23 se voit)")
     p.add_argument("--preset", default="slow", help="préréglage x264 (défaut slow : meilleure qualité à débit égal)")
+    p.add_argument("--hevc", action="store_true",
+                   help="encoder en H.265 : ~40 %% plus léger à qualité égale (iPhone et TikTok le lisent)")
+    p.add_argument("--tune", default=None, help="tune x264/x265, ex. « grain » pour garder le grain d'une vidéo sombre")
     p.add_argument("--image", default=None, metavar="FILTRE",
                    help="filtre ffmpeg d'étalonnage appliqué DANS la même passe que la coupe "
                         "(ex. \"eq=brightness=0.06:contrast=1.10,curves=m='0/0 0.25/0.33 1/1'\"). "
@@ -108,9 +134,13 @@ def main():
     fc = ";".join(parts) + ";" + "".join(lab) + f"concat=n={len(segs)}:v=1:a=1[v][a]"
     tmp = a.sortie + ".coupe.mp4"
     print("→ coupe…")
+    codec, full = args_codec(v, a)
+    print(f"   codec : {'H.265' if a.hevc else 'H.264'} CRF {a.crf} {a.preset}"
+          + (f" tune {a.tune}" if a.tune else "")
+          + f" · plage {'complète (comme la source)' if full else 'limitée'} · BT.709 étiqueté")
     r = run(["ffmpeg", "-v", "error", "-y", "-i", a.fichier, "-filter_complex", fc,
-             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", str(a.crf), "-preset", a.preset,
-             "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp])
+             "-map", "[v]", "-map", "[a]"] + codec +
+            ["-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp])
     if r.returncode != 0 or not os.path.exists(tmp):
         sys.exit(f"ERREUR : coupe échouée\n{r.stderr[-1200:]}")
 
@@ -136,13 +166,18 @@ def main():
             os.remove(tmp)
 
     v2, _, dur2 = sonde(a.sortie)
+    if full and v2.get("color_range") != "pc":
+        print("   ⚠ la plage complète de la source n'a PAS été conservée (color_range="
+              f"{v2.get('color_range')}) : contraste écrasé à l'affichage", file=sys.stderr)
     apres = mesure_loudness(a.sortie)
     print(f"\n✅ {a.sortie}")
     br_src = (os.path.getsize(a.fichier) * 8 / dur) / 1e6
     br_out = (os.path.getsize(a.sortie) * 8 / dur2) / 1e6
-    print(f"   {dur2:.2f} s · {v2['width']}×{v2['height']} · {os.path.getsize(a.sortie) / 1048576:.1f} Mo")
+    print(f"   {dur2:.2f} s · {v2['width']}×{v2['height']} · {os.path.getsize(a.sortie) / 1048576:.1f} Mo"
+          f" · {v2.get('codec_name')} · plage {v2.get('color_range')} · {v2.get('color_space')}")
     print(f"   débit : {br_src:.2f} Mb/s (source) -> {br_out:.2f} Mb/s"
-          + ("  ⚠ perte marquée, baisser --crf" if br_out < br_src * 0.45 else "  ✅"))
+          + ("  ⚠ perte marquée, baisser --crf" if br_out < br_src * (0.27 if a.hevc else 0.45) else "  ✅"))
+    # (le H.265 tient la même qualité avec ~40 % de débit en moins : le seuil d'alerte en tient compte)
     if apres:
         print(f"   après : {float(apres['input_i']):.1f} LUFS, true peak {float(apres['input_tp']):+.1f} dBTP")
     print(f"\n   Relire le résultat :  python3 outils/ecoute-video.py \"{a.sortie}\"")
