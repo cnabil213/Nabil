@@ -6,6 +6,25 @@
 
 ---
 
+## 13/09/2026 (nuit) — Les trois vidéos sont montées
+
+**Fait**
+
+- **L'otage du téléphone montée** : 61 s → 41,7 s, six coupes. Méthode §2 bis appliquée dès le
+  départ : chaîne de sens écrite d'abord, coupes faites dedans, transcription du montage relue
+  avant livraison. Elle se tient debout toute seule.
+- Les six premières secondes d'annonce sautent : mesurées plates (F0 à la moitié de sa variation
+  habituelle sur 0,4–3,7 s) et sémantiquement confuses. La prémisse commence à 6,0 s.
+- Quatre des six répétitions finales de « j'ai déjà vu la vidéo » sautent. La dernière (« j'ai déjà
+  vu », chute 98/100) devient la chute. **Elle existait, elle était juste noyée.**
+- Trois montages sont désormais dans `livraisons/`. Aucun n'est publié : c'est le seul blocage.
+
+**Décidé**
+
+- Un point faible est gardé sciemment dans l'otage du téléphone : « on connaît tous ces humains-là
+  → une fois, deux fois, trois fois » retombe de 8 dB. C'est un maillon du sens, on ne le coupe pas.
+  Noté dans `livraisons/README.md` pour que Nabil décide s'il le retourne.
+
 ## 13/09/2026 (nuit) — Business Bro monté, après un premier montage raté
 
 **Fait**

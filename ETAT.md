@@ -10,8 +10,8 @@
 
 ## En une phrase
 
-Phase 1 (short-form solo) : **3 vidéos tournées**, 1 montée et livrée, **rien de publié**,
-et la direction artistique TikTok attend 5 décisions de Nabil.
+Phase 1 (short-form solo) : **3 vidéos tournées, 3 montées et livrées**, **rien de publié**.
+La direction artistique TikTok attend 5 décisions de Nabil.
 
 ## Le chantier en cours
 
@@ -29,23 +29,22 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 | Image | bouton du nez retiré sur 1266 des 1288 images |
 | Livré | [`livraisons/12sept-casser-des-nuques-HQ.mp4`](livraisons/) — 53,7 Mio, 10,3 Mb/s |
 | **Vidéo 3 — Business Bro** | ✅ **Montée et livrée** : [`livraisons/30aout-business-bro-HQ.mp4`](livraisons/) — 36,5 s |
-| **Rush B du 30/08** | Vidéo 4 (l'otage du téléphone), 61 s, analysée. Chute et hook manquants |
+| **Vidéo 4 — L'otage du téléphone** | ✅ **Montée et livrée** : [`livraisons/30aout-otage-du-telephone-HQ.mp4`](livraisons/) — 41,7 s |
 
 ## En cours / pas fait
 
-- **Vidéo 4** (rush B du 30/08) : tournée, pas montée. **Le fichier est perdu** (conteneur effacé) :
-  demander à Nabil de renvoyer `prise-B-30aout.mp4`. Ce qu'on en sait est dans
-  [`02-scripts-valides.md`](phase-1-solo/02-scripts-valides.md).
+- **Le montage de l'otage du téléphone garde un point faible assumé** : la section « on connaît tous
+  ces humains-là → une fois, deux fois, trois fois » retombe de 8 dB et ralentit à 56 % du débit.
+  C'est un maillon du sens, donc elle reste. À retourner avec de l'énergie si Nabil veut la hisser.
 - **Publication** : aucun compte ouvert, aucun nom arrêté, rien en ligne.
 - **Sous-titres** : proposés dans la DA, jamais produits. Aucun outil ne les génère encore.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
-- **Vidéo 4** : la chute n'existe pas (six répétitions de « j'ai déjà vu la vidéo » à la fin) et le
-  hook est une mise en contexte, donc un interdit. À réécrire, puis à retourner ou à remonter.
+- **Les trois montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
 
 ## Les 3 prochaines actions
 
-1. **Choisir laquelle sort en premier** : Business Bro (24,5 s, la plus dense) ou celle du 12/09
-   (43 s). Deux montages sont prêts dans [`livraisons/`](livraisons/).
+1. **Choisir laquelle sort en premier** — trois montages prêts dans [`livraisons/`](livraisons/) :
+   Business Bro (36,5 s), l'otage du téléphone (41,7 s), casser des nuques (42,9 s).
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
 3. Écrire la chute de la Vidéo 4, à partir de ce qu'il a trouvé en improvisant.
 

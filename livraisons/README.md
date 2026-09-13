@@ -7,8 +7,22 @@ débit de l'original, et se téléchargent directement depuis le dépôt.
 | :-- | --: | --: | --: | --: |
 | `12sept-casser-des-nuques-HQ.mp4` | 42,9 s | 53,7 Mio | 10,3 Mb/s | **99,4 %** du rush |
 | `30aout-business-bro-HQ.mp4` | 36,5 s | 46,8 Mio | 10,8 Mb/s | **99,5 %** du rush |
+| `30aout-otage-du-telephone-HQ.mp4` | 41,7 s | 50,7 Mio | 10,2 Mb/s | **99,2 %** du rush |
 
 Le rush d'origine fait 10,5 Mb/s : cette version est à son niveau.
+
+**Contenu de l'otage du téléphone (30/08, rush B)** : 61 s ramenées à 41,7 s, six coupes, toutes
+sur des silences mesurés. La chaîne de sens est gardée entière : le pote vient chez toi → il ricane
+déjà parce qu'il a vu la vidéo → elle fait trois minutes → tu rigoles pour lui faire comprendre que
+c'est bon → **il reste comme ça** (le meilleur moment, chute 95/100) → tu restes comme ça jusqu'où ?
+→ il recommence quatre fois → « j'ai déjà vu la vidéo… j'ai déjà vu ». Coupé : les six premières
+secondes d'annonce (plates, F0 à la moitié de sa variation habituelle), « toi tu regardes la
+vidéo », « donc famille tu sais bien / bon tu regardes avec lui », « famille il faut… », et quatre
+des six répétitions finales.
+
+**À savoir** : la section « on connaît tous ces humains-là → une fois, deux fois, trois fois »
+retombe de 8 dB sous ses pics et son débit tombe à 56 %. C'est un maillon de la chaîne, donc elle
+reste — mais si Nabil la retourne avec de l'énergie, la vidéo change de niveau.
 
 **Contenu de la version du 30/08 (Business Bro)** : 3 coupes dans le rush A, 59 s ramenées à 36,5 s.
 La mise en place est gardée **entière** — une première version qui démarrait sur l'imitation a été
