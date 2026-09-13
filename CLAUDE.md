@@ -74,6 +74,26 @@ Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèl
 (local ou hébergé) sans les recouper avec les mesures — testé, ils inventent. Détail et pistes closes :
 `outils/RECHERCHE-ECOUTE.md`.
 
+## Livrer une vidéo (qualité)
+
+- **Le chat refuse au-dessus de 30 Mio.** C'est la seule contrainte qui limite la qualité, pas l'outil.
+  Livrer en **H.265** (`--hevc --crf 16`) : à poids égal il rend ~1 dB de PSNR de plus que le H.264.
+  Un fichier au débit de l'original (10 Mb/s, ~54 Mo) ne passe pas par le chat.
+- **Un seul réencodage, toujours.** Coupe, étalonnage, retouche : tout dans la même passe
+  (`monter.py --image`, `retoucher.py`, `--garder-image`). `sonoriser.py` copie l'image, il ne compte pas.
+- **Vérifier avant d'envoyer** : PSNR contre le rush aux mêmes coupes, plage de couleur `pc` conservée,
+  et pour une retouche, que seul le défaut a bougé (carte des écarts).
+- Si Nabil dit que la qualité a baissé, **mesurer avant de répondre** : somme de contrôle du flux vidéo
+  entre les versions (identique = rien n'a bougé), puis PSNR et débit contre l'original.
+
+## Retoucher un défaut de peau
+
+`outils/retoucher.py` (voir `outils/README.md`) efface un bouton sur toute la vidéo en le suivant sur le
+visage. Nabil envoie une capture d'écran avec un rond au feutre : le rouge s'isole en HSV, la capture
+est un plein écran (donc recadrée sur les côtés), et on retrouve l'image exacte par corrélation.
+Toujours **vérifier le point en zoomant dessus** (`--apercu`) avant d'encoder : une occlusive, une
+ombre ou la monture peuvent ressembler au défaut.
+
 ## Sonoriser un montage
 
 - **Les sons viennent de `banque-son/`** (catalogue : `banque-son/README.md`). Nabil a donné carte

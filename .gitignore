@@ -37,3 +37,6 @@ samples/
 # La banque de sons de Nabil vit DANS le dépôt (clips courts) : on lève l'exclusion globale *.wav pour elle
 !banque-son/
 !banque-son/*.wav
+
+# modèle de visage (3,6 Mo, se retéléchargé : voir outils/README.md)
+outils/face_landmarker.task

@@ -180,6 +180,65 @@ crête large bande ne dit rien, elle est déjà occupée par la voix.
 `banque-son.py ajouter` les découpe, cale et catalogue ; ils appartiennent à leurs auteurs, l'usage
 relève de Nabil.
 
+## `retoucher.py` — effacer un defaut de peau sur toute la video
+
+```bash
+curl -sSL -o outils/face_landmarker.task https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+pip3 install opencv-python-headless mediapipe          # + apt : libegl1 libgles2 libgl1 libglx0 libglvnd0
+python3 outils/retoucher.py rush.mov -o SORTIE.mp4 --garder 6.40-12.20 40.20-50.10 \
+    --repere 346:299:840 --rayon 11 --audio MONTAGE.mp4 --suivi suivi.json [--hevc --crf 16]
+```
+
+Le point se donne **une seule fois** : `--repere IMAGE:X:Y`, les coordonnées du défaut sur une image du
+montage. Le visage est détecté à chaque image (MediaPipe FaceLandmarker, 478 points) et le défaut est
+replacé dans le repère de trois points du maillage : il suit la tête qui tourne, s'approche, s'éloigne.
+Sur le rush du 12/09 : suivi sur 1266 des 1288 images, 29 trous de flou de bougé comblés par
+interpolation, 22 images sans visage laissées telles quelles (1/30 s chacune, invisible).
+
+La correction est un *spot heal* : le disque est reconstruit depuis la peau autour (inpainting Telea),
+le grain d'origine est remis par-dessus (`--grain`), et le masque **exclut les pixels nettement plus
+sombres** que la peau alentour — sans ça la retouche baverait sur la monture, la narine ou l'ombre.
+
+**Trouver les coordonnées** quand Nabil envoie une capture d'écran annotée : le rouge du feutre est
+isolable en HSV (teinte < 6 ou > 174, saturation ≥ 180) ; la capture est un plein écran, donc
+`x_video = (x_capture + bord) / échelle` avec `échelle = hauteur_capture / hauteur_video` et
+`bord = (largeur_video × échelle − largeur_capture) / 2`. Retrouver l'image exacte par corrélation
+sur toutes les images du montage, puis vérifier le point en zoomant dessus (`--apercu`).
+
+> **Jamais de détour par RGB.** Première version en `bgr24` : **39,0 dB** de PSNR contre la source, au
+> lieu de 44,4 — l'aller-retour YUV 4:2:0 → RGB → YUV rééchantillonne la couleur deux fois. L'outil
+> travaille maintenant dans le format de la source (`yuvj420p`), plan par plan : luminance en pleine
+> résolution, couleur en demi-résolution, **et seuls les octets sous la retouche sont modifiés**. Tout
+> le reste de l'image repart vers l'encodeur exactement tel qu'il a été décodé : 44,4 dB, soit la
+> qualité d'un montage sans retouche.
+>
+> **Cadence fixe en sortie de `concat`.** Sans `fps=`, le flux brut sort en cadence variable et perd
+> une image par rapport au montage encodé (qui, lui, en duplique une au raccord d'un segment tombant
+> sur une demi-image). 1288 contre 1289 : sans conséquence sur la synchro (33 ms), mais les deux
+> fichiers ne sont plus comparables image par image.
+
+`--suivi fichier.json` garde le résultat du suivi : le refaire coûte 2 minutes, le relire coûte 0.
+Indispensable pour essayer plusieurs encodages du même montage.
+
+## Qualité de livraison : le plafond de 30 Mio
+
+Le chat refuse tout fichier au-dessus de **30 Mio**. C'est ça, et rien d'autre, qui limitait la qualité.
+Mesures sur le montage du 12/09 (43 s, 720×1280, PSNR contre le rush aux mêmes coupes) :
+
+| fichier | poids | débit | PSNR |
+| :-- | --: | --: | --: |
+| rush d'origine (iPhone) | 98,6 Mo | 10,52 Mb/s | — |
+| H.264 CRF 19 (ce qui était livré) | 27,4 Mo | 5,11 Mb/s | 44,40 dB |
+| **H.265 CRF 16** (livré depuis) | **28,7 Mo** | 5,36 Mb/s | **45,42 dB** |
+| H.265 CRF 14 | 37,3 Mo | 6,94 Mb/s | 46,43 dB |
+| H.264 CRF 13 (débit de l'original) | 53,7 Mo | 10,00 Mb/s | 47,72 dB |
+
+À poids égal, **H.265 gagne ~1 dB sur H.264** : c'est le seul levier gratuit sous le plafond. Au-delà,
+il faut sortir du chat (le fichier à 53,7 Mo a été refusé à l'envoi). Le connecteur Google Drive ne
+convient pas : il veut le contenu en base64 dans l'appel, impossible pour 50 Mo.
+Sur une vidéo sombre et granuleuse comme un rush de voiture la nuit, c'est le grain des zones sombres
+qui part en premier — d'où l'impression de « moins net » avant même de regarder les chiffres.
+
 ## `recuperer.sh` — un rush trop lourd pour le chat
 
 L'upload du chat plafonne à quelques dizaines de Mo ; un export TikTok d'une minute peut les dépasser.
