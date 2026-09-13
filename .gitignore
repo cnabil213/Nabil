@@ -33,3 +33,7 @@ outils/ecoute/cache/
 
 # Samples fournis par Nabil (contenu tiers, jamais dans le dépôt)
 samples/
+
+# La banque de sons de Nabil vit DANS le dépôt (clips courts) : on lève l'exclusion globale *.wav pour elle
+!banque-son/
+!banque-son/*.wav

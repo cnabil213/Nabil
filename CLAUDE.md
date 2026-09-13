@@ -73,3 +73,18 @@ Claude ne perçoit que texte et images : **il n'entend pas**. Pour juger la mani
 Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèle qui « écoute et décrit »
 (local ou hébergé) sans les recouper avec les mesures — testé, ils inventent. Détail et pistes closes :
 `outils/RECHERCHE-ECOUTE.md`.
+
+## Sonoriser un montage
+
+- **Les sons viennent de `banque-son/`** (catalogue : `banque-son/README.md`). Nabil a donné carte
+  blanche pour y puiser à chaque montage : choisir d'après la description et l'usage de chaque son.
+- **Un son se pose dans un trou de la parole**, jamais dessus (section 7 du `RAPPORT-ECOUTE.md` liste
+  les pauses ; un son posé sous une phrase est masqué — mesuré). Outil : `outils/sonoriser.py`.
+- **Les bruitages synthétiques de `outils/sfx/` ne servent que sur demande explicite.** Ce ne sont pas
+  des vannes : un whoosh ne fait rire personne, un « Jordan t'es mort » si.
+- **Nouveau clip reçu** → `python3 outils/banque-son.py ajouter <fichier> --nom <slug> --desc "…"
+  [--debut --fin]` : il est découpé, débarrassé de ses silences, calé en niveau, catalogué. Sans ce
+  passage, le son tombe en retard sur son timecode.
+- **Livraison** : une version incrustée pour Reels et Shorts (leurs bibliothèques ne contiennent pas
+  ces sons) ; pour TikTok, incrustée aussi, ou nue si Nabil préfère ajouter le son dans l'app pour
+  profiter du feed de ce son.

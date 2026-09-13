@@ -12,6 +12,7 @@ servent à décrire, jamais à deviner. Le pourquoi de chaque choix est dans
 | [`vision-video.py`](vision-video.py) | **Les yeux.** Planches contact horodatées (4 images/s sur le hook, 2 ensuite), forme d'onde, fiche captation | ci-dessous |
 | [`monter.py`](monter.py) | **Le montage.** Coupe le rush sur les segments à garder (à la frame près) et normalise le son pour les plateformes | ci-dessous |
 | [`sonoriser.py`](sonoriser.py) | **Le son.** Pose des samples et des effets à des timecodes précis, avec ducking automatique de la voix | ci-dessous |
+| [`banque-son.py`](banque-son.py) | **La banque de sons de Nabil.** Nettoie un clip reçu (découpe, silences retirés, niveau calé) et le catalogue dans `banque-son/` pour tous les montages suivants | ci-dessous |
 | [`sfx/`](sfx/) | Kit de six sons de ponctuation synthétisés (libres de droits) | [`sfx/README.md`](sfx/README.md) |
 | [`recuperer.sh`](recuperer.sh) | **Faire entrer un rush trop lourd pour le chat** à partir d'un lien de partage (Drive, Dropbox, WeTransfer, lien direct) | ci-dessous |
 
@@ -82,6 +83,25 @@ pour ne pas toucher au son, `--crf` pour la qualité (défaut 16, `--preset` slo
 trop tôt (« cardi-bés » finit à 27,48 s alors que Whisper annonce 27,10). Les pauses de la section 7 du
 rapport, ou une mesure d'enveloppe à −40 dBFS, donnent les bonnes bornes. Vérifier après coup que le
 niveau juste avant et juste après le raccord est bien celui d'un silence.
+
+## `banque-son.py` — la banque de sons
+
+```bash
+python3 outils/banque-son.py ajouter clip.mp4 --nom doumbe-jordan-tes-mort \
+    --desc "Doumbè à Zébo : « Jordan, t'es mort »" --usage "après une menace, une punchline de combat" \
+    --tags mma,menace --debut 12.3 --fin 14.1
+python3 outils/banque-son.py lister
+python3 outils/banque-son.py retirer doumbe-jordan-tes-mort
+```
+
+Prend n'importe quel fichier, audio ou vidéo. Extrait le passage (`--debut/--fin`), **retire le silence
+en tête et en queue** (sinon le son tombe en retard sur son timecode — il garde 30 ms avant l'attaque pour
+ne pas couper un plosif), cale la crête à −3 dBFS, enregistre en WAV 48 kHz dans `banque-son/`, et
+régénère le catalogue (`catalogue.json` + tableau du `banque-son/README.md`) — c'est ce tableau que
+Claude lit pour choisir un son à chaque montage.
+
+La banque vit **dans le dépôt** : le container est effacé à chaque session, tout ce qui n'est pas commité
+disparaît. Clips courts uniquement (quelques secondes), c'est git, pas un disque dur.
 
 ## `sonoriser.py` — poser des sons
 
