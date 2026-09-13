@@ -157,6 +157,34 @@ def lister(a):
               + (f"  [{', '.join(e['tags'])}]" if e.get("tags") else ""))
 
 
+SOUNDBOARD = os.path.expanduser("~/3kh0/soundboard")   # clone anonyme : voir README (git clone --depth 1)
+
+
+def importer(a):
+    """Cherche un son du soundboard 3kh0 par son nom (sounds.json) et l'ajoute à la banque."""
+    sj = os.path.join(SOUNDBOARD, "sounds.json")
+    if not os.path.exists(sj):
+        sys.exit("ERREUR : soundboard absent — cloner d'abord :\n"
+                 "  GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/3kh0/soundboard ~/3kh0/soundboard")
+    d = json.load(open(sj, encoding="utf-8"))
+    items = d if isinstance(d, list) else list(d.values())[0]
+    items = [it for it in items if isinstance(it, dict) and it.get("mp3")]
+    q = a.recherche.lower()
+    hits = [it for it in items if q in it["name"].lower() or q in os.path.basename(it["mp3"]).lower()]
+    if not hits:
+        sys.exit(f"ERREUR : aucun son du soundboard ne contient « {a.recherche} » (lister : --lister)")
+    if len(hits) > 1 and not a.premier:
+        print(f"{len(hits)} sons correspondent — précise, ou --premier :")
+        for it in hits: print(f"   {it['name']!r:44s} {it['mp3']}")
+        sys.exit(2)
+    it = hits[0]
+    a.source = os.path.join(SOUNDBOARD, it["mp3"])
+    a.nom = a.nom or it["name"]
+    a.desc = a.desc or f"{it['name']} (soundboard 3kh0)"
+    a.debut = a.fin = None
+    ajouter(a)
+
+
 def retirer(a):
     nom = slug(a.nom); cat = charger_catalogue()
     if not any(e["nom"] == nom for e in cat):
@@ -181,6 +209,11 @@ def main():
     s.set_defaults(fn=ajouter)
     l = sub.add_parser("lister", help="afficher le catalogue"); l.set_defaults(fn=lister)
     r = sub.add_parser("retirer", help="retirer un son du catalogue"); r.add_argument("nom"); r.set_defaults(fn=retirer)
+    i = sub.add_parser("importer", help="importer un son du soundboard 3kh0 (208 mèmes) par son nom")
+    i.add_argument("recherche"); i.add_argument("--nom", default=None); i.add_argument("--desc", default=None)
+    i.add_argument("--usage", default=None); i.add_argument("--tags", default="soundboard")
+    i.add_argument("--premier", action="store_true", help="prendre le premier si plusieurs correspondent")
+    i.add_argument("--force", action="store_true"); i.set_defaults(fn=importer)
     a = p.parse_args(); a.fn(a)
 
 

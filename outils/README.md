@@ -103,6 +103,21 @@ Claude lit pour choisir un son à chaque montage.
 La banque vit **dans le dépôt** : le container est effacé à chaque session, tout ce qui n'est pas commité
 disparaît. Clips courts uniquement (quelques secondes), c'est git, pas un disque dur.
 
+### Le soundboard 3kh0 (source externe)
+
+[`3kh0/soundboard`](https://github.com/3kh0/soundboard) : 208 sons de mèmes (anglophones), mp3 128 kb/s,
+médiane 2,6 s, catalogue `sounds.json`. GitHub est joignable depuis le container (MyInstants ne l'est pas :
+Cloudflare renvoie 403 sur tout, mp3 compris). On ne le copie pas en entier dans le dépôt (49 Mo) : on
+le clone à la demande et on importe son par son dans la banque, nettoyé et catalogué.
+
+```bash
+GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/3kh0/soundboard ~/3kh0/soundboard
+python3 outils/banque-son.py importer "boxing bell" --desc "cloche de boxe" --usage "avant un combat, une confrontation"
+```
+
+Le code du soundboard est sous Apache 2.0 ; les sons eux-mêmes sont des mèmes, au même titre que tout
+son de tendance — leur usage relève de Nabil.
+
 ## `sonoriser.py` — poser des sons
 
 ```bash

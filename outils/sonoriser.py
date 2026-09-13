@@ -112,11 +112,14 @@ def main():
     # amix exige au moins 2 entrées : avec un seul son on le passe tel quel
     melange = f"amix=inputs={len(sons)}:duration=longest:normalize=0," if len(sons) > 1 else ""
     ch.append("".join(f"[s{i}]" for i in range(1, len(sons) + 1)) + melange + f"apad,atrim=0:{dur}[fxsrc]")
-    ch.append("[fxsrc]asplit=2[fxduck][fxmix]")
     ch.append("[0:a]aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo[voix]")
     if a.sans_duck:
+        # pas de ducking : la piste effets ne sert qu'au mix (un asplit laisserait une sortie
+        # orpheline et ffmpeg refuse le graphe : « Filter asplit has an unconnected output »)
+        ch.append("[fxsrc]anull[fxmix]")
         ch.append("[voix]anull[vx]")
     else:
+        ch.append("[fxsrc]asplit=2[fxduck][fxmix]")
         # la voix est compressée par la piste effets : elle recule pendant le son, revient après
         ratio = max(1.0 + a.duck / 2.0, 1.5)
         ch.append(f"[voix][fxduck]sidechaincompress=threshold=0.08:ratio={ratio:.1f}"

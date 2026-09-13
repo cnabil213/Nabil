@@ -78,8 +78,19 @@ Ne jamais accepter les timecodes ou les « il parle plus fort ici » d'un modèl
 
 - **Les sons viennent de `banque-son/`** (catalogue : `banque-son/README.md`). Nabil a donné carte
   blanche pour y puiser à chaque montage : choisir d'après la description et l'usage de chaque son.
-- **Un son se pose dans un trou de la parole**, jamais dessus (section 7 du `RAPPORT-ECOUTE.md` liste
-  les pauses ; un son posé sous une phrase est masqué — mesuré). Outil : `outils/sonoriser.py`.
+- **Le niveau dépend de ce qui se passe pendant le son.** Outil : `outils/sonoriser.py`.
+  - Son posé **dans un trou** (personne ne parle, ≤ la durée du trou) : `0` à `-3` dB sous la voix, ducking par défaut.
+  - Son qui **déborde sous la parole** (un clip de 3 s dans un trou de 0,5 s, une ambiance) : c'est un
+    **fond** — `-12` à `-18` dB, **`--sans-duck`** (la voix reste intacte). Nabil : « il doit être en
+    fond fond car je parle ». Posé à 0 dB, le clip Doumbè couvrait ses mots ; à -15 il est là dans le
+    trou et disparaît sous la phrase suivante. **Réfléchir en monteur avant de régler.**
+  - Vérifier l'intelligibilité contre la transcription du **montage nu, même fenêtre** — jamais
+    contre ce qu'on croit que le passage dit : Whisper varie d'une passe à l'autre (« t'as gagné »
+    n'a jamais existé, c'était « t'as regardé… »).
+- **Sources de sons** : `banque-son/` (ses clips) et le soundboard `3kh0/soundboard` (208 mèmes
+  anglophones, 128 kb/s, médiane 2,6 s — bruh, vine boom, Windows error, bad-um-tss, boxing bell…),
+  cloné à la demande et importé son par son : `python3 outils/banque-son.py importer "boxing bell"`.
+  Ce sont des références anglophones : les références françaises viennent de Nabil.
 - **Les bruitages synthétiques de `outils/sfx/` ne servent que sur demande explicite.** Ce ne sont pas
   des vannes : un whoosh ne fait rire personne, un « Jordan t'es mort » si.
 - **Nouveau clip reçu** → `python3 outils/banque-son.py ajouter <fichier> --nom <slug> --desc "…"
