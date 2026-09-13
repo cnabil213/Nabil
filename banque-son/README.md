@@ -8,9 +8,10 @@ Clips courts uniquement (quelques secondes) : c'est un dépôt git, pas un disqu
 
 | Son | Durée | Ce que c'est | Quand l'utiliser | Tags |
 | :--- | ---: | :--- | :--- | :--- |
+| `doumbe-jordan.wav` | 0.55 s | Doumbè : « JORDAN » (le mot seul, la foule derrière) | sur un nom qu'on vient de citer, dans un trou de 0,5 s — la version courte, quand la phrase entière mordrait sur la parole | mma, menace, court |
 | `doumbe-jordan-tes-mort.wav` | 2.98 s | Doumbè à Zébo, KO en 5 s (RMC Sport, sept. 2023) : « Jordan, t'es mort » + la foule qui explose | après le nom de Doumbè, après une menace, ou quand quelqu'un se croit intouchable | mma, doumbe, menace, ko, foule |
 
-Niveaux (RMS) : doumbe-jordan-tes-mort -16 dBFS
+Niveaux (RMS) : doumbe-jordan -15 dBFS · doumbe-jordan-tes-mort -16 dBFS
 
 ## Poser un son
 
