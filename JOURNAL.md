@@ -6,6 +6,32 @@
 
 ---
 
+## 14/09/2026 — Les tier lists avec Sady, et la D.A. du format
+
+**Fait**
+
+- Trois tier lists reçues (sports, fruits, footballeurs), toutes en 720p, deux à deux personnes.
+- **Benchmark du compte de Sady** (@rodman97.3) sur 7 vidéos : `05-benchmark-rodman.md`.
+- **D.A. du format tier list tranchée** : `06-format-tier-list.md`.
+- Fruits et footballeurs montées et livrées : temps morts retirés, classement intact.
+
+**Décidé**
+
+- **On ne fragmente jamais une tier list.** Premier essai : deux extraits de 20 s. Nabil : « vu que
+  c'est une tier list, si tu fais ça on comprend plus rien. » Dans ce format, la prémisse c'est la
+  liste elle-même.
+- **La durée est libre** (corrélation durée/vues chez Sady : +0,04). On coupe le mort, pas la durée.
+- **Le titre fait la moitié du travail** : chez Sady, titre qui promet = 2× les vues d'un titre plat.
+- **La tier list sport ne sort pas.** Deux passages vérifiés en double passe, non coupables proprement
+  (au cœur d'un item, pas dans une respiration). À retourner.
+
+**Appris**
+
+- **Ne jamais conclure sur moins de cinq mesures.** Sur deux vidéos j'avais conclu « plus long =
+  mieux ». Sur sept, la corrélation est nulle. C'était du bruit, et je l'avais présenté comme un fait.
+- Méthode de compression reproductible : tout silence ≥ 0,45 s ramené à 0,22 s. 11 à 15 % de gagné
+  sur ces rushs, sans toucher au contenu.
+
 ## 13/09/2026 (nuit) — Les trois vidéos sont montées
 
 **Fait**

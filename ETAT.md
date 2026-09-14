@@ -4,14 +4,14 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 13/09/2026 (soir)**
+**Dernière mise à jour : 14/09/2026**
 
 ---
 
 ## En une phrase
 
-Phase 1 (short-form solo) : **3 vidéos tournées, 3 montées et livrées**, **rien de publié**.
-La direction artistique TikTok attend 5 décisions de Nabil.
+Phase 1 : **5 vidéos montées et livrées** (3 solo + 2 tier lists avec Sady), **rien de publié**.
+Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
 
 ## Le chantier en cours
 
@@ -30,6 +30,10 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 | Livré | [`livraisons/12sept-casser-des-nuques-HQ.mp4`](livraisons/) — 53,7 Mio, 10,3 Mb/s |
 | **Vidéo 3 — Business Bro** | ✅ **Montée et livrée** : [`livraisons/30aout-business-bro-HQ.mp4`](livraisons/) — 36,5 s |
 | **Vidéo 4 — L'otage du téléphone** | ✅ **Montée et livrée** : [`livraisons/30aout-otage-du-telephone-HQ.mp4`](livraisons/) — 41,7 s |
+| **Tier list fruits** (avec Sady) | ✅ Montée et livrée — 1 min 42 |
+| **Tier list footballeurs** (avec Sady) | ✅ Montée et livrée — 1 min 43 |
+| **Benchmark du compte de Sady** | ✅ 7 vidéos relevées : [`phase-1-solo/05-benchmark-rodman.md`](phase-1-solo/05-benchmark-rodman.md) |
+| **D.A. du format tier list** | ✅ Tranchée : [`phase-1-solo/06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) |
 
 ## En cours / pas fait
 
@@ -37,14 +41,17 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
   ces humains-là → une fois, deux fois, trois fois » retombe de 8 dB et ralentit à 56 % du débit.
   C'est un maillon du sens, donc elle reste. À retourner avec de l'énergie si Nabil veut la hisser.
 - **Publication** : aucun compte ouvert, aucun nom arrêté, rien en ligne.
-- **Sous-titres** : proposés dans la DA, jamais produits. Aucun outil ne les génère encore.
+- **Sous-titres** : proposés dans la D.A. solo, jamais produits. Écartés sur le format tier list
+  (le classement incrusté occupe déjà le tiers gauche). À trancher : une identité visuelle ou deux.
+- **Tier list sport du 13/09 : écartée**, deux passages non coupables proprement. À retourner.
+  Raison détaillée dans [`06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) §5.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
 - **Les trois montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
 
 ## Les 3 prochaines actions
 
-1. **Choisir laquelle sort en premier** — trois montages prêts dans [`livraisons/`](livraisons/) :
-   Business Bro (36,5 s), l'otage du téléphone (41,7 s), casser des nuques (42,9 s).
+1. **Publier.** Cinq montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
+   compte n'est ouvert : c'est le seul blocage de la Phase 1.
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
 3. Écrire la chute de la Vidéo 4, à partir de ce qu'il a trouvé en improvisant.
 

@@ -8,6 +8,8 @@ débit de l'original, et se téléchargent directement depuis le dépôt.
 | `12sept-casser-des-nuques-HQ.mp4` | 42,9 s | 53,7 Mio | 10,3 Mb/s | **99,4 %** du rush |
 | `30aout-business-bro-HQ.mp4` | 36,5 s | 46,8 Mio | 10,8 Mb/s | **99,5 %** du rush |
 | `30aout-otage-du-telephone-HQ.mp4` | 41,7 s | 50,7 Mio | 10,2 Mb/s | **99,2 %** du rush |
+| `tier-fruits-HQ.mp4` | 1 min 42 | 37,0 Mio | 3,1 Mb/s | tier list, temps morts retirés |
+| `tier-foot-HQ.mp4` | 1 min 43 | 32,0 Mio | 2,6 Mb/s | tier list, temps morts retirés |
 
 Le rush d'origine fait 10,5 Mb/s : cette version est à son niveau.
 
