@@ -6,6 +6,18 @@
 
 ---
 
+## 14/09/2026 (suite) — Tier list sport, montage perso
+
+Nabil : « c'est pas pour TikTok, c'est pour moi, donc garde [les deux passages]. Fluidifie un peu
+le truc. » Fait : blancs ≥ 0,45 s ramenés à 0,22 s, contenu intact, 1 min 50 → 1 min 33 (−15 %).
+
+La décision d'écarter cette vidéo tient toujours : elle portait sur la **publication**. Un montage
+privé d'un rush qu'il a tourné lui-même est son affaire. Le fichier n'est pas dans `livraisons/`,
+qui reste le dossier des vidéos destinées à sortir.
+
+Les cinq blancs les plus longs sont notés dans le relevé (88,7 s / 19,5 s / 7,7 s / 14,0 s /
+4,3 s) : ce sont ceux qui risquent de porter une information, comme celui de Musiala.
+
 ## 14/09/2026 (suite) — Un silence qui portait une information
 
 Nabil, sur la tier list foot : « au départ, après Musiala, je veux que tu laisses, car avec le cut

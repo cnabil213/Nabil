@@ -43,8 +43,10 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 - **Publication** : aucun compte ouvert, aucun nom arrêté, rien en ligne.
 - **Sous-titres** : proposés dans la D.A. solo, jamais produits. Écartés sur le format tier list
   (le classement incrusté occupe déjà le tiers gauche). À trancher : une identité visuelle ou deux.
-- **Tier list sport du 13/09 : écartée**, deux passages non coupables proprement. À retourner.
-  Raison détaillée dans [`06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) §5.
+- **Tier list sport du 13/09 : écartée de la publication**, deux passages non coupables proprement.
+  À retourner. Raison dans [`06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) §5.
+  Un montage **perso** (blancs resserrés, 1 min 33) a été fait à la demande de Nabil ; il n'est
+  volontairement pas dans `livraisons/`, qui est le dossier des vidéos destinées à sortir.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
 - **Les trois montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
 

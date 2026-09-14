@@ -90,8 +90,14 @@ Ce n'est pas une question de pudeur. C'est que **le premier contenu publié déf
 que TikTok restreint sur le premier terme sans discuter. Les règles de Nabil disent déjà : la cible
 est un comportement, jamais une personne.
 
-**Décision : on la retourne.** Le format est bon, le sujet est bon, deux minutes de tournage coûtent
-deux minutes.
+**Décision : on la retourne** pour la publier. Le format est bon, le sujet est bon, deux minutes de
+tournage coûtent deux minutes.
+
+> **Mise à jour du 14/09 :** Nabil a demandé un montage de cette tier list **pour lui, pas pour
+> TikTok**, blancs resserrés et contenu intact. Fait : 1 min 50 → 1 min 33. La décision ci-dessus
+> ne change pas — elle porte sur la **publication**, et c'est là qu'elle tient. Un montage privé
+> d'un rush qu'il a tourné lui-même, c'est son affaire, pas une question de ligne éditoriale.
+> Ce fichier n'est **pas** dans `livraisons/` : ce dossier est celui des vidéos destinées à sortir.
 
 > Ce qui n'est PAS une ligne rouge, pour être clair : les vannes sur les footballeurs (« va faire ta
 > salate », « on en a marre de te voir »). C'est du chambrage de foot sur des personnalités
@@ -114,4 +120,4 @@ deux minutes.
 | :--- | --: | --: | --: |
 | [`livraisons/tier-fruits-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 42 | −15 % |
 | [`livraisons/tier-foot-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 47 | −11 % |
-| tier list sport | 1 min 50 | — | **écartée, à retourner** |
+| tier list sport | 1 min 50 | 1 min 33 *(copie perso, hors `livraisons/`)* | **écartée de la publication, à retourner** |
