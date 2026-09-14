@@ -168,19 +168,31 @@ def main():
     off = float(aud.get("start_time") or 0.0)
     if abs(off) > 0.005:
         print(f"   (recalage : la piste audio demarre a {off:.3f} s, les coupes sont decalees d'autant)")
-    # --- coupe : trim/atrim + concat (précision à la frame, contrairement à un seek sur keyframe)
+    # --- coupe. Deux méthodes, et le choix n'est pas cosmétique :
+    #  * trim/concat ouvre UNE BRANCHE PAR SEGMENT, et ffmpeg décode l'entrée en entier dans
+    #    chacune. À 20 segments il se fait tuer par la mémoire et laisse un mp4 sans atome moov
+    #    (mdat seul) : un fichier de la bonne taille, illisible. Constaté le 14/09 sur les tier lists.
+    #  * select fait tout en UNE passe, à mémoire constante, quel que soit le nombre de segments.
+    # On garde trim/concat pour les coupes simples (chemin éprouvé) et select dès qu'il y en a plus.
+    SEUIL_SELECT = 5
     pv, pa = [], []
     img = ("," + a.image) if a.image else ""
-    for i, (x, b) in enumerate(segs):
-        xo, bo = round(x + off, 3), round(b + off, 3)
-        pv.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS{img}[v{i}]")
-        pa.append(f"[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
-    n = len(segs)
-    fc_audio = ";".join(pa) + ";" + "".join(f"[a{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[a]"
+    if len(segs) >= SEUIL_SELECT:
+        expr = "+".join(f"between(t\\,{x + off:.3f}\\,{b + off:.3f})" for x, b in segs)
+        fc_audio = f"[0:a]aselect='{expr}',asetpts=N/SR/TB[a]"
+        fc_video = f"[0:v]select='{expr}',setpts=N/FRAME_RATE/TB{img}[v]"
+        fc = fc_video + ";" + fc_audio
+        print(f"   ({len(segs)} segments : méthode select, une seule passe de décodage)")
+    else:
+        for i, (x, b) in enumerate(segs):
+            xo, bo = round(x + off, 3), round(b + off, 3)
+            pv.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS{img}[v{i}]")
+            pa.append(f"[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
+        n = len(segs)
+        fc_audio = ";".join(pa) + ";" + "".join(f"[a{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[a]"
+        fc = ";".join(pv + pa) + ";" + "".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]"
     if image:
         fc = fc_audio
-    else:
-        fc = ";".join(pv + pa) + ";" + "".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]"
 
     # --- niveau : mesuré sur la coupe audio seule (quelques secondes), puis gain fixe + limiteur
     # appliqués DANS la passe de coupe : un seul encodage AAC, et le gain ne bouge pas d'une phrase
@@ -221,7 +233,16 @@ def main():
     if r.returncode != 0 or not os.path.exists(a.sortie):
         sys.exit(f"ERREUR : coupe échouée\n{r.stderr[-1200:]}")
 
+    # VÉRIFICATION : un encodage tué laisse un fichier de la bonne taille mais sans atome moov.
+    # Ne jamais annoncer un succès sans avoir relu le fichier écrit.
+    ctrl = run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", a.sortie])
+    if ctrl.returncode != 0 or not ctrl.stdout.strip():
+        sys.exit(f"ERREUR : {a.sortie} est illisible — encodage interrompu.\n"
+                 f"  ffprobe : {ctrl.stderr.strip()[:200]}\n"
+                 f"  ffmpeg (code {r.returncode}) : {(r.stderr or '(rien)').strip()[-900:]}")
     v2, _, dur2 = sonde(a.sortie)
+    if abs(dur2 - garde) > 0.5:
+        print(f"   ⚠ durée inattendue : {dur2:.2f} s au lieu de {garde:.2f} s", file=sys.stderr)
     if full and v2.get("color_range") != "pc":
         print("   ⚠ la plage complète de la source n'a PAS été conservée (color_range="
               f"{v2.get('color_range')}) : contraste écrasé à l'affichage", file=sys.stderr)

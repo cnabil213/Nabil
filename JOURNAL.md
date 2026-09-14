@@ -6,6 +6,31 @@
 
 ---
 
+## 14/09/2026 (suite) — Deux fichiers livrés corrompus
+
+**Ce qui s'est passé**
+
+Nabil : « j'arrive pas à lire les 2 vidéos ». Les fichiers étaient des `mdat` sans atome `moov` :
+la bonne taille, illisibles partout. ffmpeg était mort en fin d'encodage **en sortant en code 0**,
+et je n'avais pas relu le fichier écrit. Pire : j'avais filtré la sortie de l'outil avec un `grep`
+qui ne gardait que la ligne de succès, donc même le message d'erreur ne me serait pas parvenu.
+
+**Corrigé**
+
+- `monter.py` relit sa sortie (lisibilité + durée) et refuse d'annoncer un succès sinon. Il affiche
+  aussi la stderr de ffmpeg même quand le code de retour est 0.
+- Méthode `select` (une seule passe de décodage) au-delà de 5 segments, au lieu de trim/concat qui
+  ouvre une branche par segment.
+- Les cinq fichiers de `livraisons/` ont été recontrôlés un par un : tous lisibles.
+
+**Appris**
+
+- Le défaut est **intermittent** : la même commande aboutit une fois sur deux. Ce n'est ni la
+  mémoire (14 Go libres), ni le disque, ni le dossier de sortie — tous testés.
+- **Ne jamais filtrer la sortie d'un outil sur sa ligne de succès.** C'est ce qui a caché l'erreur.
+- La règle « rien sans mesure » vaut aussi pour ses propres livrables : un fichier n'est livré que
+  s'il a été relu.
+
 ## 14/09/2026 — Les tier lists avec Sady, et la D.A. du format
 
 **Fait**

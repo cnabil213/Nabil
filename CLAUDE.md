@@ -151,6 +151,17 @@ contre nu : 0,0 dB partout hors du son. Deux sons par vidéo au maximum. Les bru
 synthétiques de `outils/sfx/` ne servent que sur demande explicite : un whoosh ne fait rire
 personne, un « JORDAN » de Doumbé si.
 
+### 3 bis. Vérifier le fichier écrit, toujours
+
+**Un encodage interrompu produit un mp4 de la bonne taille, sans atome `moov`, illisible partout —
+et ffmpeg peut sortir en code 0.** Deux tier lists ont été livrées ainsi le 14/09.
+`monter.py` relit maintenant sa sortie (durée + lisibilité) et refuse d'annoncer un succès sinon.
+Le défaut est intermittent : la même commande aboutit une fois sur deux, donc **relancer suffit**,
+mais ne jamais annoncer une livraison sans `ffprobe` sur le fichier final.
+
+Corollaire de méthode : ne jamais filtrer la sortie d'un outil avec un `grep` qui ne garde que la
+ligne de succès. C'est comme ça que l'erreur est passée.
+
 ### 4. Livrer → [`livraisons/`](livraisons/)
 
 Le chat plafonne à **30 Mio** et coûte 7 % de détail. Les montages finis vont dans `livraisons/`,

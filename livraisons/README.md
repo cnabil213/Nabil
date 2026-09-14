@@ -8,8 +8,8 @@ débit de l'original, et se téléchargent directement depuis le dépôt.
 | `12sept-casser-des-nuques-HQ.mp4` | 42,9 s | 53,7 Mio | 10,3 Mb/s | **99,4 %** du rush |
 | `30aout-business-bro-HQ.mp4` | 36,5 s | 46,8 Mio | 10,8 Mb/s | **99,5 %** du rush |
 | `30aout-otage-du-telephone-HQ.mp4` | 41,7 s | 50,7 Mio | 10,2 Mb/s | **99,2 %** du rush |
-| `tier-fruits-HQ.mp4` | 1 min 42 | 37,0 Mio | 3,1 Mb/s | tier list, temps morts retirés |
-| `tier-foot-HQ.mp4` | 1 min 43 | 32,0 Mio | 2,6 Mb/s | tier list, temps morts retirés |
+| `tier-fruits-HQ.mp4` | 1 min 42 | 58,6 Mio | 4,8 Mb/s | tier list, temps morts retirés |
+| `tier-foot-HQ.mp4` | 1 min 43 | 57,5 Mio | 4,7 Mb/s | tier list, temps morts retirés |
 
 Le rush d'origine fait 10,5 Mb/s : cette version est à son niveau.
 
@@ -62,6 +62,16 @@ Ce rush est une capture **Snapchat** (métadonnée `com.apple.quicktime.descript
 alors que l'iPhone qui l'a filmé fait du 1080p et du 4K. La version livrée ici conserve 99,4 % du détail
 du rush : elle est au maximum de ce que le rush contient. Le reste se gagne à la prise de vue, pas au
 montage — app Caméra, 1080p, puis AirDrop ou WeTransfer, jamais Snapchat.
+
+## Contrôle obligatoire avant d'annoncer une livraison
+
+Le 14/09, deux tier lists ont été livrées **corrompues** : `mdat` sans atome `moov`. Des fichiers de
+la bonne taille, illisibles par tous les lecteurs. ffmpeg était mort en fin d'encodage sans le dire
+(code de retour 0), et rien ne l'avait vérifié.
+
+`monter.py` relit désormais le fichier qu'il vient d'écrire et refuse d'annoncer un succès s'il est
+illisible ou si sa durée ne correspond pas. **Ne jamais annoncer une livraison sans un `ffprobe` sur
+le fichier final.** Le défaut est intermittent : la même commande aboutit une fois sur deux.
 
 ## Règle
 
