@@ -137,6 +137,12 @@ La méthode, dans cet ordre :
    (« ils s'immiscent dans les e-commerce, dans le trading »), on jette les deux redites.
 3. **Ne couper que sur un silence mesuré** (≥ 0,10 s à l'enveloppe). Une redite sans silence autour
    d'elle ne se coupe pas : on la garde.
+3 bis. **Un silence n'est pas toujours un temps mort : il porte parfois une information.** Resserrer
+   un blanc rapproche ce qu'il sépare, et peut fabriquer un effet qui n'a pas eu lieu. Constaté le
+   14/09 sur la tier list foot : le blanc de 3,7 s après Musiala, ramené à 0,22 s, faisait croire que
+   Nabil et Sady avaient dit « mais qui est ce mec ? » en chœur, exprès. Nabil : « alors que non,
+   même pas. » Avant de comprimer un blanc, se demander ce qu'il sépare — surtout entre deux
+   locuteurs, où la simultanéité se lit comme une intention.
 4. **Relire la transcription du montage** avant de livrer. Si elle ne se tient pas toute seule à la
    lecture, le montage est faux, quels que soient les chiffres.
 

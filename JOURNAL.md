@@ -6,6 +6,18 @@
 
 ---
 
+## 14/09/2026 (suite) — Un silence qui portait une information
+
+Nabil, sur la tier list foot : « au départ, après Musiala, je veux que tu laisses, car avec le cut
+on dirait qu'on a fait exprès de dire "qui est ce mec" en même temps alors que non, même pas. »
+
+Le blanc de 3,72 s entre « on va en mettre 5 » et le double « mais qui est ce mec ? » avait été
+ramené à 0,22 s par la compression automatique. Résultat : les deux répliques se collaient et
+laissaient croire à un effet préparé. **Remis entier.** 1 min 43 → 1 min 47.
+
+Règle ajoutée à `CLAUDE.md` §2 bis et à la D.A. du format : un silence n'est pas toujours un temps
+mort. Entre deux locuteurs surtout, la simultanéité se lit comme une intention.
+
 ## 14/09/2026 (suite) — Deux fichiers livrés corrompus
 
 **Ce qui s'est passé**

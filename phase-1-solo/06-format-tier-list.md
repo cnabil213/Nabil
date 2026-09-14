@@ -38,7 +38,11 @@ Méthode appliquée, mécanique et reproductible :
 1. Mesurer l'enveloppe du son, seuil de silence local.
 2. Tout silence **≥ 0,45 s** est ramené à **0,22 s**. C'est la respiration qu'on garde.
 3. En plus, les redites manifestes, **et seulement bornées sur des silences mesurés**.
-4. Tout le reste passe. Chaque item du classement garde sa discussion et son verdict.
+4. **Sauf les blancs qui portent une information.** Entre deux locuteurs, resserrer un silence
+   rapproche deux répliques et peut faire croire à une simultanéité voulue. Le blanc de 3,7 s après
+   Musiala, dans la tier list foot, a été remis entier pour cette raison : comprimé, il faisait
+   passer un « mais qui est ce mec ? » dit par les deux en décalé pour un effet préparé.
+5. Tout le reste passe. Chaque item du classement garde sa discussion et son verdict.
 
 Rendement mesuré sur les trois rushs : **11 à 15 % de temps mort**, pour zéro perte de contenu.
 
@@ -109,5 +113,5 @@ deux minutes.
 | fichier | durée d'origine | durée livrée | gagné |
 | :--- | --: | --: | --: |
 | [`livraisons/tier-fruits-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 42 | −15 % |
-| [`livraisons/tier-foot-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 43 | −14 % |
+| [`livraisons/tier-foot-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 47 | −11 % |
 | tier list sport | 1 min 50 | — | **écartée, à retourner** |
