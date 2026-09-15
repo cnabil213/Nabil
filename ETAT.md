@@ -15,6 +15,13 @@ Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décision
 
 ## Le chantier en cours
 
+**« T'inquiète », deux versions.** Après mon montage, Nabil a **retourné la vidéo** (nouvelle prise,
+60 i/s, plus expressive, texte remanié : « peut-être même un mort », un final « on est plus bête qu'eux »)
+et l'a **montée lui-même** dans une app (46 s, 4 coupes, toutes dans des silences). Évaluation mesurée
+dans le journal du 15/09 (soir). Sa version n'est pas dans `livraisons/` : c'est son fichier, il décide.
+Ce qu'il lui reste à faire s'il la publie : couper trois doublons et raccourcir la fin (timecodes dans
+le journal). Le rush de cette nouvelle prise n'a pas été envoyé.
+
 **Le tournage du 15/09.** Quatre scripts donnés (A → B → C → D, dans
 [`phase-1-solo/07-scripts-proposes-15-09.md`](phase-1-solo/07-scripts-proposes-15-09.md)). Nabil a tourné
 le **B « T'inquiète »** en trois fichiers 4K ; **monté et livré le jour même** (34,7 s). A, C et D restent

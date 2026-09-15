@@ -6,6 +6,36 @@
 
 ---
 
+## 15/09/2026 (soir) — Nabil a retourné « T'inquiète » et l'a montée lui-même
+
+« J'ai monté moi-même finalement, tu en penses quoi ? » Le fichier reçu n'est pas un montage de mes
+trois rushs : c'est une **nouvelle prise** (1080×1920, 60 i/s, export d'app, son 44,1 kHz), texte
+remanié, veste différente, 46 s.
+
+**Mesuré**
+
+- **Quatre coupes**, repérées par les pics d'écart image-à-image (54 à 71 contre 8 à 12 de base) :
+  10,15 · 19,38 · 28,13 · 35,45 s. **Toutes dans un silence mesuré.** Bien posées.
+- **Hook meilleur que la prise de l'après-midi** : « On a tous ce pote-là… » +5,8 dB, chute 90/100
+  (77/100 sur le rush 7370).
+- **Trois doublons gardés** : « Il connaît que le nom de la rue. Voilà. Il connaît que le nom de la rue »
+  (16,1–19,1 s) · « il a fait des études pour ça. Oui. Il a fait 9 ans d'études pour s'inquiéter. Oui »
+  (25,2–27,8 s, la deuxième formulation PLATE, −4,4 dB) · le dialogue « t'inquiète / je m'inquiète pas /
+  vas-y » répété quatre fois (39,6–45,5 s).
+- **La fin s'éteint** : niveau −6,1 dB sur la dernière seconde, derniers mots « Vas-y. Vas-y. » PLATE,
+  puis la main qui attrape le téléphone est dans le montage (image 2733, noir ensuite).
+- **La chute garde à vue a disparu** (91/100 sur la prise de l'après-midi). Le nouveau final « on est
+  plus bête qu'eux » mesure 62/100 puis retombe.
+- Image constamment en mouvement (écart moyen 8 à 12 par image, contre ~3 sur un plan posé) : cadrage
+  qui change, mains dans le champ, flous de bougé visibles sur la planche. Netteté 190–370 à l'échelle
+  540×960 contre 300–640 sur le rush de 14 h 53.
+- Son : −16,1 LUFS (2 LU sous la cible), true peak −2,5, LRA 3,8 (l'app a compressé).
+
+**Ce que j'en pense** (donné à Nabil) : la prise est plus vivante et le hook plus fort ; le montage
+est propre sur ses coupes ; il manque le geste le plus dur, couper ce qu'on a dit deux fois et
+s'arrêter à la chute. Pas de coupe possible dans le doublon « études » (aucun silence ≥ 0,10 s entre
+24,3 et 27,9 s) : celui-là ne se sauve qu'à la prise.
+
 ## 15/09/2026 (suite) — « T'inquiète » tournée, montée, livrée
 
 Nabil a tourné le script B en trois fichiers 4K (app Caméra, de jour : le plafond de netteté est enfin
