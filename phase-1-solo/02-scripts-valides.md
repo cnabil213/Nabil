@@ -127,6 +127,58 @@ type de personne », qui est une mise en contexte, donc un interdit.
 
 ---
 
+## 🎬 Vidéo 5 — « T'inquiète »
+
+**Statut :** ✅ **Tournée le 15/09/2026** (script B du jour, joué en impro fidèle) · **Mécanique :**
+hook acting + escalade en liste + retour au réel.
+
+### Ce qui a été tourné (trois fichiers, 4K, app Caméra, en voiture de jour)
+
+| fichier | durée | contenu |
+| :--- | --: | :--- |
+| IMG_7370 | 38,1 s | « T'inquiète. » → le pote qui n'a qu'un mot → la liste (retard, on va là-bas, bagarre, pas de quoi payer) → la boîte de nuit, le videur, la carte d'identité, « il connaît que le nom de la rue » → puis 7 s de recherche à voix haute |
+| IMG_7374 | 11,9 s | le médecin : « t'as une maladie grave » → « t'inquiète » → « 9 ans d'études pour s'inquiéter » (dit deux fois, deux formulations) → « toi tu lui dis t'inquiète » |
+| IMG_7375 | 16,4 s | contrôle de police → « il sort de garde à vue, t'inquiète » (chute mesurée **91/100**, +8,3 dB) → puis un second final : « vous connaissez mon algorithme ? deux façons : la baffe, ou supprimer, delete » |
+
+**Livré :** [`livraisons/15sept-tinquiete-HQ.mp4`](../livraisons/) — 34,7 s, 1080×1920, 78,1 Mio, 18,9 Mb/s,
+−14,5 LUFS, true peak −1,0 dBTP.
+
+### Transcription du montage livré (34,7 s)
+
+> T'inquiète. On a tous ce pote-là qui n'a qu'un seul mot de vocabulaire dans la bouche. T'inquiète.
+> T'es en retard, t'inquiète. On va là-bas, t'inquiète. Y a une bagarre, t'inquiète. Il a pas de quoi
+> payer, t'inquiète. On part en boîte de nuit et tu te dis « t'inquiète, je connais tout le monde ».
+> T'arrives, boîte de nuit, avec le videur. Il montre sa carte d'identité. Il connaît personne. Il
+> connaît que le nom de la rue. Il va voir son médecin, son médecin lui dit « t'as une maladie
+> grave », il lui dit « t'inquiète ». Mais il a fait 9 ans d'études pour s'inquiéter ! Toi tu lui dis
+> « t'inquiète ». Contrôle de police, la police vient l'attraper. Il répond « t'inquiète ». Il sort de
+> garde à vue… « t'inquiète ».
+
+### Ce qui a été coupé, et pourquoi
+
+- **Les blancs de réflexion dans la liste** (1,55 s, 3,76 s, 4,96 s) ramenés à 0,38 s, le rythme
+  qu'il tenait lui-même entre les deux premiers items. Ce sont des « je bugue », pas des silences
+  qui portent quelque chose.
+- **La fin du 7370** (31,2–38 s) : « voilà, tu connais que le nom de la rue… et puis tu viens…
+  vraiment c'est les pires » — une redite puis une sortie cherchée à voix haute, −8,3 dB sous ses
+  pics.
+- **Dans le médecin** : « lui c'est ça son métier, lui son métier c'est de s'inquiéter » et « il a
+  fait 9 ans d'études pour ça » — la deuxième formulation de la même idée. Gardée : la première,
+  la plus envoyée (+3,0 dB), et le « toi tu lui dis t'inquiète » de la fin.
+- **Le second final « algorithme »** (7375, 6,5–16 s) : il vient après une chute mesurée 91/100,
+  il retombe (−10,7 dB sur « moi j'ai conclu », « delete » à −7,2 dB, mot le plus plat du fichier)
+  et « Algorithme » est relancé deux fois. Règle : après la chute, on coupe. Il est dans le rush si
+  Nabil le veut quand même.
+
+### Défaut de prise, à retenir
+
+Les fichiers 7374 et 7375 **démarrent en pleine parole** (−22 et −12 dBFS dès la première tranche de
+20 ms) : « Il va voir » et « Contrôle » ont leur attaque tronquée à l'enregistrement. Pas
+reconstruisible. À la prochaine prise : **une seconde de silence avant de parler, à chaque fichier**,
+pas seulement au premier.
+
+---
+
 ## 📼 Les rushs du 30/08/2026 — ce qui est dans la boîte
 
 Deux vidéos tournées à six minutes d'intervalle, en 720p HEVC. **Ce ne sont pas deux prises de la

@@ -6,6 +6,41 @@
 
 ---
 
+## 15/09/2026 (suite) — « T'inquiète » tournée, montée, livrée
+
+Nabil a tourné le script B en trois fichiers 4K (app Caméra, de jour : le plafond de netteté est enfin
+le bon) et demandé « un montage parfait… coupe le début d'une phrase pour la coller avec le restant
+d'une autre, y a des trucs que j'ai refaits ».
+
+**Fait**
+
+- Trois rushs analysés (`ecoute-video.py`), silences mesurés à l'enveloppe, huit segments, un seul
+  encodage : [`livraisons/15sept-tinquiete-HQ.mp4`](livraisons/15sept-tinquiete-HQ.mp4), 34,7 s.
+- `monter.py` accepte plusieurs sources (`k:debut-fin`), chaque source décodée par son propre
+  démultiplexeur. Test de synchro : 0,0 ms sur l'essai, −1,7 et −3,3 ms sur le montage final.
+- Transcription du montage relue : la chaîne de sens tient entière (hook → le pote à un mot → la liste
+  → la boîte de nuit → le médecin → la police → garde à vue).
+
+**Décidé**
+
+- Le second final « vous connaissez mon algorithme ? la baffe ou delete » est écarté : il vient après
+  une chute à 91/100 et retombe (−10,7 dB, « delete » mot le plus plat). Documenté, pas supprimé.
+- Livraison en 1080×1920 CRF 18 (78 Mio, 87,9 % du détail) : le 4K à CRF 18 fait 194 Mio, GitHub
+  bloque à 100. Choix mesuré, pas esthétique. Tableau dans `livraisons/README.md`.
+
+**Appris**
+
+- **Le concat demuxer en copie de flux désynchronise le son** : +59 ms sur le 2e fichier, +80 ms sur
+  le 3e (liste d'édition AAC ignorée). Mesuré par corrélation croisée, avant de livrer. Ne plus jamais
+  recoller des rushs iPhone comme ça.
+- Deux des trois fichiers **démarrent en pleine parole** (−22 et −12 dBFS dès les 20 premières ms) :
+  l'attaque de « Il va voir » et de « Contrôle » est tronquée à la prise. Consigne ajoutée : une
+  seconde de silence avant de parler **à chaque fichier**.
+- x264 sur du 4K de jour sort au double du débit de la source (46,8 Mb/s contre 25) : il encode le
+  grain. Le débit ne dit rien de la qualité, la mesure de détail oui.
+- Whisper a transcrit « On va là-bas, il » sur le montage alors que le « t'inquiète » est là (0,2 s,
+  −18 dBFS à l'enveloppe) : vérifier à l'enveloppe avant de croire à un mot coupé.
+
 ## 15/09/2026 — Quatre scripts pour un tournage en voiture, et la question Apify
 
 Nabil, sur le parking, avec le temps de tourner 3-4 vidéos. Il demande des thèmes, des scripts, et

@@ -63,6 +63,9 @@ partage direct vers une app.
 
 ## 🎬 B — « T'inquiète »
 
+> ✅ **TOURNÉE le 15/09 à 14 h 53**, en trois fichiers (38 s + 12 s + 16 s), 4K, app Caméra.
+> Montée le jour même : voir [`02-scripts-valides.md`](02-scripts-valides.md#-vidéo-5--tinquiète).
+
 **L'observation :** le pote qui répond « t'inquiète » à tout, surtout aux trucs inquiétants.
 **Mécanique :** hook acting (le visage hyper calme du pote) + escalade.
 
