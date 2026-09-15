@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 14/09/2026**
+**Dernière mise à jour : 15/09/2026**
 
 ---
 
@@ -14,6 +14,11 @@ Phase 1 : **5 vidéos montées et livrées** (3 solo + 2 tier lists avec Sady), 
 Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
 
 ## Le chantier en cours
+
+**Le tournage du 15/09.** Nabil est en voiture avec 3-4 vidéos à tourner. Quatre scripts complets
+lui ont été donnés, ordre A → B → C → D :
+[`phase-1-solo/07-scripts-proposes-15-09.md`](phase-1-solo/07-scripts-proposes-15-09.md).
+À la prochaine session : savoir lesquels il a tournés, demander les rushs, `ffprobe` d'abord.
 
 **La DA TikTok.** Proposition complète écrite dans
 [`phase-1-solo/04-da-tiktok.md`](phase-1-solo/04-da-tiktok.md). Les 5 questions de sa section 5
@@ -48,10 +53,17 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
   Un montage **perso** (blancs resserrés, 1 min 33) a été fait à la demande de Nabil ; il n'est
   volontairement pas dans `livraisons/`, qui est le dossier des vidéos destinées à sortir.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
-- **Les trois montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
+- **Les cinq montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
+- **Apify (scraper TikTok)** : Nabil propose de me le brancher. Verdict donné le 15/09 : utile pour
+  deux usages précis (benchmark chiffré de comptes de sketchs français, test « déjà vu » d'un thème
+  avant d'écrire), inutile pour écrire. **Bloqué côté réseau** : `api.apify.com` est injoignable
+  depuis ce conteneur (tunnel coupé, testé deux fois). Il faut l'autoriser dans la politique réseau
+  de l'environnement, puis mettre le token en variable d'environnement (`APIFY_TOKEN`), jamais dans
+  le dépôt.
 
 ## Les 3 prochaines actions
 
+0. **Récupérer les rushs du 15/09** (s'il a tourné) : `ffprobe`, puis montage — un seul réencodage.
 1. **Publier.** Cinq montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
    compte n'est ouvert : c'est le seul blocage de la Phase 1.
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).

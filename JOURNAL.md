@@ -6,6 +6,38 @@
 
 ---
 
+## 15/09/2026 — Quatre scripts pour un tournage en voiture, et la question Apify
+
+Nabil, sur le parking, avec le temps de tourner 3-4 vidéos. Il demande des thèmes, des scripts, et
+si Apify (scraper TikTok) me servirait.
+
+**Fait**
+
+- Quatre scripts complets, au mot près, dans
+  [`phase-1-solo/07-scripts-proposes-15-09.md`](phase-1-solo/07-scripts-proposes-15-09.md) :
+  A le pote qui a six mois de plus · B « T'inquiète » · C le pote qui a un contact pour tout ·
+  D le pote qui te corrige quand tu racontes. Ordre conseillé A → B → C → D, D en dernier parce
+  qu'il frôle l'humour de couple.
+- Dix angles refusés, documentés avec leur raison dans le backlog (muscu, vocaux, radin, Dubaï,
+  surenchère, stagiaire, « projet », et « réagir à une vidéo » : pas à zéro abonné).
+
+**Décidé**
+
+- Pas de vidéo « réaction » pour l'instant : il faut le clip source et un compte qui existe.
+- Les consignes de tournage tiennent en cinq lignes en tête du fichier de scripts. La plus
+  importante vient des rushs du 30/08 : **après la chute, on se tait et on coupe**, on ne cherche
+  pas une meilleure fin à voix haute.
+
+**Appris**
+
+- `api.apify.com` est **injoignable depuis le conteneur** (Connection reset, tunnel fermé côté
+  proxy, deux essais). Brancher Apify passe d'abord par la politique réseau de l'environnement.
+  Avant ça, aucun test possible.
+- Apify servirait à deux choses mesurables : un benchmark de 5-10 comptes de sketchs français
+  (titres, hooks, ratio commentaires — ce qu'on a fait à la main sur Sady avec des 403), et le
+  test « ce thème est-il déjà saturé ? » par une recherche chiffrée avant d'écrire. Ça ne
+  remplace ni l'écriture ni TikTok Studio (rétention, trafic : seul le compte les voit).
+
 ## 14/09/2026 (suite) — Tier list sport, montage perso
 
 Nabil : « c'est pas pour TikTok, c'est pour moi, donc garde [les deux passages]. Fluidifie un peu
