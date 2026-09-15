@@ -29,6 +29,7 @@ phase-2-genzed/    01-bible-production · 02-direction-artistique
 
 outils/            ecoute-video.py   l'oreille : transcription, prosodie, alertes horodatées
                    monter.py         couper un rush, normaliser le son, en un seul réencodage
+                   assembler.py      assembler des morceaux de PLUSIEURS fichiers en un montage
                    sonoriser.py      poser un sample qui s'efface sous la voix
                    retoucher.py      effacer un défaut de peau, suivi sur le visage
                    vision-video.py   les yeux : planches contact horodatées

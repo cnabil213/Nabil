@@ -127,6 +127,48 @@ type de personne », qui est une mise en contexte, donc un interdit.
 
 ---
 
+## 🎬 Vidéo 5 — « T'inquiète » (le pote au vocabulaire d'un seul mot)
+
+**Statut :** ✅ **Tournée le 15/09 et montée** · **Mécanique :** escalade + retour au réel
+· Livrée : [`livraisons/15sept-tinquiete-HQ.mp4`](../livraisons/) — 36,7 s
+
+**L'idée :** on a tous ce pote qui répond « t'inquiète » à tout, quelle que soit la gravité.
+
+### Ce que dit le montage, du début à la fin
+
+> T'inquiète. On a ce pote-là qui a un seul mot de vocabulaire dans la bouche : t'inquiète.
+> T'es en retard ? T'inquiète. Y'a une bagarre ? T'inquiète. Y'a peut-être même eu mort ? T'inquiète.
+> Il veut aller en boîte : « viens avec moi, je connais tout le monde, t'inquiète. » Il arrive,
+> videur, il montre sa carte d'identité — il le connaît pas. **Il connaît que le nom de la rue.**
+> Il est comme ça avec tout le monde. Il va voir son médecin, son médecin lui dit « t'as une maladie
+> grave », il lui dit « t'inquiète ». Mais lui il peut s'inquiéter, **il a fait 9 ans d'études pour
+> s'inquiéter !** De toute façon vous connaissez mon algorithme, il a trouvé deux solutions : la
+> première c'est on les baffe, on les remet bien en place. La deuxième c'est on est plus bêtes
+> qu'eux aussi. Voilà : **t'inquiète, je m'inquiète pas.**
+
+### Comment il a été monté
+
+Cinq clips tournés en 3 minutes, **1 min 44 de rush pour 36,7 s gardées**. Nabil : « ya des moments
+où je bug dans ma tête, prends les meilleurs moments. »
+
+| gardé | d'où | pourquoi |
+| :--- | :--- | :--- |
+| prémisse + escalade (retard / bagarre / mort) | clip 1, 0,30–13,20 s | la meilleure passe |
+| la boîte de nuit + « il connaît que le nom de la rue » | clip 1, 35,55–42,68 s | **la 2e tentative** : la 1re (12,8–26,8 s) bafouille |
+| le médecin + « 9 ans d'études pour s'inquiéter » | clip 2, 0,15–8,75 s | une seule prise, propre |
+| l'algorithme + la chute | **clip 4** (12B0EEC1), 0,15–10,10 s | **la meilleure des 3 prises** de la même fin |
+
+**Ce qui a été jeté :** la 1re tentative de la boîte de nuit (14 s de bafouillage), la redite
+« il est en retard » juste après « t'es en retard », la reprise « il connaît que le nom de la rue »
+dite deux fois, la queue « il va s'inquiéter même » après le médecin, et **deux des trois prises de
+la fin** — l'une rate la négation (« je m'inquiète » au lieu de « je m'inquiète pas »), l'autre
+traîne sur six répétitions.
+
+**Choix de la prise finale, mesuré :** débit de parole 6,86 mots/s pour celle retenue, contre 6,56
+et 5,21 pour les deux autres. C'est la plus tenue.
+
+---
+
 ## 📼 Les rushs du 30/08/2026 — ce qui est dans la boîte
 
 Deux vidéos tournées à six minutes d'intervalle, en 720p HEVC. **Ce ne sont pas deux prises de la

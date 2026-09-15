@@ -157,6 +157,23 @@ contre nu : 0,0 dB partout hors du son. Deux sons par vidéo au maximum. Les bru
 synthétiques de `outils/sfx/` ne servent que sur demande explicite : un whoosh ne fait rire
 personne, un « JORDAN » de Doumbé si.
 
+### 2 ter. Assembler plusieurs prises → [`outils/assembler.py`](outils/assembler.py)
+
+Quand un sujet est tourné en **plusieurs clips** (une prise par idée, plusieurs prises de la même
+fin), `monter.py` ne suffit pas : il ne coupe que dans un fichier. `assembler.py` prend des morceaux
+`FICHIER:DEBUT-FIN` **dans l'ordre du montage**, venus de fichiers différents, et n'encode qu'une
+fois. Il refuse d'assembler des sources de taille ou de cadence différentes.
+
+Méthode, le 15/09 sur « T'inquiète » (5 clips, 1 min 44 → 36,7 s) :
+
+1. **Transcrire tous les clips** avant de décider quoi que ce soit. C'est la transcription qui révèle
+   l'ordre réel et les doublons — les horodatages des fichiers, eux, se chevauchent et mentent.
+2. **Écrire la chaîne de sens** (§2 bis), puis choisir pour chaque maillon la meilleure prise.
+3. **Quand plusieurs prises disent la même chose, mesurer** : débit de parole, niveau, et surtout
+   si la chute est correctement dite. Sur ces trois prises, une ratait la négation.
+4. **Ne pas couper un mot au ras du raccord** : finir dans le silence qui suit, pas sur la fin du
+   mot. Vérifier après coup le niveau de part et d'autre de chaque raccord.
+
 ### 3 bis. Vérifier le fichier écrit, toujours
 
 **Un encodage interrompu produit un mp4 de la bonne taille, sans atome `moov`, illisible partout —

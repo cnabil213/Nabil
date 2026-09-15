@@ -4,13 +4,13 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 14/09/2026**
+**Dernière mise à jour : 15/09/2026**
 
 ---
 
 ## En une phrase
 
-Phase 1 : **5 vidéos montées et livrées** (3 solo + 2 tier lists avec Sady), **rien de publié**.
+Phase 1 : **6 vidéos montées et livrées** (4 solo + 2 tier lists avec Sady), **rien de publié**.
 Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
 
 ## Le chantier en cours
@@ -32,6 +32,7 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 | **Vidéo 4 — L'otage du téléphone** | ✅ **Montée et livrée** : [`livraisons/30aout-otage-du-telephone-HQ.mp4`](livraisons/) — 41,7 s |
 | **Tier list fruits** (avec Sady) | ✅ Montée et livrée — 1 min 42 |
 | **Tier list footballeurs** (avec Sady) | ✅ Montée et livrée — 1 min 43 |
+| **Vidéo 5 — « T'inquiète »** | ✅ Tournée le 15/09 et montée : [`livraisons/15sept-tinquiete-HQ.mp4`](livraisons/) — 36,7 s, 5 clips assemblés |
 | **Benchmark du compte de Sady** | ✅ 7 vidéos relevées : [`phase-1-solo/05-benchmark-rodman.md`](phase-1-solo/05-benchmark-rodman.md) |
 | **D.A. du format tier list** | ✅ Tranchée : [`phase-1-solo/06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) |
 
@@ -48,11 +49,11 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
   Un montage **perso** (blancs resserrés, 1 min 33) a été fait à la demande de Nabil ; il n'est
   volontairement pas dans `livraisons/`, qui est le dossier des vidéos destinées à sortir.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
-- **Les trois montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
+- **Les six montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
 
 ## Les 3 prochaines actions
 
-1. **Publier.** Cinq montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
+1. **Publier.** Six montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
    compte n'est ouvert : c'est le seul blocage de la Phase 1.
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
 3. Écrire la chute de la Vidéo 4, à partir de ce qu'il a trouvé en improvisant.
@@ -62,7 +63,8 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 - **Le conteneur est effacé entre deux sessions.** Rushs, montages et analyses ne survivent pas :
   seul ce qui est commité reste. Pour retravailler une vidéo, demander à Nabil de **renvoyer le fichier**.
 - **Les outils ne sont pas installés d'office.** Voir [`outils/README.md`](outils/README.md) §Installation.
-  Le montage et la retouche ont besoin de `numpy soundfile opencv-python-headless mediapipe` ;
+  Le montage (`monter.py`, `assembler.py`) et la retouche ont besoin de
+  `numpy soundfile opencv-python-headless mediapipe` ;
   l'analyse de la voix a besoin en plus de `faster-whisper praat-parselmouth librosa` et d'un venv torch.
 - **Rien ne se juge à l'œil ni à l'oreille sans un chiffre derrière.** C'est LA règle du projet
   (raisons et contre-exemples : [`CLAUDE.md`](CLAUDE.md), section « La règle qui prime »).

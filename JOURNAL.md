@@ -6,6 +6,28 @@
 
 ---
 
+## 15/09/2026 — « T'inquiète » : 5 clips assemblés en une vidéo
+
+**Fait**
+
+- Cinq clips reçus (1 min 44 au total), tournés en 3 minutes : une prise principale, une escalade
+  sur le médecin, et **trois prises de la même fin**. Nabil : « ya des moments où je bug dans ma
+  tête, prends les meilleurs moments les plus drôles. »
+- **`outils/assembler.py` écrit** : monte une vidéo à partir de morceaux `FICHIER:DEBUT-FIN` venus
+  de plusieurs fichiers, en un seul encodage. `monter.py` ne savait couper que dans un seul fichier.
+- Montage livré : **36,7 s** gardées sur 1 min 44, soit 65 % jeté.
+
+**Appris**
+
+- **Transcrire tous les clips AVANT de décider.** Les horodatages des fichiers se chevauchaient et
+  donnaient un ordre faux ; seule la transcription a révélé l'ordre réel et les trois prises
+  jumelles de la fin.
+- **Quand plusieurs prises disent la même chose, mesurer avant de choisir.** Débit : 6,86 mots/s
+  pour la retenue, 6,56 et 5,21 pour les autres. Et surtout : une des trois ratait la négation de la
+  chute (« je m'inquiète » au lieu de « je m'inquiète pas »).
+- **Ne pas couper un mot au ras du raccord.** Deux raccords finissaient pile sur la fin d'un mot
+  (−33 dBFS au point de coupe) : repoussés de 0,4 s dans le silence qui suit.
+
 ## 14/09/2026 (suite) — Tier list sport, montage perso
 
 Nabil : « c'est pas pour TikTok, c'est pour moi, donc garde [les deux passages]. Fluidifie un peu
