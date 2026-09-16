@@ -15,6 +15,7 @@ servent à décrire, jamais à deviner. Le pourquoi de chaque choix est dans
 | [`sonoriser.py`](sonoriser.py) | **Le son.** Pose des samples et des effets à des timecodes précis, avec ducking automatique de la voix | ci-dessous |
 | [`banque-son.py`](banque-son.py) | **La banque de sons de Nabil.** Nettoie un clip reçu (découpe, silences retirés, niveau calé) et le catalogue dans `banque-son/` pour tous les montages suivants | ci-dessous |
 | [`sfx/`](sfx/) | Kit de six sons de ponctuation synthétisés (libres de droits) | [`sfx/README.md`](sfx/README.md) |
+| [`setup-codex.sh`](setup-codex.sh) | **Portage vers Codex (OpenAI).** Script d'installation à coller dans l'interface Codex : ffmpeg, deps, et le modèle Whisper pré-téléchargé — chez Codex le réseau n'existe que pendant le setup | [`README-portage-codex.md`](README-portage-codex.md) |
 | [`recuperer.sh`](recuperer.sh) | **Faire entrer un rush trop lourd pour le chat** à partir d'un lien de partage (**iCloud Drive**, Drive, Dropbox, WeTransfer, lien direct) | [`README-envoyer-un-rush.md`](README-envoyer-un-rush.md) |
 | [`icloud.py`](icloud.py) | Résout un lien **iCloud Drive** en URL directe (un lien iCloud est une page JavaScript). **Refuse les albums partagés** : Apple y ré-encode les vidéos | ci-dessous |
 

@@ -6,6 +6,63 @@
 
 ---
 
+## 16/09/2026 (suite) — « ChatGPT est-il meilleur que toi ? » — comparaison chiffrée, et portage préparé
+
+Nabil : « est-ce que tu penses que ChatGPT est beaucoup plus performant que toi pour faire des
+montages vidéo ? (…) prends un maximum de data, renseigne-toi. »
+
+**La réponse, et elle n'est pas flatteuse pour moi non plus : ce n'est pas le modèle qui monte.**
+C'est ffmpeg, numpy et un conteneur avec du réseau. La comparaison ne porte donc pas sur
+l'intelligence mais sur l'environnement d'exécution.
+
+| | Ici | Codex Cloud | ChatGPT (chat) |
+| :--- | :--- | :--- | :--- |
+| Fichier déposé dans le chat | 30 Mio | **impossible** | 512 Mo, mais vidéo/audio non supportés |
+| ffmpeg | installé | oui, via le setup | pas garanti |
+| Internet pendant le travail | oui, 15 Mo/s | **OFF par défaut**, activable | **aucun** |
+| Persistance | git | git | session éphémère |
+
+Sources : Help Center OpenAI (vidéo/audio non supportés à l'upload), `openai-node#1778` (pas de
+vidéo dans l'API), doc Codex Cloud (« Setup scripts run with internet access » / « Agent internet
+access is off by default »), doc Skills OpenAI.
+
+**Trois trouvailles qui comptent**
+
+1. **Le sandbox de ChatGPT n'a pas de réseau.** « Essentially an Ubuntu sandbox with no root or
+   internet access. » Ça tue `recuperer.sh`, `icloud.py`, la banque de sons et l'installation de
+   Whisper d'un seul coup. ChatGPT en chat est hors course pour *exécuter* un montage.
+2. **Le skill est portable, et c'est une bonne nouvelle.** ChatGPT et Codex utilisent un `SKILL.md`
+   avec frontmatter `name`/`description` — « built on the open agent skills standard ». C'est
+   exactement le fichier écrit ce matin. Aucun enfermement.
+3. **Chez Codex, aucun fichier n'entre par le chat.** « Cloud tasks (…) do not automatically receive
+   additional inputs beyond what is explicitly provided in the repository. » Donc le raccourci iOS
+   « Audio pour Claude » n'y servirait plus à rien : même 872 Ko d'audio devraient passer par un
+   lien. **Le portage n'enlève aucun problème d'envoi de fichier, il en ajoute un.**
+
+**Fait**
+
+- `AGENTS.md` → lien symbolique vers `CLAUDE.md` (Codex lit `AGENTS.md`). Un seul fichier, donc
+  aucune dérive possible.
+- `.agents/skills/montage/` → lien symbolique vers `.claude/skills/montage/`. C'est bien
+  **`.agents/skills`** que Codex balaie, pas `.codex/skills` (vieux tutos périmés). Les deux liens
+  se résolvent, vérifié.
+- [`outils/setup-codex.sh`](outils/setup-codex.sh) écrit : ffmpeg + deps + **pré-téléchargement du
+  modèle Whisper**, parce que chez Codex le réseau n'existe que pendant le setup.
+- [`outils/README-portage-codex.md`](outils/README-portage-codex.md) : les deux réglages à faire,
+  la comparaison chiffrée, et la limite qu'aucun réglage ne résout.
+
+**Non vérifié**
+
+- **Le portage n'a jamais tourné sur un vrai Codex.** Emplacements et comportements viennent de la
+  doc OpenAI, pas d'un essai. Seuls les liens symboliques sont mesurés. Quatre points à vérifier au
+  premier lancement, listés en fin de `README-portage-codex.md`.
+- **Le test des 512 Mo côté ChatGPT est à faire par Nabil** : uploader un mp4 de 100 Mo et demander
+  un `ffprobe`. C'est le seul chiffre manquant de la comparaison, et il est falsifiable.
+
+**Ce qui n'a pas changé**
+
+Six montages prêts, zéro publié. Changer d'outil n'en sortira pas un de plus.
+
 ## 16/09/2026 (suite) — Les 30 Mio du chat : contournés par l'audio, pas par un tuyau plus gros
 
 Nabil : « à chaque fois je dois t'envoyer une vidéo de 30 Mo maximum (…) faire un lien WeTransfer

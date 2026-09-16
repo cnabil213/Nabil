@@ -10,7 +10,7 @@
 
 ## En une phrase
 
-Phase 1 : **6 vidéos montées et livrées**, **rien de publié**. Le montage est maintenant une
+Phase 1 : **6 vidéos montées et livrées**, **rien de publié**. Le dépôt est désormais portable (Claude Code **et** Codex, même `SKILL.md`). Le montage est maintenant une
 **procédure qui se lance** ([skill `montage`](.claude/skills/montage/SKILL.md)) et non plus de la
 prose à relire — mais le blocage n'a pas bougé d'un centimètre : aucun compte n'est ouvert.
 
@@ -36,6 +36,7 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 | D.A. du format tier list | ✅ Tranchée : [`phase-1-solo/06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) |
 | **Skill `montage`** | ✅ [`.claude/skills/montage/`](.claude/skills/montage/SKILL.md) — 7 étapes, 2 points d'arrêt où Nabil tranche |
 | **`outils/derusher.py`** | ✅ Propose les coupes mesurées. **Il n'encode rien, il ne décide rien.** |
+| **Portage Codex (OpenAI)** | ✅ Préparé, **jamais testé** : [`outils/README-portage-codex.md`](outils/README-portage-codex.md) — `AGENTS.md` et `.agents/skills/` sont des liens symboliques, donc zéro dérive |
 | **Envoi des rushs** | ✅ [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) — raccourci iOS « Audio pour Claude » (1 tap) + iCloud Drive pour le fichier lourd |
 
 ## En cours / pas fait
@@ -58,6 +59,11 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 - **`icloud.py` n'a jamais tourné sur un vrai lien.** Les 3 chemins d'erreur sont testés, le chemin
   de succès non. **À vérifier au premier rush envoyé par iCloud** — et à corriger tout de suite si
   la forme de la réponse de l'API diffère.
+- **Le portage Codex n'a jamais tourné sur un vrai Codex.** Emplacements et comportements viennent
+  de la doc OpenAI. 4 points à vérifier au premier lancement (fin de `README-portage-codex.md`).
+- **Test en attente côté Nabil** : uploader un mp4 de 100 Mo dans ChatGPT et demander un `ffprobe`.
+  C'est le seul chiffre manquant de la comparaison ChatGPT / ici. S'il passe, ChatGPT gagne sur
+  l'upload (512 Mo contre 30 Mio) et il faudra le noter ici.
 - **Le connecteur Google Drive est branché mais pas autorisé** (`Insufficient scope`). Sans intérêt
   tant qu'on reste sur iCloud ; à réactiver seulement si Nabil change de stockage.
 
