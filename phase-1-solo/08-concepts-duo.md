@@ -93,6 +93,14 @@ reste après négociation. Le rire, c'est l'écart entre le pic et la fin.
 Règle de jeu : Nabil ne dit jamais « tu mens ». Il dit un chiffre, avec le détail : « Deux mètres.
 Huit. » C'est le chiffre qui accuse. Il ne parle que pour poser une question précise.
 
+### Les cartons, dessinés
+
+[`cartes/cartes-0-10.pdf`](cartes/cartes-0-10.pdf) : 11 pages A4 paysage, deux cartes A5 par page,
+à couper au milieu. À gauche la carte **note** (chiffre seul, sert à la note cachée), à droite la carte
+**mythomètre** (même chiffre, étiquette de l'échelle en bas). Blanc, chiffre noir, bandeau Cyber Lime
+en haut : la couleur GENZED, lisible sur un téléphone en voiture, imprimable à la maison. Papier
+épais (160 g) ou collées sur du carton, sinon ça se voit à travers. Aperçu : [`cartes/apercu.png`](cartes/apercu.png).
+
 ### Épisode 1 — « La bagarre »
 
 > ⚠️ Première version corrigée le 16/09 : Nabil a vu que les cartons ne suivaient pas la règle (le
