@@ -75,6 +75,24 @@ toute seule : la version finale de l'histoire.
 **Rôles** : Sady = le conteur, sincère, il tient à son histoire. Nabil = l'expert-comptable du
 bluff, calme, il ne rit jamais, il pose des questions précises.
 
+### L'échelle (question de Nabil : « 0 c'est quoi et 10 c'est quoi ? »)
+
+Le score, c'est le **taux de mytho de l'histoire à l'instant T**. Ça part à 0 (on lui fait confiance),
+ça monte à chaque détail louche, ça redescend quand il concède. Le chiffre final note la version qui
+reste après négociation. Le rire, c'est l'écart entre le pic et la fin.
+
+| carton | ce que ça veut dire (écrit en petit dessous) |
+| :-- | :-- |
+| **0** | Vérifié. Y'a des témoins, y'a une vidéo. |
+| **2** | Vrai, mais il a mis de la sauce. |
+| **4** | Y'a un détail qui cloche. |
+| **6** | Y'a un détail qui cloche à chaque phrase. |
+| **8** | L'histoire est arrivée à quelqu'un d'autre. |
+| **10** | L'histoire n'est jamais arrivée. À personne. |
+
+Règle de jeu : Nabil ne dit jamais « tu mens ». Il dit un chiffre, avec le détail : « Deux mètres.
+Huit. » C'est le chiffre qui accuse. Il ne parle que pour poser une question précise.
+
 ### Épisode 1 — « La bagarre »
 
 > **Sady** : Donc je sors du grec, y'a cinq mecs qui m'attendent.
