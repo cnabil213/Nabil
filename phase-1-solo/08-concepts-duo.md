@@ -95,22 +95,33 @@ Huit. » C'est le chiffre qui accuse. Il ne parle que pour poser une question pr
 
 ### Épisode 1 — « La bagarre »
 
-> **Sady** : Donc je sors du grec, y'a cinq mecs qui m'attendent.
-> **Nabil** *(carton : 4)* : Cinq.
-> **Sady** : Quatre. Quatre mecs.
-> **Nabil** : Ils t'attendaient TOI ?
+> ⚠️ Première version corrigée le 16/09 : Nabil a vu que les cartons ne suivaient pas la règle (le
+> carton montait sur une concession, et sautait de 9 à 1 sans raison). Règle unique : **le carton note
+> la version actuelle**. Il monte quand un détail louche arrive, il descend quand Sady le retire.
+
+> **Sady** : Je sors du grec, y'a cinq mecs qui m'attendent.
+> **Nabil** *(carton 5)* : Cinq mecs qui t'attendent.
+> **Sady** : Quatre.
+> **Nabil** *(4)* : Ils t'attendaient TOI ?
 > **Sady** : Ils étaient là. Devant. En même temps que moi.
-> **Nabil** *(carton : 6)* : Donc quatre mecs faisaient la queue au grec.
+> **Nabil** *(2)* : Donc quatre mecs faisaient la queue au grec.
 > **Sady** : Le plus grand faisait deux mètres.
-> **Nabil** *(carton : 8)* : Deux mètres.
+> **Nabil** *(7)* : Deux mètres.
 > **Sady** : Un mètre quatre-vingt-cinq. Mais large.
-> **Nabil** : Et il t'a fait quoi ?
+> **Nabil** *(5)* : Et il t'a fait quoi ?
 > **Sady** : Il m'a regardé.
-> **Nabil** *(carton : 9)* : Il t'a regardé. Et toi ?
-> **Sady** : Moi je suis parti. Mais en marchant vite, genre je pars pas.
-> **Nabil** *(baisse le carton à 1)* : Donc l'histoire c'est : t'as pris ton grec, un mec t'a regardé,
-> t'es rentré chez toi.
+> **Nabil** *(3)* : Il t'a regardé. Et toi ?
+> **Sady** : Je l'ai pas lâché des yeux.
+> **Nabil** *(6)* : …
+> **Sady** : Bon. Je suis parti. Mais en marchant vite, genre je pars pas.
+> **Nabil** *(0)* : Donc l'histoire c'est : t'as pris ton grec, un mec t'a regardé, t'es rentré chez
+> toi. Zéro. C'est vrai. Et c'est nul.
 > **Sady** : … Il m'a regardé BIZARRE.
+> **Nabil** *(remonte à 2, sans un mot)*.
+
+**Jeu** : Nabil ne dit le chiffre à voix haute que sur les gros sauts (le 7, le 0) ; le reste, il lève
+le carton. La note de fin est toujours la version vraie, donc proche de 0 : le rire, c'est « c'est
+vrai, et c'est nul ». La remontée finale silencieuse est la chute visuelle du format.
 
 **Titres** : « Mon pote a “failli se battre”, j'ai vérifié » · « Son histoire à 10/10 de mytho est
 devenue une histoire de rien ». **Fin** : « Racontez-nous une histoire en commentaire, on la passe
