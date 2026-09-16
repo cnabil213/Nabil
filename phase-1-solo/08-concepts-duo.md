@@ -97,7 +97,7 @@ Huit. » C'est le chiffre qui accuse. Il ne parle que pour poser une question pr
 
 Le jeu s'appelle **BAKHAL MAN** (nom donné par Nabil le 16/09). Deux PDF, une carte par page, 0 à 10 :
 [`cartes/bakhal-man-A4.pdf`](cartes/bakhal-man-A4.pdf) et [`cartes/bakhal-man-A3.pdf`](cartes/bakhal-man-A3.pdf).
-Blanc, chiffre noir plein cadre, bandeau Cyber Lime en haut, étiquette « BAKHAL MAN », « /10 ». **Aucun
+Noir et blanc, rien d'autre (Nabil a refusé le vert) : chiffre noir plein cadre, étiquette « BAKHAL MAN », « /10 ». **Aucun
 texte d'échelle sur la carte** (demande de Nabil). L'échelle reste dans ce fichier, pour lui. Papier épais
 (160 g) ou collé sur du carton, sinon le chiffre d'en face se voit à travers. Le même jeu sert à la note
 cachée. Aperçu : [`cartes/apercu.png`](cartes/apercu.png).
