@@ -6,6 +6,20 @@
 
 ---
 
+## 16/09/2026 — Six concepts pour le duo avec Sady
+
+Nabil : « cette fois je suis pas tout seul mais avec Sady… trouve un concept drôle, divertissant, qui
+pourrait marcher, soit inventer, soit prendre un truc qui marche et l'améliorer. »
+
+**Fait** : [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md), six concepts, chacun
+avec sa mécanique, ses rôles, deux titres et sa fin qui appelle le commentaire. Le n° 3 (le pote joué
+par Sady) a son premier script écrit au mot près. Cinq idées écartées, avec la raison.
+
+**Décidé** : les cinq règles du duo en tête du fichier (format répétable, conflit fabriqué, un rôle
+chacun, appel au commentaire, titre qui accuse). Elles viennent toutes du benchmark de Sady.
+
+**À retenir** : la vidéo d'aujourd'hui doit être la première publiée. Sixième rappel.
+
 ## 15/09/2026 (soir) — Nabil a retourné « T'inquiète » et l'a montée lui-même
 
 « J'ai monté moi-même finalement, tu en penses quoi ? » Le fichier reçu n'est pas un montage de mes

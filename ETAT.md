@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 15/09/2026**
+**Dernière mise à jour : 16/09/2026**
 
 ---
 
@@ -14,6 +14,12 @@ Phase 1 : **6 vidéos montées et livrées** (4 solo + 2 tier lists avec Sady), 
 Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
 
 ## Le chantier en cours
+
+**Le duo avec Sady, 16/09.** Nabil tourne avec Sady et veut des concepts. Six proposés dans
+[`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : la note cachée (upgrade de la
+tier list), Sady note ce que je mange, « on a tous ce pote » à deux (script complet), expose ton pote
+avec droit de réponse, le débat à 30 s avec gage, le duel à 10 balles. Ordre du jour conseillé 1 → 3 → 4.
+À la prochaine session : savoir ce qui a été tourné, demander les rushs.
 
 **« T'inquiète », deux versions.** Après mon montage, Nabil a **retourné la vidéo** (nouvelle prise,
 60 i/s, plus expressive, texte remanié : « peut-être même un mort », un final « on est plus bête qu'eux »)
@@ -74,6 +80,8 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 
 ## Les 3 prochaines actions
 
+0. **Rushs du duo du 16/09** : `ffprobe`, puis montage. Attention, `ecoute-video.py` est aveugle sur
+   deux voix (pas de diarisation) : les coupes se posent à l'enveloppe, pas aux verdicts par phrase.
 1. **Publier.** Six montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
    compte n'est ouvert : c'est le seul blocage de la Phase 1.
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
