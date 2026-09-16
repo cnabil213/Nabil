@@ -28,6 +28,18 @@ mythomètre** (Sady raconte, Nabil monte un carton 0-10, l'histoire se dégonfle
 des *vannes*. Nabil juge un concept sur la première réplique qui fait rire, pas sur sa structure.
 La prochaine fois : écrire le premier échange avant de décrire le format.
 
+**Troisième passe** : « très très drôle les deux ». Deux de plus sur le même moule (Nabil =
+l'institution, Sady = le véhicule) : **le GPS de la vie** (« Recalcul de l'itinéraire », « vous êtes
+arrivé : chez vos parents, comme depuis 2019 ») et **le contrôle technique** (« défaillance majeure »,
+« interdiction de circuler », contre-visite avec les huit euros). Et le **script complet de la note
+cachée** sur les fast-foods, avec les deux notes scandaleuses décidées avant (3 à McDo, 5 au grec du
+quartier) et la chute « il rentre à pied ».
+
+**Ce qui tient la ligne des cinq formats** : un objet (carton, déo, planchette, la voiture), un rôle
+fixe chacun, Nabil qui ne rit jamais, une chute qui est une sentence, et le public qui fournit
+l'épisode suivant. Les huit euros de dette circulent d'un format à l'autre : c'est le running gag du
+compte.
+
 **À retenir** : la vidéo d'aujourd'hui doit être la première publiée. Sixième rappel.
 
 ## 15/09/2026 (soir) — Nabil a retourné « T'inquiète » et l'a montée lui-même

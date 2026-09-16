@@ -100,7 +100,149 @@ au mythomètre. »
 
 ---
 
-## Ce que ces deux-là ont en commun avec la note cachée
+## ★ LE GPS DE LA VIE
+
+**Le concept en une phrase** : Sady est au volant (garé, moteur coupé, il mime). Nabil est **la voix
+du GPS**, monotone, et il guide Sady dans sa vie comme sur une route. Sady n'écoute jamais. À chaque
+fois : « Recalcul de l'itinéraire. »
+
+**Pourquoi c'est à vous** : vous tournez déjà dans une voiture. Le décor devient le concept. Personne
+d'autre n'a un GPS qui parle de sa mère.
+
+**Pourquoi c'est drôle par mécanique** : la voix GPS ne juge jamais, elle constate, et c'est pire.
+Chaque refus de Sady rallonge la « durée estimée ». La chute est toujours « vous êtes arrivé » avec
+une destination minable.
+
+**Rôles** : Nabil = la voix, zéro émotion, articulée comme une machine, il ne regarde jamais la
+caméra. Sady = le conducteur, il négocie avec un GPS.
+
+### Épisode 1
+
+> **GPS** : Bienvenue. Destination : une vie stable. Durée estimée : quatorze ans.
+> **Sady** : Quatorze ans ?
+> **GPS** : Dans deux cents mètres, répondez au message de votre mère.
+> **Sady** : Je répondrai ce soir.
+> **GPS** : Recalcul de l'itinéraire.
+> **GPS** : Au prochain rond-point, prenez la deuxième sortie : la salle de sport.
+> **Sady** *(mime tout droit)* : Je passe au grec, j'irai demain.
+> **GPS** : Recalcul de l'itinéraire. Durée estimée : seize ans.
+> **GPS** : Attention, radar. Elle vient de voir que vous étiez en ligne.
+> **Sady** : Elle a vu ? Elle a vu ?
+> **GPS** : Vous avez été flashé. Vu à 21 h 43. Aucune réponse depuis.
+> **GPS** : Dans cinquante mètres, faites demi-tour. Vous avez oublié votre carte bleue au grec.
+> **Sady** : Mais non…
+> **GPS** : Elle est au grec.
+> **GPS** : Vous êtes arrivé à destination.
+> **Sady** : Où ça ?
+> **GPS** : Chez vos parents. Comme depuis 2019.
+
+**Épisodes suivants** : le GPS du lundi matin (« dans dix minutes, levez-vous. Recalcul. Dans dix
+minutes, levez-vous. ») · le GPS de la soirée (« vous avez dépassé la limite. Recalcul. ») · le GPS
+mode éco (Sady radin : « itinéraire le moins cher : vous ne sortez pas ») · le GPS de la rupture
+(« faites demi-tour dès que possible. Dès que possible. DÈS QUE POSSIBLE. »).
+
+**Titres** : « Mon GPS connaît ma mère » · « Il a mis 16 ans pour arriver chez ses parents ».
+**Fin** : « Vous voulez que le GPS guide Sady où, la prochaine ? »
+
+---
+
+## ★ LE CONTRÔLE TECHNIQUE
+
+**Le concept en une phrase** : Sady passe au contrôle technique. Comme une voiture. Nabil, planchette
+à la main, inspecte poste par poste avec **le vrai vocabulaire** : défaillance mineure, défaillance
+majeure, interdiction de circuler, contre-visite.
+
+**Pourquoi c'est à vous** : la planchette, et le vocabulaire. Après deux épisodes, « défaillance
+majeure » devient une expression entre vous et votre public.
+
+**Pourquoi c'est drôle par mécanique** : c'est la fiche du pote insupportable (retard, dettes,
+bruit), mais dite dans une langue administrative qui ne s'énerve jamais. Et la sentence tombe à la
+fin : « contre-visite ».
+
+**Rôles** : Nabil = le contrôleur, neutre, il coche. Sady = le véhicule, il conteste chaque poste
+comme un mec qui veut sauver sa voiture.
+
+### Épisode 1
+
+> **Nabil** : Sady. 24 ans. 130 000 kilomètres au compteur. On procède au contrôle technique.
+> **Sady** : Vas-y, elle est nickel.
+> **Nabil** : Ponctualité. *(coche)* Défaillance majeure. Le véhicule arrive en retard depuis la
+> sortie d'usine.
+> **Sady** : Y'a du trafic.
+> **Nabil** : Vous habitez à quatre cents mètres. Freinage. *(un temps)* Freinage absent. Le véhicule
+> ne s'arrête jamais de parler.
+> **Sady** : …
+> **Nabil** : Émissions. Défaillance majeure. Après un grec, ce véhicule ne respecte aucune norme.
+> **Sady** : Ça c'est le kebab, c'est pas moi.
+> **Nabil** : Niveau des fluides. Eau : zéro. Que du Oasis depuis 2018. Défaillance mineure.
+> **Nabil** : Direction. Le véhicule tire à gauche. Vers le grec. Systématiquement.
+> **Nabil** : Klaxon. *(Sady rit très fort)* Fonctionne. Trop.
+> **Nabil** : Contrôle des dettes. Huit euros. Depuis mars. *(coche)* Interdiction de circuler.
+> **Sady** : Attends, attends. C'est quoi la contre-visite ?
+> **Nabil** : Dans deux mois. Avec les huit euros.
+
+**Épisodes suivants** : le contrôle technique de Nabil par Sady (les rôles s'inversent, le public le
+réclamera) · celui du daron (« kilométrage : illimité. Klaxon : permanent. ») · celui du téléphone de
+Sady (« batterie : 3 %. Depuis 2022. »).
+
+**Titres** : « Mon meilleur pote est passé au contrôle technique : interdiction de circuler » ·
+« Défaillance majeure ». **Fin** : « Qui doit passer au contrôle technique la prochaine fois ?
+Taguez-le. » (le tag, c'est du partage : le levier que Sady n'utilise pas.)
+
+---
+
+## ★ LA NOTE CACHÉE — le script du premier épisode : les fast-foods
+
+**Matériel** : deux cartons A5 par item (ou une ardoise chacun), un feutre. Téléphone posé sur le
+tableau de bord, **plan fixe, les deux dans le cadre**, les cartons levés à hauteur de visage.
+Les notes s'écrivent pendant que l'autre regarde par la fenêtre ; la révélation est simultanée,
+sur « 3, 2, 1 ». **La note scandaleuse est décidée avant** (règle §4 du format) : ici, le 3 de
+Nabil à McDo et le 5 de Sady au grec du quartier.
+
+> **Nabil** *(caméra)* : On note les fast-foods. Mais chacun écrit sa note en cachette, on révèle en
+> même temps, et s'il y a plus de trois points d'écart, l'un de nous deux est un malade.
+> **Sady** : C'est toi le malade.
+> **Nabil** : On verra.
+>
+> **1. McDo.** *(3, 2, 1)* — Nabil : **3**. Sady : **8**.
+> **Sady** : TROIS ? T'as mis trois à McDo ?
+> **Nabil** : J'ai mis trois à un endroit où les frites sont froides une fois sur deux.
+> **Sady** : Le McFlurry, frère.
+> **Nabil** : Le McFlurry c'est un dessert, on note un fast-food. Cinq points d'écart. Y'a un malade
+> dans la voiture, et c'est pas moi.
+>
+> **2. Burger King.** *(3, 2, 1)* — **7** et **7**.
+> **Sady** : Voilà. Voilà. On est d'accord.
+> **Nabil** : Deux sept, on passe. C'est nul quand on est d'accord.
+>
+> **3. KFC.** *(3, 2, 1)* — Nabil : **8**. Sady : **2**.
+> **Nabil** : DEUX ?
+> **Sady** : J'ai attendu quarante minutes une fois.
+> **Nabil** : Une FOIS. En 2021. Tu mets deux à toute une entreprise pour un mardi.
+> **Sady** : C'était un jeudi, et j'ai pas oublié.
+>
+> **4. Subway.** *(3, 2, 1)* — **4** et **4**.
+> **Sady** : On a mis quatre tous les deux. Ça veut dire que c'est un vrai quatre.
+> **Nabil** : C'est le seul endroit où tu paies pour faire ton sandwich toi-même.
+>
+> **5. Le grec en bas de chez nous.** *(3, 2, 1)* — Nabil : **10**. Sady : **5**.
+> **Nabil** *(long silence)* : … Sors de la voiture.
+> **Sady** : Écoute, la viande, des fois…
+> **Nabil** : Sors. De la voiture. Sady. Il t'a fait crédit pendant deux ans.
+> **Sady** : Justement, il me met la pression.
+> **Nabil** *(caméra)* : Cinq points d'écart. Sur NOTRE grec. Le plus gros écart de la vidéo, c'est
+> celui-là : c'est qui le malade ? Commentaire. Lui, il rentre à pied.
+
+**Titre** : « Il a mis 5 au grec qui lui fait crédit depuis 2 ans ». **Durée visée** : 60 à 90 s.
+Cinq items, pas plus : le format vit sur les écarts, pas sur la liste.
+
+**Au montage** : chaque révélation se garde entière, avec le silence avant le « 3, 2, 1 » (c'est le
+suspense, pas un temps mort). On coupe uniquement les blancs de réflexion pendant l'écriture des
+notes.
+
+---
+
+## Ce que ces quatre-là ont en commun avec la note cachée
 
 - **Un objet à l'écran** (le déo, le carton), toujours le même : c'est ça, l'attribution.
 - **Un rôle fixe chacun**, et Nabil ne rit jamais dans les deux. Le sérieux, c'est le moteur.

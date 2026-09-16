@@ -15,11 +15,12 @@ Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décision
 
 ## Le chantier en cours
 
-**Le duo avec Sady, 16/09.** Nabil tourne avec Sady et veut des concepts. Six proposés dans
-[`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : la note cachée (upgrade de la
-tier list), Sady note ce que je mange, « on a tous ce pote » à deux (script complet), expose ton pote
-avec droit de réponse, le débat à 30 s avec gage, le duel à 10 balles. Ordre du jour conseillé 1 → 3 → 4.
-À la prochaine session : savoir ce qui a été tourné, demander les rushs.
+**Le duo avec Sady, 16/09.** Cinq concepts **validés par Nabil** (« très très drôle »), tous avec un
+script complet dans [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : **la note
+cachée** (tier list à révélation simultanée, script fast-foods), **l'interview d'après-match de la
+vie** (déo-micro), **le mythomètre** (carton 0-10), **le GPS de la vie**, **le contrôle technique**.
+Rôles fixes : Nabil = l'institution qui ne rit jamais, Sady = celui qui subit. Quatre concepts brûlés
+le même jour (voir le fichier). À la prochaine session : savoir ce qui a été tourné, demander les rushs.
 
 **« T'inquiète », deux versions.** Après mon montage, Nabil a **retourné la vidéo** (nouvelle prise,
 60 i/s, plus expressive, texte remanié : « peut-être même un mort », un final « on est plus bête qu'eux »)
