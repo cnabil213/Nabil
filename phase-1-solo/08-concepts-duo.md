@@ -59,7 +59,7 @@ quoi la prochaine ? » Le public écrit les épisodes.
 
 ---
 
-## ★ LE MYTHOMÈTRE
+## ★ BAKHAL MAN (le mythomètre)
 
 **Le concept en une phrase** : Sady raconte une anecdote vraie. Nabil tient un carton **0 à 10** et
 monte le score de mytho à chaque détail louche, en direct. Sady doit **négocier** chaque détail vers
@@ -95,11 +95,12 @@ Huit. » C'est le chiffre qui accuse. Il ne parle que pour poser une question pr
 
 ### Les cartons, dessinés
 
-[`cartes/cartes-0-10.pdf`](cartes/cartes-0-10.pdf) : 11 pages A4 paysage, deux cartes A5 par page,
-à couper au milieu. À gauche la carte **note** (chiffre seul, sert à la note cachée), à droite la carte
-**mythomètre** (même chiffre, étiquette de l'échelle en bas). Blanc, chiffre noir, bandeau Cyber Lime
-en haut : la couleur GENZED, lisible sur un téléphone en voiture, imprimable à la maison. Papier
-épais (160 g) ou collées sur du carton, sinon ça se voit à travers. Aperçu : [`cartes/apercu.png`](cartes/apercu.png).
+Le jeu s'appelle **BAKHAL MAN** (nom donné par Nabil le 16/09). Deux PDF, une carte par page, 0 à 10 :
+[`cartes/bakhal-man-A4.pdf`](cartes/bakhal-man-A4.pdf) et [`cartes/bakhal-man-A3.pdf`](cartes/bakhal-man-A3.pdf).
+Blanc, chiffre noir plein cadre, bandeau Cyber Lime en haut, étiquette « BAKHAL MAN », « /10 ». **Aucun
+texte d'échelle sur la carte** (demande de Nabil). L'échelle reste dans ce fichier, pour lui. Papier épais
+(160 g) ou collé sur du carton, sinon le chiffre d'en face se voit à travers. Le même jeu sert à la note
+cachée. Aperçu : [`cartes/apercu.png`](cartes/apercu.png).
 
 ### Épisode 1 — « La bagarre »
 
