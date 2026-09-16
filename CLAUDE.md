@@ -106,6 +106,11 @@ explicitement** — dans la réponse et dans le dépôt.
 Le mode d'emploi complet des outils est dans [`outils/README.md`](outils/README.md).
 Ce qui suit, ce sont les règles qu'on ne redécouvre pas.
 
+**La procédure de montage, elle, n'est plus de la prose : c'est un skill.**
+[`.claude/skills/montage/`](.claude/skills/montage/SKILL.md) — sept étapes, dont **deux qui
+s'arrêtent et attendent Nabil** (la chaîne de sens, et la sonorisation). Il se déclenche tout seul
+dès qu'un rush arrive à monter. Les règles ci-dessous restent le *pourquoi* ; le skill est le *comment*.
+
 ### 1. Relire un rush → [`outils/ecoute-video.py`](outils/ecoute-video.py)
 
 Les chiffres d'abord (`RAPPORT-ECOUTE.md` borne les zones en secondes), **l'image seulement pour
@@ -113,7 +118,14 @@ décrire** ce que les chiffres ont déjà trouvé. Ne jamais lire un dB sur un g
 Vocabulaire et limites : [`outils/README-ecoute.md`](outils/README-ecoute.md). Pistes closes :
 [`outils/RECHERCHE-ECOUTE.md`](outils/RECHERCHE-ECOUTE.md).
 
-### 2. Monter → [`outils/monter.py`](outils/monter.py)
+### 2. Dérusher → [`outils/derusher.py`](outils/derusher.py), puis monter → [`outils/monter.py`](outils/monter.py)
+
+`derusher.py` **propose** les coupes et n'encode rien : fiche captation, silences mesurés à
+l'enveloppe, segments à garder avec le niveau vérifié à chaque raccord. Il **refuse** de couper un
+blanc ≥ 1,5 s et une redite sans silence autour — les deux erreurs qui ont coûté un montage chacune.
+Le silence gardé vaut `2 × --marge` (mesuré sur la sortie encodée, pas déduit).
+
+Puis `monter.py` :
 
 **Un seul réencodage**, toujours : coupe, étalonnage et retouche dans la même passe. Conserver la
 plage de couleur de la source. Poser les coupes dans un silence réel, mesuré à l'enveloppe — pas

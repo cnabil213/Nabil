@@ -6,6 +6,59 @@
 
 ---
 
+## 16/09/2026 — Le montage devient un skill (et un outil qui refuse de couper)
+
+**Fait**
+
+- Nabil envoie une vidéo de Lucas Reverdy, *« Comment Automatiser ses Montages Vidéo avec Claude »*
+  (14 min 11). Transcription récupérée par `yt-dlp` — **le client `web_embedded` est le seul qui passe**
+  l'anti-bot YouTube, avec `--ignore-no-formats-error` (les autres : 429 puis « Sign in to confirm
+  you're not a bot »).
+- **Skill [`montage`](.claude/skills/montage/SKILL.md) écrit** : 7 étapes, dont **2 qui s'arrêtent et
+  attendent Nabil** (la chaîne de sens, la sonorisation). Deux fiches de référence :
+  `chartes.md` (solo vs tier list) et `verification.md` (les commandes de mesure avant livraison).
+- **`outils/derusher.py` écrit** : fiche captation + silences mesurés à l'enveloppe + proposition de
+  segments avec le niveau vérifié à chaque raccord. **Il n'encode rien et ne décide rien.**
+- Hook de session : ffmpeg s'installe désormais **en fond** au démarrage au lieu d'être seulement signalé.
+
+**Ce qu'on a pris de sa vidéo, et ce qu'on a refusé**
+
+Pris : l'**architecture** (des étapes nommées, chacune suivie d'une relecture de son propre travail),
+le **point d'arrêt humain à un endroit défini** (lui fait valider sa liste de plans ; nous, la chaîne
+de sens), le **choix de la charte au démarrage**, et l'idée qu'une procédure doit être un skill et
+pas de la prose.
+
+Refusé : sa règle numéro un, *« couper tous les blancs et toutes les reprises, cut chirurgical »*.
+Elle marche sur une vidéo explicative ; **sur un sketch c'est exactement ce qui a cassé deux
+montages** (Business Bro du 13/09, tier list foot du 14/09). Et il juge son résultat à l'œil — « là
+on voit que les cuts sont absolument parfaits », zéro mesure. C'est l'interdit du dépôt.
+
+**Appris / mesuré**
+
+- **Le seuil de silence n'a pas besoin d'être fixé à la main.** `plancher + 0,35 × (parole − plancher)`
+  tombe à **−39,1 dBFS** sur « T'inquiète » et **−37,5 dBFS** sur la tier list foot, soit le −40 dBFS
+  de `CLAUDE.md` — mais il s'adapte à un rush bruyant, ce qu'une constante ne fait pas.
+- **Le silence gardé dans le montage vaut `2 × --marge`.** Je l'avais d'abord lu à l'envers dans mon
+  propre calcul (j'ai pris ce qui est *retiré* pour ce qui *reste*). Corrigé en **mesurant le fichier
+  de sortie** sur un test à silences connus : 0,20 s → 0,19 s intact · 0,50 s → 0,24 s · 1,00 s →
+  0,21 s · 2,00 s → 1,99 s gardé entier. D'où : `--silence-min 0.45 --marge 0.11` **reproduit
+  exactement** la règle §2.3 du format tier list.
+- **Contrôle de non-régression utile** : sur un montage déjà serré, l'outil doit proposer très peu.
+  Mesuré : 5 % sur `15sept-tinquiete-HQ.mp4`, 1 % sur `tier-foot-HQ.mp4`. S'il propose beaucoup plus,
+  c'est lui qui a tort.
+- **La règle du 14/09 est maintenant dans le code, pas seulement dans un document** : sur
+  `tier-foot-HQ.mp4`, `derusher.py` retrouve le blanc de **3,94 s** (à 4,17 s) que Nabil avait fait
+  remettre, et **refuse de le couper**. Même logique pour une redite sans silence mesuré autour.
+
+**Pas fait**
+
+- Les sous-titres. Lui les sort automatiquement, nous jamais — et la question 2 de la D.A. solo
+  (police Monument Extended ou native TikTok) est toujours ouverte. C'est le vrai trou restant.
+- Le montage sur fichier allégé (proxy) puis retour en pleine résolution. Utile chez lui (vidéos
+  YouTube de 20-30 min) ; sur des sketchs de 40 s à 1 min 45, ça ne rapporte rien pour l'instant.
+- Toujours **rien de publié**. Six montages prêts, aucun compte ouvert.
+
+
 ## 15/09/2026 — « T'inquiète » : 5 clips assemblés en une vidéo
 
 **Fait**

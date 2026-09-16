@@ -10,6 +10,7 @@ servent à décrire, jamais à deviner. Le pourquoi de chaque choix est dans
 | [`ecoute-video.py`](ecoute-video.py) | **L'oreille.** Transcription juste (whisper turbo), fiche captation (saturation, loudness, bruit), carte d'identité vocale (Praat), ligne de temps par phrase avec verdict ENVOYÉE / PLATE, alertes horodatées (tu retombes, monotone, trop lent), score de chute, mots appuyés, énergie d'articulation | [`README-ecoute.md`](README-ecoute.md) |
 | [`ecoute/comparer-prises.py`](ecoute/comparer-prises.py) | **Deux prises de la même vanne** → laquelle est la plus forte, la plus vivante, la plus rapide, la pause avant la chute la plus nette — verdict + pourquoi | ci-dessous |
 | [`vision-video.py`](vision-video.py) | **Les yeux.** Planches contact horodatées (4 images/s sur le hook, 2 ensuite), forme d'onde, fiche captation | ci-dessous |
+| [`derusher.py`](derusher.py) | **La proposition de coupes.** Fiche captation, enveloppe RMS par blocs de 10 ms, seuil de silence adaptatif, segments à garder avec le niveau mesuré à chaque raccord, blancs longs et redites signalés — **il ne coupe pas, il propose** | ci-dessous |
 | [`monter.py`](monter.py) | **Le montage.** Coupe le rush sur les segments à garder (à la frame près) et normalise le son pour les plateformes | ci-dessous |
 | [`sonoriser.py`](sonoriser.py) | **Le son.** Pose des samples et des effets à des timecodes précis, avec ducking automatique de la voix | ci-dessous |
 | [`banque-son.py`](banque-son.py) | **La banque de sons de Nabil.** Nettoie un clip reçu (découpe, silences retirés, niveau calé) et le catalogue dans `banque-son/` pour tous les montages suivants | ci-dessous |
@@ -29,6 +30,55 @@ python3 -m venv ~/venv-ecoute-arousal
 
 Les modèles (whisper turbo ~1,6 Go, audeering ~0,6 Go) se téléchargent seuls au premier lancement.
 Détail, pièges (PEP 668) et emplacement du venv : [`README-ecoute.md`](README-ecoute.md) §Installation.
+
+## `derusher.py` — proposer les coupes, sans les faire
+
+```bash
+python3 outils/derusher.py rush.mp4 -o derush/ [--transcription ecoute/<prefixe>_mots.json] \
+    [--silence-min 0.35] [--marge 0.12] [--seuil-db AUTO] [--blanc-long 1.5]
+```
+
+Sort `PROPOSITION-DERUSH.md` (à lire) et `derush.json`. Trois choses dans l'ordre : la **fiche
+captation** (§5 de `CLAUDE.md` : le premier reflexe sur un rush reçu), les **silences mesurés** à
+l'enveloppe, et la **proposition de segments** avec la ligne `--garder` prête pour `monter.py`.
+
+**Il n'encode rien et ne décide rien.** C'est volontaire : la coupe reste à `monter.py`, et les
+deux cas dangereux sont *signalés*, pas tranchés.
+
+**Le seuil de silence est adaptatif**, mesuré sur le rush : `plancher + 0,35 × (parole − plancher)`,
+borné pour ne jamais monter dans la parole ni se noyer dans le bruit. Sur un rush iPhone typique
+(plancher −55, parole −15) ça tombe vers −41 dBFS, soit le −40 dBFS de `CLAUDE.md` — mais ça
+s'adapte à un rush de voiture bruyant. Le rapport affiche toujours plancher, parole, écart et seuil
+retenu : si l'écart parole/bruit est sous 30 dB, il prévient que les bornes sont incertaines.
+
+**Le silence gardé dans le montage vaut `2 × --marge`.** Vérifié de bout en bout sur un fichier de
+test à silences connus, mesuré sur la sortie encodée (`--silence-min 0.45 --marge 0.11`) :
+
+| silence dans la source | dans le montage produit | attendu |
+| ---: | ---: | :--- |
+| 0,20 s | 0,19 s — intact (sous le seuil) | intact ✅ |
+| 0,50 s | 0,24 s | 0,22 s ✅ |
+| 1,00 s | 0,21 s | 0,22 s ✅ |
+| 2,00 s | 1,99 s — gardé entier | blanc long ✅ |
+
+L'écart de ±0,02 s est la résolution des blocs de 10 ms. Ces deux valeurs reproduisent exactement
+la règle §2.3 du format tier list (« tout silence ≥ 0,45 s ramené à 0,22 s »).
+
+> **Les deux refus, qui sont la raison d'être de l'outil.**
+> (1) **Un blanc ≥ `--blanc-long` (1,5 s) n'est jamais coupé**, il est remonté pour décision. Un
+> blanc long porte parfois une information : le 14/09, 3,72 s ramenés à 0,22 s faisaient croire à
+> un « mais qui est ce mec ? » dit en chœur exprès. Testé sur `livraisons/tier-foot-HQ.mp4` :
+> l'outil retrouve ce blanc (3,94 s à 4,17 s) et refuse de le toucher.
+> (2) **Une redite sans silence mesuré autour n'est pas coupable** et reste dans la proposition
+> (`CLAUDE.md` §2 bis, règle 3). La détection de redites cherche la même suite de ≥ 4 mots dite
+> deux fois de suite, et n'est active qu'avec `--transcription`.
+
+Les timecodes sont dans le repère du wav extrait (instant 0 = premier échantillon audio) — le même
+que le `RAPPORT-ECOUTE.md`, et celui qu'attend `monter.py`, qui applique lui-même le décalage du
+conteneur. **Ne pas le réappliquer à la main.**
+
+Contrôle de cohérence : sur un montage déjà serré, il doit proposer très peu. Mesuré sur
+`livraisons/15sept-tinquiete-HQ.mp4` (déjà monté) : 5 % jeté. Sur `tier-foot-HQ.mp4` : 1 %.
 
 ## `monter.py` — couper et normaliser
 
