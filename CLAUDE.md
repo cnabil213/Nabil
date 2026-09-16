@@ -212,9 +212,17 @@ plus net que son rush.
 
 - **Filmer avec l'app Caméra**, pas dans Snapchat, qui plafonne à 720p là où l'iPhone fait du
   1080p et du 4K.
-- **Envoyer le fichier tel quel** : Photos → « Enregistrer dans Fichiers », puis WeTransfer par
-  Safari ou AirDrop. Un partage direct vers une app fait reconvertir le HEVC en H.264 par iOS
+- **Envoyer le fichier tel quel** : Photos → « Enregistrer dans Fichiers » → **iCloud Drive**, puis
+  partager ce fichier depuis l'app Fichiers. Mode d'emploi complet (dont le raccourci iOS qui
+  extrait l'audio en un tap) : [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md).
+  **Jamais un album partagé iCloud** : Apple y ré-encode les vidéos, `icloud.py` refuse ces liens.
+  **Jamais un partage direct vers une app** non plus : iOS reconvertit alors le HEVC en H.264
   (c'est pourquoi le fichier reçu pesait 98 Mo pour la même image que 57 Mo d'original).
+- **Et le plus souvent, le fichier lourd ne part pas du tout** : les étapes 0 à 3 d'un montage
+  tournent entièrement sur l'audio seul. Mesuré sur `tier-foot-HQ.mp4` — 60 Mo → 872 Ko, **0,04 s
+  d'écart maximum** sur les bornes de coupe (0,00 s sur 4 segments / 5), blanc long détecté à
+  l'identique. La vidéo ne sert qu'au dernier encodage, donc elle ne bouge **qu'une fois**, à la
+  fin, quand la liste de coupes est validée.
 - **Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams`, lire la
   résolution et les tags, et le dire à Nabil **avant** de monter.
 

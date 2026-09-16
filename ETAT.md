@@ -36,6 +36,7 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 | D.A. du format tier list | ✅ Tranchée : [`phase-1-solo/06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) |
 | **Skill `montage`** | ✅ [`.claude/skills/montage/`](.claude/skills/montage/SKILL.md) — 7 étapes, 2 points d'arrêt où Nabil tranche |
 | **`outils/derusher.py`** | ✅ Propose les coupes mesurées. **Il n'encode rien, il ne décide rien.** |
+| **Envoi des rushs** | ✅ [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) — raccourci iOS « Audio pour Claude » (1 tap) + iCloud Drive pour le fichier lourd |
 
 ## En cours / pas fait
 
@@ -54,6 +55,11 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 - **Pas repris de la vidéo de Lucas Reverdy** : le montage sur fichier allégé (proxy) puis retour en
   pleine résolution. Utile sur du 20-30 min, inutile sur des sketchs de 40 s. À ressortir le jour où
   un format long arrive.
+- **`icloud.py` n'a jamais tourné sur un vrai lien.** Les 3 chemins d'erreur sont testés, le chemin
+  de succès non. **À vérifier au premier rush envoyé par iCloud** — et à corriger tout de suite si
+  la forme de la réponse de l'API diffère.
+- **Le connecteur Google Drive est branché mais pas autorisé** (`Insufficient scope`). Sans intérêt
+  tant qu'on reste sur iCloud ; à réactiver seulement si Nabil change de stockage.
 
 ## Les 3 prochaines actions
 
@@ -62,12 +68,15 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 2. Poser à Nabil les **5 questions** de la DA (`04-da-tiktok.md` §5) — dont celle qui débloque les
    sous-titres.
 3. Au prochain rush : **lancer le skill `montage`** et voir où la procédure frotte. Elle n'a encore
-   jamais tourné sur un vrai rush reçu en direct.
+   jamais tourné sur un vrai rush reçu en direct — et c'est aussi le test d'`icloud.py`.
 
 ## À savoir avant de commencer
 
 - **Un rush à monter ?** Le skill [`montage`](.claude/skills/montage/SKILL.md) contient la procédure
   complète. Ne pas la réimproviser.
+- **Ne pas réclamer la vidéo tout de suite.** Les étapes 0 à 3 du montage tournent sur **l'audio
+  seul** (mesuré : 60 Mo → 872 Ko, 0,04 s d'écart max sur les bornes de coupe). Le fichier lourd ne
+  bouge qu'une fois, à la fin. Nabil envoie l'audio par un raccourci iOS, le reste par iCloud Drive.
 - **Le conteneur est effacé entre deux sessions.** Rushs, montages et analyses ne survivent pas :
   seul ce qui est commité reste. Pour retravailler une vidéo, demander à Nabil de **renvoyer le fichier**.
 - **ffmpeg s'installe en fond au démarrage** (~1 min). Avant de lancer un outil vidéo :

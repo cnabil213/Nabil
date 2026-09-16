@@ -6,6 +6,55 @@
 
 ---
 
+## 16/09/2026 (suite) — Les 30 Mio du chat : contournés par l'audio, pas par un tuyau plus gros
+
+Nabil : « à chaque fois je dois t'envoyer une vidéo de 30 Mo maximum (…) faire un lien WeTransfer
+c'est trop, trop chiant. »
+
+**Mesuré d'abord, proposé ensuite**
+
+| Piste | Verdict |
+| :--- | :--- |
+| Augmenter la limite du chat | **Impossible** — fixée par le client, pas par Claude |
+| Page web d'upload (artifact, capacité `assets`) | **20 Mio** de plafond : pire que le chat |
+| Connecteur Google Drive pour les octets | Rend le fichier **en base64 dans la conversation** : 100 Mo → ~133 Mo de texte. Inutilisable |
+| Connecteur Google Drive pour *trouver* un fichier | Marcherait (métadonnées), mais **pas autorisé** : `Insufficient scope` |
+| `transfer.sh`, `0x0.st`, `bashupload.com` | **Injoignables** depuis le conteneur |
+| Hébergeurs anonymes publics | Joignables, mais y déposer des sketchs non publiés : non (et refusé par la politique de session) |
+| iCloud, Drive, Dropbox, WeTransfer, GitHub | **Tous joignables**. Débit mesuré : **15 Mo/s**, 29 Go de libre |
+
+**La vraie trouvaille : le tuyau n'était pas le problème.**
+
+Pour **décider** d'un montage, la vidéo ne sert à rien. Mesuré sur `tier-foot-HQ.mp4`, dérush sur la
+vidéo complète contre l'audio seul (AAC 64 kb/s) :
+
+- **60 Mo → 872 Ko** (69× moins)
+- **0,04 s d'écart maximum** sur les bornes de coupe, **0,00 s sur 4 segments / 5**
+- blanc long détecté à l'identique (3,94 s), seuil de silence à 0,3 dB près
+
+Donc : les étapes 0 à 3 du skill tournent sur l'audio, et **le fichier lourd ne bouge qu'une fois**,
+à la fin, quand la liste de coupes est validée — au lieu d'à chaque aller-retour.
+
+**Fait**
+
+- Nabil a choisi **iCloud** (son réflexe iPhone). Écrit `outils/icloud.py` : un lien de partage
+  iCloud est une page JavaScript, `curl` n'y voit que du HTML. L'outil extrait le *shortGUID* et
+  interroge l'API publique CloudKit (`ckdatabasews.icloud.com/.../records/resolve`). Branché dans
+  `recuperer.sh` sur tout lien `icloud.com`.
+- **`icloud.py` REFUSE les liens d'album partagé** et explique le bon chemin : Apple y ré-encode et
+  rabote les vidéos. C'était le rush Snapchat du 12/09 prêt à se reproduire.
+- Écrit [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) : le raccourci iOS
+  « Audio pour Claude » (un tap, ~1 Mo/clip), le chemin iCloud Drive pour le fichier lourd, et les
+  trois pièges qui coûtent de la qualité.
+- Skill `montage` étape 0 complétée : **ne pas réclamer la vidéo avant l'étape 4.**
+
+**Pas vérifié**
+
+- **Le chemin de succès d'`icloud.py` n'a jamais tourné sur un vrai lien.** Les trois chemins
+  d'erreur sont testés (album partagé, lien sans GUID, GUID inconnu → l'API répond
+  « Cannot resolve shortGUID »), le succès non. À faire au premier rush envoyé par iCloud, et à
+  corriger tout de suite si la forme de la réponse diffère.
+
 ## 16/09/2026 — Le montage devient un skill (et un outil qui refuse de couper)
 
 **Fait**

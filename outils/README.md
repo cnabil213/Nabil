@@ -15,7 +15,8 @@ servent à décrire, jamais à deviner. Le pourquoi de chaque choix est dans
 | [`sonoriser.py`](sonoriser.py) | **Le son.** Pose des samples et des effets à des timecodes précis, avec ducking automatique de la voix | ci-dessous |
 | [`banque-son.py`](banque-son.py) | **La banque de sons de Nabil.** Nettoie un clip reçu (découpe, silences retirés, niveau calé) et le catalogue dans `banque-son/` pour tous les montages suivants | ci-dessous |
 | [`sfx/`](sfx/) | Kit de six sons de ponctuation synthétisés (libres de droits) | [`sfx/README.md`](sfx/README.md) |
-| [`recuperer.sh`](recuperer.sh) | **Faire entrer un rush trop lourd pour le chat** à partir d'un lien de partage (Drive, Dropbox, WeTransfer, lien direct) | ci-dessous |
+| [`recuperer.sh`](recuperer.sh) | **Faire entrer un rush trop lourd pour le chat** à partir d'un lien de partage (**iCloud Drive**, Drive, Dropbox, WeTransfer, lien direct) | [`README-envoyer-un-rush.md`](README-envoyer-un-rush.md) |
+| [`icloud.py`](icloud.py) | Résout un lien **iCloud Drive** en URL directe (un lien iCloud est une page JavaScript). **Refuse les albums partagés** : Apple y ré-encode les vidéos | ci-dessous |
 
 ## Installation (à refaire à chaque nouvelle session : le container est neuf)
 
@@ -289,7 +290,34 @@ convient pas : il veut le contenu en base64 dans l'appel, impossible pour 50 Mo.
 Sur une vidéo sombre et granuleuse comme un rush de voiture la nuit, c'est le grain des zones sombres
 qui part en premier — d'où l'impression de « moins net » avant même de regarder les chiffres.
 
+## `icloud.py` — résoudre un lien iCloud Drive
+
+```bash
+python3 outils/icloud.py "https://www.icloud.com/iclouddrive/0abCdEf...#rush"   # -> URL directe
+```
+
+Appelé automatiquement par `recuperer.sh` sur tout lien `icloud.com`. Un lien de partage iCloud est
+une **page JavaScript** : `curl` dessus ne récupère que du HTML. L'outil extrait le *shortGUID* du
+lien, interroge l'API publique CloudKit (`ckdatabasews.icloud.com/.../records/resolve`), et rend
+l'URL signée du fichier plus son nom et sa taille.
+
+> **Il refuse un lien d'ALBUM PARTAGÉ** (`sharedalbum`, `share.icloud.com/photos`) et explique le
+> bon chemin. Apple ré-encode et rabote les vidéos des albums partagés : ce serait le rush Snapchat
+> du 12/09 une deuxième fois, et §5 est sans appel — un montage ne peut pas être plus net que son
+> rush. Le chemin qui conserve l'original : Photos → « Enregistrer dans Fichiers » → iCloud Drive,
+> puis partager **ce fichier** depuis l'app Fichiers.
+
+Vérifié : l'API répond depuis le conteneur, et les trois chemins d'erreur (album partagé, lien sans
+GUID, GUID inconnu) sortent un message qui dit quoi faire. **Le chemin de succès n'a pas encore été
+vérifié sur un vrai lien** — à faire au premier rush envoyé par iCloud.
+
 ## `recuperer.sh` — un rush trop lourd pour le chat
+
+**Mode d'emploi côté Nabil (ce qu'il doit faire sur son iPhone) :**
+[`README-envoyer-un-rush.md`](README-envoyer-un-rush.md) — dont le raccourci iOS « Audio pour Claude »,
+qui extrait l'audio en un tap. **Les étapes 0 à 3 d'un montage tournent entièrement sur l'audio**
+(mesuré : 60 Mo → 872 Ko, 0,04 s d'écart max sur les bornes de coupe), donc le fichier lourd ne bouge
+qu'une fois, à la fin.
 
 L'upload du chat plafonne à quelques dizaines de Mo ; un export TikTok d'une minute peut les dépasser.
 Le container, lui, télécharge sans limite pratique. Donc : déposer le fichier quelque part, m'envoyer le lien.

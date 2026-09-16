@@ -28,7 +28,25 @@ Ce qui se signale sans attendre : un rush sous 1080p, une capture Snapchat/Insta
 repérée dans les métadonnées (l'original dans Photos est meilleur — le lui demander), une crête
 au-dessus de −1 dBTP (reculer le téléphone au prochain tournage).
 
-Si le fichier est trop lourd pour le chat : `bash outils/recuperer.sh "<lien>"`.
+### 🔊 S'il n'envoie que l'audio, c'est normal — et c'est suffisant jusqu'à l'étape 4
+
+Le chat plafonne à 30 Mio et **envoyer un fichier lourd lui coûte des gestes**. Le protocole,
+détaillé dans [`outils/README-envoyer-un-rush.md`](../../../outils/README-envoyer-un-rush.md) :
+il envoie d'abord **l'audio seul** (raccourci iOS, 1 tap, ~1 Mo/clip), et le fichier lourd
+**une seule fois**, à la fin, quand la liste de coupes est validée.
+
+**Les étapes 0 à 3 tournent entièrement sur l'audio.** Mesuré sur `tier-foot-HQ.mp4`, vidéo
+complète contre audio seul : 60 Mo → 872 Ko, **0,04 s d'écart maximum** sur les bornes de coupe
+(0,00 s sur 4 segments / 5), blanc long détecté à l'identique. Donc : **ne pas réclamer la vidéo
+avant l'étape 4.**
+
+Ce que l'audio ne dit pas, et qu'il faut demander avant d'encoder : la **netteté de la première
+image gardée** (c'est la vignette TikTok), et la **résolution réelle** (la fiche captation d'un
+fichier audio ne porte que sur le son).
+
+Pour faire venir le fichier lourd : `bash outils/recuperer.sh "<lien>"`. Il gère iCloud Drive,
+Google Drive, Dropbox, WeTransfer et tout lien direct. **Un lien d'album partagé iCloud est
+refusé** — Apple y ré-encode les vidéos.
 
 ---
 

@@ -20,6 +20,13 @@ case "$LIEN" in
     [ -n "$ID" ] && LIEN="https://drive.usercontent.google.com/download?id=${ID}&export=download&confirm=t"
     ;;
   *dropbox.com*) LIEN="${LIEN%%\?*}?dl=1" ;;
+  # iCloud : un lien de partage est une page JavaScript, curl n'y verrait que du HTML.
+  # icloud.py interroge l'API publique de resolution et rend l'URL signee du fichier.
+  # Il REFUSE un lien d'album partage : Apple y re-encode les videos (voir CLAUDE.md §5).
+  *icloud.com*)
+    DIR_OUTILS="$(cd "$(dirname "$0")" && pwd)"
+    if ! LIEN=$(python3 "$DIR_OUTILS/icloud.py" "$LIEN"); then exit 1; fi
+    ;;
 esac
 
 SORTIE="$DEST/${NOM:-rush-$(date +%H%M%S).mp4}"
