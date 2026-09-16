@@ -18,6 +18,16 @@ par Sady) a son premier script écrit au mot près. Cinq idées écartées, avec
 **Décidé** : les cinq règles du duo en tête du fichier (format répétable, conflit fabriqué, un rôle
 chacun, appel au commentaire, titre qui accuse). Elles viennent toutes du benchmark de Sady.
 
+**Retour de Nabil** : « Le 1 est très drôle, le reste vraiment pas. » Quatre concepts brûlés d'un
+coup. Ce qu'il retient de la note cachée : une mécanique qui fait rire toute seule et un objet qui
+signe le format. Deuxième passe, deux concepts écrits jusqu'au script : **l'interview d'après-match
+de la vie** (Nabil journaliste au déo-micro, Sady en footballeur en langue de bois) et **le
+mythomètre** (Sady raconte, Nabil monte un carton 0-10, l'histoire se dégonfle en direct).
+
+**Appris** : mes quatre concepts refusés étaient des *formats* (mécanique, rôles, titres) mais pas
+des *vannes*. Nabil juge un concept sur la première réplique qui fait rire, pas sur sa structure.
+La prochaine fois : écrire le premier échange avant de décrire le format.
+
 **À retenir** : la vidéo d'aujourd'hui doit être la première publiée. Sixième rappel.
 
 ## 15/09/2026 (soir) — Nabil a retourné « T'inquiète » et l'a montée lui-même
