@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 15/09/2026**
+**Dernière mise à jour : 17/09/2026**
 
 ---
 
@@ -50,6 +50,22 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
   volontairement pas dans `livraisons/`, qui est le dossier des vidéos destinées à sortir.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
 - **Les six montages sont prêts, aucun n'est publié.** C'est le seul vrai blocage de la Phase 1.
+
+## Les dispos de Nabil — agenda Google « SADY NABIL »
+
+Roulement **2×8, une semaine sur deux, du lundi au vendredi** (posé le 17/09 dans l'agenda
+partagé avec Sady, jusqu'au vendredi 30/10) :
+
+| Semaines du | Shift | Fenêtre pour tourner en semaine |
+| :--- | :--- | :--- |
+| 14/09 · 28/09 · 12/10 · 26/10 | 6h-14h | **après 14h** |
+| 21/09 · 05/10 · 19/10 | 14h-22h | **avant 14h** |
+
+**Les week-ends sont libres** : c'est là qu'un tournage avec Sady se cale sans négocier.
+Une exception déjà bloquée — **samedi 26/09, 9h-18h : événement jeune entrepreneur Odoo**
+(Nabil + Sady).
+
+Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 
 ## Les 3 prochaines actions
 

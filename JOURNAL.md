@@ -6,6 +6,38 @@
 
 ---
 
+## 17/09/2026 — Le planning de Nabil posé dans l'agenda partagé avec Sady
+
+**Fait**
+
+- Connecteur **Google Calendar** branché par Nabil (il n'était pas installé ; la connexion OAuth
+  ne peut pas être faite par l'IA, c'est lui qui clique).
+- Agenda **SADY NABIL** (`Europe/Brussels`) rempli : il était vide. **36 événements** posés.
+- Le roulement 2×8 : **20 shifts 6h-14h + 15 shifts 14h-22h**, lun-ven, alternance une semaine
+  sur deux, du 14/09 au 30/10. Ancré sur la semaine du 14/09 en 6h-14h, celle que Nabil a faite.
+- **Samedi 26/09, 9h-18h** : événement jeune entrepreneur Odoo, Nabil + Sady.
+- Dispos reportées dans [`ETAT.md`](ETAT.md) : elles décident des créneaux de tournage.
+
+**Appris**
+
+- **Poser 35 shifts en 2 événements récurrents, pas en 35 événements.** Deux `RRULE`
+  `FREQ=WEEKLY;INTERVAL=2;WKST=MO;BYDAY=MO,TU,WE,TH,FR` décalées d'une semaine suffisent à
+  décrire toute l'alternance. Si le planning bouge, on modifie la série une fois.
+- **Le changement d'heure est un piège sur une série qui traverse octobre.** L'heure d'hiver tombe
+  le 25/10 ; la dernière semaine est de l'autre côté. Vérifié dans l'agenda après écriture :
+  `2026-10-26T06:00:00+01:00` — le décalage passe de +02:00 à +01:00 et **6h reste 6h**. C'est ce
+  que donne le champ `timeZone` ; un horaire écrit en offset fixe aurait dérivé d'une heure.
+- **La règle « rien sans mesure » vaut aussi hors vidéo.** Avant de répondre « je ne peux pas me
+  connecter », j'ai listé les connecteurs plutôt que de le supposer ; avant d'annoncer l'agenda
+  rempli, je l'ai relu événement par événement pour vérifier l'alternance. Le jour de la semaine
+  du 26/09 (samedi) a été vérifié en commande, pas de tête : c'est lui qui décidait s'il y avait
+  conflit avec le shift.
+- **Demander avant d'écrire chez quelqu'un d'autre.** L'agenda est partagé : un shift posé le
+  mauvais jour, c'est Sady qui planifie sur une dispo fausse. Trois questions (jours travaillés,
+  horizon, horaire de l'Odoo) ont évité de deviner.
+
+---
+
 ## 15/09/2026 — « T'inquiète » : 5 clips assemblés en une vidéo
 
 **Fait**
