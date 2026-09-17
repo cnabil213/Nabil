@@ -93,10 +93,17 @@ pas le supposer.
 
 ## Snapchat : ce que la recherche dit de la sauvegarde
 
-**1. Il existe un réglage de qualité vidéo, peu connu.**
-`Réglages → Paramètres avancés → Qualité vidéo` : **Automatique / Standard / Faible**. Un compte
-réglé sur « Faible » ou en économiseur de données perd de la définition sans prévenir.
-**À vérifier avant toute autre chose.**
+**1. ⚠️ Il n'y a PAS de réglage de qualité vidéo exploitable sur iPhone.**
+
+> **Correction du 17/09.** J'avais indiqué à Nabil un chemin
+> `Réglages → Paramètres avancés → Qualité vidéo`. **Il ne l'a pas trouvé** — et c'est normal :
+> ce chemin venait d'articles de vendeurs de logiciels de réparation vidéo (EaseUS, HitPaw,
+> iMyFone, Wondershare…), qui se contredisent entre eux (« Standard / Low / Automatic » chez l'un,
+> « only standard and low » chez l'autre) et dont **aucun n'est la documentation de Snapchat**.
+> Je l'ai donné sans le vérifier. Ne pas le reproposer.
+
+**Ce qui est établi :** Snapchat capture en 720p et ne l'expose pas en réglage. Le seul levier
+réel est de ne pas filmer dans Snapchat.
 
 **2. L'export depuis Memories ne dégrade ni ne récupère.**
 [Source](https://www.memoriesimport.com/blog/snapchat-memories-vs-camera-roll) : *« Exporting
@@ -119,8 +126,22 @@ iOS a un réglage `Réglages → Appareil photo → **Miroir photo de face**`. *
 enregistrée *inversée* par rapport au retour écran pendant la prise. On se connaît en miroir : la
 version non-miroir paraît étrange, les asymétries sautent aux yeux.
 
-**Test à faire avant de conclure quoi que ce soit** : activer le miroir, filmer 10 s à l'app Caméra.
-Si c'était ça, il récupère le 1080p **et** son visage.
+### La solution, et elle est dans CapCut
+
+Ce que Nabil aime chez Snapchat, c'est **le lissage de peau**. **CapCut le fait aussi**, et il y est
+déjà : clip sélectionné → barre du bas, **défiler vers la droite** → **« Retoucher »** / « Beauté »
+→ « Lisser la peau ».
+
+Donc : **filmer à l'app Caméra en 1080p, lisser dans CapCut.** Il garde le look et récupère la
+définition.
+
+**Le test, 2 minutes, et il tranche définitivement :** filmer 10 s à l'app Caméra (miroir activé),
+passer le lissage CapCut, comparer à une vidéo Snapchat.
+
+- aussi bien → on bascule, et on n'en reparle plus ;
+- moins bien → **on reste sur Snapchat définitivement**, et on n'en reparle plus non plus.
+
+C'est à Nabil de juger sa tête. Aucune mesure ne remplace ça, et il n'y a rien à argumenter.
 
 ---
 

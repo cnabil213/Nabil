@@ -6,6 +6,30 @@
 
 ---
 
+## 17/09/2026 (suite) — Un chemin de réglage donné sans le vérifier : corrigé
+
+Nabil : « je trouve pas tes paramètres, je comprends rien (…) y'a moyen d'améliorer la capture
+Snapchat ou pas ? »
+
+**Erreur de ma part, et du type exact que `CLAUDE.md` interdit.** Je lui avais donné
+`Snapchat → Paramètres avancés → Qualité vidéo` comme s'il était établi. En réalité ça venait
+d'articles SEO de **vendeurs de logiciels de réparation vidéo** (EaseUS, HitPaw, iMyFone,
+Wondershare, Tenorshare), qui se contredisent entre eux, et dont aucun n'est la doc de Snapchat.
+Recherche refaite : **aucune source primaire ne confirme ce réglage sur iOS.** Et le fait que Nabil
+ne le trouve pas est une donnée plus fiable que ces articles.
+
+**Réponse rendue : non, la capture Snapchat ne s'améliore pas.** 720p, pas de réglage, et changer
+de méthode de sauvegarde ne récupère rien puisque la perte est à la prise.
+
+**Le vrai déblocage, et il annule tout le débat** : ce que Nabil aime chez Snapchat, c'est le
+**lissage de peau** — et **CapCut le fait**, alors qu'il y est déjà (clip → barre du bas, défiler à
+droite → « Retoucher » → « Lisser la peau »). Donc filmer à l'app Caméra en 1080p et lisser dans
+CapCut lui donne le look **et** la définition.
+
+**Leçon de méthode** : la règle « rien sans mesure » vaut aussi pour les chemins d'interface. Un
+chemin de réglage se cite depuis la doc de l'éditeur, ou se donne comme non vérifié. Un article de
+vendeur de logiciel n'est pas une source.
+
 ## 17/09/2026 (suite) — « 30 fps c'est le pire truc nan ? » — il a raison sur le principe, pas sur son fichier
 
 Nabil conteste la recommandation « 30 im/s, pas 60 », et demande de me renseigner sur la sauvegarde

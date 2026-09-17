@@ -60,14 +60,16 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
   OFF, 30 im/s (pas 60)**. Mesuré : l'aller-retour 720p→1080p→720p sort à 61,8 dB, donc l'upscale
   n'ajoute **aucun** détail. Détail : [`outils/README-export-capcut.md`](outils/README-export-capcut.md).
 - **Il a refilmé sur Snapchat** (« je suis plus beau sur snap »). Ses 4 anciennes vidéos : **720p,
-  30/1**, et `monter.py` ne touche pas la cadence → ça vient bien de Snapchat. **Le nouveau rush n'a
-  jamais été mesuré** : réclamer 2 s exportées depuis CapCut (~2 Mo).
-  **3 pistes à tester, dans cet ordre :** (1) `Snapchat → Paramètres avancés → Qualité vidéo`, la
-  mettre sur **Automatique** (si elle est sur « Faible », il perd de la définition sans le savoir) ;
-  (2) `iOS → Réglages → Appareil photo → **Miroir photo de face**` — s'il est désactivé, la vidéo est
-  enregistrée inversée, ce qui explique peut-être tout le « je suis moins bien » ; (3) une vanne à
-  l'app Caméra 1080p + « Retouche » CapCut. Test proposé, pas encore fait : une vanne à l'app Caméra 1080p + « Retouche » CapCut.
-  S'il se trouve aussi bien → on bascule. Sinon → on reste sur Snap et on n'en reparle plus.
+  30/1**, et `monter.py` ne touche pas la cadence → ça vient bien de Snapchat.
+  **La capture Snapchat ne s'améliore pas** : pas de réglage exploitable sur iPhone (j'avais indiqué
+  un chemin `Paramètres avancés → Qualité vidéo` tiré d'articles de vendeurs de logiciels — **non
+  vérifié, Nabil ne l'a pas trouvé, ne pas le reproposer**).
+  **Le déblocage est ailleurs** : ce qu'il aime chez Snap c'est le **lissage de peau**, et **CapCut
+  le fait** (clip → barre du bas, défiler à droite → « Retoucher » → « Lisser la peau »).
+  **Test qui tranche, 2 min, pas encore fait** : filmer 10 s à l'app Caméra 1080p + lissage CapCut,
+  comparer. Aussi bien → on bascule. Moins bien → **on reste sur Snap définitivement et on n'en
+  reparle plus.** C'est lui qui juge sa tête, aucune mesure ne remplace ça.
+
 - **PLAFOND : 60 s maximum par vidéo** (Nabil, 17/09). À 3,87 mots/s mesurés, ça fait **232 mots**.
   Compter avant de livrer un script, jamais estimer à l'œil.
 - **Rushs de la vanne sur la clope : tournés le 17/09, pas encore envoyés.** Son script fait **68 s**,
