@@ -264,3 +264,126 @@ Six types de personnes, trois registres (le pote, l'école, la famille), aucun d
 **Le pote qui diagnostique tout** : « t'as mal à la tête ? c'est le foie », le remède de sa
 grand-mère, et il t'annonce un truc grave. Type de personne, liste, chute possible (« il a fait un an
 de STAPS »). Écrit sur demande.
+
+---
+
+# Le thème « vente / business 2.0 » — version retravaillée
+
+> Nabil sur la première version (« les ventes entre particuliers », dans
+> [`09-scripts-solo-17-09.md`](09-scripts-solo-17-09.md)) : « le thème a un potentiel mais comme ça
+> il est vraiment mid. Faut un vrai hook qui fait rester les gens. Autour de Vinted, les business man
+> 2.0 ou un autre sujet sur ce thème. Faut que ça soit hilarant. »
+
+## Pourquoi la première version était mid (diagnostic, pour ne pas le refaire)
+
+| Défaut | Ce qu'il fallait |
+| :--- | :--- |
+| **Six personnes différentes** : le négociateur, le curieux, le photographe, le vendeur menteur… | **Un seul type de personne**, qu'on suit du début à la fin |
+| Le hook (« il m'a proposé 2 € sur une veste à 45 ») est **un mème déjà vu cent fois** | Un hook qui pose une **contradiction** qu'on veut voir se dégonfler |
+| C'est une **liste de plaintes** : chaque palier est indépendant, on peut partir à tout moment | Une **descente** : chaque palier aggrave le cas du même mec, donc on reste pour voir où il tombe |
+| La chute se retourne contre Nabil (« je l'ai noté 5 étoiles ») | La chute doit **achever le personnage** |
+
+**Le principe de rétention, écrit noir sur blanc** : le hook ne doit pas annoncer un sujet, il doit
+ouvrir une question. « Il a lancé son entreprise. C'est un compte Vinted » pose la question *« à quel
+point c'est pire que ce que j'imagine ? »* — et la seule façon de le savoir est de rester.
+
+---
+
+## 🎬 7. LE BUSINESSMAN 2.0
+
+**Type de personne** : le pote devenu « entrepreneur » avec un compte de revente. **Registre** :
+le pote. **Attention au doublon** : le Business Bro (Vidéo 3) est celui qui *parle* comme un
+investisseur sans rien faire. Celui-là *fait* vraiment quelque chose, et c'est ça qui est pire.
+Vérifié : aucun palier commun entre les deux scripts.
+
+### Les trois hooks possibles (Nabil choisit, aucun n'est « mid »)
+
+1. **« Mon pote m'a dit qu'il avait lancé son entreprise. C'est un compte Vinted. »** ← le plus fort,
+   c'est celui du script
+2. « Mon pote m'a parlé de son chiffre d'affaires. Quarante euros. Depuis mars. »
+3. « Mon pote a vendu sa PlayStation pour acheter du stock. Il a trente-huit pulls chez lui. »
+
+### Script
+
+> Mon pote m'a dit qu'il avait lancé son entreprise. C'est un compte Vinted.
+>
+> On a TOUS ce pote qui est devenu businessman en une nuit parce qu'il a vendu un pull.
+>
+> Il te parle de son stock. Frère, ton stock il est sous ton lit. Y a quatre t-shirts et un sac
+> Auchan.
+>
+> Il te parle de ses clients. T'as vendu à ta cousine. Deux fois. C'est pas une cliente, c'est de la
+> famille. Elle a eu pitié de toi.
+>
+> Il te parle de sa logistique. La logistique, c'est sa mère qui passe à la poste. Elle sait même pas
+> qu'elle travaille pour lui. Elle est employée sans contrat.
+>
+> Il a un service client. Un mec lui écrit « l'article est jamais arrivé », il répond : on va
+> regarder ça avec l'équipe. L'équipe c'est TOI, frère ! Tu réponds dans ton lit à 3 h du matin !
+>
+> Il a fait le Black Friday. Il a baissé un pull de douze euros à onze. Et il a appelé ça une
+> opération.
+>
+> Il m'a dit qu'il était en rupture de stock. T'as vendu le seul truc que t'avais ! C'est pas une
+> rupture, c'est un vide !
+>
+> Et là il me dit qu'il réinvestit. Il a vendu sa PlayStation pour acheter du stock. Il a acheté
+> quarante pulls.
+>
+> Il en a vendu deux.
+>
+> Aujourd'hui il a plus de console. Et il a trente-huit pulls.
+
+**Voix** : « L'équipe c'est TOI, frère ! » est le pic de la vidéo, c'est là que tu montes le plus.
+« C'est pas une rupture, c'est un vide ! » est le second. La chute se dit lentement, en trois blocs,
+comme un constat de comptable, et tu coupes sur « pulls ».
+**Titres** : « Il a lancé son entreprise, c'est un compte Vinted » · « Il a vendu sa PlayStation pour
+acheter 40 pulls » · « Le service client c'est lui, dans son lit, à 3 h du matin »
+
+---
+
+## 🎬 8. LE MEC QUI A « ÉCONOMISÉ »
+
+**Type de personne** : celui qui dépense et qui appelle ça une économie. C'est l'autre sujet du même
+thème (l'argent, la consommation), et c'est un type de personne différent, donc pas de doublon.
+
+### Hook
+
+> Il a dépensé deux cents balles, et il m'a dit qu'il avait économisé quatre-vingts euros.
+
+### Script
+
+> Il a dépensé deux cents balles, et il m'a dit qu'il avait économisé quatre-vingts euros.
+>
+> On a TOUS ce pote qui sort d'un magasin avec quatre sacs et qui te dit qu'il a fait une bonne
+> affaire.
+>
+> Il te montre le ticket. Il te MONTRE le ticket. Comme un diplôme. « Regarde, c'était à 60, je l'ai
+> eu à 35. » Frère, t'avais pas besoin de la chose. T'as pas économisé 25 euros, t'as perdu 35.
+>
+> Il achète des trucs qu'il aurait jamais achetés, juste parce que y a un pourcentage dessus. Il a
+> acheté une raquette de tennis. Il joue pas au tennis. Elle était à moins 50.
+>
+> Il te dit : « à ce prix-là, ça valait le coup. » Ça valait le coup de quoi ? Tu vas faire quoi avec
+> une raquette ? Tu vas frapper les factures ?
+>
+> Et le pire, c'est qu'il compte ses économies comme de l'argent qu'il a gagné. Il additionne. Il te
+> dit « j'ai économisé 200 euros ce mois-ci ». T'es à découvert, frère. T'as économisé dans le vide.
+>
+> Sa banque l'a appelé. Elle l'a appelé LUI. Elle appelle pas les gens qui économisent.
+>
+> Et il m'a dit qu'il allait se faire rembourser.
+>
+> Il a plus le ticket.
+
+**Voix** : « Tu vas frapper les factures ? » est le pic. « Elle appelle pas les gens qui
+économisent » se dit calme, c'est du constat. Chute en deux blocs très courts.
+**Titres** : « Il a dépensé 200 balles et il dit qu'il a économisé 80 » · « Il a acheté une raquette
+de tennis, il joue pas au tennis »
+
+---
+
+## La version « mid » est brûlée
+
+Le script « les ventes entre particuliers » (09, n° 3) ne se tourne pas. Raison : six personnes
+différentes, un hook déjà vu, aucune descente. Gardé dans `09-…` comme trace du diagnostic.

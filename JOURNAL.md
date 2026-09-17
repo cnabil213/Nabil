@@ -34,6 +34,28 @@ Nabil en voiture, prêt à tourner 5-6 vidéos solo « dans le délire de T'inqu
 - Le script du tonton porte une consigne inverse des autres : ne pas surjouer l'émotion finale,
   sinon la chute tombe dans le mièvre, qui est interdit par la charte.
 
+**Le thème « vente » refait : un hook qui ouvre une question, et une descente**
+
+Nabil sur mon script des ventes en ligne : « le thème a un potentiel mais comme ça il est vraiment
+mid. Faut un vrai hook qui fait rester les gens. Autour de Vinted, les business man 2.0. Faut que ça
+soit hilarant. »
+
+Diagnostic : le script parlait de **six personnes différentes** (le négociateur, le curieux, le
+photographe, le vendeur menteur…), son hook était un mème déjà vu, et le corps était une liste de
+plaintes interchangeables. On peut partir à n'importe quel palier sans rien manquer.
+
+Deux règles écrites en §2 ter de `01-persona-et-regles.md` :
+1. **Le hook ouvre une question, il n'annonce pas un sujet.** « Il a lancé son entreprise. C'est un
+   compte Vinted » pose « à quel point c'est pire que ce que j'imagine ? ».
+2. **Le corps est une descente sur UN seul type de personne**, pas une liste. Test : si deux paliers
+   s'échangent sans rien changer, c'est une liste, donc c'est mid.
+
+Écrits : **le businessman 2.0** (le stock sous le lit, la mère comme logistique, le service client à
+3 h du matin, le Black Friday à moins un euro, la PlayStation vendue pour 40 pulls dont 2 vendus) et
+**le mec qui a « économisé »** (la raquette de tennis à moins 50 %, les économies additionnées comme
+des gains, la banque qui appelle, le ticket perdu). Contrôle anti-doublon avec le Business Bro
+(Vidéo 3) : aucun palier commun, vérifié terme par terme.
+
 **Correction majeure, le même jour : il est NARRATEUR, pas acteur**
 
 Après mes quatre scripts de remplacement (bourrés d'indications de jeu : mimer un volant, tenir

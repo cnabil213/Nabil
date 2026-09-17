@@ -93,6 +93,26 @@ Les onze scripts connus, triés :
 - **« Les gars, vous aussi vous… ? »** — la question directe à l'audience, forme qu'il réclame
 - **« Les gars, avouez… »** *(la vidéo école)*
 
+## 2 ter. LE HOOK OUVRE UNE QUESTION, IL N'ANNONCE PAS UN SUJET
+
+> Posé le 17/09/2026 après le refus du script « les ventes entre particuliers » : « le thème a un
+> potentiel mais comme ça il est vraiment mid. Faut un vrai hook qui fait rester les gens. »
+
+Un hook qui décrit ce dont on va parler donne au spectateur une raison de partir : il sait déjà.
+Un hook qui pose une **contradiction** l'oblige à rester pour savoir jusqu'où ça va.
+
+| ❌ mid | ✅ ça retient | pourquoi |
+| :--- | :--- | :--- |
+| « Il m'a proposé 2 € sur une veste à 45 » | « Il m'a dit qu'il avait lancé son entreprise. C'est un compte Vinted » | La première est une anecdote finie ; la seconde ouvre « à quel point c'est pire que ce que j'imagine ? » |
+| « On va parler des gens qui vendent en ligne » | « Il a vendu sa PlayStation pour acheter 40 pulls » | Un chiffre absurde et un échange perdant : on veut la suite |
+
+**Et le corps du script doit être une DESCENTE, pas une liste.** Une liste de plaintes sur six
+personnes différentes se quitte à n'importe quel palier. Un seul type de personne dont le cas
+s'aggrave palier par palier retient jusqu'à la chute, parce que chaque palier promet le suivant.
+
+Test : si on peut échanger deux paliers du script sans que rien ne change, c'est une liste. Il faut
+que l'ordre soit obligatoire.
+
 ## 3. L'anatomie d'un script
 
 | Étape | Rôle | Durée |

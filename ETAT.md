@@ -23,6 +23,14 @@ travail ? »). 187 à 228 mots, soit 58 à 71 s au montage (débit mesuré 3,23 
 tournage dans le fichier. Le fichier `09-…` est de l'historique (calibrage + 4 sujets brûlés).
 À la prochaine session : savoir ce qui a été tourné, demander les rushs (`ffprobe` d'abord).
 
+**⚖️ LE HOOK OUVRE UNE QUESTION (17/09).** Un hook qui annonce le sujet est « mid » (mot de Nabil) :
+il donne une raison de partir. Un hook qui pose une contradiction (« il a lancé son entreprise, c'est
+un compte Vinted ») oblige à rester. Et le corps doit être une **descente sur un seul type de
+personne**, pas une liste de plaintes sur six inconnus. Test : si deux paliers sont interchangeables,
+c'est une liste, donc c'est mid. Détail : `01-persona-et-regles.md` §2 ter. Deux scripts écrits sur
+ce principe le 17/09 : **le businessman 2.0** (71 s) et **le mec qui a « économisé »** (62 s), dans
+[`phase-1-solo/10-scripts-narrateur-17-09.md`](phase-1-solo/10-scripts-narrateur-17-09.md).
+
 **⚖️ NABIL EST NARRATEUR, JAMAIS ACTEUR — règle posée par lui le 17/09, elle prime.** « Je tourne
 pas, je parle juste avec ma bouche. Je joue pas de personnage. J'ai pas un jeu d'acteur. » Ses trois
 seuls outils : la narration en « il », la **citation jetée** (la phrase du mec, dans sa propre voix)
