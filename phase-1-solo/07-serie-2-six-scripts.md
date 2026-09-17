@@ -245,54 +245,78 @@ tournage tu sens que ça part sur « il est radin » en général, reviens aux c
 
 ---
 
-## 🎬 5 — Le pote qui a « arrêté de fumer »
+## 🎬 5 — « Ceux qui ont arrêté de fumer… vous allez bien ? » — idée de Nabil
 
-**L'idée :** le mec qui a arrêté il y a huit mois, qui a fumé hier, ce matin, et qui te fait la
-morale entre deux taffes sur TA cigarette.
-**Mécanique :** contraste discours / réalité + escalade des exceptions. Hook acting.
+**L'idée (Nabil, 17/09, en voiture) :** ceux qui ont arrêté de fumer ont arrêté à une époque où la
+vie était vivable. Depuis, tout a empiré. On prend de leurs nouvelles, sincèrement inquiet.
+**Mécanique :** adresse directe à un sous-groupe de l'audience + escalade des « depuis » + aveu final
+sur soi. **Pas de « pote »** : c'est l'audience qu'on interpelle, pas un archétype qu'on décrit.
 
 ### Le hook (2-4 s)
 
-*[Muet. Tu tires une taffe sur une cigarette imaginaire, tu recraches, et sans regarder la caméra :]*
+*[Voix basse, sincère. Tu prends des nouvelles comme après un deuil. Le décalage entre la gravité du
+ton et le sujet, c'est déjà la vanne.]*
 
-> « Non moi j'ai arrêté. Ça c'est la tienne, ça compte pas. »
+> Eh les gars. Ceux qui ont arrêté de fumer. Vous allez bien ? Non mais sincèrement. Vous tenez le
+> coup ?
 
 ### Le script
 
-> On a TOUS ce pote qui a arrêté de fumer. Il a arrêté il y a huit mois. Il a fumé hier. Il a fumé ce
-> matin. Mais il a arrêté, hein, faut pas confondre.
+> Parce que vous, vous avez arrêté à une époque où ça allait, hein. Vous avez arrêté quand l'essence
+> était à 1,40. Quand le grec était à 5 euros. Quand ta mère te prêtait encore son Netflix. Vous avez
+> arrêté quand la vie était vivable.
 >
-> Il a un système : il fume pas SES cigarettes. Il fume les tiennes. « Vas-y passe-m'en une, j'ai
-> arrêté d'acheter. » T'as arrêté d'ACHETER. C'est pas pareil ! C'est comme dire « j'ai arrêté de
-> manger » parce que tu manges dans mon assiette !
+> Mais depuis ? Depuis, le plein c'est 90 balles. Quatre-vingt-dix. J'ai mis 90 euros dans une
+> voiture qui en vaut 1 200. Le plein vaut plus cher que la portière.
 >
-> Il a des exceptions. « Je fume que quand je bois. » Il boit tous les week-ends. « Je fume que quand
-> je suis stressé. » Il est stressé depuis 2021. « Je fume qu'en soirée. » Frère, pour toi une soirée
-> ça commence à 14 heures.
+> Le grec, il est passé à 9 euros. Avant, avec 10 balles, il te rendait la monnaie. Maintenant il te
+> regarde comme si c'est TOI qui lui devais quelque chose.
 >
-> Et le pire, c'est qu'il te fait la morale. Toi tu sors ton paquet, il te regarde avec des yeux de
-> médecin : « tu devrais arrêter, moi depuis que j'ai arrêté je respire mieux. » Tu respires mieux ?
-> T'as toussé 40 secondes tout à l'heure, on a cru que t'accouchais !
+> Netflix t'a séparé de ta mère. T'as plus le droit d'utiliser son compte. « Cet appareil ne fait pas
+> partie de votre foyer. » Netflix a séparé plus de familles que le divorce.
 >
-> Et maintenant il est passé à la puff. Goût pastèque. Il tire dessus toutes les 30 secondes comme un
-> inhalateur, et il te dit « c'est pas de la vraie cigarette ». Frère, t'as une pastèque électrique
-> branchée à la bouche du matin au soir, c'est PIRE.
+> Une place de concert, 150 euros, catégorie « debout à 400 mètres ». Tu vois l'artiste sur un écran.
+> T'aurais pu rester chez toi et le regarder sur… ah non. Plus de Netflix.
+>
+> Et pendant tout ça, vous, vous avez PAS fumé ? Comment ? Vous êtes des moines ? Vous avez vu le
+> prix du plein et vous avez pris une tisane ?
+>
+> Moi j'ai jamais fumé de ma vie. Jamais. Et là, franchement, si quelqu'un me tend une clope, je la
+> prends. Je la fume. J'en prends deux. J'en prends une pour la route.
 
-### La chute
+### La chute — deux versions, tourne les deux, on choisit à la mesure
 
-> Il a pas arrêté de fumer. Il a arrêté de payer.
+> **A (la tienne).** Si j'avais fumé… j'aurais fumé là. Maintenant. Tout de suite.
+
+> **B (le retournement).** Ah non, attendez. 13 balles le paquet. Laissez tomber. Je vais pleurer.
+> C'est encore gratuit.
 
 ### Tournage
 
-- Le hook muet : la taffe imaginaire, le geste de recracher, et la phrase dite de côté, comme un
-  mec pris en faute. Vignette.
-- Les trois exceptions (« que quand je bois / stressé / en soirée ») en rafale, chaque réponse plus
-  sèche. « Il est stressé depuis 2021 » : sec, sans sourire.
-- « On a cru que t'accouchais » : pic. La puff : tu peux mimer l'inhalateur. Chute, voix basse.
+- **Le hook se joue à contre-emploi** : grave, doux, main sur le cœur si tu veux. Plus c'est sincère,
+  plus c'est drôle. C'est la vignette : ton visage inquiet.
+- Les « depuis » montent en indignation, un cran à chaque palier : le plein → le grec → Netflix → le
+  concert. « Netflix a séparé plus de familles que le divorce » et le rappel « ah non, plus de
+  Netflix » sont les deux pics.
+- « Vous êtes des moines ? » = sommet d'énergie. Puis **tu redescends d'un coup** sur « Moi j'ai jamais
+  fumé de ma vie » : ton de confession.
+- Chute A : résignée, calme. Chute B : tu t'arrêtes net, tu calcules, et la dernière phrase tombe
+  toute seule.
+- **Tu es dans la voiture** : « le plein à 90 balles » se dit en tapant sur le tableau de bord.
 
-**Titre :** « Il a arrêté de fumer il y a 8 mois. Il a fumé ce matin. »
-**Risque au filtre :** on se moque du **discours**, pas des fumeurs ni de la dépendance. Rester sur
-l'hypocrisie du « j'ai arrêté », jamais sur « c'est un faible ».
+**Titre :** « J'ai jamais fumé de ma vie. Après cette année, je commence. »
+**Risque au filtre :** aucun interdit du dépôt. La cible, c'est **le coût de la vie**, pas les fumeurs.
+**Risque plateforme, à part :** TikTok restreint ce qui « représente ou promeut » le tabac. L'ironie
+passe, mais **aucune vraie cigarette à l'écran**, et si la vidéo est bridée, la version B de la chute
+(« 13 balles, laissez tomber ») est celle qui retourne le propos contre la clope — garde-la en réserve.
+
+### La version écartée (la mienne), documentée pour ne pas y revenir
+
+*« Le pote qui a arrêté de fumer et qui fume les tiennes »* — hook « ça c'est la tienne, ça compte
+pas », chute « il a arrêté de payer ». **Écartée le 17/09 par Nabil** (« pas ouf »). Raison, avec le
+recul : c'est un portrait de pote de plus, le sixième de la série, quand les trois vidéos solo déjà
+faites sont déjà des portraits de pote. Le sujet était bon, le **regard** était le mauvais : on
+regardait un mec de l'extérieur au lieu de parler à l'audience de sa propre vie.
 
 ---
 

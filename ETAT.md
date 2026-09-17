@@ -41,7 +41,7 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 | **Skill `montage`** | ✅ [`.claude/skills/montage/`](.claude/skills/montage/SKILL.md) — 7 étapes, 2 points d'arrêt où Nabil tranche |
 | **`outils/derusher.py`** | ✅ Propose les coupes mesurées. **Il n'encode rien, il ne décide rien.** |
 | **Portage Codex (OpenAI)** | ✅ Préparé, **jamais testé** : [`outils/README-portage-codex.md`](outils/README-portage-codex.md) — `AGENTS.md` et `.agents/skills/` sont des liens symboliques, donc zéro dérive |
-| **Série 2 — six scripts** | ✅ Écrits, calibrés, filtrés : Clio · Barcelone 2024 · Pas faim · Je gère · Arrêté de fumer · Le « ? ». **Pas encore tournés ni validés.** |
+| **Série 2 — six scripts** | ✅ Écrits, calibrés, filtrés. **Le 5 (clope) réécrit sur l'idée de Nabil** — « vous allez bien ? », adresse directe à l'audience. Les 5 autres jugés « pas ouf » : formule « on a tous ce pote » ×6. **À trancher : tourner ou réécrire.** |
 | **Envoi des rushs** | ✅ [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) — raccourci iOS « Audio pour Claude » (1 tap) + iCloud Drive pour le fichier lourd |
 
 ## En cours / pas fait

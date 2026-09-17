@@ -6,6 +6,38 @@
 
 ---
 
+## 17/09/2026 (suite) — Nabil retourne le script 5, et met le doigt sur le défaut des six
+
+Nabil : « les idées, je les ai vraiment pas trouvées ouf. » Puis il propose son angle sur la clope :
+« Eh les gars, ceux qui ont arrêté de fumer, vous allez bien ? (…) vous avez arrêté quand l'essence
+était pas chère (…) comment vous faites pour toujours pas fumer ? Moi si j'avais fumé, j'aurais fumé
+là, maintenant. »
+
+**Sa version est meilleure, et la raison est structurelle** : la mienne *décrivait un pote* (« il fume
+les tiennes »), la sienne *interpelle l'audience* (« vous allez bien ? »). Le spectateur est dedans,
+il se tague. Et ça révèle le défaut des six : **six fois « on a TOUS ce pote qui »**, la même formule
+que trois des cinq vidéos déjà faites. Compétent, mais une formule — il l'a senti avant moi.
+
+**Fait**
+
+- Script 5 réécrit sur son idée : hook à contre-emploi (ton grave, « vous tenez le coup ? »),
+  escalade des « depuis » (le plein à 90 balles → le grec à 9 € → Netflix qui t'a séparé de ta mère →
+  le concert à 150 €), sommet « vous êtes des moines ? », aveu « moi j'ai jamais fumé de ma vie »,
+  **deux chutes à tourner** : la sienne (« j'aurais fumé là, maintenant ») et un retournement
+  (« 13 balles le paquet, laissez tomber, je vais pleurer, c'est encore gratuit »). 264 mots → ~68 s.
+- Ma version écartée, **documentée avec sa raison** dans le fichier, pour ne pas y revenir.
+- Risque plateforme noté à part : TikTok bride ce qui « représente ou promeut » le tabac. Ironie OK,
+  aucune vraie cigarette à l'écran, et la chute B retourne le propos contre la clope — en réserve.
+
+**À trancher par Nabil**
+
+- Les cinq autres : les tourner tels quels, ou les réécrire dans son registre (adresse directe à
+  l'audience, pas portrait de pote) ? Le fix dépend de ce qu'il a trouvé « pas ouf » : la formule, ou
+  les sujets.
+- **Proposition DA** : « Eh les gars, ceux qui [X], vous allez bien ? » peut devenir un **format
+  récurrent** — un hook reconnaissable en une seconde, c'est ce qui fait abonner (cf. la tier list
+  chez Sady). À valider avant d'en écrire d'autres.
+
 ## 17/09/2026 — Série 2 : six scripts écrits pour un tournage immédiat
 
 Nabil, en voiture : « je vais au moins tourner les corps (…) 5-6 thèmes (…) au moins 50 secondes,
