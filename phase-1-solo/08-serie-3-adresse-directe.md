@@ -10,6 +10,11 @@
 >
 > **Les six ci-dessous n'ont aucun « on a tous ce pote ».** Et ils utilisent six mécaniques d'adresse
 > différentes, pour que ça ne devienne pas une formule à son tour :
+>
+> ⚠️ **Tout est NARRÉ.** Nabil est narrateur, pas acteur (`01-persona-et-regles.md` §3 bis) : aucune
+> vanne ci-dessous ne dépend d'un geste, d'un accessoire ou d'une mimique. **Elles marchent toutes
+> les yeux fermés.** Les seules indications de jeu qui restent portent sur la VOIX — ton, rythme,
+> silences, imitation d'un personnage qu'on cite.
 
 | # | Sujet | Mécanique d'adresse |
 | :--- | :--- | :--- |
@@ -23,7 +28,11 @@
 > **Calibration — plafond 60 s, fixé par Nabil le 17/09.** « T'inquiète » livré = 142 mots pour
 > 36,7 s, soit **3,9 mots/s**. Donc **60 s = 232 mots, c'est le maximum**. Les six ci-dessous font
 > 211 à 227 mots → **55 à 59 s**. Tourne large quand même, bafouille, refais la chute trois fois :
-> le rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées. C'est au montage qu'on serre.
+> le rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées. C'est au montage qu'on serre.>
+> **Précision de cette estimation.** Les 3,87 mots/s viennent d'**une seule** vidéo (« T'inquiète »).
+> Un écart de 2-3 mots = 0,5 s, c'est sous le bruit de la mesure : un script à 233 mots est « à
+> 60 s », pas « au-dessus ». Le chiffre se resserrera quand on aura mesuré 3-4 montages de plus.
+> Et de toute façon, **le rush se serre au montage** : « T'inquiète » a jeté 65 % de ce qui a été dit.
 
 ---
 
@@ -34,12 +43,12 @@
 
 ### Le hook (2-4 s)
 
-*[Regard caméra, ton de flic qui pose un dossier sur la table.]*
-
+> *(Ton de flic qui pose un dossier sur la table. Tout est dans la voix.)*
+>
 > Je sais ce que vous faites quand vous êtes seuls dans votre voiture.
-
-*[Petit temps.]*
-
+>
+> *(un temps)*
+>
 > Je le sais parce que je le fais aussi.
 
 ### Le script
@@ -68,9 +77,9 @@
 - **Le hook est la vignette** : ton visage, regard caméra, sérieux. Le temps entre les deux phrases
   fait la moitié du travail — ne le bouffe pas.
 - Les quatre paliers montent : interview → concert → la conversation → le vocal. **Le pic, c'est « tu
-  gagnes tellement »** — joue-le avec le doigt, comme si tu débattais vraiment.
-- **La chute se joue, elle ne se raconte pas.** Tu fais le visage du mec surpris, tu remets les mains
-  sur le volant, regard vide, et tu coupes. Ne parle pas après.
+  gagnes tellement »** — c'est le ton qui le porte, pas les mains.
+- **La chute se raconte.** « Mains à dix heures dix, regard vide » : tu le DIS, tu ne le fais pas.
+  L'image se fabrique toute seule dans la tête de celui qui écoute. Et tu coupes juste après.
 
 **Titre :** « Je sais ce que vous faites tout seuls dans votre voiture »
 **Risque au filtre :** aucun. Tu t'inclues dedans dès la deuxième phrase, donc zéro méchanceté.
@@ -85,9 +94,9 @@ l'argent qui part sans qu'on sache où.
 ### Le hook (2-4 s)
 
 > Eh les gars. Ceux qui ont un abonnement à la salle depuis janvier. Vous y allez toujours ?
-
-*[Temps.]*
-
+>
+> *(un temps)*
+>
 > Non. Mais vous payez toujours ?
 
 ### Le script
@@ -167,13 +176,14 @@ l'argent qui part sans qu'on sache où.
 
 ### Tournage
 
-- **Joue le tonton.** Change de voix, plus grave, plus lente. Le contraste entre ta voix et la sienne
-  porte la moitié des rires.
-- « Il pose sa fourchette — c'est le signal » : fais le geste. C'est le moment où la salle comprend.
+- **Cite le tonton en changeant de VOIX** — plus grave, plus lente. C'est de l'imitation vocale, pas
+  du jeu : c'est ton meilleur moment mesuré, toutes vidéos confondues (+22,3 dB sur le Business Bro).
+- « Il pose sa fourchette — c'est le signal » : **ça se raconte.** La phrase suffit, elle fabrique
+  l'image.
 - **Le pic, c'est « comme on dit la NASA »**, suivi immédiatement de « il fait un stage au
   secrétariat », dit à toute vitesse, comme une correction.
-- **Le petit bruit avec la bouche : fais-le vraiment.** C'est le meilleur moment de la vidéo, et il
-  est muet.
+- **Le petit bruit avec la bouche : fais-le vraiment.** C'est un SON, pas un geste — donc c'est
+  autorisé, et c'est le meilleur moment de la vidéo.
 
 **Titre :** « Mon tonton a détruit ma vie en 30 secondes entre l'entrée et le plat »
 **Risque au filtre :** la cible c'est **la situation**, pas ta famille. Le tonton n'est pas méchant,
@@ -188,12 +198,12 @@ minuscule.
 
 ### Le hook (2-4 s)
 
-*[Ton d'annonce SNCF, très posé.]*
-
+> *(Ton d'annonce SNCF, très posé.)*
+>
 > Petit rappel à tous ceux qui envoient des vocaux de sept minutes : c'est illégal.
-
-*[Temps. Voix normale.]*
-
+>
+> *(un temps — voix normale)*
+>
 > Enfin. Ça devrait.
 
 ### Le script
@@ -226,8 +236,8 @@ minuscule.
 
 - **Le hook joue sur le ton**, pas sur les mots : très posé, très officiel, puis tu casses avec
   « enfin, ça devrait ». C'est la rupture qui fait rire.
-- **Imite les vocaux.** La respiration, le « ouais… alors… », le mec dans le vent. Ce sont des sons,
-  pas des phrases — c'est là que tu peux improviser.
+- **Imite les vocaux à la voix.** La respiration, le « ouais… alors… », le mec dans le vent. Ce sont
+  des SONS, pas des gestes : c'est exactement ton terrain, et c'est là que tu peux improviser.
 - **Le pic, c'est « T'étais à deux doigts ! »** répété. Énergie maximale, presque en colère.
 - La chute redescend d'un coup, posée, comme un verdict.
 
@@ -277,8 +287,8 @@ appuie sur le vocal-dans-le-vent et le vocal-à-deux-versions : ce sont les deux
 
 - **« Quelqu'un est mort. Forcément quelqu'un est mort. »** — la deuxième fois plus bas, comme une
   certitude. C'est le pic.
-- « Il a le téléphone contre l'oreille et tu lui écris "ouais ?" » : mime les deux gestes en même
-  temps. Le visuel fait la vanne.
+- « Il a le téléphone contre l'oreille et tu lui écris "ouais ?" » : **la vanne est dans la phrase.**
+  Dis-la lentement, en détachant les deux actions — l'absurde monte tout seul.
 - **La chute se dit avec du respect**, presque de l'admiration. Pas ironique. C'est ça qui la rend
   drôle.
 
@@ -296,11 +306,7 @@ gens », arrête et reviens aux gestes concrets : la pizza, la phrase répétée
 
 ### Le hook (2-4 s)
 
-> Expliquez-moi un truc. Comment un colis peut être « livré »…
-
-*[Tu montres tes mains vides.]*
-
-> …quand j'ai rien dans les mains ?
+> Expliquez-moi un truc. Comment un colis peut être « livré » quand j'ai rien reçu ? Rien. Zéro.
 
 ### Le script
 
@@ -331,8 +337,9 @@ gens », arrête et reviens aux gestes concrets : la pizza, la phrase répétée
 
 ### Tournage
 
-- **Le hook a un geste** : les mains vides montrées à la caméra. C'est la vignette.
-- « Je suis contrôleur aérien » : mime le doigt qui rafraîchit l'écran, encore, encore.
+- **Le hook est une question, posée franchement.** « Rien. Zéro. » se dit sec, deux mots, deux temps.
+- « Je suis contrôleur aérien » : **l'image est dans le mot.** « Je rafraîchis. Il a bougé de deux
+  rues. Je rafraîchis encore » — c'est la répétition qui fait la vanne, pas le doigt.
 - **Le pic, c'est la porte** : « c'est PAS ma porte », l'indignation totale, le paillasson. Monte fort.
 - « À QUI ? » : le sommet, puis **silence**, puis la chute dite calmement. Le contraste fait tout.
 

@@ -8,7 +8,15 @@
 > `livraisons/15sept-tinquiete-HQ.mp4` : 142 mots pour 36,7 s, soit **3,9 mots/s**. Donc
 > **60 s = 232 mots, maximum**. Cinq des six sont dedans ; **le 5 (clope) fait 68 s et a déjà été
 > tourné** — l'ordre de coupe au montage est écrit dans sa fiche. Tourne large quand même : le rush
-> de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées.
+> de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées.>
+> **Précision de cette estimation.** Les 3,87 mots/s viennent d'**une seule** vidéo (« T'inquiète »).
+> Un écart de 2-3 mots = 0,5 s, c'est sous le bruit de la mesure : un script à 233 mots est « à
+> 60 s », pas « au-dessus ». Le chiffre se resserrera quand on aura mesuré 3-4 montages de plus.
+> Et de toute façon, **le rush se serre au montage** : « T'inquiète » a jeté 65 % de ce qui a été dit.
+>
+> ⚠️ **Réécrits le 17/09 en NARRATION pure.** Nabil est narrateur, pas acteur
+> (`01-persona-et-regles.md` §3 bis) : les hooks muets et les vannes gestuelles ont été refaits.
+> **Tout se comprend les yeux fermés.**
 >
 > Aucun de ces six thèmes n'est dans la liste des brûlés de
 > [`03-backlog-idees.md`](03-backlog-idees.md), et aucun ne recoupe les cinq vidéos déjà faites.
@@ -18,8 +26,11 @@
 ## Ce qu'il faut pour qu'une de ces vidéos performe — à te mettre dans la tête avant chaque prise
 
 1. **Le hook, c'est la vanne, pas l'annonce de la vanne.** Zéro « aujourd'hui je vais vous parler
-   de ». La première phrase doit déjà faire rire ou faire tilt. Sur quatre des six, le hook est une
-   **mimique muette** qui démarre AVANT que tu parles — c'est elle qui arrête le pouce.
+   de ». La première phrase doit déjà faire rire ou faire tilt — et **tu parles dès la première
+   image** : mesuré sur tes quatre vidéos solo, ton premier son de voix tombe entre 0,05 et 0,15 s.
+   C'est la phrase qui arrête le pouce, jamais un geste.
+1 bis. **Tu es narrateur, pas acteur.** Tu racontes, tu cites les gens, tu imites leur VOIX. Tu ne
+   mimes rien. Le test : **si la vanne ne marche plus les yeux fermés, elle est fausse.**
 2. **Le setup se dit à toute vitesse.** C'est là que tu retombes, mesuré sur l'otage du téléphone :
    5 secondes de mou pendant que tu poses le décor. Le « On a TOUS ce pote qui… » se balance en
    3 secondes, pas en 8.
@@ -38,30 +49,25 @@
 
 **L'idée :** le pote qui a payé sa première voiture 1 800 € sur Leboncoin et qui te parle comme s'il
 avait un garage à Monaco.
-**Mécanique :** contraste + hook acting. **La voiture est ton accessoire** : caresse le tableau de
-bord, montre la portière, le compteur, la fenêtre.
+**Mécanique :** contraste + citation du personnage. Tout est raconté — **rien à montrer, rien à
+manipuler.**
 
 ### Le hook (2-4 s)
 
-*[Muet. Tu caresses le tableau de bord, lentement, avec amour. Puis, sans regarder la caméra :]*
-
-> « Fais attention en fermant, elle est sensible. »
-
-*[Regard caméra.]*
-
-> Frère. C'est une Clio 2.
+> Le mec il a payé sa voiture 1 800 euros. Et il te dit : « fais attention en fermant, elle est
+> sensible. » Frère. C'est une Clio 2.
 
 ### Le script
 
-> On a TOUS ce pote qui a eu sa première voiture. Le mec, il a payé 1 800 euros une Clio de 2006 sur
-> Leboncoin, et depuis il te parle comme s'il avait un garage à Monaco.
+> On a TOUS ce pote qui a eu sa première voiture. Une Clio de 2006, sur Leboncoin. Et depuis il te
+> parle comme s'il avait un garage à Monaco.
 >
 > Tu montes dedans, y'a un règlement. « Pas de bouffe. Pas de pieds sur le siège. Et la portière tu
 > la claques pas, tu l'ACCOMPAGNES. » Tu l'accompagnes. Frère, on accompagne les gens à l'hôpital,
 > pas une portière.
 >
 > Il se gare, il prend deux places. En diagonale. « Pour pas qu'on la raye. » Elle est déjà rayée des
-> deux côtés, y'a un rétro tenu au scotch, tu protèges quoi exactement ?
+> deux côtés, y'a un rétro tenu au scotch — tu protèges quoi ?
 >
 > Il parle de sa voiture comme d'une personne. « Elle aime pas le froid. » « Elle a un caractère le
 > matin. » Frère, elle a pas de caractère, elle a un démarreur mort.
@@ -73,17 +79,16 @@ bord, montre la portière, le compteur, la fenêtre.
 
 ### La chute
 
-> Et la clim ? La clim c'est la fenêtre. Et la fenêtre… elle descend plus.
-
-*[Tu essaies de descendre la fenêtre. Rien. Tu regardes la caméra. Coupe.]*
+> Et tu lui demandes la clim. Il te dit : « la clim, c'est la fenêtre. » Et la fenêtre, elle descend
+> plus depuis 2019.
 
 ### Tournage
 
-- **Le hook muet est la vignette TikTok.** La première image doit être toi qui caresses le tableau de
-  bord, net, sans flou de bougé.
+- **Tu parles dès la première image** — c'est elle, la vignette TikTok : ton visage, net.
 - Les quatre paliers montent : règlement → parking → « elle a un caractère » → le tour du quartier.
   Le compteur à 247 000 km, c'est le pic d'énergie. La chute redescend, voix basse.
-- Si ta vraie fenêtre descend, fais semblant qu'elle bloque. Si elle bloque vraiment, c'est un cadeau.
+- Tu peux être dans la voiture ou pas : **rien dans cette vanne ne dépend d'un geste.** Elle se
+  comprend les yeux fermés.
 
 **Titre :** « Il a une Clio de 2006 et il me parle comme si c'était une Ferrari »
 **Risque au filtre :** ne pas glisser vers « il est pauvre ». La cible, c'est la **prétention**, pas
@@ -97,8 +102,6 @@ la voiture. Tout ce qui est moqué, c'est l'écart entre le discours et l'objet.
 **Mécanique :** escalade chronologique (janvier → août) + retour au réel.
 
 ### Le hook (2-4 s)
-
-*[Tu montres ton téléphone à la caméra.]*
 
 > Les gars, j'ai un groupe WhatsApp qui s'appelle « BARCELONE 2024 », flamme flamme. On est en 2026.
 > Personne est jamais parti.
@@ -131,9 +134,8 @@ la voiture. Tout ce qui est moqué, c'est l'écart entre le discours et l'objet.
 
 ### Tournage
 
-- Le hook se joue téléphone en main, tu montres l'écran comme une preuve. Tu peux vraiment créer un
-  groupe qui s'appelle « BARCELONE 2024 🔥 » avant de tourner : trois secondes, et la vignette est
-  faite.
+- **« Flamme flamme » se dit**, ça ne se montre pas. Le nom du groupe prononcé à voix haute suffit :
+  tout le monde voit l'écran dans sa tête.
 - **La chronologie va vite** : « Février… Mars… Avril » se dit en rafale, chaque mois plus sec. C'est
   le silence du groupe qu'on entend.
 - Le pic, c'est le coucher de soleil avec « l'année prochaine pour de vrai ». Puis la chute, calme.
@@ -147,25 +149,23 @@ ralentir — c'est une rafale, pas une liste.
 ## 🎬 3 — Le pote qui « n'a pas faim »
 
 **L'idée :** le mec qui commande rien, jamais, et qui mange le plus à table — dans ton assiette.
-**Mécanique :** observation ultra-précise + escalade. Hook acting.
+**Mécanique :** observation ultra-précise + escalade. Tout est raconté.
 
 ### Le hook (2-4 s)
 
-*[Muet. Tu regardes ailleurs, l'air innocent, et ta main pique une frite imaginaire sur le côté.
-Puis, la bouche pleine :]*
-
-> « Non non, j'ai pas faim, commande pour toi. »
+> « Non non, j'ai pas faim, commande pour toi. » C'est la plus grosse arnaque de l'histoire de
+> l'amitié.
 
 ### Le script
 
 > On a TOUS ce pote-là. Tu vas au grec, tu lui dis « tu prends quoi ? », il te fait : « non moi ça
-> va, j'ai mangé. » Il a mangé. Il a mangé QUOI ? Il a mangé à quelle heure ? Personne sait. C'est un
+> va, j'ai mangé. » Il a mangé. Il a mangé QUOI ? À quelle heure ? Personne sait. C'est un
 > mystère, comme les pyramides.
 >
 > Ta commande arrive. Il se penche. Il regarde tes frites comme si c'était un documentaire.
-> « Elles ont l'air bonnes. » Frère, c'est des frites, c'est pas un tableau au Louvre.
+> « Elles ont l'air bonnes. » Frère, c'est des frites, c'est pas le Louvre.
 >
-> Il commence par une. « Juste une pour goûter. » Puis deux. Puis y'a plus de « juste », plus de
+> Il commence par une. « Juste pour goûter. » Puis deux. Puis y'a plus de « juste », plus de
 > « goûter », y'a une main qui fait des allers-retours entre ton assiette et sa bouche comme un
 > essuie-glace.
 >
@@ -184,9 +184,8 @@ Puis, la bouche pleine :]*
 
 ### Tournage
 
-- Le hook muet : la main qui pique en regardant ailleurs, c'est la vignette. Joue-la lentement, c'est
-  le contraste avec le débit qui suit.
-- « Comme un essuie-glace » : fais le geste, main plate, aller-retour rapide. C'est le pic.
+- Le hook est **la phrase du mec, citée**, puis ton verdict. Tu parles dès la première image.
+- « Comme un essuie-glace » : **l'image est dans le mot**, pas dans ta main. Dis-le vite, c'est le pic.
 - « Tu finis pas ta sauce ? » se dit **doucement**, avec le regard du pote, presque gêné. C'est ça
   qui tue. Puis la chute, sèche.
 
@@ -233,7 +232,10 @@ demande Lydia de 73 centimes le lendemain. Pour le pain.
 ### Tournage
 
 - Le hook est verbal, sec, en deux phrases : la grande phrase du parrain, puis les 73 centimes. Le
-  contraste est déjà la vanne. Joue le parrain avec le geste de la carte qui sort de la poche.
+  contraste EST la vanne — rien à ajouter, surtout pas un geste.
+- **« Laissez, je gère » se dit avec SA voix à lui**, plus grave, plus large. C'est de l'imitation
+  vocale, pas du jeu : c'est ton meilleur moment mesuré, toutes vidéos confondues (+22,3 dB sur le
+  Business Bro).
 - « Il a compté les morceaux » : pic d'énergie, indignation. « Assume ta générosité ! » aussi.
 - « Mémoire de comptable suisse / poisson rouge » se dit en rythme, deux temps, puis la chute.
 
@@ -253,9 +255,9 @@ sur soi. **Pas de « pote »** : c'est l'audience qu'on interpelle, pas un arch�
 
 ### Le hook (2-4 s)
 
-*[Voix basse, sincère. Tu prends des nouvelles comme après un deuil. Le décalage entre la gravité du
-ton et le sujet, c'est déjà la vanne.]*
-
+> *(Voix basse, sincère — tu prends des nouvelles comme après un deuil. Le décalage entre la
+> gravité du ton et le sujet, c'est déjà la vanne.)*
+>
 > Eh les gars. Ceux qui ont arrêté de fumer. Vous allez bien ? Non mais sincèrement. Vous tenez le
 > coup ?
 
@@ -307,8 +309,8 @@ ici, à froid, plutôt que dans la précipitation devant la timeline.
 
 ### Tournage
 
-- **Le hook se joue à contre-emploi** : grave, doux, main sur le cœur si tu veux. Plus c'est sincère,
-  plus c'est drôle. C'est la vignette : ton visage inquiet.
+- **Le hook se joue à contre-emploi, avec la VOIX seulement** : grave, doux, lent. Plus c'est
+  sincère, plus c'est drôle. La vignette, c'est ton visage inquiet — rien à faire avec les mains.
 - Les « depuis » montent en indignation, un cran à chaque palier : le plein → le grec → Netflix → le
   concert. « Netflix a séparé plus de familles que le divorce » et le rappel « ah non, plus de
   Netflix » sont les deux pics.
@@ -338,22 +340,18 @@ regardait un mec de l'extérieur au lieu de parler à l'audience de sa propre vi
 
 **L'idée :** tu réponds pas pendant douze minutes, et il passe de « ? » à sonner chez toi. En
 passant par ton frère.
-**Mécanique :** escalade pure, minute par minute. Hook acting.
+**Mécanique :** escalade pure, minute par minute. Tout est raconté.
 
 ### Le hook (2-4 s)
 
-*[Muet. Tu tapes sur ton téléphone, tu le montres : « ? ». Tu attends une seconde. Tu tapes :
-« Allo ? ». Une seconde. « T'es mort ? ». Regard caméra :]*
-
-> Frère, ça fait quatre minutes.
+> Quatre minutes sans répondre. Trois messages. « ? » — « Allo ? » — « T'es mort ? »
 
 ### Le script
 
 > On a TOUS ce pote qui supporte pas qu'on lui réponde pas dans la minute. Tu réponds pas, c'est pas
 > que t'es occupé. Pour lui, c'est que t'es MORT.
 >
-> Minute une : « ? ». Juste un point d'interrogation. Comme si t'avais loupé un rendez-vous chez le
-> notaire.
+> Un point d'interrogation. Comme si t'avais loupé un rendez-vous chez le notaire.
 >
 > Minute trois : « Allo ». Minute cinq : il t'appelle. Tu réponds pas. Il rappelle. Il rappelle en
 > appel WhatsApp, au cas où ton téléphone serait allergique aux appels normaux.
@@ -381,8 +379,8 @@ passant par ton frère.
 
 ### Tournage
 
-- Le hook se joue téléphone en main, **trois messages tapés pour de vrai**, montrés à la caméra l'un
-  après l'autre. Rythme : tap, montre, tap, montre, tap, montre, regard.
+- Les trois messages se **disent**, en rafale, chacun plus sec que le précédent : « ? » · « Allo ? » ·
+  « T'es mort ? ». C'est le rythme qui fait la vanne, pas l'écran.
 - Chaque « minute » est un palier : dis « Minute une », « Minute trois » comme un compte à rebours,
   de plus en plus tendu. Le pic : « Il a contacté ta FAMILLE. Pour un point d'interrogation. »
 - « Tu pouvais pas me prévenir ? » se joue **avec la voix blessée du pote**. Puis la chute, sèche.
@@ -395,11 +393,11 @@ le **pote** et sa paranoïa, jamais le romantique. Ne pas dériver vers « elle 
 
 ## Dans quel ordre tourner
 
-1. **La Clio** — t'es dedans, l'accessoire est là.
-2. **Le « ? »** — téléphone en main, se tourne n'importe où, hook très fort.
-3. **Arrêté de fumer** — hook acting simple.
-4. **Pas faim** — hook acting simple.
-5. **Barcelone** — crée le groupe WhatsApp avant pour la vignette.
+1. **La Clio** — t'es dans la voiture, mais **elle ne sert à rien dans la vanne** : tout est raconté.
+2. **Le « ? »** — se tourne n'importe où, hook très fort, rien en main.
+3. **Arrêté de fumer** — rien à préparer, tout est dans la voix.
+4. **Pas faim** — rien à préparer non plus.
+5. **Barcelone** — rien à créer ni à montrer : le nom du groupe se dit.
 6. **Je gère** — le seul hook purement verbal, garde-le pour quand t'es chaud.
 
 ## Après tournage

@@ -47,11 +47,15 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 | **`outils/derusher.py`** | ✅ Propose les coupes mesurées. **Il n'encode rien, il ne décide rien.** |
 | **Portage Codex (OpenAI)** | ✅ Préparé, **jamais testé** : [`outils/README-portage-codex.md`](outils/README-portage-codex.md) — `AGENTS.md` et `.agents/skills/` sont des liens symboliques, donc zéro dérive |
 | **Série 2 — six scripts** | ✅ Écrits, calibrés, filtrés. **Le 5 (clope) réécrit sur l'idée de Nabil** — « vous allez bien ? », adresse directe à l'audience. Les 5 autres jugés « pas ouf » : formule « on a tous ce pote » ×6. **À trancher : tourner ou réécrire.** |
-| **Série 3 — adresse directe** | ✅ Six scripts, **55-58 s** : voiture · abonnements · tonton · vocaux · peur d'appeler · colis. Six mécaniques d'adresse différentes. **Pas encore tournés.** |
+| **Série 3 — adresse directe** | ✅ Six scripts, **55-58 s**, **narration pure** : voiture · abonnements · tonton · vocaux · peur d'appeler · colis. Six mécaniques d'adresse différentes. **Pas encore tournés.** |
 | **Envoi des rushs** | ✅ [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) — raccourci iOS « Audio pour Claude » (1 tap) + iCloud Drive pour le fichier lourd |
 
 ## En cours / pas fait
 
+- 🎙️ **NABIL EST UN NARRATEUR, PAS UN ACTEUR.** Il raconte, il cite, il imite les VOIX. Il ne mime
+  rien. Test : **si la vanne ne marche plus les yeux fermés, elle est fausse.** La D.A. affirmait
+  l'inverse (« hook acting, mimique muette ») — c'était inventé : il parle dès 0,05-0,15 s sur ses
+  4 vidéos. Corrigé le 17/09, détail dans `01-persona-et-regles.md` §3 bis.
 - **PLAFOND : 60 s maximum par vidéo** (Nabil, 17/09). À 3,87 mots/s mesurés, ça fait **232 mots**.
   Compter avant de livrer un script, jamais estimer à l'œil.
 - **Rushs de la vanne sur la clope : tournés le 17/09, pas encore envoyés.** Son script fait **68 s**,

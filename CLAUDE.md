@@ -94,10 +94,24 @@ ce projet :
 | « Son original est en 1080p » | Ses métadonnées disaient 720p |
 | « Ces deux captures montrent le même moment » | 0,17 s d'écart : l'une nette, l'autre floue |
 | « La qualité a baissé » → une explication | Mesurer **d'abord**, répondre ensuite |
+| « Son hook s'ouvre sur une mimique muette » (écrit dans sa D.A.) | Il parle dès **0,05–0,15 s** sur ses 4 vidéos solo : aucune n'a jamais eu d'ouverture muette |
 
 Corollaire : quand Nabil signale un problème, la première réponse est une mesure, pas une
 hypothèse. Et quand une mesure contredit ce qu'on a affirmé plus tôt, **on se corrige
 explicitement** — dans la réponse et dans le dépôt.
+
+---
+
+## Nabil est un narrateur, pas un acteur
+
+**Il raconte, il ne joue pas.** Il rapporte ce que les gens disent, il imite leur voix, il commente
+face caméra. **Il ne mime rien.** Une vanne dont la charge est un geste n'est pas pour lui.
+
+Le test : **si la vanne ne marche plus les yeux fermés, elle est fausse.** Ses quatre vidéos solo
+passent ce test.
+
+Détail, tableau de ce qui est autorisé, et la mesure qui a corrigé l'erreur :
+[`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §3 bis.
 
 ---
 

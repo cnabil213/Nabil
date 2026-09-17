@@ -43,8 +43,6 @@ On a cherché le bon « drame » d'enfance :
 
 ### Script final
 
-> *[Hook acting — mimique d'esquive dans le vide]*
->
 > On a TOUS ce pote qui esquive des droites imaginaires dans l'ascenseur. Frère,
 > redescends sur terre, tu te bats contre des fantômes ou quoi ? Maintenant, tu vois
 > des mecs, ils ont regardé trois TikTok de MMA, ils se prennent pour des tueurs à
@@ -56,8 +54,13 @@ On a cherché le bon « drame » d'enfance :
 
 ### Note de tournage
 
-Le hook est **muet** : la mimique d'esquive démarre avant le premier mot. C'est elle
-qui arrête le scroll, pas la phrase.
+> ⚠️ **Corrigé le 17/09/2026.** Cette fiche annonçait « le hook est **muet** : la mimique d'esquive
+> démarre avant le premier mot ». **C'est faux.** Mesuré sur le fichier livré : le premier son de
+> voix est à **0,12 s**. Il n'y a jamais eu de mimique. La didascalie « [Hook acting] » en tête du
+> script était une proposition d'écriture qu'une session a recopiée comme un fait observé.
+
+Le hook est **parlé**, et il démarre immédiatement : « On a TOUS ce pote qui esquive des droites
+imaginaires dans l'ascenseur. » C'est la phrase qui arrête le scroll, pas un geste.
 
 > 💡 **Structure de l'escalade :** ascenseur → cuisine/pâtes → fantasme du RER →
 > retour au réel humiliant (le code du tél). Chaque palier est plus absurde, la chute

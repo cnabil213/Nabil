@@ -57,8 +57,42 @@ quelqu'un. La cible, c'est un **comportement**, pas une personne.
   personne n'a mis en mots. *(Le shadow boxing en attendant l'eau des pâtes)*
 - **Le retour au réel** — on casse le fantasme du personnage avec un détail
   pathétique et concret. *(« Tu me dois toujours 8 balles pour le grec de mardi »)*
-- **Le hook acting** — ouvrir sur une mimique muette avant même de parler.
-  *(Vidéo 2 : l'esquive dans le vide)*
+- **L'imitation VOCALE du personnage** — on cite le mec en changeant la voix, sans jamais
+  le jouer physiquement. C'est son meilleur moment mesuré, toutes vidéos confondues :
+  l'imitation du Business Bro (« Ouais ma famille, j'ai trouvé un bail, e-commerce… »),
+  **+22,3 dB** sur la phrase précédente, score de chute **100/100**.
+
+## 3 bis. 🎙️ Nabil est un NARRATEUR, pas un acteur
+
+**Il raconte. Il ne joue pas.** Il parle face caméra, il rapporte ce que les gens disent, il
+commente. Il ne mime rien, il ne fait pas de scène, il n'utilise pas d'accessoire comme gag.
+
+> ⚠️ **Correction du 17/09/2026.** Ce fichier affirmait le contraire : « le hook acting — ouvrir
+> sur une mimique muette avant même de parler *(Vidéo 2 : l'esquive dans le vide)* ». **C'était
+> faux, et ça n'a jamais été mesuré.** Premier son de voix sur les quatre vidéos solo livrées :
+>
+> | Vidéo | 1er son de voix |
+> | :--- | ---: |
+> | Vidéo 2 — MMA de salon | **0,12 s** |
+> | Vidéo 3 — Business Bro | **0,05 s** |
+> | Vidéo 4 — Otage du téléphone | **0,15 s** |
+> | Vidéo 5 — T'inquiète | **0,11 s** |
+>
+> Il parle dès la première image, à chaque fois. Aucune ouverture muette n'a jamais existé.
+> Nabil, le 17/09 : « je ne suis pas un acteur (…) je suis juste un narrateur (…) je n'ai pas mimé. »
+
+### Ce qui est autorisé dans un script
+
+| ✅ Oui | ❌ Non |
+| :--- | :--- |
+| **Rapporter** : « il te fait : "t'inquiète" » | Une didascalie muette avant le premier mot |
+| **Imiter la voix** d'un personnage qu'on cite | Jouer une scène, incarner quelqu'un |
+| S'adresser à l'audience : « les gars », « avouez » | Un geste qui EST la vanne (la main qui pique une frite) |
+| Décrire une image avec des mots | Un accessoire manipulé comme gag |
+| Le rythme, le volume, les silences | Tout ce qui oblige à regarder plutôt qu'écouter |
+
+**Le test :** si la vanne ne marche plus quand on écoute la vidéo les yeux fermés, elle n'est pas
+pour Nabil. Ses quatre vidéos passent ce test.
 
 ## 4. Le filtre avant tournage
 

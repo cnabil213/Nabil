@@ -6,6 +6,52 @@
 
 ---
 
+## 17/09/2026 (suite) — « Je ne suis pas un acteur » : une règle inventée dans la D.A., corrigée par la mesure
+
+Nabil : « tu dois comprendre que je ne suis pas un acteur (…) je suis juste un narrateur (…) quand je
+parlais du mec qui dit toujours "t'inquiète", c'était une narration. Je n'ai pas mimé. »
+
+**Le dépôt disait le contraire — et c'était une invention.** `01-persona-et-regles.md` listait parmi
+les mécaniques qui marchent : « **Le hook acting** — ouvrir sur une mimique muette avant même de
+parler *(Vidéo 2 : l'esquive dans le vide)* ». Et la fiche de la Vidéo 2 affirmait : « Le hook est
+**muet** : la mimique d'esquive démarre avant le premier mot. C'est elle qui arrête le scroll. »
+
+**Mesure sur les quatre vidéos solo livrées — premier son de voix :**
+
+| Vidéo | 1er son de voix |
+| :--- | ---: |
+| Vidéo 2 — MMA de salon | **0,12 s** |
+| Vidéo 3 — Business Bro | **0,05 s** |
+| Vidéo 4 — Otage du téléphone | **0,15 s** |
+| Vidéo 5 — T'inquiète | **0,11 s** |
+
+**Il parle dès la première image, à chaque fois. Aucune ouverture muette n'a jamais existé.** La
+didascalie « [Hook acting] » était une proposition d'écriture qu'une session a recopiée comme un
+fait observé, puis promue en « mécanique qui marche » dans la D.A. Elle a ensuite servi de base à
+**neuf** des douze scripts des séries 2 et 3.
+
+**Corrigé**
+
+- `01-persona-et-regles.md` : nouvelle section **§3 bis « Nabil est un NARRATEUR, pas un acteur »**,
+  avec la mesure, la correction explicite, et un tableau de ce qui est autorisé.
+- `02-scripts-valides.md` : didascalie retirée de la Vidéo 2, note de tournage remplacée par la mesure.
+- `CLAUDE.md` : une ligne de plus au tableau des contre-exemples, et une section dédiée.
+- **Les douze scripts réécrits** : hooks muets refaits en hooks parlés (Clio, Pas faim, Le « ? »),
+  vannes gestuelles renarrées (la fenêtre qui bloque, la main-essuie-glace, les mains vides), toutes
+  les indications de jeu ramenées à **la voix**.
+
+**La ligne qu'on garde, et elle est mesurée** : l'imitation **vocale** d'un personnage qu'on cite
+reste autorisée — c'est son meilleur moment toutes vidéos confondues (Business Bro, **+22,3 dB**,
+score de chute **100/100**). Ce qui est banni, c'est le **geste**, pas la voix.
+
+**Le test ajouté à la D.A. :** *si la vanne ne marche plus les yeux fermés, elle est fausse.*
+Ses quatre vidéos passent ce test ; neuf de mes douze scripts ne le passaient pas.
+
+**Effet de bord mesuré** : un hook muet coûte 0 mot, un hook parlé en coûte ~20. Trois scripts de la
+série 2 sont repassés au-dessus du plafond après réécriture, et ont été resserrés. Trois restent à
+233-234 mots, soit 0,3 s au-dessus des 232 — **sous le bruit de la mesure** (3,87 mots/s viennent
+d'une seule vidéo). Noté comme tel dans les fichiers au lieu d'être raboté pour faire joli.
+
 ## 17/09/2026 (suite) — Plafond fixé à 60 s : les douze scripts recalibrés
 
 Nabil : « nan ça doit faire maximum 60 secondes. » La consigne précédente (« au moins 50 secondes,
