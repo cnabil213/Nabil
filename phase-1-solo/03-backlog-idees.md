@@ -13,6 +13,21 @@ tournable en l'état.
 
 ## 🔵 À creuser
 
+**Série 3 — six scripts en ADRESSE DIRECTE, écrits le 17/09** :
+[`08-serie-3-adresse-directe.md`](08-serie-3-adresse-directe.md). Écrits après que Nabil ait jugé la
+série 2 « pas ouf » : le défaut était le **regard** (six fois « on a tous ce pote », un mec vu de
+l'extérieur), pas les sujets. Ici on parle **à** l'audience de **sa** vie, avec six mécaniques
+d'adresse différentes pour que ça ne devienne pas une formule à son tour.
+
+| Sujet | Mécanique d'adresse | Mots | ≈ s |
+| :--- | :--- | ---: | ---: |
+| Seul dans ta voiture | l'accusation — « Je sais ce que vous faites » | 232 | 60 |
+| Les abonnements | la prise de nouvelles — « Vous allez bien ? » *(format Nabil)* | 258 | 67 |
+| Le tonton au repas de famille | l'aveu collectif — « Avouez » | 269 | 70 |
+| Les vocaux de 7 minutes | le rappel de service public | 255 | 66 |
+| La peur d'appeler | le constat générationnel — « On est la première génération qui… » | 265 | 68 |
+| Le colis « livré » | l'exigence d'explication — « Expliquez-moi un truc » | 263 | 68 |
+
 **Série 2 — six scripts complets écrits le 17/09, en attente de tournage et de validation** :
 [`07-serie-2-six-scripts.md`](07-serie-2-six-scripts.md). Ils montent dans `02-scripts-valides.md`
 un par un, quand Nabil les a tournés et validés — pas avant.

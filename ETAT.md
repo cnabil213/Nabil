@@ -16,7 +16,12 @@ prose à relire — mais le blocage n'a pas bougé d'un centimètre : aucun comp
 
 ## Le chantier en cours
 
-**Série 2 : six scripts écrits le 17/09, Nabil tourne.** [`07-serie-2-six-scripts.md`](phase-1-solo/07-serie-2-six-scripts.md)
+**Nabil tourne.** La vanne sur la clope est **dans la boîte** (tournée au feeling, rushs pas encore envoyés).
+**Série 3 écrite** : [`08-serie-3-adresse-directe.md`](phase-1-solo/08-serie-3-adresse-directe.md) — six sujets
+en adresse directe, 60 à 70 s chacun, zéro « on a tous ce pote ». C'est la correction du défaut que Nabil a
+identifié sur la série 2.
+
+**Série 2 : six scripts, dont 5 en attente d'arbitrage.** [`07-serie-2-six-scripts.md`](phase-1-solo/07-serie-2-six-scripts.md)
 — calibrés à 3,9 mots/s, 57 à 63 s chacun. Au retour des rushs : transcrire tout, mesurer, choisir les
 prises, liste de coupes à valider. C'est le premier vrai test du skill `montage` et d'`icloud.py`.
 
@@ -42,10 +47,13 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 | **`outils/derusher.py`** | ✅ Propose les coupes mesurées. **Il n'encode rien, il ne décide rien.** |
 | **Portage Codex (OpenAI)** | ✅ Préparé, **jamais testé** : [`outils/README-portage-codex.md`](outils/README-portage-codex.md) — `AGENTS.md` et `.agents/skills/` sont des liens symboliques, donc zéro dérive |
 | **Série 2 — six scripts** | ✅ Écrits, calibrés, filtrés. **Le 5 (clope) réécrit sur l'idée de Nabil** — « vous allez bien ? », adresse directe à l'audience. Les 5 autres jugés « pas ouf » : formule « on a tous ce pote » ×6. **À trancher : tourner ou réécrire.** |
+| **Série 3 — adresse directe** | ✅ Six scripts, 60-70 s : voiture · abonnements · tonton · vocaux · peur d'appeler · colis. Six mécaniques d'adresse différentes. **Pas encore tournés.** |
 | **Envoi des rushs** | ✅ [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) — raccourci iOS « Audio pour Claude » (1 tap) + iCloud Drive pour le fichier lourd |
 
 ## En cours / pas fait
 
+- **Rushs de la vanne sur la clope : tournés le 17/09, pas encore envoyés.** À réclamer en début de
+  session suivante (audio d'abord, raccourci iOS).
 - **Publication : rien en ligne, aucun compte ouvert, aucun nom arrêté.** Six montages prêts.
   C'est LE blocage de la Phase 1, et il est le même depuis quatre sessions.
 - **Sous-titres : jamais produits.** Bloqués par la question 2 de la DA solo (Monument Extended ou

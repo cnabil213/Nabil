@@ -6,6 +6,38 @@
 
 ---
 
+## 17/09/2026 (suite) — Série 3 : six sujets en adresse directe, zéro « on a tous ce pote »
+
+Nabil a tourné la vanne sur la clope « au feeling » et redemande des thèmes.
+
+**Fait** — [`phase-1-solo/08-serie-3-adresse-directe.md`](phase-1-solo/08-serie-3-adresse-directe.md),
+six scripts complets, **255 à 269 mots → 60 à 70 s** de montage serré.
+
+**La correction appliquée, et c'est la leçon de la journée.** La série 2 a été jugée « pas ouf ». Le
+défaut n'était pas les sujets mais le **regard** : six fois « on a TOUS ce pote qui », soit un
+personnage qu'on observe de l'extérieur — la même formule que trois des cinq vidéos déjà faites.
+L'idée de Nabil sur la clope a montré l'autre voie : on parle **à** l'audience de **sa** vie.
+
+Pour ne pas remplacer une formule par une autre, les six utilisent **six mécaniques d'adresse
+différentes** : l'accusation (« Je sais ce que vous faites »), la prise de nouvelles (« Vous allez
+bien ? », son format), l'aveu collectif (« Avouez »), le rappel de service public, le constat
+générationnel (« On est la première génération qui… »), l'exigence d'explication (« Expliquez-moi »).
+
+**Sujets** : seul dans ta voiture · les abonnements qu'on utilise pas · le tonton au repas de famille
+· les vocaux de 7 minutes · la peur d'appeler · le colis « livré ».
+
+**Méthode, identique à la série 2 et elle a resservi** : premier comptage → cinq scripts courts
+(187 à 218 mots, le plus court à 48 s, sous le minimum). Un **vrai palier** ajouté à chacun plutôt
+que du délayage — la ligne mystère « GLBL DIGITAL LIMITED » sur le relevé, le tonton qui n'écoute pas
+la réponse à sa propre question, les six vocaux d'affilée (« c'est une série »), la messagerie non
+écoutée qu'on préfère rappeler, le colis « reporté suite à un incident ». Recomptés : 60-70 s partout.
+
+**Risque noté** : « la peur d'appeler » frôle le thème brûlé « angoisse de la batterie sociale ». La
+ligne est écrite dans le script : rester sur l'absurde et les gestes concrets (la pizza, la phrase
+répétée, le « ouais ? »), jamais sur la fatigue sociale. À vérifier au tournage.
+
+**En attente** : les rushs de la clope, tournés mais pas encore envoyés.
+
 ## 17/09/2026 (suite) — Nabil retourne le script 5, et met le doigt sur le défaut des six
 
 Nabil : « les idées, je les ai vraiment pas trouvées ouf. » Puis il propose son angle sur la clope :
