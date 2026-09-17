@@ -40,39 +40,58 @@ Les sujets déjà exploités jusqu'à l'os par tout le monde :
 On vise la **tension, le chaos, le clash amical**. Jamais l'humiliation réelle de
 quelqu'un. La cible, c'est un **comportement**, pas une personne.
 
-## 2 bis. LA LOI DU PERSONNAGE — le filtre qui prime sur tous les autres
+## 2 bis. NABIL EST NARRATEUR, JAMAIS ACTEUR
 
-> Établie le 17/09/2026, après que Nabil ait gardé 2 scripts sur 6 : « le reste vraiment bof, je me
-> sens pas de faire rire tout le monde avec ça. »
+> Règle posée le 17/09/2026 par Nabil lui-même, **en correction d'une erreur de l'IA le même jour**.
+> J'avais écrit « la loi du personnage : Nabil joue et imite quelqu'un » et j'avais livré des scripts
+> avec des indications de jeu (mimer un volant, jouer la voix du prof, trois voix à tenir). Réponse
+> de Nabil : « je tourne pas, je parle juste avec ma bouche. Je joue pas de personnage. Je suis
+> narrateur. J'ai pas un jeu d'acteur. C'est pas ça mon but. »
+> **Il a raison, et c'est vérifiable sur ses cinq vidéos tournées : il n'y a aucune scène jouée.**
 
-**Un sketch de Nabil a toujours un PERSONNAGE qu'il peut jouer.** Pas un sujet, pas une situation,
-pas une appli, pas de l'argent : une personne, qui fait quelque chose, et qu'il imite.
+### Ce qu'il fait, exactement
 
-C'est mesuré, pas supposé :
+**Il parle face caméra, il raconte un type de personne.** Point. Pas de mime, pas d'accessoire, pas
+de changement de voix, pas de dialogue à deux personnages, pas de « il se lève et il fait ».
 
-| | personnage joué |
+Trois outils, et seulement ces trois :
+
+1. **La narration à la troisième personne.** « Il crée le groupe WhatsApp et il attend un merci. »
+2. **La citation jetée.** Il dit la phrase du mec, dans sa propre voix, sans la jouer :
+   « il te dit *t'inquiète* », « il te dit *ouais frérot je diversifie mes actifs* ». C'est une
+   citation, pas une imitation.
+3. **L'apostrophe.** Il se retourne vers le mec absent et lui parle en « tu » ou « frère » :
+   « Frère, redescends sur terre », « Diversifie déjà ton frigo ! », « Tu te bats contre des
+   spaghettis ? » **C'est là qu'est son énergie**, et c'est ce qui remplace le jeu d'acteur.
+
+### Le vrai critère de tri (ce que mon erreur cachait)
+
+Ce que j'avais à moitié vu est juste : **le sujet d'un sketch doit être UN TYPE DE PERSONNE**, pas une
+situation. Les quatre scripts que Nabil a jetés le 17/09 parlaient d'un groupe WhatsApp, d'une appli
+de revente, d'un mariage et d'un compte en banque. Aucun n'avait de « ce pote qui… » au centre.
+Les onze scripts connus, triés :
+
+| | le sujet est un type de personne |
 | :--- | :--- |
-| Les 7 scripts validés, tournés ou gardés par Nabil | **7 / 7** |
-| Les 4 scripts qu'il a jetés le 17/09 | **0 / 4** |
+| Validés, tournés ou gardés par Nabil | **7 / 7** |
+| Jetés le 17/09 | **0 / 4** |
 
-Les quatre rejetés étaient de bons textes (groupe WhatsApp qui prévoit rien, ventes en ligne, le
-mariage, le salaire du mois) : des observations drôles, bien construites, avec hook et chute. Mais
-**personne à jouer.** Nabil commentait un état du monde au lieu d'imiter quelqu'un.
+**Mais** le sujet est une personne dont il PARLE, pas une personne qu'il JOUE. C'était ça, l'erreur.
 
-**Le test, avant d'écrire une ligne** : si la réponse à « qui est-ce que Nabil imite dans cette
-vidéo ? » est un nom ou un type de personne (le tonton, le pote investisseur, le prof, le mec en
-chemise), le script est recevable. Si la réponse est « personne, il raconte un truc », il est mort,
-même s'il est drôle.
+### Les deux tests, avant d'écrire une ligne
 
-Corollaires :
+1. « De quel type de personne parle cette vidéo ? » Si la réponse est une situation, un objet ou de
+   l'argent, le script est mort, même s'il est drôle.
+2. « Est-ce que Nabil peut dire tout ce script assis, sans bouger, sans rien mimer ? » Si non,
+   réécrire. **Aucune indication de jeu ne doit figurer dans un script.** Les seules indications
+   autorisées portent sur la voix : où ça monte, où ça se dit bas, où on marque un temps.
 
-- **Le personnage doit lui faire quelque chose À LUI.** Il ne décrit pas un phénomène, il subit
-  quelqu'un. C'est ce qui fait l'adresse directe et la tension.
-- **La voix du personnage se joue**, elle ne se rapporte pas. « Il te dit : *ouais frérot je
-  diversifie mes actifs* » se joue, avec son ton. C'est là que se trouve le rire (l'imitation du
-  Business Bro : +22,3 dB, chute 100/100, meilleur moment jamais mesuré sur ses rushs).
-- **Registres qui marchent chez lui** : le pote · la famille (tonton, daron) · l'école (prof,
-  camarade de groupe) · le collègue. Dans cet ordre.
+### Les hooks qui marchent chez lui (ses formes, relevées sur ses vidéos)
+
+- **La citation jetée à froid** : « T'inquiète. » puis « On a tous ce pote-là qui… » *(T'inquiète)*
+- **« On a TOUS ce pote qui… »** + le détail précis *(MMA de salon, Business Bro)*
+- **« Les gars, vous aussi vous… ? »** — la question directe à l'audience, forme qu'il réclame
+- **« Les gars, avouez… »** *(la vidéo école)*
 
 ## 3. L'anatomie d'un script
 

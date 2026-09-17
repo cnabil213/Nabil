@@ -15,18 +15,24 @@ Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décision
 
 ## Le chantier en cours
 
-**Le tournage solo du 17/09.** Programme de six scripts, tous avec **un personnage joué**, dans
-[`phase-1-solo/09-scripts-solo-17-09.md`](phase-1-solo/09-scripts-solo-17-09.md) : le pote qui
-conduit · le projet de groupe · le pote qui a jamais perdu (console) · le prof qui rend les copies ·
-le daron au téléphone · le tonton (« et le vrai travail ? »). 182 à 218 mots chacun, soit 56 à 67 s
-au montage (débit mesuré 3,23 mots/s). Quatre scripts brûlés le même jour, voir le fichier.
+**Le tournage solo du 17/09.** Six scripts définitifs, **en mode narrateur**, dans
+[`phase-1-solo/10-scripts-narrateur-17-09.md`](phase-1-solo/10-scripts-narrateur-17-09.md) : le pote
+au volant · le mec du groupe qui a rien fait · le pote qui a jamais perdu (console) · le prof qui
+rendait les copies par ordre de note · le père qui crie au téléphone · le tonton (« et le vrai
+travail ? »). 187 à 228 mots, soit 58 à 71 s au montage (débit mesuré 3,23 mots/s). Ordre de
+tournage dans le fichier. Le fichier `09-…` est de l'historique (calibrage + 4 sujets brûlés).
 À la prochaine session : savoir ce qui a été tourné, demander les rushs (`ffprobe` d'abord).
 
-**⚖️ LA LOI DU PERSONNAGE — nouvelle règle éditoriale, elle prime.** Un sketch de Nabil a toujours
-quelqu'un qu'il imite. Mesuré le 17/09 : ses 7 scripts validés/tournés/gardés ont **7/7** un
-personnage joué, les 4 qu'il a jetés **0/4**. Le test avant d'écrire : « qui est-ce que Nabil imite
-dans cette vidéo ? » Si la réponse est « personne », le script est mort, même s'il est drôle.
-Détail : [`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §2 bis.
+**⚖️ NABIL EST NARRATEUR, JAMAIS ACTEUR — règle posée par lui le 17/09, elle prime.** « Je tourne
+pas, je parle juste avec ma bouche. Je joue pas de personnage. J'ai pas un jeu d'acteur. » Ses trois
+seuls outils : la narration en « il », la **citation jetée** (la phrase du mec, dans sa propre voix)
+et l'**apostrophe** (« frère, redescends sur terre ») — c'est l'apostrophe qui porte l'énergie.
+**Aucune indication de jeu ne doit figurer dans un script** ; seules les indications de voix (où ça
+monte, où ça se dit bas, où on marque un temps) sont autorisées. Le sujet, lui, doit être **un type
+de personne** (7/7 sur ses scripts gardés, 0/4 sur les rejetés), dont il PARLE et qu'il ne joue pas.
+⚠️ Cette règle **corrige une erreur de l'IA le 17/09** (« la loi du personnage : Nabil joue et
+imite »), qui avait produit six scripts avec des indications de jeu. Détail et formes de hook :
+[`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §2 bis.
 
 **Le duo avec Sady, 16/09.** Cinq concepts **validés par Nabil** (« très très drôle »), tous avec un
 script complet dans [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : **la note

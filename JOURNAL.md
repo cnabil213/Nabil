@@ -34,6 +34,34 @@ Nabil en voiture, prêt à tourner 5-6 vidéos solo « dans le délire de T'inqu
 - Le script du tonton porte une consigne inverse des autres : ne pas surjouer l'émotion finale,
   sinon la chute tombe dans le mièvre, qui est interdit par la charte.
 
+**Correction majeure, le même jour : il est NARRATEUR, pas acteur**
+
+Après mes quatre scripts de remplacement (bourrés d'indications de jeu : mimer un volant, tenir
+trois voix, jouer le prof), Nabil : « je tourne pas, je parle juste avec ma bouche. Je joue pas de
+personnage. Je suis narrateur. J'ai pas un jeu d'acteur pour pouvoir jouer, caresser la voiture,
+faire tout ce que tu me dis. C'est pas ça mon but. »
+
+**Il a raison et c'est vérifiable sur ses cinq vidéos tournées : aucune scène jouée.** Ce qu'il fait,
+c'est de la narration à la troisième personne, des citations jetées dans sa propre voix (« il te dit
+t'inquiète ») et des apostrophes au mec absent (« frère, redescends sur terre », « diversifie déjà
+ton frigo »). L'apostrophe est son moteur, pas le jeu.
+
+Ma règle de la veille (« la loi du personnage : Nabil joue et imite quelqu'un ») était fausse sur sa
+conclusion. Ce qui restait juste : **le sujet doit être un type de personne** (7/7 des gardés, 0/4
+des rejetés). Mais une personne dont il PARLE. §2 bis de `01-persona-et-regles.md` est réécrit en
+conséquence, avec ses formes de hook relevées sur ses vidéos et l'interdiction explicite de toute
+indication de jeu dans un script.
+
+Les six scripts sont réécrits en mode narrateur dans
+[`10-scripts-narrateur-17-09.md`](10-scripts-narrateur-17-09.md) : 187 à 228 mots, 58 à 71 s, zéro
+indication de jeu (vérifié automatiquement). Le fichier `09-…` devient de l'historique.
+
+**Appris (et c'est la leçon du jour)** : il ne suffit pas de trouver la corrélation, il faut trouver
+la bonne cause. « Ses scripts gardés ont tous un personnage » était vrai ; « donc il joue des
+personnages » était faux. La même donnée, deux lectures, et une seule qui correspond à ce qu'il fait
+vraiment devant la caméra. Sur ce projet, quand une règle est inférée d'un refus, elle se vérifie
+contre les rushs avant d'être écrite comme loi.
+
 **Le tri de Nabil, et ce qu'il a révélé**
 
 Il garde le projet de groupe et le tonton. Les quatre autres : « vraiment bof, je me sens pas de

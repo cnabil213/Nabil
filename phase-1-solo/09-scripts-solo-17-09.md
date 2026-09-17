@@ -1,4 +1,10 @@
-# Six scripts solo — 17/09/2026
+# Six scripts solo — 17/09/2026 (⚠️ FICHIER D'HISTORIQUE)
+
+> **Les scripts de ce fichier sont périmés.** Les six définitifs, réécrits **en mode narrateur**
+> (sans aucune indication de jeu), sont dans
+> [`10-scripts-narrateur-17-09.md`](10-scripts-narrateur-17-09.md).
+> Ce fichier est gardé pour deux raisons : le calibrage de longueur (mesuré, toujours valable) et la
+> trace des quatre sujets brûlés avec leur raison.
 
 > Demande de Nabil : « 5-6 thèmes, des sketchs solo comme *T'inquiète*, Gen Z, qui parlent à tout le
 > monde, avec un script d'au moins 50 s à 1 min, et des indications. »
