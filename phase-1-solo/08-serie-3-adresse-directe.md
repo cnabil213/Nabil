@@ -20,9 +20,10 @@
 | 5 | La peur d'appeler | **Le constat générationnel** — « On est la première génération qui… » |
 | 6 | Le colis « livré » | **L'exigence d'explication** — « Expliquez-moi un truc » |
 
-> **Calibration** : « T'inquiète » livré = 142 mots pour 36,7 s, soit **3,9 mots/s**. Cible
-> 230-260 mots → 60-67 s de montage serré. Tourne large, bafouille, refais la chute trois fois : le
-> rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées.
+> **Calibration — plafond 60 s, fixé par Nabil le 17/09.** « T'inquiète » livré = 142 mots pour
+> 36,7 s, soit **3,9 mots/s**. Donc **60 s = 232 mots, c'est le maximum**. Les six ci-dessous font
+> 211 à 227 mots → **55 à 59 s**. Tourne large quand même, bafouille, refais la chute trois fois :
+> le rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées. C'est au montage qu'on serre.
 
 ---
 
@@ -47,9 +48,8 @@
 > interview. À personne. Tu réponds à des questions qu'on t'a jamais posées. « Alors, comment vous
 > expliquez ce succès ? » Frère. Tu vas à Lidl.
 >
-> Y'a le concert. Ça tout le monde le fait, c'est la base. Mais avouez qu'il y a un niveau au-dessus :
-> le concert où tu chantes les parties que tu connais pas. Tu fais des sons. T'inventes de l'anglais.
-> Personne comprend, toi non plus, et c'est magnifique.
+> Y'a le concert. Mais le vrai niveau, c'est le concert où tu chantes les parties que tu connais pas.
+> Tu fais des sons. T'inventes de l'anglais.
 >
 > Et y'a la conversation. La vraie. Celle où tu refais une discussion avec quelqu'un, et là, dans la
 > voiture, tu trouves LA réponse. La réponse parfaite. Celle que t'aurais dû dire il y a trois
@@ -101,14 +101,10 @@ l'argent qui part sans qu'on sache où.
 > 12,99 une appli de méditation. Pour me calmer. Je me calmerais peut-être si je payais pas 12,99
 > pour me calmer.
 >
-> 9,99 de musique. J'écoute tout sur YouTube. Donc je paie une application que j'ouvre jamais, sur un
-> téléphone que je paie 45 balles par mois, pour regarder des trucs gratuits.
->
 > Et y'a l'essai gratuit. De 2021. GRATUIT. Ça fait quatre ans que je paie un truc gratuit.
 >
-> Et y'a la ligne mystère. 4,99. Ça s'appelle « GLBL DIGITAL LIMITED ». Je sais pas ce que c'est. Je
-> sais pas depuis quand. Et j'ose pas résilier au cas où ce serait important. Je paie une rançon à
-> une entreprise que je connais pas.
+> Et y'a la ligne mystère. 4,99. Ça s'appelle « GLBL DIGITAL LIMITED ». Je sais pas ce que c'est, je
+> sais pas depuis quand. Je paie une rançon à une entreprise que je connais pas.
 >
 > Et le pire, c'est que t'oses pas résilier. Parce que résilier, c'est admettre. Si je résilie la
 > salle, ça veut dire que j'y vais plus. Tant que je paie, techniquement, je suis encore un mec qui
@@ -122,8 +118,9 @@ l'argent qui part sans qu'on sache où.
 ### Tournage
 
 - **Même ton que la clope** : le hook doux, presque inquiet, puis ça monte.
-- Les chiffres sont la vanne : **29,99 · quatre fois · 7,50 la séance · 12,99 · 9,99 · 45 balles ·
-  2021 · 80 balles.** Ne les remplace jamais par « genre 30 euros ». C'est la précision qui fait rire.
+- Les chiffres sont la vanne : **29,99 · quatre fois · 7,50 la séance · 12,99 · 4,99 · 2021 ·
+  80 balles.** Ne les remplace jamais par « genre 30 euros ». C'est la précision qui fait rire.
+- **« GLBL DIGITAL LIMITED » se dit lettre par lettre**, comme si tu lisais ton relevé en direct.
 - **Le pic, c'est « ça fait quatre ans que je paie un truc gratuit »** — indignation pleine.
 - « Tant que je paie, techniquement, je suis encore un mec qui fait du sport » : plus bas, presque
   triste. Puis la chute, calme et sèche.
@@ -155,10 +152,6 @@ l'argent qui part sans qu'on sache où.
 >
 > Et là il enchaîne : « Et ça paie ? » Il vient de demander combien je gagne. Devant ma grand-mère.
 > Devant tout le monde. Et tout le monde attend la réponse.
->
-> Et le truc de fou : pendant que tu réponds, pendant que tu galères à expliquer ton métier, lui il
-> écoute même pas. Il est déjà en train de parler à quelqu'un d'autre. Il t'a posé une question
-> publique, il a arrêté toute la table… et il a pas écouté la réponse.
 >
 > Puis il sort l'arme nucléaire. Le cousin. « Parce que lui, il a fini ses études, il travaille à
 > l'hôpital. » L'hôpital. Il a dit « l'hôpital » comme on dit « la NASA ». Le mec fait un stage au
@@ -214,9 +207,6 @@ minuscule.
 >
 > Y'a celui qui marche dehors. T'entends le vent, t'entends les voitures, t'entends un chien. Tu
 > comprends un mot sur trois. C'est pas un message, c'est un enregistrement de terrain.
->
-> Y'a celui qui se reprend. « Non attends, je recommence. » Et il recommence pas ! Il continue ! Dans
-> le même vocal ! Maintenant y'a deux versions dans un seul fichier, et c'est à moi de choisir !
 >
 > Y'a celui qui en envoie six d'affilée. Six. Il a découpé sa pensée en épisodes. C'est plus un
 > message, c'est une série. Et t'as pas le résumé de l'épisode précédent.
@@ -274,13 +264,9 @@ appuie sur le vocal-dans-le-vent et le vocal-à-deux-versions : ce sont les deux
 > Alors tu décroches pas. Tu laisses sonner. Et tu envoies un message. « Ouais ? » À quelqu'un qui est
 > littéralement en train de t'appeler. Il a le téléphone contre l'oreille et tu lui écris « ouais ? ».
 >
-> Et s'il appelle deux fois de suite ? Là c'est fini. Deux fois de suite, pour nous, c'est que la
-> maison brûle. Personne appelle deux fois pour dire bonjour.
->
-> Et la messagerie ? Personne écoute sa messagerie. Y'a des gens qui ont quarante messages non écoutés
-> depuis 2019. On préfère rappeler la personne et lui demander « tu voulais quoi ? » plutôt que
-> d'écouter douze secondes. On rappelle ! Alors qu'on a peur d'appeler ! On a fait un aller-retour
-> pour éviter d'écouter !
+> Et la messagerie ? Personne écoute sa messagerie. On préfère rappeler la personne et lui demander
+> « tu voulais quoi ? » plutôt que d'écouter douze secondes. On rappelle ! Alors qu'on a peur
+> d'appeler ! On a fait un aller-retour pour éviter d'écouter !
 
 ### La chute
 
@@ -336,11 +322,8 @@ gens », arrête et reviens aux gestes concrets : la pizza, la phrase répétée
 >
 > Et en dessous c'est écrit : « remis en main propre ». En main propre. À QUI ?
 >
-> Tu contestes. Et là on te répond : « votre colis a été reporté suite à un incident. » Un incident.
-> Quel incident ? Il s'est passé quoi ? Le colis va bien ? Faut que je prévienne quelqu'un ?
->
-> Et deux jours après, il est en point relais. À quatre kilomètres. Dans une boutique de téléphones
-> qui ferme à 18h. Donc pour récupérer un colis livré à domicile, je dois prendre un bus.
+> Tu contestes. Et on te répond : « votre colis a été reporté suite à un incident. » Un incident. Quel
+> incident ? Il s'est passé quoi ? Le colis va bien ?
 
 ### La chute
 

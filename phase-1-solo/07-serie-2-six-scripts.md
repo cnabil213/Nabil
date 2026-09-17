@@ -4,11 +4,11 @@
 > parlent à tout le monde, génération Z, au moins 50 secondes-une minute, dans l'esprit de
 > "T'inquiète". »
 >
-> **Calibration mesurée** sur `livraisons/15sept-tinquiete-HQ.mp4` : 142 mots pour 36,7 s de
-> montage serré, soit **3,9 mots/s**. Donc 55-60 s = 215-235 mots utiles. Chaque script ci-dessous
-> fait **220 à 260 mots** pour laisser de la marge à la coupe. Le rush de « T'inquiète » faisait
-> 1 min 44 pour 36,7 s gardées : tourne large, bafouille, refais la chute trois fois — c'est
-> normal, on coupe après.
+> **Calibration — plafond 60 s, fixé par Nabil le 17/09.** Mesuré sur
+> `livraisons/15sept-tinquiete-HQ.mp4` : 142 mots pour 36,7 s, soit **3,9 mots/s**. Donc
+> **60 s = 232 mots, maximum**. Cinq des six sont dedans ; **le 5 (clope) fait 68 s et a déjà été
+> tourné** — l'ordre de coupe au montage est écrit dans sa fiche. Tourne large quand même : le rush
+> de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées.
 >
 > Aucun de ces six thèmes n'est dans la liste des brûlés de
 > [`03-backlog-idees.md`](03-backlog-idees.md), et aucun ne recoupe les cinq vidéos déjà faites.
@@ -115,16 +115,15 @@ la voiture. Tout ce qui est moqué, c'est l'écart entre le discours et l'objet.
 > 24 euros chacun, tout le monde calcule, tout le monde valide, tout le monde est ému. Personne
 > réserve.
 >
-> Y'en a un qui lance un sondage pour les dates. Quatorze personnes, onze dates différentes, et trois
-> mecs qui votent « je sais pas encore ». Je sais pas encore. On est en janvier, le voyage c'est en
-> juillet, tu sais pas encore QUOI ?
+> Y'en a un qui lance un sondage pour les dates. Onze dates différentes. Et trois mecs qui votent
+> « je sais pas encore ». On est en janvier, le voyage c'est en juillet — tu sais pas encore QUOI ?
 >
 > Février : « quelqu'un a regardé les vols ? » Silence. Mars : silence. Avril : un mec envoie un
 > mème. Tout le monde rigole. C'est le dernier message du groupe.
 >
-> Et en août, tu regardes les stories. Y'en a un à Marseille chez sa grand-mère. Y'en a un en
-> Turquie avec ses parents. Et le mec qui a créé le groupe, il est chez lui, il poste un coucher de
-> soleil depuis son balcon avec écrit : « l'année prochaine pour de vrai 🙏 ».
+> Et en août, tu regardes les stories. Y'en a un à Marseille chez sa grand-mère. Un autre en Turquie
+> avec ses parents. Et le mec qui a créé le groupe, il poste un coucher de soleil depuis son balcon
+> avec écrit : « l'année prochaine pour de vrai 🙏 ».
 
 ### La chute
 
@@ -163,18 +162,18 @@ Puis, la bouche pleine :]*
 > va, j'ai mangé. » Il a mangé. Il a mangé QUOI ? Il a mangé à quelle heure ? Personne sait. C'est un
 > mystère, comme les pyramides.
 >
-> Ta commande arrive. Le mec, il se penche. Il regarde tes frites comme si c'était un documentaire.
+> Ta commande arrive. Il se penche. Il regarde tes frites comme si c'était un documentaire.
 > « Elles ont l'air bonnes. » Frère, c'est des frites, c'est pas un tableau au Louvre.
 >
-> Il commence par une. « Juste une pour goûter. » Une. Puis deux. Puis y'a plus de « juste », y'a
-> plus de « goûter », y'a une main qui fait des allers-retours entre ton assiette et sa bouche comme
-> un essuie-glace.
+> Il commence par une. « Juste une pour goûter. » Puis deux. Puis y'a plus de « juste », plus de
+> « goûter », y'a une main qui fait des allers-retours entre ton assiette et sa bouche comme un
+> essuie-glace.
 >
 > Et le pire : il a un AVIS. Il mange pas, mais il a un avis. « Hmm, ils ont mis moins de sauce que la
 > dernière fois. » La dernière fois ? Tu commandes jamais ici, tu connais quelle dernière fois ?
 >
-> Il a pas soif non plus, hein. Mais ton Coca, il a baissé de moitié pendant que tu regardais ton
-> tel. Il l'a bu avec ta paille. TA paille. Y'a des couples qui partagent moins que ça.
+> Il a pas soif non plus. Mais ton Coca a baissé de moitié pendant que tu regardais ton tel. Il l'a bu
+> avec ta paille. TA paille. Y'a des couples qui partagent moins que ça.
 >
 > Et quand t'as fini, quand y'a plus rien, il te regarde, il attend deux secondes, et il te sort :
 > « tu finis pas ta sauce ? »
@@ -290,6 +289,21 @@ ton et le sujet, c'est déjà la vanne.]*
 
 > **B (le retournement).** Ah non, attendez. 13 balles le paquet. Laissez tomber. Je vais pleurer.
 > C'est encore gratuit.
+
+### ⚠️ Tournée le 17/09 — 68 s écrites, soit 8 s au-dessus du plafond
+
+Nabil a tourné cette vanne « au feeling » avant qu'on fixe le plafond de 60 s. Le script fait
+**264 mots → 68 s**. Rien à réécrire : **ça se règle au montage**, et l'ordre de sacrifice est décidé
+ici, à froid, plutôt que dans la précipitation devant la timeline.
+
+1. **Le concert à 150 euros part en premier** (~45 mots ≈ 12 s). C'est le 4e « depuis », le plus
+   éloigné du quotidien, et le seul dont la suppression ne casse aucun enchaînement. Sans lui :
+   **~56 s**. Attention : il porte le rappel « ah non, plus de Netflix » — si on le coupe, on coupe
+   les deux, sinon le rappel tombe sur rien (règle de la chaîne de sens, `CLAUDE.md` §2 bis).
+2. Si ça dépasse encore : resserrer l'énumération du hook (« l'essence à 1,40, le grec à 5 euros, le
+   Netflix de ta mère ») à deux items sur trois.
+3. **Ne jamais couper** : « vous êtes des moines ? » (le sommet), « moi j'ai jamais fumé de ma vie »
+   (le retournement), et la chute. Ce sont les trois maillons qui portent la vanne.
 
 ### Tournage
 

@@ -6,6 +6,37 @@
 
 ---
 
+## 17/09/2026 (suite) — Plafond fixé à 60 s : les douze scripts recalibrés
+
+Nabil : « nan ça doit faire maximum 60 secondes. » La consigne précédente (« au moins 50 secondes,
+une minute ») était un plancher ; c'est un **plafond**.
+
+**Traduit en chiffre tout de suite** : 3,87 mots/s mesurés sur « T'inquiète » → **60 s = 232 mots,
+maximum**. Quatre scripts dépassaient.
+
+**Méthode de coupe** : retirer **le maillon le plus faible en entier**, jamais raboter partout.
+Raboter enlève les détails précis (les chiffres, les noms) et c'est exactement ce qui fait rire.
+
+| Retiré | De |
+| :--- | :--- |
+| Le palier « 9,99 de musique » | Abonnements |
+| « Il écoute même pas la réponse » | Le tonton |
+| « Celui qui se reprend dans le même vocal » | Les vocaux |
+| « S'il appelle deux fois de suite » | La peur d'appeler |
+| Le point relais à quatre kilomètres | Le colis |
+
+Résultat : **les six de la série 3 tiennent en 55 à 58 s**, les six de la série 2 en 57 à 60 s.
+
+**Le cas de la clope, et il est intéressant.** Le script fait **264 mots → 68 s**, et **Nabil l'a
+déjà tourné**. On ne réécrit pas un script tourné. À la place, l'**ordre de sacrifice au montage**
+est écrit dans sa fiche, à froid : le concert à 150 € part en premier (~12 s) — **avec** son rappel
+« ah non, plus de Netflix », sinon le rappel tombe sur rien (chaîne de sens, `CLAUDE.md` §2 bis). Ne
+jamais toucher à « vous êtes des moines ? », « moi j'ai jamais fumé » et la chute.
+
+**Deux défauts attrapés par le recomptage**, invisibles à la relecture : « résilier » écrit deux fois
+à trois lignes d'écart dans les abonnements, et une note de tournage qui citait encore des chiffres
+supprimés du script. Les deux corrigés. **Compter force à relire vraiment.**
+
 ## 17/09/2026 (suite) — Série 3 : six sujets en adresse directe, zéro « on a tous ce pote »
 
 Nabil a tourné la vanne sur la clope « au feeling » et redemande des thèmes.

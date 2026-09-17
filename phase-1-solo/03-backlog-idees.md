@@ -21,12 +21,12 @@ d'adresse différentes pour que ça ne devienne pas une formule à son tour.
 
 | Sujet | Mécanique d'adresse | Mots | ≈ s |
 | :--- | :--- | ---: | ---: |
-| Seul dans ta voiture | l'accusation — « Je sais ce que vous faites » | 232 | 60 |
-| Les abonnements | la prise de nouvelles — « Vous allez bien ? » *(format Nabil)* | 258 | 67 |
-| Le tonton au repas de famille | l'aveu collectif — « Avouez » | 269 | 70 |
-| Les vocaux de 7 minutes | le rappel de service public | 255 | 66 |
-| La peur d'appeler | le constat générationnel — « On est la première génération qui… » | 265 | 68 |
-| Le colis « livré » | l'exigence d'explication — « Expliquez-moi un truc » | 263 | 68 |
+| Seul dans ta voiture | l'accusation — « Je sais ce que vous faites » | 211 | 55 |
+| Les abonnements | la prise de nouvelles — « Vous allez bien ? » *(format Nabil)* | 217 | 56 |
+| Le tonton au repas de famille | l'aveu collectif — « Avouez » | 218 | 56 |
+| Les vocaux de 7 minutes | le rappel de service public | 222 | 57 |
+| La peur d'appeler | le constat générationnel — « On est la première génération qui… » | 226 | 58 |
+| Le colis « livré » | l'exigence d'explication — « Expliquez-moi un truc » | 223 | 58 |
 
 **Série 2 — six scripts complets écrits le 17/09, en attente de tournage et de validation** :
 [`07-serie-2-six-scripts.md`](07-serie-2-six-scripts.md). Ils montent dans `02-scripts-valides.md`
@@ -36,10 +36,10 @@ un par un, quand Nabil les a tournés et validés — pas avant.
 | :--- | :--- | ---: | ---: |
 | La Clio traitée comme une Lamborghini | contraste + hook acting (la voiture = accessoire) | 220 | 57 |
 | Le groupe WhatsApp « BARCELONE 2024 🔥 » | escalade chronologique + retour au réel | 242 | 63 |
-| Le pote qui « n'a pas faim » | observation ultra-précise + escalade | 237 | 61 |
+| Le pote qui « n'a pas faim » | observation ultra-précise + escalade | 231 | 60 |
 | « Je gère » : le pote qui avance l'addition | contraste discours / réalité | 224 | 58 |
-| Le pote qui a « arrêté de fumer » | contraste + escalade des exceptions | 233 | 60 |
-| Le « ? » : le pote qui supporte pas d'attendre | escalade pure, minute par minute | 232 | 60 |
+| « Ceux qui ont arrêté de fumer, vous allez bien ? » | prise de nouvelles *(idée Nabil)* | 264 | **68 ⚠️** |
+| Le « ? » : le pote qui supporte pas d'attendre | escalade pure, minute par minute | 211 | 55 |
 
 Format d'entrée attendu :
 
