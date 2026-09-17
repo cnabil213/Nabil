@@ -6,6 +6,42 @@
 
 ---
 
+## 17/09/2026 — Série 2 : six scripts écrits pour un tournage immédiat
+
+Nabil, en voiture : « je vais au moins tourner les corps (…) 5-6 thèmes (…) au moins 50 secondes,
+une minute (…) un peu comme "T'inquiète" (…) t'es mon manager, mon directeur artistique. »
+
+**Fait**
+
+- **Calibré avant d'écrire** : « T'inquiète » livré = 142 mots pour 36,7 s, soit **3,9 mots/s**.
+  Donc 55-60 s de montage serré = 215-235 mots utiles. Cible d'écriture fixée à 220-260 mots pour
+  laisser de la marge à la coupe (le rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées).
+- **Six scripts complets** dans [`phase-1-solo/07-serie-2-six-scripts.md`](phase-1-solo/07-serie-2-six-scripts.md),
+  chacun avec hook au mot près, escalade, chute isolée, indications de tournage, titre TikTok
+  (verdict, jamais le sujet) et risque au filtre. Comptés : **220 à 242 mots → 57 à 63 s**.
+- Ordre de tournage donné : **la Clio d'abord**, Nabil est dedans, la voiture est l'accessoire.
+- Après le premier comptage, trois scripts étaient courts (200, 200 et **178 mots → 46 s**, sous le
+  minimum demandé). Un vrai palier ajouté à chacun (le sondage de dates, la paille du Coca, le
+  « en ligne il y a 4 min » + l'avis de recherche dans le groupe), pas du remplissage. Recomptés.
+- Filtre des interdits passé mécaniquement (`grep` sur bestie / batterie sociale / coiffeur / en
+  retard / contrôle de maths) : rien.
+
+**Décidé**
+
+- Les six vivent dans `07-serie-2-six-scripts.md` et sont pointés depuis le backlog. Ils montent dans
+  `02-scripts-valides.md` **un par un, une fois tournés et validés** — pas avant.
+- Deux scripts (« Je gère », « Arrêté de fumer ») reposent sur le contraste discours/réalité, comme
+  le Business Bro. Sujets sans rapport, mécanique partagée : assumé, c'est la mécanique qui marche le
+  mieux chez lui.
+
+**Appris**
+
+- **Whisper compte 184 « mots » là où le script en compte 142** (il sépare les apostrophes). Pour
+  calibrer une longueur de script, compter les mots *écrits*, pas les tokens Whisper. Le débit de
+  référence est donc 3,9 mots/s, pas 5,05.
+- Un thème qui se tourne **là où Nabil est** (la voiture) vaut plus qu'un meilleur thème qu'il devra
+  tourner plus tard. L'ordre de tournage fait partie du script.
+
 ## 16/09/2026 (suite) — « ChatGPT est-il meilleur que toi ? » — comparaison chiffrée, et portage préparé
 
 Nabil : « est-ce que tu penses que ChatGPT est beaucoup plus performant que toi pour faire des

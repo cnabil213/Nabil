@@ -13,7 +13,18 @@ tournable en l'état.
 
 ## 🔵 À creuser
 
-*Vide pour l'instant. Les nouvelles idées se posent ici avant d'être travaillées.*
+**Série 2 — six scripts complets écrits le 17/09, en attente de tournage et de validation** :
+[`07-serie-2-six-scripts.md`](07-serie-2-six-scripts.md). Ils montent dans `02-scripts-valides.md`
+un par un, quand Nabil les a tournés et validés — pas avant.
+
+| Titre de travail | Mécanique | Mots | ≈ s serré |
+| :--- | :--- | ---: | ---: |
+| La Clio traitée comme une Lamborghini | contraste + hook acting (la voiture = accessoire) | 220 | 57 |
+| Le groupe WhatsApp « BARCELONE 2024 🔥 » | escalade chronologique + retour au réel | 242 | 63 |
+| Le pote qui « n'a pas faim » | observation ultra-précise + escalade | 237 | 61 |
+| « Je gère » : le pote qui avance l'addition | contraste discours / réalité | 224 | 58 |
+| Le pote qui a « arrêté de fumer » | contraste + escalade des exceptions | 233 | 60 |
+| Le « ? » : le pote qui supporte pas d'attendre | escalade pure, minute par minute | 232 | 60 |
 
 Format d'entrée attendu :
 

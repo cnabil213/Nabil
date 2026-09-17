@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 16/09/2026**
+**Dernière mise à jour : 17/09/2026**
 
 ---
 
@@ -15,6 +15,10 @@ Phase 1 : **6 vidéos montées et livrées**, **rien de publié**. Le dépôt es
 prose à relire — mais le blocage n'a pas bougé d'un centimètre : aucun compte n'est ouvert.
 
 ## Le chantier en cours
+
+**Série 2 : six scripts écrits le 17/09, Nabil tourne.** [`07-serie-2-six-scripts.md`](phase-1-solo/07-serie-2-six-scripts.md)
+— calibrés à 3,9 mots/s, 57 à 63 s chacun. Au retour des rushs : transcrire tout, mesurer, choisir les
+prises, liste de coupes à valider. C'est le premier vrai test du skill `montage` et d'`icloud.py`.
 
 **Publier.** C'est le seul vrai blocage, et il l'est depuis six montages.
 Juste derrière : **la DA solo**, bloquée sur 5 questions fermées
@@ -37,6 +41,7 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 | **Skill `montage`** | ✅ [`.claude/skills/montage/`](.claude/skills/montage/SKILL.md) — 7 étapes, 2 points d'arrêt où Nabil tranche |
 | **`outils/derusher.py`** | ✅ Propose les coupes mesurées. **Il n'encode rien, il ne décide rien.** |
 | **Portage Codex (OpenAI)** | ✅ Préparé, **jamais testé** : [`outils/README-portage-codex.md`](outils/README-portage-codex.md) — `AGENTS.md` et `.agents/skills/` sont des liens symboliques, donc zéro dérive |
+| **Série 2 — six scripts** | ✅ Écrits, calibrés, filtrés : Clio · Barcelone 2024 · Pas faim · Je gère · Arrêté de fumer · Le « ? ». **Pas encore tournés ni validés.** |
 | **Envoi des rushs** | ✅ [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) — raccourci iOS « Audio pour Claude » (1 tap) + iCloud Drive pour le fichier lourd |
 
 ## En cours / pas fait
@@ -73,7 +78,7 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
    la Phase 1.
 2. Poser à Nabil les **5 questions** de la DA (`04-da-tiktok.md` §5) — dont celle qui débloque les
    sous-titres.
-3. Au prochain rush : **lancer le skill `montage`** et voir où la procédure frotte. Elle n'a encore
+3. **Au retour des six rushs de la série 2** : lancer le skill `montage` et voir où la procédure frotte. Elle n'a encore
    jamais tourné sur un vrai rush reçu en direct — et c'est aussi le test d'`icloud.py`.
 
 ## À savoir avant de commencer
