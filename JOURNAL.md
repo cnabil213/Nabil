@@ -6,6 +6,46 @@
 
 ---
 
+## 17/09/2026 (suite) — Réglages d'export CapCut : l'upscale IA ne fabrique rien
+
+Nabil a **refilmé sur Snapchat** — « j'ai l'impression que je suis plus beau sur snap » — et demande
+les meilleurs réglages d'export dans CapCut. Capture d'écran : Ultra HD par l'IA ON, 1080p, 60 im/s,
+20 Mbit/s, Smart HDR ON, 129,2 Mo estimés pour 49 s.
+
+**Mesuré avant de répondre.** Ses deux rushs livrés : **720×1280, 30 im/s, h264, `yuvj420p`,
+`color_range=pc`, `color_transfer=bt709`**. Donc CapCut lui propose de fabriquer du 1080p, du
+60 im/s et du HDR à partir d'une source qui n'a aucun des trois.
+
+**Le test de l'upscale**, sur `12sept-casser-des-nuques-HQ.mp4`, 30 images, aller-retour
+720p → 1080p → 720p en lanczos (meilleur cas possible) :
+
+| | |
+| :--- | ---: |
+| Détail du rush 720p (écart-type du passe-haut) | 3,42 |
+| Détail après l'aller-retour | 3,25 (95,0 %) |
+| **PSNR** | **61,8 dB** |
+
+Au-dessus de 45 dB, l'image 1080p ne contenait rien que le 720p n'avait déjà. À 61,8 dB c'est sans
+appel : **l'upscale étale les mêmes pixels sur 2,25× plus de surface, il ne crée pas d'information.**
+
+**Réglages donnés** : Ultra HD par l'IA OFF · 1080p (pour le format natif TikTok, **pas** pour la
+netteté) · **30 im/s pas 60** (la source est à 30, 60 duplique) · flux optique OFF · 12-20 Mbit/s ·
+**Smart HDR OFF**.
+
+**Le Smart HDR est le point dur**, et c'est un récidiviste : convertir du BT.709 SDR en HDR étire
+les valeurs dans un contenant que la source n'a jamais rempli. C'est le mécanisme exact du bug du
+12/09 (noirs de 3 → 19, « la vidéo perd en qualité »). Commande de vérification écrite dans le doc :
+`color_transfer` doit rester `bt709` après export.
+
+**Sur Snapchat, arbitrage posé sans moraliser.** Sa préférence est fondée — Snap lisse la peau à la
+prise. Le prix (720p) est mesuré et irrécupérable. Proposition : filmer **une seule** vanne à l'app
+Caméra en 1080p + « Retouche » dans CapCut. S'il se trouve aussi bien, il gagne les deux. Sinon on
+reste sur Snap et **on arrête d'en parler** — le confort devant la caméra vaut plus que 360 lignes
+si ça l'empêche de tourner.
+
+**Écrit** : [`outils/README-export-capcut.md`](outils/README-export-capcut.md), plus une ligne dans
+`CLAUDE.md` §5.
+
 ## 17/09/2026 (suite) — « Je ne suis pas un acteur » : une règle inventée dans la D.A., corrigée par la mesure
 
 Nabil : « tu dois comprendre que je ne suis pas un acteur (…) je suis juste un narrateur (…) quand je

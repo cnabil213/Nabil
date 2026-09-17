@@ -237,6 +237,11 @@ plus net que son rush.
   d'écart maximum** sur les bornes de coupe (0,00 s sur 4 segments / 5), blanc long détecté à
   l'identique. La vidéo ne sert qu'au dernier encodage, donc elle ne bouge **qu'une fois**, à la
   fin, quand la liste de coupes est validée.
+- **Quand Nabil monte lui-même (CapCut)** : couper **Ultra HD par l'IA** et **Smart HDR**, rester à
+  la cadence de la source (30 im/s, pas 60). Mesuré sur son rush Snapchat : l'aller-retour
+  720p → 1080p → 720p sort à **61,8 dB de PSNR**, donc le 1080p ne contient rien que le 720p n'avait.
+  **Aucun réglage d'export ne rattrape un rush 720p.** Détail et commandes de vérification :
+  [`outils/README-export-capcut.md`](outils/README-export-capcut.md).
 - **Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams`, lire la
   résolution et les tags, et le dire à Nabil **avant** de monter.
 

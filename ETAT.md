@@ -56,6 +56,12 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
   rien. Test : **si la vanne ne marche plus les yeux fermés, elle est fausse.** La D.A. affirmait
   l'inverse (« hook acting, mimique muette ») — c'était inventé : il parle dès 0,05-0,15 s sur ses
   4 vidéos. Corrigé le 17/09, détail dans `01-persona-et-regles.md` §3 bis.
+- 🎬 **Nabil monte lui-même dans CapCut.** Réglages d'export : **Ultra HD par l'IA OFF, Smart HDR
+  OFF, 30 im/s (pas 60)**. Mesuré : l'aller-retour 720p→1080p→720p sort à 61,8 dB, donc l'upscale
+  n'ajoute **aucun** détail. Détail : [`outils/README-export-capcut.md`](outils/README-export-capcut.md).
+- **Il a refilmé sur Snapchat** (« je suis plus beau sur snap »). Donc **720p**, et aucun export ne
+  le rattrape. Test proposé, pas encore fait : une vanne à l'app Caméra 1080p + « Retouche » CapCut.
+  S'il se trouve aussi bien → on bascule. Sinon → on reste sur Snap et on n'en reparle plus.
 - **PLAFOND : 60 s maximum par vidéo** (Nabil, 17/09). À 3,87 mots/s mesurés, ça fait **232 mots**.
   Compter avant de livrer un script, jamais estimer à l'œil.
 - **Rushs de la vanne sur la clope : tournés le 17/09, pas encore envoyés.** Son script fait **68 s**,
