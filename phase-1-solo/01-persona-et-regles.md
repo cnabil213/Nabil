@@ -40,6 +40,40 @@ Les sujets déjà exploités jusqu'à l'os par tout le monde :
 On vise la **tension, le chaos, le clash amical**. Jamais l'humiliation réelle de
 quelqu'un. La cible, c'est un **comportement**, pas une personne.
 
+## 2 bis. LA LOI DU PERSONNAGE — le filtre qui prime sur tous les autres
+
+> Établie le 17/09/2026, après que Nabil ait gardé 2 scripts sur 6 : « le reste vraiment bof, je me
+> sens pas de faire rire tout le monde avec ça. »
+
+**Un sketch de Nabil a toujours un PERSONNAGE qu'il peut jouer.** Pas un sujet, pas une situation,
+pas une appli, pas de l'argent : une personne, qui fait quelque chose, et qu'il imite.
+
+C'est mesuré, pas supposé :
+
+| | personnage joué |
+| :--- | :--- |
+| Les 7 scripts validés, tournés ou gardés par Nabil | **7 / 7** |
+| Les 4 scripts qu'il a jetés le 17/09 | **0 / 4** |
+
+Les quatre rejetés étaient de bons textes (groupe WhatsApp qui prévoit rien, ventes en ligne, le
+mariage, le salaire du mois) : des observations drôles, bien construites, avec hook et chute. Mais
+**personne à jouer.** Nabil commentait un état du monde au lieu d'imiter quelqu'un.
+
+**Le test, avant d'écrire une ligne** : si la réponse à « qui est-ce que Nabil imite dans cette
+vidéo ? » est un nom ou un type de personne (le tonton, le pote investisseur, le prof, le mec en
+chemise), le script est recevable. Si la réponse est « personne, il raconte un truc », il est mort,
+même s'il est drôle.
+
+Corollaires :
+
+- **Le personnage doit lui faire quelque chose À LUI.** Il ne décrit pas un phénomène, il subit
+  quelqu'un. C'est ce qui fait l'adresse directe et la tension.
+- **La voix du personnage se joue**, elle ne se rapporte pas. « Il te dit : *ouais frérot je
+  diversifie mes actifs* » se joue, avec son ton. C'est là que se trouve le rire (l'imitation du
+  Business Bro : +22,3 dB, chute 100/100, meilleur moment jamais mesuré sur ses rushs).
+- **Registres qui marchent chez lui** : le pote · la famille (tonton, daron) · l'école (prof,
+  camarade de groupe) · le collègue. Dans cet ordre.
+
 ## 3. L'anatomie d'un script
 
 | Étape | Rôle | Durée |

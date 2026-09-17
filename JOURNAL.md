@@ -34,11 +34,33 @@ Nabil en voiture, prêt à tourner 5-6 vidéos solo « dans le délire de T'inqu
 - Le script du tonton porte une consigne inverse des autres : ne pas surjouer l'émotion finale,
   sinon la chute tombe dans le mièvre, qui est interdit par la charte.
 
+**Le tri de Nabil, et ce qu'il a révélé**
+
+Il garde le projet de groupe et le tonton. Les quatre autres : « vraiment bof, je me sens pas de
+faire rire tout le monde avec ça. »
+
+Test appliqué à ses 11 scripts connus : **7/7** de ceux qu'il a validés, tournés ou gardés ont un
+personnage qu'il joue ; **0/4** des rejetés. Les quatre parlaient d'un groupe WhatsApp, d'une appli,
+d'un mariage et d'un compte en banque : des situations, personne à imiter. C'est devenu la
+**LOI DU PERSONNAGE**, écrite dans `01-persona-et-regles.md` §2 bis, et elle passe devant les autres
+filtres. Corollaire : le personnage doit lui faire quelque chose À LUI, et sa voix se joue, elle ne
+se rapporte pas (l'imitation du Business Bro reste le meilleur moment jamais mesuré : +22,3 dB,
+chute 100/100).
+
+Quatre remplaçants écrits dans la foulée, un personnage chacun : **le pote qui change quand il
+conduit** (se joue assis dans la voiture, le décor devient le sujet), **le prof qui rend les copies
+par ordre de note**, **le daron au téléphone**, **le pote qui a jamais perdu** (la manette, le lag,
+le fil débranché du pied). Programme final : six vidéos, six personnages, trois registres (pote,
+école, famille), aucun doublon.
+
 **Appris**
 
 - La question « combien de mots pour une minute ? » se règle par la mesure, pas au feeling : ses
   trois montages varient de 2,77 à 3,63 mots/s selon l'énergie de la prise. La moyenne pondérée est
   la seule base honnête pour écrire une longueur.
+- **Un script peut cocher tous les filtres de la charte et être refusé quand même.** Les quatre
+  rejetés avaient hook, chiffre, escalade et chute. Il manquait la seule chose que la charte ne
+  disait pas encore : quelqu'un à jouer. Une règle de plus, tirée d'un refus.
 
 ## 16/09/2026 — Six concepts pour le duo avec Sady
 

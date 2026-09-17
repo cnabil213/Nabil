@@ -360,3 +360,217 @@ corrige quand tu racontes. Avec les six d'aujourd'hui, ça fait **neuf scripts t
 | Le manager qui dit « ici on est une famille » | Bon sujet, mais il double la Vidéo 1 (le monde du travail) |
 | La déclaration d'impôts qu'on nous a jamais apprise | La vanne existante (« la mitochondrie ») est une punchline de compte à citations : interdit |
 | Le pote qui a une seule anecdote depuis 2019 | Même moteur que Bakhal Man côté duo, on le garde pour là |
+
+---
+
+# Deuxième passe — 17/09, après le tri de Nabil
+
+**Verdict de Nabil** : il garde le **n° 1 (le projet de groupe)** et le **n° 6 (le tonton)**.
+Les n° 2, 3, 4 et 5 sont **brûlés** : « le reste vraiment bof, je me sens pas de faire rire tout le
+monde avec ça. »
+
+**Ce que la mesure dit de ce tri** (test appliqué à ses 11 scripts connus) : ses 7 scripts validés,
+tournés ou gardés ont **tous** un personnage qu'il joue ; les 4 rejetés n'en ont **aucun**. Ils
+parlaient d'un groupe WhatsApp, d'une appli, d'un mariage et d'un compte en banque. Pas de quelqu'un.
+La règle est écrite dans [`01-persona-et-regles.md`](01-persona-et-regles.md) §2 bis — **la loi du
+personnage** — et elle passe devant tout le reste désormais.
+
+Les quatre scripts de remplacement ci-dessous ont chacun **un personnage imité**, dans les trois
+registres qu'il valide : le pote, la famille, l'école.
+
+---
+
+## 🎬 7. LE POTE QUI CHANGE QUAND IL CONDUIT
+
+**Personnage joué** : le pote au volant. **Mécanique** : contraste (dehors / au volant) + escalade +
+retour au réel. **Pourquoi celui-là d'abord** : Nabil tourne DANS une voiture. Le décor est le sujet.
+Il peut mimer le volant, la ceinture, le rétro, sans accessoire et sans bouger du siège conducteur.
+
+### Hook (0–4 s) — joué, main sur la ceinture
+
+> On a TOUS ce pote qui change de personnalité quand il met sa ceinture.
+
+### Script
+
+> On a TOUS ce pote qui change de personnalité quand il met sa ceinture.
+>
+> Dans la rue c'est un agneau. Il dit bonjour, il tient la porte, il parle doucement. Il met le
+> contact : c'est un autre homme.
+>
+> Un mec le double. Vitre fermée. Et il lui parle. *(joué)* « Mais vas-y avance ! AVANCE ! » Frère.
+> Il t'entend pas. Vous êtes dans deux pièces différentes. Tu cries dans une boîte.
+>
+> Il klaxonne. Le mec se retourne. Et là il regarde ailleurs. Il fait celui qui a pas klaxonné. Il
+> cherche une radio. Il a klaxonné et il cherche une radio.
+>
+> Il parle au GPS. Pas devant le GPS, AVEC le GPS. Le GPS dit « tournez à droite », il répond
+> « je sais ». Il se justifie auprès d'une application.
+>
+> Il freine d'un coup, il te regarde, il te dit : « tu vois ce qu'il a fait ? » Ce qu'il a fait…
+> c'est TOI qui a freiné. Y avait personne. On était à l'arrêt.
+>
+> Il se gare en quatre fois. Il descend, il regarde le trottoir, il dit « y a une pente ». Y a pas de
+> pente, frère. C'est plat. C'est la France.
+>
+> Et là sa mère appelle.
+>
+> Il baisse la musique. Il se redresse. « Oui maman. »
+>
+> Trente à l'heure. Les deux mains sur le volant.
+
+**Indications** : trois voix à tenir — toi, le pote qui gueule, le pote qui parle à sa mère. Le
+« AVANCE ! » est le pic de la vidéo, tu le joues à fond, tête tournée vers la vitre. La chute se dit
+doucement, presque tendre, et tu coupes sur « le volant ». C'est le contraste de volume qui fait
+rire : maximum sur l'insulte, minimum sur « oui maman ».
+**Titres** : « Il insulte un mec à travers une vitre fermée » · « Sa mère appelle, il roule à 30 »
+
+---
+
+## 🎬 8. LE PROF QUI REND LES COPIES
+
+**Personnage joué** : le prof. **Mécanique** : escalade + retour au réel. **Pourquoi** : même veine
+que le projet de groupe qu'il garde (l'école, avec un antagoniste), et le prof est le personnage le
+plus facile à imiter du lot : posture, lenteur, silences.
+
+### Hook (0–4 s)
+
+> On a tous eu ce prof qui rendait les copies par ordre de note. À voix haute. Avec les commentaires.
+
+### Script
+
+> On a tous eu ce prof qui rendait les copies par ordre de note. À voix haute. Avec les commentaires.
+>
+> Il commence par la meilleure. Il la lève en l'air comme un trophée. *(joué, lent)* « Alors ÇA…
+> c'est du travail. » Et il regarde la classe comme si on avait fait quelque chose de grave.
+>
+> Après il descend. Et à partir de la moitié il arrête de dire les prénoms. Il dit juste : « ah. »
+> Ce « ah » là, il valait deux points en moins.
+>
+> Y a le moment où il te tend ta copie et il la lâche pas. Il la tient. Il te regarde. Il dit :
+> « toi, je t'attendais mieux. » Monsieur, rends la copie. On parlera après.
+>
+> Et il garde les trois dernières pour la fin. Là il s'assoit sur son bureau, il croise les bras, et
+> il fait un discours. *(joué)* « Certains ici devraient se poser des questions. » On s'en pose,
+> monsieur. On se demande pourquoi vous faites ça debout devant tout le monde.
+>
+> Et il finissait toujours de la même façon : « moi, ça me fait ni chaud ni froid. »
+>
+> Ni chaud ni froid.
+>
+> T'as fait un classement, un discours, et une minute de silence.
+
+**Indications** : le prof se joue **lent**, c'est la lenteur qui fait l'autorité et donc le rire. Tu
+prends une vraie seconde de silence après « il dit juste : ah ». Toi tu réponds vite, lui parle
+lentement : c'est ce décalage de rythme qui porte toute la vidéo.
+**Titres** : « Le prof qui rendait les copies par ordre de note » · « Moi ça me fait ni chaud ni froid »
+
+---
+
+## 🎬 9. LE DARON AU TÉLÉPHONE
+
+**Personnage joué** : son père. **Mécanique** : escalade + retour au réel. **Pourquoi** : la famille
+est le registre du script qu'il garde (le tonton), et ça marche au-delà de la Gen Z — les darons se
+reconnaissent aussi, et ce sont eux qui partagent.
+
+### Hook (0–4 s)
+
+> Mon père au téléphone, il crie. Il colle le téléphone à sa bouche, et il crie.
+
+### Script
+
+> Mon père au téléphone, il crie. Il colle le téléphone à sa bouche, et il crie.
+>
+> Il appelle. Tu décroches. Tu dis « allô ». Et lui : *(fort)* « ALLÔ ? ALLÔ ? » Je suis là ! J'ai
+> décroché ! On est connectés !
+>
+> Il met le haut-parleur. Toujours. Même dans un endroit calme, même dans une salle d'attente. Tout
+> le monde participe à la conversation.
+>
+> Il t'appelle pour rien. Tu demandes pourquoi il appelle, il dit « comme ça ». Comme ça. T'as
+> composé onze chiffres pour dire « comme ça ».
+>
+> Il te demande où tu es. Tu dis « à la maison ». Il dit : « quelle maison ? » LA TIENNE, papa. Y en
+> a qu'une. J'ai pas de villa.
+>
+> Et quand c'est TOI qui appelles, il décroche pas. Jamais. Il rappelle dix minutes après en disant :
+> « t'as appelé ? » Non. C'était un test.
+>
+> Et il raccroche jamais proprement. Y a pas d'« au revoir ». Y a un silence… et plus rien. Tu sais
+> pas s'il a raccroché ou s'il est mort. Tu dis « papa ? » à un écran noir.
+>
+> Et hier il m'a rappelé. Trois fois.
+>
+> Pour me dire qu'il avait rien à me dire.
+
+**Indications** : deux volumes très écartés. Le père est **fort et lent**, toi tu es normal. Le
+« ALLÔ ? ALLÔ ? » est le pic. Attention : c'est le script où la fin peut virer au mièvre si tu la
+joues attendrie. Tu la dis **plat**, comme un constat de police.
+**Titres** : « Mon père met le haut-parleur dans une salle d'attente » · « Il m'a rappelé trois fois
+pour me dire qu'il avait rien à dire »
+
+---
+
+## 🎬 10. LE POTE QUI A JAMAIS PERDU
+
+**Personnage joué** : le pote qui joue à la console. **Mécanique** : escalade + retour au réel.
+**Pourquoi** : c'est le plus Gen Z des quatre, et le personnage est dans l'action, donc facile à
+jouer (les mains, la manette, le débranchage).
+
+### Hook (0–4 s)
+
+> Il a jamais perdu de sa vie. C'est toujours la manette.
+
+### Script
+
+> Il a jamais perdu de sa vie. C'est toujours la manette.
+>
+> Tu le bats, il regarde pas l'écran, il regarde la manette. Il la retourne. Il la secoue. Il
+> l'accuse. Frère, elle a rien fait, elle. Elle a subi comme nous.
+>
+> Après c'est le lag. « Ah j'ai lagué. » T'as pas lagué. On est sur le même canapé. On a le même
+> wifi. Si tu lagues, je lague. On lague en famille ici.
+>
+> Après c'est : « j'étais pas prêt. » C'est toi qui as appuyé sur start. Tu t'es pas prévenu
+> toi-même ? Tu t'es pris par surprise ?
+>
+> Il demande la revanche. Tu gagnes. Il demande la belle. Tu gagnes. Et là il change de jeu. Il dit
+> « en vrai ce jeu c'est nul », et il met le jeu où il a quatre cents heures.
+>
+> Et quand ça tourne vraiment mal… il débranche. « Ah, la console a planté. » La console a pas
+> planté. T'as tiré le fil avec ton pied. Je t'ai vu le faire.
+>
+> Par contre le jour où il gagne, y a plus de manette, y a plus de lag. Là c'est son niveau. C'est de
+> la lecture de jeu. Il t'explique ce qu'il a fait. Il fait le débrief.
+>
+> Il a gagné une fois. En 2022.
+>
+> Il en parle encore.
+
+**Indications** : tu joues avec tes mains (la manette qu'on secoue, le fil qu'on tire du pied). Le
+« on lague en famille ici » se dit vite, enchaîné. Un temps avant « il débranche », c'est la meilleure
+image de la vidéo. La chute en trois blocs de plus en plus courts.
+**Titres** : « Il débranche la console et il dit qu'elle a planté » · « Il a gagné une fois en 2022,
+il en parle encore »
+
+---
+
+## Le programme du 17/09 : six vidéos
+
+| ordre | script | personnage |
+| :-- | :--- | :--- |
+| 1 | **Le pote qui conduit (7)** | le pote au volant — se joue assis, dans le décor |
+| 2 | **Le projet de groupe (1)** | le mec en chemise |
+| 3 | **Le pote qui a jamais perdu (10)** | le joueur qui débranche |
+| 4 | **Le prof (8)** | le prof lent |
+| 5 | **Le daron au téléphone (9)** | son père |
+| 6 | **Le tonton (6)** | le tonton |
+
+Trois registres, six personnages, aucun doublon. Les deux plus durs à jouer (le prof, le daron)
+sont placés quand la voix est chaude, pas au début.
+
+## En réserve, non écrit
+
+**Le pote médecin** : celui qui diagnostique tout (« t'as mal à la tête ? c'est le foie »), qui te
+donne un traitement, qui connaît un remède de sa grand-mère, et qui t'annonce un truc grave. Il a
+personnage, il a escalade, il a une chute possible (« il a fait un an de STAPS »). À écrire si Nabil
+veut un septième.

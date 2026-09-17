@@ -15,14 +15,18 @@ Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décision
 
 ## Le chantier en cours
 
-**Le tournage solo du 17/09.** Six scripts neufs, 200 à 218 mots chacun (62-67 s au montage, débit
-mesuré 3,23 mots/s sur ses livraisons) :
-[`phase-1-solo/09-scripts-solo-17-09.md`](phase-1-solo/09-scripts-solo-17-09.md) — le projet de
-groupe · le groupe qui prévoit rien · les ventes entre particuliers · le mariage où tu manges à 1 h ·
-le salaire qui dure quatre jours · « et le vrai travail ? ». Ordre conseillé : 5 → 1 → 2 → 4 → 6 → 3.
-Chaque script a ses indications de jeu et une dernière ligne *(bonus)* qui appelle le commentaire.
-Avec A, C et D du 15/09, **neuf scripts tournables en stock**.
+**Le tournage solo du 17/09.** Programme de six scripts, tous avec **un personnage joué**, dans
+[`phase-1-solo/09-scripts-solo-17-09.md`](phase-1-solo/09-scripts-solo-17-09.md) : le pote qui
+conduit · le projet de groupe · le pote qui a jamais perdu (console) · le prof qui rend les copies ·
+le daron au téléphone · le tonton (« et le vrai travail ? »). 182 à 218 mots chacun, soit 56 à 67 s
+au montage (débit mesuré 3,23 mots/s). Quatre scripts brûlés le même jour, voir le fichier.
 À la prochaine session : savoir ce qui a été tourné, demander les rushs (`ffprobe` d'abord).
+
+**⚖️ LA LOI DU PERSONNAGE — nouvelle règle éditoriale, elle prime.** Un sketch de Nabil a toujours
+quelqu'un qu'il imite. Mesuré le 17/09 : ses 7 scripts validés/tournés/gardés ont **7/7** un
+personnage joué, les 4 qu'il a jetés **0/4**. Le test avant d'écrire : « qui est-ce que Nabil imite
+dans cette vidéo ? » Si la réponse est « personne », le script est mort, même s'il est drôle.
+Détail : [`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §2 bis.
 
 **Le duo avec Sady, 16/09.** Cinq concepts **validés par Nabil** (« très très drôle »), tous avec un
 script complet dans [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : **la note
