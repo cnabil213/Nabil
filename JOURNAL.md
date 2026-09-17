@@ -6,6 +6,42 @@
 
 ---
 
+## 17/09/2026 (suite) — « 30 fps c'est le pire truc nan ? » — il a raison sur le principe, pas sur son fichier
+
+Nabil conteste la recommandation « 30 im/s, pas 60 », et demande de me renseigner sur la sauvegarde
+Snapchat.
+
+**Il a raison, et ma réponse précédente était trop sèche.** 60 im/s est effectivement meilleur que
+30 comme format de *capture*. Ce que je n'avais pas expliqué : ça se gagne **à la prise**, pas à
+l'export.
+
+**Mesuré** : les **quatre** vidéos solo livrées sont en `30/1` (`r_frame_rate` et `avg_frame_rate`),
+cadence constante. Et `grep -n "fps\|-r "` sur `monter.py` ne renvoie **rien** : l'outil ne touche
+jamais à la cadence. Donc les 30 im/s viennent bien de Snapchat, pas du pipeline de montage.
+Exporter en 60 depuis du 30 duplique les images (identique, deux fois plus lourd) ou les invente
+(bavures sur la parole rapide).
+
+**Recherché sur la sauvegarde Snapchat** — trois trouvailles utiles :
+
+1. **Un réglage de qualité vidéo existe** : `Réglages → Paramètres avancés → Qualité vidéo`
+   (Automatique / Standard / Faible). Un compte en « Faible » perd de la définition sans prévenir.
+   **Jamais vérifié chez Nabil** — c'est la première chose à regarder.
+2. **L'export depuis Memories ne dégrade ni ne récupère** : « Exporting Memories does not increase
+   resolution or bitrate; it preserves what Snapchat stored. » La perte est **à la capture**, donc
+   chercher un meilleur chemin d'export est une impasse.
+3. **Snapchat n'utilise pas le pipeline caméra natif d'iOS** : il lit le flux capteur et le traite
+   lui-même. C'est ce qui permet le lissage en direct, et ce qui coûte la définition.
+
+**La piste la plus prometteuse, et elle est gratuite :** le « plus beau sur Snap » a trois causes —
+lissage de peau + yeux éclaircis appliqués par défaut, saturation poussée, et **le miroir**. iOS a
+`Réglages → Appareil photo → Miroir photo de face` ; désactivé, la vidéo est enregistrée inversée
+par rapport au retour écran. On se connaît en miroir, donc la version non-miroir paraît étrange.
+**Un bouton, et il récupère peut-être le 1080p sans perdre sa tête.**
+
+**Non mesuré, et demandé** : son NOUVEAU rush Snapchat. Les mesures ci-dessus portent sur les
+anciens fichiers. Demandé 2 s exportées depuis CapCut (~2 Mo, ça passe dans le chat) pour relever
+résolution, cadence, codec et débit réels.
+
 ## 17/09/2026 (suite) — Réglages d'export CapCut : l'upscale IA ne fabrique rien
 
 Nabil a **refilmé sur Snapchat** — « j'ai l'impression que je suis plus beau sur snap » — et demande

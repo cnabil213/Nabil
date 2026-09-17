@@ -69,6 +69,61 @@ le Smart HDR est resté allumé.
 
 ---
 
+## 60 im/s : Nabil a raison sur le principe, pas sur son fichier
+
+**60 im/s est meilleur que 30** comme format de *capture* : plus fluide, plus « premium », et ça
+permet de ralentir au montage.
+
+**Mais ça se gagne à la prise, jamais à l'export.** Mesuré sur les **quatre** vidéos solo livrées :
+`r_frame_rate = 30/1` et `avg_frame_rate = 30/1`, cadence constante. Et `monter.py` ne contient
+aucune mention de `fps` / `-r` : il ne touche jamais à la cadence. Donc **c'est bien ce que
+Snapchat produit**.
+
+Exporter en 60 depuis une source 30 donne, au choix :
+
+- **duplication** de chaque image → image strictement identique, fichier deux fois plus lourd ;
+- **interpolation** (Ultra HD par l'IA, Flux optique) → images inventées, bavures autour de la
+  bouche sur la parole rapide. C'est pire, pas mieux.
+
+Pour un narrateur face caméra sans mouvement rapide, **30 im/s ne se voit pas**. Le jour où il
+tourne en 60, ce sera parce que la capture le permet — et il faudra le vérifier sur le fichier,
+pas le supposer.
+
+---
+
+## Snapchat : ce que la recherche dit de la sauvegarde
+
+**1. Il existe un réglage de qualité vidéo, peu connu.**
+`Réglages → Paramètres avancés → Qualité vidéo` : **Automatique / Standard / Faible**. Un compte
+réglé sur « Faible » ou en économiseur de données perd de la définition sans prévenir.
+**À vérifier avant toute autre chose.**
+
+**2. L'export depuis Memories ne dégrade ni ne récupère.**
+[Source](https://www.memoriesimport.com/blog/snapchat-memories-vs-camera-roll) : *« Exporting
+Memories does not increase resolution or bitrate; it preserves what Snapchat stored. »*
+Donc chercher un meilleur chemin d'export est inutile : **la perte est à la capture.**
+
+**3. Pourquoi c'est plafonné.** Snapchat n'utilise pas le pipeline caméra natif d'iOS : il lit le
+flux du capteur et le traite lui-même. C'est ce qui lui permet le lissage en direct, et c'est aussi
+ce qui lui coûte la définition.
+
+---
+
+## Pourquoi il se trouve mieux sur Snap — trois causes, une seule est un filtre
+
+1. **Lissage de peau + yeux éclaircis**, appliqués par défaut *avant* tout filtre choisi.
+2. **Saturation** poussée.
+3. **Le miroir.** ← celui-là est un bouton.
+
+iOS a un réglage `Réglages → Appareil photo → **Miroir photo de face**`. **Désactivé**, la vidéo est
+enregistrée *inversée* par rapport au retour écran pendant la prise. On se connaît en miroir : la
+version non-miroir paraît étrange, les asymétries sautent aux yeux.
+
+**Test à faire avant de conclure quoi que ce soit** : activer le miroir, filmer 10 s à l'app Caméra.
+Si c'était ça, il récupère le 1080p **et** son visage.
+
+---
+
 ## Snapchat : le vrai arbitrage
 
 Nabil filme sur Snapchat parce qu'il s'y trouve mieux — **et c'est fondé** : Snap lisse la peau à

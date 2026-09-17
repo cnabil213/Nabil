@@ -59,8 +59,14 @@ session. Tant qu'elles sont ouvertes, les sous-titres ne peuvent pas être produ
 - 🎬 **Nabil monte lui-même dans CapCut.** Réglages d'export : **Ultra HD par l'IA OFF, Smart HDR
   OFF, 30 im/s (pas 60)**. Mesuré : l'aller-retour 720p→1080p→720p sort à 61,8 dB, donc l'upscale
   n'ajoute **aucun** détail. Détail : [`outils/README-export-capcut.md`](outils/README-export-capcut.md).
-- **Il a refilmé sur Snapchat** (« je suis plus beau sur snap »). Donc **720p**, et aucun export ne
-  le rattrape. Test proposé, pas encore fait : une vanne à l'app Caméra 1080p + « Retouche » CapCut.
+- **Il a refilmé sur Snapchat** (« je suis plus beau sur snap »). Ses 4 anciennes vidéos : **720p,
+  30/1**, et `monter.py` ne touche pas la cadence → ça vient bien de Snapchat. **Le nouveau rush n'a
+  jamais été mesuré** : réclamer 2 s exportées depuis CapCut (~2 Mo).
+  **3 pistes à tester, dans cet ordre :** (1) `Snapchat → Paramètres avancés → Qualité vidéo`, la
+  mettre sur **Automatique** (si elle est sur « Faible », il perd de la définition sans le savoir) ;
+  (2) `iOS → Réglages → Appareil photo → **Miroir photo de face**` — s'il est désactivé, la vidéo est
+  enregistrée inversée, ce qui explique peut-être tout le « je suis moins bien » ; (3) une vanne à
+  l'app Caméra 1080p + « Retouche » CapCut. Test proposé, pas encore fait : une vanne à l'app Caméra 1080p + « Retouche » CapCut.
   S'il se trouve aussi bien → on bascule. Sinon → on reste sur Snap et on n'en reparle plus.
 - **PLAFOND : 60 s maximum par vidéo** (Nabil, 17/09). À 3,87 mots/s mesurés, ça fait **232 mots**.
   Compter avant de livrer un script, jamais estimer à l'œil.
