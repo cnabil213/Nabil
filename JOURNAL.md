@@ -6,6 +6,40 @@
 
 ---
 
+## 17/09/2026 — Six scripts solo, calibrés au débit mesuré
+
+Nabil en voiture, prêt à tourner 5-6 vidéos solo « dans le délire de T'inquiète », Gen Z, 50 s à
+1 min, avec des indications de mise en scène.
+
+**Fait**
+
+- Calibrage d'abord, écriture ensuite : **3,23 mots/s** sur ses trois montages livrés (T'inquiète
+  3,63 · Business Bro 3,37 · MMA de salon 2,77). Donc 60 s ≈ 195 mots. Les six scripts font 199 à
+  218 mots → 62-67 s de montage, 75-85 s de rush avec ses respirations.
+- [`phase-1-solo/09-scripts-solo-17-09.md`](phase-1-solo/09-scripts-solo-17-09.md) : le projet de
+  groupe · le groupe WhatsApp qui prévoit rien · les ventes entre particuliers · le mariage où tu
+  manges à 1 h du matin · le salaire qui dure quatre jours · « et le vrai travail ? ».
+- Chaque script : hook au mot près, escalade en paliers, chute courte, indications de jeu
+  (où ça monte, où ça se dit bas, où couper) et une dernière ligne *(bonus)* qui appelle le
+  commentaire — le levier que le benchmark de Sady laisse sur la table.
+- Six idées écartées avec leur raison (groupe WhatsApp familial, Netflix, auto-école, « ici on est
+  une famille », la vanne de la mitochondrie, le pote à une seule anecdote).
+
+**Décidé**
+
+- Les cinq leviers de vue sont écrits en tête du fichier, pas éparpillés : le hook est la vanne, un
+  chiffre précis dedans, escalade en paliers courts, chute puis SILENCE, et l'appel au commentaire.
+- Le script « ventes entre particuliers » est livré avec son risque écrit noir sur blanc (l'acheteur
+  à 2 € est un angle vu) et placé en dernier dans l'ordre de tournage : c'est celui qui saute.
+- Le script du tonton porte une consigne inverse des autres : ne pas surjouer l'émotion finale,
+  sinon la chute tombe dans le mièvre, qui est interdit par la charte.
+
+**Appris**
+
+- La question « combien de mots pour une minute ? » se règle par la mesure, pas au feeling : ses
+  trois montages varient de 2,77 à 3,63 mots/s selon l'énergie de la prise. La moyenne pondérée est
+  la seule base honnête pour écrire une longueur.
+
 ## 16/09/2026 — Six concepts pour le duo avec Sady
 
 Nabil : « cette fois je suis pas tout seul mais avec Sady… trouve un concept drôle, divertissant, qui

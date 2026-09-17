@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 16/09/2026**
+**Dernière mise à jour : 17/09/2026**
 
 ---
 
@@ -14,6 +14,15 @@ Phase 1 : **6 vidéos montées et livrées** (4 solo + 2 tier lists avec Sady), 
 Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
 
 ## Le chantier en cours
+
+**Le tournage solo du 17/09.** Six scripts neufs, 200 à 218 mots chacun (62-67 s au montage, débit
+mesuré 3,23 mots/s sur ses livraisons) :
+[`phase-1-solo/09-scripts-solo-17-09.md`](phase-1-solo/09-scripts-solo-17-09.md) — le projet de
+groupe · le groupe qui prévoit rien · les ventes entre particuliers · le mariage où tu manges à 1 h ·
+le salaire qui dure quatre jours · « et le vrai travail ? ». Ordre conseillé : 5 → 1 → 2 → 4 → 6 → 3.
+Chaque script a ses indications de jeu et une dernière ligne *(bonus)* qui appelle le commentaire.
+Avec A, C et D du 15/09, **neuf scripts tournables en stock**.
+À la prochaine session : savoir ce qui a été tourné, demander les rushs (`ffprobe` d'abord).
 
 **Le duo avec Sady, 16/09.** Cinq concepts **validés par Nabil** (« très très drôle »), tous avec un
 script complet dans [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : **la note
@@ -81,8 +90,10 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 
 ## Les 3 prochaines actions
 
-0. **Rushs du duo du 16/09** : `ffprobe`, puis montage. Attention, `ecoute-video.py` est aveugle sur
-   deux voix (pas de diarisation) : les coupes se posent à l'enveloppe, pas aux verdicts par phrase.
+0. **Rushs du 17/09 (solo)** : `ffprobe`, puis montage — un seul réencodage. Nabil monte lui-même
+   désormais, donc lui rendre surtout les timecodes de coupe s'il le demande.
+0 bis. **Rushs du duo** (Bakhal Man / note cachée) : `ecoute-video.py` est aveugle sur deux voix
+   (pas de diarisation) : les coupes se posent à l'enveloppe, pas aux verdicts par phrase.
 1. **Publier.** Six montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
    compte n'est ouvert : c'est le seul blocage de la Phase 1.
 2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
