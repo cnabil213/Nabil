@@ -23,12 +23,14 @@ list. Cartons prêts à imprimer dans `phase-1-solo/cartes/`.
 
 ## Le chantier en cours
 
-**Bakhal Man, épisode 2 « Montpellier » (21/09), à tourner.** Le brainstorming vocal de Nabil × Sady est
-remis au propre dans [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md) :
-chaîne de sens, script avec le trajet du carton (4 → 10 → 0 → 2), hook (la première phrase de Sady contient
-déjà le mensonge, le carton répond sans un mot), 200 mots soit 1 min 15 à 1 min 30. Décisions prises :
-une seule histoire par vidéo, Sady raconte toujours, le récap tient en une respiration. Sady n'a pas encore
-validé le texte. Cette branche a **fusionné** la branche `video-ideas-social-media` (FORMATS.md, cartons).
+**Bakhal Man, épisode 2 « Montpellier » (21/09), à tourner en voiture, bientôt.** Le brainstorming vocal de
+Nabil × Sady est remis au propre dans [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md).
+Tel que Nabil l'a pensé : **deux histoires, le carton change de mains** (Nabil raconte Montpellier, Sady
+tient le carton ; puis l'inverse). Version courte écrite (Montpellier en 45-50 s, il reste 30-35 s à Sady,
+soit 90-100 mots) et version longue de secours (Montpellier seul, 1 min 10-1 min 20). Le vrai trajet est
+**Bruxelles–Montpellier en avion** (ils partent de Belgique). Ce qu'il reste à préparer : l'histoire de
+Sady, et surtout **sa question de chiffre qui tue**. Sady n'a pas encore validé le texte.
+Cette branche a **fusionné** la branche `video-ideas-social-media` (FORMATS.md, cartons).
 
 **Le tournage solo du 17/09.** Six scripts définitifs, **en mode narrateur**, dans
 [`phase-1-solo/10-scripts-narrateur-17-09.md`](phase-1-solo/10-scripts-narrateur-17-09.md) : le pote
@@ -123,8 +125,8 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 
 ## Les 3 prochaines actions
 
-0. **Tourner Bakhal Man ép. 2 « Montpellier »** : script prêt, le lire chrono à deux avant (plafond
-   1 min 30 ; si ça dépasse, couper le maillon Suisse–Lyon, jamais la question du poids).
+0. **Tourner Bakhal Man ép. 2 « Montpellier »** : script prêt en deux longueurs, à lire chrono à deux
+   dans la voiture (plafond 1 min 30). Préparer l'histoire de Sady : 90-100 mots, et sa question de chiffre.
 0. **Rushs du 17/09 (solo)** : `ffprobe`, puis montage — un seul réencodage. Nabil monte lui-même
    désormais, donc lui rendre surtout les timecodes de coupe s'il le demande.
 0 bis. **Rushs du duo** (Bakhal Man / note cachée) : `ecoute-video.py` est aveugle sur deux voix

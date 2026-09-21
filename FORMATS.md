@@ -114,8 +114,11 @@ sinon le chiffre d'en face se voit à travers. Aperçu : `phase-1-solo/cartes/ap
 devenue une histoire de rien ». **Fin** : « Racontez-nous une histoire en commentaire, on la passe au
 Bakhal Man. »
 
-**Épisode 2 — « Montpellier »** (21/09, à tourner) : le Monténégro, dix douanières, un humain dans la
-valise qui pèse 300 grammes. Script complet, hook et durée dans
+**Épisode 2 — « Montpellier »** (21/09, à tourner en voiture) : le Monténégro, dix douanières, un humain
+dans la valise qui pèse 300 grammes. **Décision de Nabil dans le vocal du 21/09 : le carton change de mains
+à chaque histoire.** Nabil raconte Montpellier et Sady tient le carton, puis Sady raconte la sienne et
+Nabil tient le carton : deux histoires de 45 s. Script complet (version courte à deux histoires et
+version longue à une seule), hook et durée dans
 [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md).
 
 **Réserves d'épisodes** : l'histoire de la boîte de nuit · le contrôle de police · « j'ai failli

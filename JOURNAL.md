@@ -6,6 +6,29 @@
 
 ---
 
+## 21/09/2026 (suite 2) — Relecture du vocal : trois erreurs de lecture corrigées
+
+Nabil a renvoyé la transcription en demandant de la relire, parce qu'ils tournent bientôt en voiture.
+La relecture ligne par ligne a montré que ma première version lisait le vocal de travers :
+
+| Ce que j'avais écrit | Ce que le vocal dit |
+| :--- | :--- |
+| « Bruxelles » = du bruit, coupé | **Le vrai trajet : Bruxelles–Montpellier, en avion.** Ils partent de Belgique (les studios de la Phase 2 sont à Bruxelles). « bosser Montpellier » = « Bruxelles–Montpellier » |
+| « 23 questions » | « deux-trois questions » |
+| « neuf » = Sady concède neuf douanières | « bon allez, toi, neuf » = **le carton à 9** |
+| Sady raconte, Nabil tient le carton, pas de deuxième histoire | **Nabil raconte Montpellier, Sady tient le carton, puis on inverse.** C'est la construction de Nabil, elle prime sur les rôles fixes de FORMATS.md |
+| le TGV direct | l'avion (« je prends l'avion ») : « y'a un vol direct Charleroi–Montpellier » |
+
+**Fait** : le fichier `11-bakhal-man-montpellier.md` réécrit avec une section 0 qui liste ces corrections,
+une **version courte** pour l'épisode à deux histoires (Montpellier 4 → 10 → 0 → 2, mots comptés, 45-50 s,
+il reste 30-35 s à Sady) et la **version longue** de secours. FORMATS.md § A1 note que le carton change de
+mains à chaque histoire. Deux vrais détails du vocal récupérés : « t'as attendu ta valise » (dans le récap)
+et « ils m'ont quand même mis sur le côté » (la défense finale, mot pour mot).
+
+**Appris** : une transcription vocale ne se lit pas une fois. « Bosser », « avallée », « 23 » étaient des mots
+réels déformés, pas du bruit, et le seul moyen de le voir était de relire avec le contexte (Belgique). Avant
+de jeter une ligne d'un vocal, chercher le mot réel derrière.
+
 ## 21/09/2026 (suite) — Bakhal Man, épisode 2 : « Montpellier »
 
 Nabil a envoyé la transcription vocale d'un brainstorming à deux (« je suis passé par le Monténégro »,
