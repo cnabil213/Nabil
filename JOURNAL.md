@@ -6,6 +6,41 @@
 
 ---
 
+## 21/09/2026 (suite) — Bakhal Man, épisode 2 : « Montpellier »
+
+Nabil a envoyé la transcription vocale d'un brainstorming à deux (« je suis passé par le Monténégro »,
+dix douanières, trafic d'humains, la valise qui bipe, le doudou) et demandé : le script au propre, un
+hook pensé pour le concept, deux-trois avis, des blagues, 1 min à 1 min 30 max.
+
+**Fait**
+
+- **Fusion de la branche `video-ideas-social-media`** dans celle-ci : le concept n'existait que là-bas
+  (FORMATS.md, `08-concepts-duo.md`, les cartons). Sur les conflits (ETAT, JOURNAL, « T'inquiète »), la
+  version de l'autre branche a été gardée : elle est postérieure et plus complète.
+- [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md) : chaîne de
+  sens en cinq maillons, script avec le carton à chaque réplique (trajet 4 · 6 · 7 · 3 · 9 · 9 · 5 · 10 ·
+  10 · 0 · 2), hook, avis, blagues de réserve, titres, filtre des interdits. Lien ajouté dans FORMATS.md § A1.
+- **200 mots de dialogue** (comptés), soit 62 s de parole au débit mesuré de 3,23 mots/s et 1 min 15 à
+  1 min 30 avec les temps du carton. Plan de coupe si ça dépasse : le maillon Suisse–Lyon.
+
+**Décidé**
+
+- **Le récap est la chute et tient en une respiration** : quatre faits, « Zéro. C'est vrai. Et c'est nul. »
+  Nabil l'avait dit lui-même dans le vocal (« c'est trop long ») ; c'est la formule fixe du format.
+- **Une seule histoire par vidéo, et c'est Sady qui raconte.** Le « après toi tu fais pareil » du vocal
+  est refusé : la durée, et la règle du 17/09 (Nabil ne joue pas de personnage ; s'il raconte le
+  Monténégro, il joue).
+- Jeté du vocal : « Bruxelles » (incompréhensible), « 10 filles » (→ douanières), l'avion (→ TGV direct,
+  meilleure pique et vrai trajet plus minable).
+
+**Appris**
+
+- **Chaque épisode a besoin d'une question de chiffre qui tue** (« il pesait combien ? », comme « deux
+  mètres » dans La bagarre). C'est la seule arme de Nabil, et c'est Sady qui produit lui-même le chiffre
+  qui tue son histoire. À trouver avant d'écrire le reste.
+- **La première phrase de Sady contient déjà le mensonge** (Montpellier / Monténégro) et le carton
+  répond sans un mot : le format s'explique tout seul, jamais par une intro.
+
 ## 21/09/2026 — FORMATS.md : les formats ne se perdent plus
 
 Nabil : « tu as pas mis les idées de format Bakhal Man, l'exploit sportif… j'ai ouvert une autre

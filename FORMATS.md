@@ -114,6 +114,10 @@ sinon le chiffre d'en face se voit à travers. Aperçu : `phase-1-solo/cartes/ap
 devenue une histoire de rien ». **Fin** : « Racontez-nous une histoire en commentaire, on la passe au
 Bakhal Man. »
 
+**Épisode 2 — « Montpellier »** (21/09, à tourner) : le Monténégro, dix douanières, un humain dans la
+valise qui pèse 300 grammes. Script complet, hook et durée dans
+[`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md).
+
 **Réserves d'épisodes** : l'histoire de la boîte de nuit · le contrôle de police · « j'ai failli
 signer dans un club » · la fois où il a vu une célébrité · l'histoire de vacances au bled.
 
