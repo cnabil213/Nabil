@@ -127,45 +127,55 @@ type de personne », qui est une mise en contexte, donc un interdit.
 
 ---
 
-## 🎬 Vidéo 5 — « T'inquiète » (le pote au vocabulaire d'un seul mot)
+## 🎬 Vidéo 5 — « T'inquiète »
 
-**Statut :** ✅ **Tournée le 15/09 et montée** · **Mécanique :** escalade + retour au réel
-· Livrée : [`livraisons/15sept-tinquiete-HQ.mp4`](../livraisons/) — 36,7 s
+**Statut :** ✅ **Tournée le 15/09/2026** (script B du jour, joué en impro fidèle) · **Mécanique :**
+hook acting + escalade en liste + retour au réel.
 
-**L'idée :** on a tous ce pote qui répond « t'inquiète » à tout, quelle que soit la gravité.
+### Ce qui a été tourné (trois fichiers, 4K, app Caméra, en voiture de jour)
 
-### Ce que dit le montage, du début à la fin
+| fichier | durée | contenu |
+| :--- | --: | :--- |
+| IMG_7370 | 38,1 s | « T'inquiète. » → le pote qui n'a qu'un mot → la liste (retard, on va là-bas, bagarre, pas de quoi payer) → la boîte de nuit, le videur, la carte d'identité, « il connaît que le nom de la rue » → puis 7 s de recherche à voix haute |
+| IMG_7374 | 11,9 s | le médecin : « t'as une maladie grave » → « t'inquiète » → « 9 ans d'études pour s'inquiéter » (dit deux fois, deux formulations) → « toi tu lui dis t'inquiète » |
+| IMG_7375 | 16,4 s | contrôle de police → « il sort de garde à vue, t'inquiète » (chute mesurée **91/100**, +8,3 dB) → puis un second final : « vous connaissez mon algorithme ? deux façons : la baffe, ou supprimer, delete » |
 
-> T'inquiète. On a ce pote-là qui a un seul mot de vocabulaire dans la bouche : t'inquiète.
-> T'es en retard ? T'inquiète. Y'a une bagarre ? T'inquiète. Y'a peut-être même eu mort ? T'inquiète.
-> Il veut aller en boîte : « viens avec moi, je connais tout le monde, t'inquiète. » Il arrive,
-> videur, il montre sa carte d'identité — il le connaît pas. **Il connaît que le nom de la rue.**
-> Il est comme ça avec tout le monde. Il va voir son médecin, son médecin lui dit « t'as une maladie
-> grave », il lui dit « t'inquiète ». Mais lui il peut s'inquiéter, **il a fait 9 ans d'études pour
-> s'inquiéter !** De toute façon vous connaissez mon algorithme, il a trouvé deux solutions : la
-> première c'est on les baffe, on les remet bien en place. La deuxième c'est on est plus bêtes
-> qu'eux aussi. Voilà : **t'inquiète, je m'inquiète pas.**
+**Livré :** [`livraisons/15sept-tinquiete-HQ.mp4`](../livraisons/) — 34,7 s, 1080×1920, 78,1 Mio, 18,9 Mb/s,
+−14,5 LUFS, true peak −1,0 dBTP.
 
-### Comment il a été monté
+### Transcription du montage livré (34,7 s)
 
-Cinq clips tournés en 3 minutes, **1 min 44 de rush pour 36,7 s gardées**. Nabil : « ya des moments
-où je bug dans ma tête, prends les meilleurs moments. »
+> T'inquiète. On a tous ce pote-là qui n'a qu'un seul mot de vocabulaire dans la bouche. T'inquiète.
+> T'es en retard, t'inquiète. On va là-bas, t'inquiète. Y a une bagarre, t'inquiète. Il a pas de quoi
+> payer, t'inquiète. On part en boîte de nuit et tu te dis « t'inquiète, je connais tout le monde ».
+> T'arrives, boîte de nuit, avec le videur. Il montre sa carte d'identité. Il connaît personne. Il
+> connaît que le nom de la rue. Il va voir son médecin, son médecin lui dit « t'as une maladie
+> grave », il lui dit « t'inquiète ». Mais il a fait 9 ans d'études pour s'inquiéter ! Toi tu lui dis
+> « t'inquiète ». Contrôle de police, la police vient l'attraper. Il répond « t'inquiète ». Il sort de
+> garde à vue… « t'inquiète ».
 
-| gardé | d'où | pourquoi |
-| :--- | :--- | :--- |
-| prémisse + escalade (retard / bagarre / mort) | clip 1, 0,30–13,20 s | la meilleure passe |
-| la boîte de nuit + « il connaît que le nom de la rue » | clip 1, 35,55–42,68 s | **la 2e tentative** : la 1re (12,8–26,8 s) bafouille |
-| le médecin + « 9 ans d'études pour s'inquiéter » | clip 2, 0,15–8,75 s | une seule prise, propre |
-| l'algorithme + la chute | **clip 4** (12B0EEC1), 0,15–10,10 s | **la meilleure des 3 prises** de la même fin |
+### Ce qui a été coupé, et pourquoi
 
-**Ce qui a été jeté :** la 1re tentative de la boîte de nuit (14 s de bafouillage), la redite
-« il est en retard » juste après « t'es en retard », la reprise « il connaît que le nom de la rue »
-dite deux fois, la queue « il va s'inquiéter même » après le médecin, et **deux des trois prises de
-la fin** — l'une rate la négation (« je m'inquiète » au lieu de « je m'inquiète pas »), l'autre
-traîne sur six répétitions.
+- **Les blancs de réflexion dans la liste** (1,55 s, 3,76 s, 4,96 s) ramenés à 0,38 s, le rythme
+  qu'il tenait lui-même entre les deux premiers items. Ce sont des « je bugue », pas des silences
+  qui portent quelque chose.
+- **La fin du 7370** (31,2–38 s) : « voilà, tu connais que le nom de la rue… et puis tu viens…
+  vraiment c'est les pires » — une redite puis une sortie cherchée à voix haute, −8,3 dB sous ses
+  pics.
+- **Dans le médecin** : « lui c'est ça son métier, lui son métier c'est de s'inquiéter » et « il a
+  fait 9 ans d'études pour ça » — la deuxième formulation de la même idée. Gardée : la première,
+  la plus envoyée (+3,0 dB), et le « toi tu lui dis t'inquiète » de la fin.
+- **Le second final « algorithme »** (7375, 6,5–16 s) : il vient après une chute mesurée 91/100,
+  il retombe (−10,7 dB sur « moi j'ai conclu », « delete » à −7,2 dB, mot le plus plat du fichier)
+  et « Algorithme » est relancé deux fois. Règle : après la chute, on coupe. Il est dans le rush si
+  Nabil le veut quand même.
 
-**Choix de la prise finale, mesuré :** débit de parole 6,86 mots/s pour celle retenue, contre 6,56
-et 5,21 pour les deux autres. C'est la plus tenue.
+### Défaut de prise, à retenir
+
+Les fichiers 7374 et 7375 **démarrent en pleine parole** (−22 et −12 dBFS dès la première tranche de
+20 ms) : « Il va voir » et « Contrôle » ont leur attaque tronquée à l'enregistrement. Pas
+reconstruisible. À la prochaine prise : **une seconde de silence avant de parler, à chaque fichier**,
+pas seulement au premier.
 
 ---
 

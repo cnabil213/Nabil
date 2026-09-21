@@ -37,6 +37,21 @@ python3 outils/monter.py rush.mov -o MONTAGE.mp4 --garder 6.40-27.70 32.45-37.55
 ```
 
 On donne les segments à **garder** (en secondes, timecodes du `RAPPORT-ECOUTE.md`) ; tout le reste saute.
+
+**Une vanne tournée en plusieurs fichiers** (Nabil s'arrête, reprend, envoie trois `.mov`) : donner
+les fichiers à la suite et préfixer chaque segment de l'index de sa source, dans l'ordre du montage :
+
+```bash
+python3 outils/monter.py IMG_7370.mov IMG_7374.mov IMG_7375.mov -o MONTAGE.mp4 \
+    --garder 0:0.033-6.71 0:7.88-9.47 1:0.00-3.77 1:4.09-6.36 2:0.00-5.55
+```
+
+Chaque source est décodée une fois par son propre démultiplexeur (`select` par source, puis `concat`
+des sources), donc avec sa propre liste d'édition AAC : la synchro son/image de chaque rush est
+conservée (mesurée à 0,0 ms sur les deux raccords du 15/09). **Ne pas recoller les fichiers avec le
+concat demuxer en copie de flux** : il ignore l'amorce AAC et décale le son de 59 ms sur le deuxième
+fichier, 80 ms sur le troisième (mesuré par corrélation, 15/09). Les segments d'une même source doivent
+se suivre.
 La coupe est faite par `trim`/`concat`, donc à la frame près — pas de seek sur keyframe qui décalerait
 de une à deux secondes. Le son est ramené à **−14 LUFS** par un **gain fixe** mesuré sur la coupe audio
 (quelques secondes), puis un **limiteur** retient les crêtes à −1,5 dBFS — le tout dans la passe de coupe,

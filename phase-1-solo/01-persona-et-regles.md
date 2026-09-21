@@ -40,6 +40,79 @@ Les sujets déjà exploités jusqu'à l'os par tout le monde :
 On vise la **tension, le chaos, le clash amical**. Jamais l'humiliation réelle de
 quelqu'un. La cible, c'est un **comportement**, pas une personne.
 
+## 2 bis. NABIL EST NARRATEUR, JAMAIS ACTEUR
+
+> Règle posée le 17/09/2026 par Nabil lui-même, **en correction d'une erreur de l'IA le même jour**.
+> J'avais écrit « la loi du personnage : Nabil joue et imite quelqu'un » et j'avais livré des scripts
+> avec des indications de jeu (mimer un volant, jouer la voix du prof, trois voix à tenir). Réponse
+> de Nabil : « je tourne pas, je parle juste avec ma bouche. Je joue pas de personnage. Je suis
+> narrateur. J'ai pas un jeu d'acteur. C'est pas ça mon but. »
+> **Il a raison, et c'est vérifiable sur ses cinq vidéos tournées : il n'y a aucune scène jouée.**
+
+### Ce qu'il fait, exactement
+
+**Il parle face caméra, il raconte un type de personne.** Point. Pas de mime, pas d'accessoire, pas
+de changement de voix, pas de dialogue à deux personnages, pas de « il se lève et il fait ».
+
+Trois outils, et seulement ces trois :
+
+1. **La narration à la troisième personne.** « Il crée le groupe WhatsApp et il attend un merci. »
+2. **La citation jetée.** Il dit la phrase du mec, dans sa propre voix, sans la jouer :
+   « il te dit *t'inquiète* », « il te dit *ouais frérot je diversifie mes actifs* ». C'est une
+   citation, pas une imitation.
+3. **L'apostrophe.** Il se retourne vers le mec absent et lui parle en « tu » ou « frère » :
+   « Frère, redescends sur terre », « Diversifie déjà ton frigo ! », « Tu te bats contre des
+   spaghettis ? » **C'est là qu'est son énergie**, et c'est ce qui remplace le jeu d'acteur.
+
+### Le vrai critère de tri (ce que mon erreur cachait)
+
+Ce que j'avais à moitié vu est juste : **le sujet d'un sketch doit être UN TYPE DE PERSONNE**, pas une
+situation. Les quatre scripts que Nabil a jetés le 17/09 parlaient d'un groupe WhatsApp, d'une appli
+de revente, d'un mariage et d'un compte en banque. Aucun n'avait de « ce pote qui… » au centre.
+Les onze scripts connus, triés :
+
+| | le sujet est un type de personne |
+| :--- | :--- |
+| Validés, tournés ou gardés par Nabil | **7 / 7** |
+| Jetés le 17/09 | **0 / 4** |
+
+**Mais** le sujet est une personne dont il PARLE, pas une personne qu'il JOUE. C'était ça, l'erreur.
+
+### Les deux tests, avant d'écrire une ligne
+
+1. « De quel type de personne parle cette vidéo ? » Si la réponse est une situation, un objet ou de
+   l'argent, le script est mort, même s'il est drôle.
+2. « Est-ce que Nabil peut dire tout ce script assis, sans bouger, sans rien mimer ? » Si non,
+   réécrire. **Aucune indication de jeu ne doit figurer dans un script.** Les seules indications
+   autorisées portent sur la voix : où ça monte, où ça se dit bas, où on marque un temps.
+
+### Les hooks qui marchent chez lui (ses formes, relevées sur ses vidéos)
+
+- **La citation jetée à froid** : « T'inquiète. » puis « On a tous ce pote-là qui… » *(T'inquiète)*
+- **« On a TOUS ce pote qui… »** + le détail précis *(MMA de salon, Business Bro)*
+- **« Les gars, vous aussi vous… ? »** — la question directe à l'audience, forme qu'il réclame
+- **« Les gars, avouez… »** *(la vidéo école)*
+
+## 2 ter. LE HOOK OUVRE UNE QUESTION, IL N'ANNONCE PAS UN SUJET
+
+> Posé le 17/09/2026 après le refus du script « les ventes entre particuliers » : « le thème a un
+> potentiel mais comme ça il est vraiment mid. Faut un vrai hook qui fait rester les gens. »
+
+Un hook qui décrit ce dont on va parler donne au spectateur une raison de partir : il sait déjà.
+Un hook qui pose une **contradiction** l'oblige à rester pour savoir jusqu'où ça va.
+
+| ❌ mid | ✅ ça retient | pourquoi |
+| :--- | :--- | :--- |
+| « Il m'a proposé 2 € sur une veste à 45 » | « Il m'a dit qu'il avait lancé son entreprise. C'est un compte Vinted » | La première est une anecdote finie ; la seconde ouvre « à quel point c'est pire que ce que j'imagine ? » |
+| « On va parler des gens qui vendent en ligne » | « Il a vendu sa PlayStation pour acheter 40 pulls » | Un chiffre absurde et un échange perdant : on veut la suite |
+
+**Et le corps du script doit être une DESCENTE, pas une liste.** Une liste de plaintes sur six
+personnes différentes se quitte à n'importe quel palier. Un seul type de personne dont le cas
+s'aggrave palier par palier retient jusqu'à la chute, parce que chaque palier promet le suivant.
+
+Test : si on peut échanger deux paliers du script sans que rien ne change, c'est une liste. Il faut
+que l'ordre soit obligatoire.
+
 ## 3. L'anatomie d'un script
 
 | Étape | Rôle | Durée |

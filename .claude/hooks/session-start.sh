@@ -10,6 +10,14 @@ echo
 echo "=============== DERNIÈRE SESSION (JOURNAL.md) ==============="
 [ -f JOURNAL.md ] && sed -n '/^## /,/^## /p' JOURNAL.md | sed '$d' | head -40
 echo
+echo "=============== LES FORMATS DU COMPTE (FORMATS.md) ==============="
+echo "Formats récurrents déjà définis — NE PAS les réinventer, lire FORMATS.md avant d'en proposer :"
+echo "  · LE SKETCH SOLO      (format de fond, 5 tournés)"
+echo "  · BAKHAL MAN          (cartons 0-10 : le taux de mytho d'une histoire, noté en direct)"
+echo "  · LE JOURNALISTE      (interview d'après-match d'un truc banal, le déo en micro)"
+echo "  · LA NOTE CACHÉE      (tier list à révélation simultanée)"
+echo "  · LE GPS DE LA VIE  ·  LE CONTRÔLE TECHNIQUE  ·  LA TIER LIST"
+echo
 echo "=============== RAPPEL ==============="
 echo "Finir la session en réécrivant ETAT.md et en ajoutant une entrée en haut de JOURNAL.md."
 echo
