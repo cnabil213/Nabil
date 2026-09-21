@@ -117,7 +117,8 @@ Bakhal Man. »
 **Épisode 2 — « Montpellier »** (21/09, à tourner en voiture) : le Monténégro, dix douanières, un humain
 dans la valise qui pèse 300 grammes. **Décision de Nabil dans le vocal du 21/09 : le carton change de mains
 à chaque histoire.** Nabil raconte Montpellier et Sady tient le carton, puis Sady raconte la sienne et
-Nabil tient le carton : deux histoires de 45 s. Script complet (version courte à deux histoires et
+Nabil tient le carton (« Le bus » : sponsorisé Apple, Steve Jobs, zombies stade 10) : deux histoires de
+45 s. **Ton du carton, dit par Nabil : « presque agacé, bon allez, huit »**, blasé, pas neutre-poli. Script complet (version courte à deux histoires et
 version longue à une seule), hook et durée dans
 [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md).
 

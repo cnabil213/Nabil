@@ -28,8 +28,9 @@ Nabil × Sady est remis au propre dans [`phase-1-solo/11-bakhal-man-montpellier.
 Tel que Nabil l'a pensé : **deux histoires, le carton change de mains** (Nabil raconte Montpellier, Sady
 tient le carton ; puis l'inverse). Version courte écrite (Montpellier en 45-50 s, il reste 30-35 s à Sady,
 soit 90-100 mots) et version longue de secours (Montpellier seul, 1 min 10-1 min 20). Le vrai trajet est
-**Bruxelles–Montpellier en avion** (ils partent de Belgique). Ce qu'il reste à préparer : l'histoire de
-Sady, et surtout **sa question de chiffre qui tue**. Sady n'a pas encore validé le texte.
+**Bruxelles–Montpellier en avion** (ils partent de Belgique). L'histoire de Sady est écrite (deuxième vocal) : **« Le bus »**, sponsorisé Apple → Steve Jobs → zombies,
+116 mots, 30-35 s. Épisode complet : 1 min 20 à 1 min 30, rien à ajouter. Ton du carton : agacé, blasé.
+Reste : le lire chrono à deux dans la voiture. Sady n'a pas encore validé le texte.
 Cette branche a **fusionné** la branche `video-ideas-social-media` (FORMATS.md, cartons).
 
 **Le tournage solo du 17/09.** Six scripts définitifs, **en mode narrateur**, dans
@@ -126,7 +127,7 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 ## Les 3 prochaines actions
 
 0. **Tourner Bakhal Man ép. 2 « Montpellier »** : script prêt en deux longueurs, à lire chrono à deux
-   dans la voiture (plafond 1 min 30). Préparer l'histoire de Sady : 90-100 mots, et sa question de chiffre.
+   dans la voiture (plafond 1 min 30). Les deux histoires sont écrites ; si ça dépasse, couper dans Montpellier (Suisse–Lyon), pas dans le bus.
 0. **Rushs du 17/09 (solo)** : `ffprobe`, puis montage — un seul réencodage. Nabil monte lui-même
    désormais, donc lui rendre surtout les timecodes de coupe s'il le demande.
 0 bis. **Rushs du duo** (Bakhal Man / note cachée) : `ecoute-video.py` est aveugle sur deux voix

@@ -1,4 +1,4 @@
-# BAKHAL MAN — Épisode 2 : « Montpellier »
+# BAKHAL MAN — Épisode 2 : « Montpellier » + « Le bus »
 
 > Format : [`FORMATS.md`](../FORMATS.md) § A1 (alias « le mythomètre »). Règles du carton, échelle 0-10
 > et épisode de référence (« La bagarre ») sont là-bas ; ce fichier ne contient que l'épisode.
@@ -22,7 +22,7 @@ Ma première version avait lu le vocal de travers sur trois points. Corrigé ici
 
 Donc l'épisode, tel que Nabil l'a pensé : **deux histoires, une chacun, rôles inversés entre les deux.**
 À 1 min 30 max, ça fait **45 s par histoire**, format « La bagarre ». Le script ci-dessous est écrit pour
-ça. Si Sady n'a pas d'histoire qui tient en 40 s, la version longue (§3) fait l'épisode à elle seule.
+ça. L'histoire de Sady est le bus (deuxième vocal). La version longue (§3) reste en secours si une seule histoire fait l'épisode.
 
 ## 1. La chaîne de sens de Montpellier
 
@@ -83,22 +83,70 @@ on parle et on lève un carton.
 Le carton qui monte **avant même que l'histoire commence**, c'est la vanne du relais : le format dit que
 personne n'est à l'abri. Elle coûte cinq secondes et elle fait comprendre l'inversion sans l'expliquer.
 
-### Histoire 2 — celle de Sady (Sady raconte, Nabil tient le carton)
+### Histoire 2 — Le bus (Sady raconte, Nabil tient le carton)
 
-**À écrire avec Sady dans la voiture, à partir d'une vraie anecdote à lui.** Contrainte dure : **30 à 35 s,
-donc 90 à 100 mots**, pas plus, sinon l'épisode dépasse 1 min 30. Le gabarit, les cinq mêmes maillons :
+Deuxième vocal du 21/09. La vraie histoire : il a pris son bus, un peu en retard, il avait son iPhone
+(à plat), il a croisé son gars Steve qui sortait du taf, et des gens toussaient. Trois mensonges dessus,
+un par palier : le bus sponsorisé Apple → Steve Jobs → les zombies stade 10. Trois concessions, chacune
+plus minable : l'iPhone à plat → Steve qui sortait du job → la grippe.
 
-1. **Première phrase = le mensonge le plus gros** (jamais le contexte). Carton à 4 dans la seconde.
-2. **Une question de chiffre de Nabil** (« combien », « quelle heure », « quelle taille »), Sady concède,
-   le carton descend.
-3. **Le pic** : le détail impossible, carton 9 ou 10, Nabil dit le chiffre.
-4. **La question qui tue**, celle où Sady produit lui-même le chiffre qui casse son histoire (le
-   « trois cents grammes » de cet épisode). **À trouver avant de tourner**, c'est le seul truc à préparer.
-5. **Le récap de Nabil en une respiration** : les faits, « Zéro. C'est vrai. Et c'est nul. » Sady
-   défend un dernier détail, Nabil remonte à 2 sans un mot. **Fin de la vidéo là-dessus.**
+> **Sady** : Hier matin j'ai pris mon bus. Devine quoi : c'était un bus sponsorisé Apple.
+> **Nabil** *(carton 6)* : Bon allez.
+> **Sady** : Bon. J'avais juste mon iPhone. Et il était à plat.
+> **Nabil** *(2)*
+> **Sady** : Mais je me mets au fond, et juste devant moi, y'a qui ? Steve Jobs.
+> **Nabil** *(9)* : Steve Jobs est mort en 2011.
+> **Sady** : … Mon gars Steve. Il sortait du job.
+> **Nabil** *(3)*
+> **Sady** : Et Steve il me dit : « Mec, fais attention. Tout le monde dans ce bus, c'est des zombies.
+> Stade dix. »
+> **Nabil** *(10)* : Dix. Ils faisaient quoi, les zombies ?
+> **Sady** : … Ils toussaient.
+> **Nabil** *(0)* : Donc t'as pris ton bus, en retard, avec un iPhone à plat, t'as croisé Steve qui sortait
+> du taf, et deux mecs avaient la grippe. Zéro. C'est vrai. Et c'est nul.
+> **Sady** : Ils avaient vraiment l'air malades, frère.
+> **Nabil** *(remonte à 2, sans un mot)*
 
-Réserves du format si Sady sèche : la boîte de nuit · le contrôle de police · « j'ai failli signer dans un
-club » · la célébrité croisée · les vacances au bled.
+**Trajet du carton** : 6 · 2 · 9 · 3 · 10 · 0 · 2. **116 mots**, soit 36 s de parole ; compter **30 à 35 s**
+avec le carton. **Total de l'épisode : Montpellier 45-50 s + relais 5 s + bus 30-35 s = 1 min 20 à
+1 min 30.** C'est pile le plafond : rien à ajouter nulle part.
+
+Ce que le vocal apportait, et où c'est passé :
+
+| Dans le vocal | Décision |
+| :--- | :--- |
+| « Allez, t'as menti » (Nabil, sur le bus Apple) | → « Bon allez » + carton 6. Le format interdit « tu mens » : si le carton dit « t'as menti », il n'a plus rien à dire ensuite. « Bon allez » est déjà ton tic dans les deux vocaux, c'est lui la signature |
+| « J'avais mon iPhone mais il avait plus de batterie… quel est le rapport avec Apple ? » | Tu avais raison sur la chute : le rapport, c'est que la concession est **plus nulle que prévu**. « J'avais juste mon iPhone. Et il était à plat. » Gardé, en deux phrases sèches |
+| « Mon gars Steve qui allait au job » / « qui sortait de son job » | « Il sortait du job » : la concession est un jeu de mots, c'est la meilleure ligne des deux vocaux |
+| « Steve doit me dire une dinguerie… zombies, stade 10 » | Gardé, et « stade dix » donne au carton le 10 qui tombe pile dessus |
+| « ça se voyait qu'ils avaient la grippe » | Devenu la **question qui tue** : « Ils faisaient quoi, les zombies ? » « … Ils toussaient. » C'est Sady qui produit lui-même le mot qui casse l'histoire, comme « trois cents grammes » |
+| « Steve Jobs » sans question de chiffre | Ajouté : **« Steve Jobs est mort en 2011. »** Une date, pas une accusation : c'est le chiffre qui tue de ce palier |
+| « oubliez la partie Monténégro, ça c'est pour l'autre bail » | Compris : le Monténégro reste dans l'histoire 1, le bus est l'histoire 2 |
+
+**Le ton du carton, dit par Nabil dans ce vocal** : « vraiment dans le comportement, presque même agacé :
+bon allez, huit. » Donc pas neutre-poli comme écrit dans FORMATS.md : **blasé, fatigué de l'histoire avant
+même qu'elle commence.** Le chiffre se dit comme on rend une copie. Noté dans FORMATS.md.
+
+**Si vous préférez deux vidéos au lieu d'une** : chaque moitié tient seule (45-60 s), avec le même hook
+(la première phrase contient le mensonge). Mais le relais, le carton qui monte avant que Sady ouvre la
+bouche, n'existe que dans la version à deux histoires : c'est ce qui dit « personne n'est à l'abri ».
+
+### Le gabarit, pour les épisodes suivants
+
+Les cinq mêmes maillons, dans cet ordre, pour toute histoire :
+
+1. **Première phrase = le mensonge le plus gros** (jamais le contexte). Carton à 4-6 dans la seconde.
+2. **Une concession**, le carton descend. La concession doit être **plus nulle que ce qu'on imaginait**
+   (l'iPhone à plat, le vol Bruxelles–Montpellier).
+3. **Le pic** : le détail impossible, carton 9 ou 10, le chiffre se dit à voix haute.
+4. **La question qui tue** : un poids, une date, un « ils faisaient quoi ? », et c'est le conteur qui
+   produit lui-même le mot qui casse son histoire. **À trouver avant de tourner**, c'est la seule
+   préparation.
+5. **Le récap en une respiration** : les faits dans l'ordre, « Zéro. C'est vrai. Et c'est nul. » Le
+   conteur défend un dernier détail, le carton remonte à 2 sans un mot. **Fin là-dessus.**
+
+Réserves du format : la boîte de nuit · le contrôle de police · « j'ai failli signer dans un club » · la
+célébrité croisée · les vacances au bled.
 
 ## 3. La version longue — Montpellier seul (1 min 15, si Sady n'a pas d'histoire)
 

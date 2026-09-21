@@ -6,6 +6,29 @@
 
 ---
 
+## 21/09/2026 (suite 3) — L'histoire de Sady : « Le bus »
+
+Deuxième vocal de Nabil : le bus. En vrai, bus en retard, iPhone à plat, son gars Steve qui sortait du
+taf, des gens qui toussaient. Trois mensonges par-dessus : bus sponsorisé Apple, Steve Jobs, zombies
+stade 10. Écrit dans `11-bakhal-man-montpellier.md` § Histoire 2, 116 mots, 30-35 s. L'épisode complet
+tient dans 1 min 20 à 1 min 30, pile le plafond.
+
+**Décidé**
+
+- « Allez, t'as menti » du vocal devient « Bon allez » + carton : le format interdit « tu mens », et
+  « bon allez » est déjà le tic de Nabil dans les deux vocaux.
+- Chaque palier a sa question de chiffre : « Steve Jobs est mort en 2011 » (ajouté), « ils faisaient
+  quoi, les zombies ? » → « ils toussaient » (la grippe du vocal, rendue par Sady lui-même).
+- **Le ton du carton est agacé, blasé** (« presque même agacé : bon allez, huit »), pas neutre-poli comme
+  FORMATS.md le disait. Corrigé dans FORMATS.md § A1.
+- La question « quel est le rapport entre plus de batterie et Apple ? » posée par Nabil dans le vocal :
+  le rapport, c'est que la concession est plus nulle que prévu. « J'avais juste mon iPhone. Et il était
+  à plat. »
+
+**Appris** : la meilleure concession est un jeu de mots sur le mensonge lui-même (« Steve Jobs » →
+« Steve, il sortait du job »). À chercher dans les prochains épisodes : le mensonge et sa version vraie
+partagent un mot.
+
 ## 21/09/2026 (suite 2) — Relecture du vocal : trois erreurs de lecture corrigées
 
 Nabil a renvoyé la transcription en demandant de la relire, parce qu'ils tournent bientôt en voiture.
