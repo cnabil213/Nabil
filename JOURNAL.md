@@ -6,6 +6,39 @@
 
 ---
 
+## 21/09/2026 — FORMATS.md : les formats ne se perdent plus
+
+Nabil : « tu as pas mis les idées de format Bakhal Man, l'exploit sportif… j'ai ouvert une autre
+session mais il a pas trouvé les 2 formats dans le dépôt. Crée un fichier md et mets dans le dépôt
+le format annexe qu'on peut viser sur mon compte TikTok. »
+
+**Le diagnostic** : les formats existaient bien, mais introuvables. Ils étaient enterrés au milieu de
+`08-concepts-duo.md`, sous les noms « mythomètre » et « interview d'après-match » — pas sous les noms
+que Nabil emploie (**Bakhal Man**, **l'exploit sportif / le journaliste**). Un `grep bakhal` ne
+renvoyait que deux fichiers, et rien à la racine.
+
+**Fait**
+
+- [`FORMATS.md`](FORMATS.md) **à la racine** : le catalogue des sept formats (le sketch solo comme
+  format de fond, puis Bakhal Man, Le Journaliste, La Note cachée, Le GPS de la vie, Le Contrôle
+  technique, la tier list). Chacun avec son principe, ses rôles, son objet signature, son épisode de
+  référence intégral et ses réserves d'épisodes. Les **noms officiels sont ceux de ce fichier**, avec
+  une ligne de mots-clés de recherche (mythomètre, exploit sportif, conférence de presse…) pour qu'un
+  grep sur n'importe quel alias tombe dessus.
+- **Quatre points d'entrée** pour qu'aucune session ne les rate : une section en tête d'`ETAT.md`
+  (injecté automatiquement au démarrage), une consigne dans `CLAUDE.md` (chargé automatiquement),
+  une ligne dans la structure du `README.md`, et **un bloc dans le hook de démarrage** qui liste les
+  sept noms à l'écran à chaque nouvelle session.
+- Documenté aussi ce qui est **brûlé**, pour qu'aucune IA ne le repropose, et **le fil rouge des huit
+  euros de dette de Sady**, qui circule entre le Business Bro, Le Journaliste et Le Contrôle
+  technique : c'est le running gag du compte.
+
+**Appris**
+
+- Un format écrit dans le dépôt n'existe que s'il est **retrouvable sous le nom que Nabil emploie**.
+  « Le mythomètre » et « Bakhal Man » sont le même format, mais une seule de ces deux entrées est la
+  bonne. Désormais : le nom de Nabil est le nom du fichier, les autres sont des alias listés.
+
 ## 17/09/2026 — Six scripts solo, calibrés au débit mesuré
 
 Nabil en voiture, prêt à tourner 5-6 vidéos solo « dans le délire de T'inquiète », Gen Z, 50 s à

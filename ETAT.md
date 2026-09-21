@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 17/09/2026**
+**Dernière mise à jour : 21/09/2026**
 
 ---
 
@@ -12,6 +12,14 @@
 
 Phase 1 : **6 vidéos montées et livrées** (4 solo + 2 tier lists avec Sady), **rien de publié**.
 Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
+
+## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
+
+**Catalogue à la racine du dépôt, à lire avant de proposer un format.** Les deux formats annexes
+prioritaires : **BAKHAL MAN** (les cartons 0-10, le taux de mytho d'une histoire noté en direct, ex
+« le mythomètre ») et **LE JOURNALISTE** (l'interview d'après-match d'un truc banal, le déo en micro,
+ex « l'exploit sportif »). Plus : La Note cachée, Le GPS de la vie, Le Contrôle technique, la tier
+list. Cartons prêts à imprimer dans `phase-1-solo/cartes/`.
 
 ## Le chantier en cours
 

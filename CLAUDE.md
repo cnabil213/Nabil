@@ -11,6 +11,11 @@ est un **outil de génération d'idées originales** et un **monteur**, pas un a
 **Au démarrage** — [`ETAT.md`](ETAT.md) est injecté automatiquement par le hook de session.
 Il dit où on en est, ce qui est en cours, et les prochaines actions. Le lire avant toute chose.
 
+**Les formats du compte sont catalogués dans [`FORMATS.md`](FORMATS.md)** (racine du dépôt) :
+**Bakhal Man**, **Le Journaliste**, La Note cachée, Le GPS de la vie, Le Contrôle technique, la tier
+list. **Le lire avant de proposer un format ou d'écrire un épisode** — ne jamais réinventer un format
+qui existe déjà, ni reproposer un concept brûlé.
+
 **À la fin** — deux gestes, jamais l'un sans l'autre :
 
 1. Réécrire [`ETAT.md`](ETAT.md) pour qu'il colle à la réalité (il se remplace, il ne s'empile pas).
