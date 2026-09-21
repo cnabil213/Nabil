@@ -90,24 +90,23 @@ Deuxième vocal du 21/09. La vraie histoire : il a pris son bus, un peu en retar
 un par palier : le bus sponsorisé Apple → Steve Jobs → les zombies stade 10. Trois concessions, chacune
 plus minable : l'iPhone à plat → Steve qui sortait du job → la grippe.
 
-> **Sady** : Hier matin j'ai pris mon bus. Devine quoi : c'était un bus sponsorisé Apple.
+> **Sady** : Hier matin j'ai pris mon bus. C'était un bus sponsorisé Apple.
 > **Nabil** *(carton 6)* : Bon allez.
 > **Sady** : Bon. J'avais juste mon iPhone. Et il était à plat.
 > **Nabil** *(2)*
-> **Sady** : Mais je me mets au fond, et juste devant moi, y'a qui ? Steve Jobs.
+> **Sady** : Je me mets au fond, juste devant moi : Steve Jobs.
 > **Nabil** *(9)* : Steve Jobs est mort en 2011.
 > **Sady** : … Mon gars Steve. Il sortait du job.
 > **Nabil** *(3)*
-> **Sady** : Et Steve il me dit : « Mec, fais attention. Tout le monde dans ce bus, c'est des zombies.
-> Stade dix. »
+> **Sady** : Et Steve me dit : « Fais attention. Tout le bus, c'est des zombies. Stade dix. »
 > **Nabil** *(10)* : Dix. Ils faisaient quoi, les zombies ?
 > **Sady** : … Ils toussaient.
-> **Nabil** *(0)* : Donc t'as pris ton bus, en retard, avec un iPhone à plat, t'as croisé Steve qui sortait
-> du taf, et deux mecs avaient la grippe. Zéro. C'est vrai. Et c'est nul.
+> **Nabil** *(0)* : Donc t'as pris ton bus en retard, iPhone à plat, t'as croisé Steve qui sortait du taf,
+> deux mecs toussaient. Zéro. C'est vrai. Et c'est nul.
 > **Sady** : Ils avaient vraiment l'air malades, frère.
 > **Nabil** *(remonte à 2, sans un mot)*
 
-**Trajet du carton** : 6 · 2 · 9 · 3 · 10 · 0 · 2. **116 mots**, soit 36 s de parole ; compter **30 à 35 s**
+**Trajet du carton** : 6 · 2 · 9 · 3 · 10 · 0 · 2. **100 mots**, soit 31 s de parole ; compter **30 à 35 s**
 avec le carton. **Total de l'épisode : Montpellier 45-50 s + relais 5 s + bus 30-35 s = 1 min 20 à
 1 min 30.** C'est pile le plafond : rien à ajouter nulle part.
 

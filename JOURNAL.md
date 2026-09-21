@@ -10,7 +10,7 @@
 
 Deuxième vocal de Nabil : le bus. En vrai, bus en retard, iPhone à plat, son gars Steve qui sortait du
 taf, des gens qui toussaient. Trois mensonges par-dessus : bus sponsorisé Apple, Steve Jobs, zombies
-stade 10. Écrit dans `11-bakhal-man-montpellier.md` § Histoire 2, 116 mots, 30-35 s. L'épisode complet
+stade 10. Écrit dans `11-bakhal-man-montpellier.md` § Histoire 2, 100 mots, 30-35 s. L'épisode complet
 tient dans 1 min 20 à 1 min 30, pile le plafond.
 
 **Décidé**

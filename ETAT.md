@@ -29,7 +29,7 @@ Tel que Nabil l'a pensé : **deux histoires, le carton change de mains** (Nabil 
 tient le carton ; puis l'inverse). Version courte écrite (Montpellier en 45-50 s, il reste 30-35 s à Sady,
 soit 90-100 mots) et version longue de secours (Montpellier seul, 1 min 10-1 min 20). Le vrai trajet est
 **Bruxelles–Montpellier en avion** (ils partent de Belgique). L'histoire de Sady est écrite (deuxième vocal) : **« Le bus »**, sponsorisé Apple → Steve Jobs → zombies,
-116 mots, 30-35 s. Épisode complet : 1 min 20 à 1 min 30, rien à ajouter. Ton du carton : agacé, blasé.
+100 mots, 30-35 s. Épisode complet : 1 min 20 à 1 min 30, rien à ajouter. Ton du carton : agacé, blasé.
 Reste : le lire chrono à deux dans la voiture. Sady n'a pas encore validé le texte.
 Cette branche a **fusionné** la branche `video-ideas-social-media` (FORMATS.md, cartons).
 
