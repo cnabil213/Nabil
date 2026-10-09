@@ -6,6 +6,33 @@
 
 ---
 
+## 09/10/2026 — Tout regroupé : cinq branches fusionnées en une
+
+Nabil ouvre le projet « C'Nabil-FAMOUS » pour tout centraliser, avec un objectif : **100 000 abonnés
+en 3 mois**.
+
+**Fait**
+
+- Inventaire du dépôt : **5 branches** de sessions (stratégie, idées vidéos, Montpellier, agenda,
+  automatisation montage), jamais fusionnées entre elles. Fusionnées dans `claude/project-thread-qvwcj2`.
+- Conflits ETAT / JOURNAL / backlog résolus en gardant les deux côtés. Le journal est refondu par date :
+  l'entrée « 5 clips » du 15/09, perdue par une fusion précédente, est revenue.
+- `15sept-tinquiete-5clips-HQ.mp4` récupéré depuis l'historique : la version 1080p l'avait écrasé sous le
+  même nom.
+- Lecture des anciennes sessions Claude Code : tout le contenu y est déjà commité, sauf le montage perso
+  de la tier list sport (perdu, jamais versionné).
+- Synthèse dans `/mnt/project-files/cnabil/SYNTHESE.md`.
+
+**Appris**
+
+- **Des sessions parallèles sur des branches séparées écrivent des doublons et se contredisent.** Deux
+  séries de scripts le même jour, deux montages de « T'inquiète » sous le même nom. Une seule branche
+  de référence à partir de maintenant.
+- **Compte TikTok** : une session business parle d'un ancien compte rap de 2 000 à 3 000 abonnés, ce
+  dépôt disait « aucun compte ». À confirmer.
+
+---
+
 ## 21/09/2026 (suite 3) — L'histoire de Sady : « Le bus »
 
 Deuxième vocal de Nabil : le bus. En vrai, bus en retard, iPhone à plat, son gars Steve qui sortait du

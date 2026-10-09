@@ -4,14 +4,29 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 21/09/2026**
+**Dernière mise à jour : 09/10/2026**
 
 ---
 
 ## En une phrase
 
-Phase 1 : **6 vidéos montées et livrées** (4 solo + 2 tier lists avec Sady), **rien de publié**.
-Le format tier list a sa D.A. tranchée ; la D.A. solo attend encore 5 décisions de Nabil.
+Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié.**
+**Objectif posé par Nabil le 09/10 : 100 000 abonnés en 3 mois** (début janvier 2027).
+
+## 🔀 Le 09/10 : tout est regroupé
+
+Le travail était éparpillé sur **5 branches** de sessions qui ne se voyaient pas. Elles sont fusionnées
+dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
+- Deux séries de scripts ont été écrites **en parallèle le 17/09** : `07-serie-2`, `08-serie-3`
+  (adresse directe) d'un côté, `09-` et `10-scripts-narrateur` de l'autre. Doublons de sujets (le tonton,
+  la voiture) et **une contradiction** : `01-persona-et-regles.md` §2 bis dit « pas de changement de
+  voix », §3 et §3 bis autorisent « imiter la voix ». **À trancher par Nabil.**
+- « T'inquiète » existe en deux montages : `15sept-tinquiete-HQ.mp4` (1080p, 34,7 s) et
+  `15sept-tinquiete-5clips-HQ.mp4` (720p, 36,7 s, récupéré : il avait été écrasé).
+- **Compte TikTok : contradiction.** Ce fichier disait « aucun compte ouvert ». Une session business
+  (dépôt C-Nabil-rich, fin septembre) note « ancien rappeur, compte TikTok de 2 000 à 3 000 abonnés ».
+  **À faire confirmer par Nabil** avant toute stratégie.
+- Synthèse lisible du tout : `/mnt/project-files/cnabil/SYNTHESE.md` (projet C'Nabil-FAMOUS).
 
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 
@@ -145,6 +160,10 @@ Sujet à préciser avec Nabil (le nom est celui qu'il a épelé, le contenu n'es
 Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 
 ## Les 3 prochaines actions
+
+**Au 09/10, avant tout le reste** : savoir sur quel compte on publie (l'ancien compte rap ou un neuf),
+si les tournages BAKHALMAN des 21 et 23/09 ont eu lieu, et quels rushs dorment sur son téléphone
+(les ex-fumeurs du 17/09, la nouvelle prise de « T'inquiète »). Rien de tout ça n'est tracé.
 
 0. **Tourner Bakhal Man ép. 2 « Montpellier »** : script prêt en deux longueurs, à lire chrono à deux
    dans la voiture (plafond 1 min 30). Les deux histoires sont écrites ; si ça dépasse, couper dans Montpellier (Suisse–Lyon), pas dans le bus.
