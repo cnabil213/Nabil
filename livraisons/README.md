@@ -11,8 +11,23 @@ débit de l'original, et se téléchargent directement depuis le dépôt.
 | `tier-fruits-HQ.mp4` | 1 min 42 | 58,6 Mio | 4,8 Mb/s | tier list, temps morts retirés |
 | `15sept-tinquiete-HQ.mp4` | 36,7 s | 28,5 Mio | 6,2 Mb/s | 5 clips assemblés en un seul montage |
 | `tier-foot-HQ.mp4` | 1 min 47 | 59,6 Mio | 4,7 Mb/s | tier list, temps morts retirés (blanc après Musiala conservé) |
+| `15sept-tinquiete-HQ.mp4` | 34,7 s | 78,1 Mio | 18,9 Mb/s | **87,9 %** du rush ramené en 1080p (voir ci-dessous) |
 
 Le rush d'origine fait 10,5 Mb/s : cette version est à son niveau.
+
+**Contenu de « T'inquiète » (15/09)** : trois rushs 4K (38 s + 12 s + 16 s) recollés en 34,7 s, huit
+segments, chaque source décodée séparément (synchro son/image mesurée à −1,7 et −3,3 ms aux entrées de
+fichier). Coupé : les trois blancs de réflexion dans la liste (ramenés à 0,38 s), la fin cherchée à voix
+haute du premier fichier, la deuxième formulation du « 9 ans d'études », et le second final « algorithme »
+qui venait après la chute mesurée 91/100. Détail dans
+[`02-scripts-valides.md`](../phase-1-solo/02-scripts-valides.md#-vidéo-5--tinquiète).
+
+**Pourquoi 1080p et pas 4K.** Le rush est en 2160×3840 à 25 Mb/s. Le même montage en 4K à CRF 18
+conserve 99,4 % du détail mais pèse **194 Mio à 46,8 Mb/s** (x264 garde tout le grain de jour de
+l'iPhone) : GitHub refuse au-delà de 100 Mio. En 1080×1920 (la résolution que TikTok affiche de toute
+façon), CRF 16 fait encore 100,3 Mio ; CRF 18 fait 78,1 Mio et conserve 87,9 % du détail de la source
+ramenée en 1080p (lanczos), contre 85,7 % à CRF 20. C'est ce fichier. Le 4K n'existe que dans le conteneur
+de la session, il n'est pas versionné.
 
 **Contenu de l'otage du téléphone (30/08, rush B)** : 61 s ramenées à 41,7 s, six coupes, toutes
 sur des silences mesurés. La chaîne de sens est gardée entière : le pote vient chez toi → il ricane

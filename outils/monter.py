@@ -10,6 +10,11 @@ limiteur retient les crêtes à -1,5 dBFS : ta voix garde ses contrastes d'une p
 (Avant : loudnorm en deux passes, qui repassait en mode « dynamique » dès que la crête du rush
 dépassait la cible — c'est le cas d'un iPhone — et faisait bouger le gain de ±1 dB pendant les
 phrases ; constaté sur le rush du 12/09. Il rééchantillonnait aussi le son à 96 kHz.)
+Plusieurs rushs à recoller (une vanne tournée en trois fichiers) : donner les fichiers à la suite et
+préfixer chaque segment de l'index de sa source, `--garder 0:0.03-6.71 1:0.00-3.77 2:0.00-5.55`.
+Chaque source est décodée par son propre démultiplexeur, donc avec sa propre liste d'édition AAC :
+la synchro son/image de chaque rush est conservée. (Le concat demuxer en copie de flux, lui, la
+perd : mesuré le 15/09, son en retard de 59 ms sur le 2e fichier et de 80 ms sur le 3e.)
 `--garder-image MONTAGE.mp4` réutilise l'image déjà encodée d'un montage aux mêmes coupes et ne
 refait que le son : zéro perte d'image, quelques secondes.
 La rotation du téléphone est appliquée automatiquement par ffmpeg (un rush portrait reste portrait).
@@ -44,9 +49,21 @@ def mesure_loudness(f):
     return json.loads(m.group(0))
 
 
-def segments(specs, duree):
+def segments(specs, durees):
+    """specs : « debut-fin » ou « k:debut-fin » (k = index de la source, 0 par défaut).
+    Retourne [(k, debut, fin)] dans l'ordre DONNÉ (avec plusieurs sources, l'ordre est le montage)."""
     out = []
     for s in specs:
+        k = 0
+        if ":" in s:
+            ks, s2 = s.split(":", 1)
+            try:
+                k = int(ks)
+            except ValueError:
+                sys.exit(f"ERREUR : segment « {s} » : index de source « {ks} » non numérique")
+            if not 0 <= k < len(durees):
+                sys.exit(f"ERREUR : segment « {s} » : source {k} inexistante ({len(durees)} source(s))")
+            s = s2
         if "-" not in s:
             sys.exit(f"ERREUR : segment « {s} » attendu au format debut-fin (en secondes)")
         a, b = s.split("-", 1)
@@ -56,12 +73,14 @@ def segments(specs, duree):
             sys.exit(f"ERREUR : segment « {s} » : bornes non numériques")
         if b <= a:
             sys.exit(f"ERREUR : segment « {s} » : la fin doit suivre le début")
+        duree = durees[k]
         if a < 0 or b > duree + 0.05:  # duree conteneur ; le decalage audio est applique plus tard
             sys.exit(f"ERREUR : segment « {s} » hors du fichier (0–{duree:.2f} s)")
-        out.append((a, min(b, duree)))
-    out.sort()
-    for (a1, b1), (a2, b2) in zip(out, out[1:]):
-        if a2 < b1:
+        out.append((k, a, min(b, duree)))
+    if len(durees) == 1:
+        out.sort()
+    for (k1, a1, b1), (k2, a2, b2) in zip(out, out[1:]):
+        if k1 == k2 and a2 < b1:
             sys.exit(f"ERREUR : segments qui se chevauchent : {a1}-{b1} et {a2}-{b2}")
     return out
 
@@ -112,10 +131,10 @@ def stats_limiteur(wav, gain_db, plafond_db=None, tranche_s=0.01):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("fichier")
+    p.add_argument("fichier", nargs="+", help="le rush ; ou plusieurs rushs, les segments se préfixent alors de l'index (1:4.10-6.36)")
     p.add_argument("-o", "--sortie", required=True)
-    p.add_argument("--garder", nargs="+", required=True, metavar="DEBUT-FIN",
-                   help="segments à garder, en secondes (ex. 6.40-27.75)")
+    p.add_argument("--garder", nargs="+", required=True, metavar="[K:]DEBUT-FIN",
+                   help="segments à garder, en secondes (ex. 6.40-27.75 ; avec plusieurs sources : 1:6.40-27.75)")
     p.add_argument("--crf", type=int, default=16, help="qualité vidéo, plus bas = meilleur (défaut 16 ; 18 reste très bon, 23 se voit)")
     p.add_argument("--preset", default="slow", help="préréglage x264 (défaut slow : meilleure qualité à débit égal)")
     p.add_argument("--hevc", action="store_true",
@@ -130,19 +149,27 @@ def main():
     p.add_argument("--cible", type=float, default=CIBLE_LUFS, metavar="LUFS", help=f"niveau visé (défaut {CIBLE_LUFS:.0f} ; -16 retient moins de crêtes)")
     a = p.parse_args()
 
-    if not os.path.isfile(a.fichier):
-        sys.exit(f"ERREUR : fichier introuvable : {a.fichier}")
-    v, aud, dur = sonde(a.fichier)
-    if v is None:
-        sys.exit("ERREUR : pas de piste vidéo")
-    if aud is None:
-        sys.exit("ERREUR : pas de piste audio — rien à normaliser ni à recoller")
-    segs = segments(a.garder, dur)
-    garde = sum(b - x for x, b in segs)
-    print(f"Source : {a.fichier} — {dur:.2f} s")
-    for x, b in segs:
-        print(f"   garder {x:7.2f} – {b:7.2f} s  ({b - x:5.2f} s)")
-    print(f"   => {garde:.2f} s gardées, {dur - garde:.2f} s coupées ({100 * (dur - garde) / dur:.0f} %)")
+    sources = a.fichier
+    for f in sources:
+        if not os.path.isfile(f):
+            sys.exit(f"ERREUR : fichier introuvable : {f}")
+    sondes = [sonde(f) for f in sources]
+    for f, (v_, aud_, _) in zip(sources, sondes):
+        if v_ is None:
+            sys.exit(f"ERREUR : pas de piste vidéo dans {f}")
+        if aud_ is None:
+            sys.exit(f"ERREUR : pas de piste audio dans {f} — rien à normaliser ni à recoller")
+    v, aud, dur = sondes[0]
+    durees = [d for _, _, d in sondes]
+    dur_total = sum(durees)
+    multi = len(sources) > 1
+    segs = segments(a.garder, durees)
+    garde = sum(b - x for _, x, b in segs)
+    for k, f in enumerate(sources):
+        print(f"Source {k} : {f} — {durees[k]:.2f} s" if multi else f"Source : {f} — {dur:.2f} s")
+    for k, x, b in segs:
+        print(f"   garder {(str(k) + ':') if multi else ''}{x:7.2f} – {b:7.2f} s  ({b - x:5.2f} s)")
+    print(f"   => {garde:.2f} s gardées, {dur_total - garde:.2f} s coupées ({100 * (dur_total - garde) / dur_total:.0f} %)")
 
     image = None
     if a.garder_image:
@@ -165,26 +192,49 @@ def main():
     # echantillon audio ; trim/atrim, eux, travaillent sur les PTS du conteneur. Sans ce decalage
     # les coupes tombent ~0,3 s trop tot, en pleine queue de mot (constate : -16 dBFS au raccord au
     # lieu du silence). On decale donc video ET audio de la meme valeur : la synchro est preservee.
-    off = float(aud.get("start_time") or 0.0)
-    if abs(off) > 0.005:
-        print(f"   (recalage : la piste audio demarre a {off:.3f} s, les coupes sont decalees d'autant)")
+    offs = [float(aud_.get("start_time") or 0.0) for _, aud_, _ in sondes]
+    off = offs[0]
+    for k, o in enumerate(offs):
+        if abs(o) > 0.005:
+            print(f"   (recalage{' source ' + str(k) if multi else ''} : la piste audio demarre a {o:.3f} s, les coupes sont decalees d'autant)")
     # --- coupe. Deux méthodes, et le choix n'est pas cosmétique :
     #  * trim/concat ouvre UNE BRANCHE PAR SEGMENT, et ffmpeg décode l'entrée en entier dans
     #    chacune. À 20 segments il se fait tuer par la mémoire et laisse un mp4 sans atome moov
     #    (mdat seul) : un fichier de la bonne taille, illisible. Constaté le 14/09 sur les tier lists.
     #  * select fait tout en UNE passe, à mémoire constante, quel que soit le nombre de segments.
     # On garde trim/concat pour les coupes simples (chemin éprouvé) et select dès qu'il y en a plus.
+    #  * plusieurs sources : chaque source est décodée UNE fois par son propre démultiplexeur
+    #    (donc avec sa liste d'édition AAC : synchro conservée), select y garde ses segments, et
+    #    concat recolle les sources dans l'ordre. ffmpeg ne lit une source que quand concat la
+    #    réclame : mémoire constante, comme select.
     SEUIL_SELECT = 5
     pv, pa = [], []
     img = ("," + a.image) if a.image else ""
-    if len(segs) >= SEUIL_SELECT:
-        expr = "+".join(f"between(t\\,{x + off:.3f}\\,{b + off:.3f})" for x, b in segs)
+    if multi:
+        ordre = []
+        for k, x, b in segs:
+            if ordre and ordre[-1] == k:
+                continue
+            if k in ordre:
+                sys.exit("ERREUR : avec plusieurs sources, les segments d'une même source doivent se suivre "
+                         "(chaque source n'est décodée qu'une fois, dans l'ordre du montage)")
+            ordre.append(k)
+        for k in ordre:
+            expr = "+".join(f"between(t\\,{x + offs[k]:.3f}\\,{b + offs[k]:.3f})" for kk, x, b in segs if kk == k)
+            pv.append(f"[{k}:v]select='{expr}',setpts=N/FRAME_RATE/TB{img}[v{k}]")
+            pa.append(f"[{k}:a]aselect='{expr}',asetpts=N/SR/TB[a{k}]")
+        n = len(ordre)
+        fc_audio = ";".join(pa) + ";" + "".join(f"[a{k}]" for k in ordre) + f"concat=n={n}:v=0:a=1[a]"
+        fc = ";".join(pv + pa) + ";" + "".join(f"[v{k}][a{k}]" for k in ordre) + f"concat=n={n}:v=1:a=1[v][a]"
+        print(f"   ({len(segs)} segments dans {n} sources : select par source, puis concat des sources)")
+    elif len(segs) >= SEUIL_SELECT:
+        expr = "+".join(f"between(t\\,{x + off:.3f}\\,{b + off:.3f})" for _, x, b in segs)
         fc_audio = f"[0:a]aselect='{expr}',asetpts=N/SR/TB[a]"
         fc_video = f"[0:v]select='{expr}',setpts=N/FRAME_RATE/TB{img}[v]"
         fc = fc_video + ";" + fc_audio
         print(f"   ({len(segs)} segments : méthode select, une seule passe de décodage)")
     else:
-        for i, (x, b) in enumerate(segs):
+        for i, (_, x, b) in enumerate(segs):
             xo, bo = round(x + off, 3), round(b + off, 3)
             pv.append(f"[0:v]trim={xo}:{bo},setpts=PTS-STARTPTS{img}[v{i}]")
             pa.append(f"[0:a]atrim={xo}:{bo},asetpts=PTS-STARTPTS[a{i}]")
@@ -201,7 +251,7 @@ def main():
     if not a.sans_normalisation:
         tmpwav = a.sortie + ".coupe.wav"
         print("→ mesure du niveau sur la coupe…")
-        r = run(["ffmpeg", "-v", "error", "-y", "-i", a.fichier, "-filter_complex", fc_audio,
+        r = run(["ffmpeg", "-v", "error", "-y"] + [x for f in sources for x in ("-i", f)] + ["-filter_complex", fc_audio,
                  "-map", "[a]", "-c:a", "pcm_s16le", tmpwav])
         m = mesure_loudness(tmpwav) if r.returncode == 0 else None
         if not m:
@@ -216,9 +266,9 @@ def main():
         if os.path.exists(tmpwav):
             os.remove(tmpwav)
 
-    ent = ["-i", a.fichier] + (["-i", image[0]] if image else [])
+    ent = [x for f in sources for x in ("-i", f)] + (["-i", image[0]] if image else [])
     if image:
-        video = ["-map", "1:v", "-c:v", "copy"]
+        video = ["-map", f"{len(sources)}:v", "-c:v", "copy"]
         full = image[1].get("color_range") == "pc"
         print("→ son seul (image copiée)…")
     else:
@@ -248,7 +298,7 @@ def main():
               f"{v2.get('color_range')}) : contraste écrasé à l'affichage", file=sys.stderr)
     apres = mesure_loudness(a.sortie)
     print(f"\n✅ {a.sortie}")
-    br_src = (os.path.getsize(a.fichier) * 8 / dur) / 1e6
+    br_src = (sum(os.path.getsize(f) for f in sources) * 8 / dur_total) / 1e6
     br_out = (os.path.getsize(a.sortie) * 8 / dur2) / 1e6
     print(f"   {dur2:.2f} s · {v2['width']}×{v2['height']} · {os.path.getsize(a.sortie) / 1048576:.1f} Mo"
           f" · {v2.get('codec_name')} · plage {v2.get('color_range')} · {v2.get('color_space')}")

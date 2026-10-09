@@ -17,6 +17,7 @@ pas avant que la Phase 1 ait produit de la notoriété.
 ## 📂 Structure du dépôt
 
 ```
+FORMATS.md         ← LE CATALOGUE DES FORMATS : Bakhal Man, Le Journaliste, La Note cachée…
 ETAT.md            ← OÙ ON EN EST. Lu automatiquement au démarrage de chaque session
 JOURNAL.md         ← une entrée par session : fait / décidé / appris
 CLAUDE.md          ← les règles de travail, chargées automatiquement par Claude Code
