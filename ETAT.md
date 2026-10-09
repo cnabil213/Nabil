@@ -13,13 +13,18 @@
 Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié.**
 **Objectif posé par Nabil le 09/10 : 100 000 abonnés en 3 mois** (début janvier 2027).
 
-## 🎯 Les objectifs (posés le 09/10, proposés par Claude, à valider par Nabil)
+## 🎯 Les objectifs → [`phase-1-solo/12-plan-croissance-100k.md`](phase-1-solo/12-plan-croissance-100k.md)
 
-- **Final : 100 000 abonnés TikTok le 9 janvier 2027.** Paliers : 10 000 le 9/11, 40 000 le 9/12.
-- **Ce qu'il contrôle** : publier dès la semaine du 12/10 · 5 vidéos/semaine minimum, 7 en cible ·
-  une session de tournage par semaine (5 à 7 vidéos) · toujours 5 vidéos montées d'avance.
-- **Règle des 10 vidéos** : toutes les 10 publications, classer les formats par abonnés gagnés par
-  vidéo ; le meilleur prend la moitié des 10 suivantes, le pire passe en pause.
+- **Final : 100 000 abonnés TikTok le 31/01/2027** (Nabil, 09/10 : « fin janvier », remplace le 09/01).
+  Compte **neuf**, Belgique, TikTok d'abord, Instagram à partir du 26/10, pas YouTube. 100 % propre.
+- **Plan d'exécution écrit le 09/10** : 1 vidéo/jour (19h en semaine, 12h le week-end), mix 3 sketchs ·
+  2 storytimes · 1 duo Sady · 1 actu par semaine dès la S3, 6 contrôles de hook, seuils par vidéo,
+  et **les 14 premiers jours calés jour par jour à partir du lundi 12/10** (V1 = T'inquiète 1080p).
+- Paliers (hypothèses) : 14 vidéos le 25/10 · 10 K le 15/11 · 40 K le 15/12 · 100 K le 31/01.
+- **Règle des 10 vidéos** : classer les formats par abonnés gagnés par vidéo ; le meilleur prend la
+  moitié des 10 suivantes, le pire passe en pause. **Bilan chaque dimanche 20h** sur captures TikTok Studio.
+- Vérifié le 09/10 : la Belgique n'est dans **aucune** liste de pays du Creator Rewards trouvée ; le
+  pays est un signal faible pour TikTok (page officielle), donc pas de faux pays.
 - **GENZED gelé** jusqu'aux 100K.
 
 ## 🔀 Le 09/10 : tout est regroupé
@@ -169,6 +174,9 @@ Sujet à préciser avec Nabil (le nom est celui qu'il a épelé, le contenu n'es
 Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 
 ## Les 3 prochaines actions
+
+**Au 09/10, plan de croissance posé** : tournage #1 dimanche 11/10, première publication lundi 12/10
+19h. Calendrier complet : `phase-1-solo/12-plan-croissance-100k.md` §8.
 
 **Au 09/10, avant tout le reste** : savoir sur quel compte on publie (l'ancien compte rap ou un neuf),
 si les tournages BAKHALMAN des 21 et 23/09 ont eu lieu, et quels rushs dorment sur son téléphone

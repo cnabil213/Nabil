@@ -6,6 +6,31 @@
 
 ---
 
+## 09/10/2026 (suite) — Le plan de croissance 0 → 100 K
+
+**Fait**
+
+- Plan d'exécution complet : [`phase-1-solo/12-plan-croissance-100k.md`](phase-1-solo/12-plan-croissance-100k.md).
+  Rythme, mix de formats, règles de hook, routine quotidienne, seuils par vidéo, et les deux
+  premières semaines jour par jour (12/10 → 25/10), stock d'abord, puis trois tournages.
+
+**Décidé (par défaut, à faire confirmer)**
+
+- Échéance **31/01/2027**, pas le 09/01 : c'est ce que Nabil a écrit (« fin janvier »).
+- T'inquiète sort en version 1080p (la plus nette) ; L'otage du téléphone passe en dernier du stock.
+- Sous-titres automatiques de TikTok dès le départ, en attendant qu'il tranche la question de la DA.
+- Instagram à partir du 26/10, en repost du fichier de `livraisons/`.
+
+**Appris**
+
+- Au niveau de Sady (38 K de médiane) sur 112 vidéos, on finit vers 21 à 42 K abonnés (hypothèse de
+  conversion 0,5 à 1 %). Les 100 K se jouent sur 4 à 8 vidéos au-delà du million : d'où le volume et
+  la règle « suite dans les 48 h » quand une vidéo fait 10 fois la médiane.
+- TikTok (page officielle) : ni le nombre d'abonnés ni les vidéos passées ne sont des facteurs directs,
+  et le pays est un signal faible. Un compte belge touche la France.
+- Creator Rewards : aucune source ne liste la Belgique. On ne rallonge pas les vidéos au-delà d'une
+  minute pour une monétisation qu'il ne touchera peut-être pas.
+
 ## 09/10/2026 — Tout regroupé : cinq branches fusionnées en une
 
 Nabil ouvre le projet « C'Nabil-FAMOUS » pour tout centraliser, avec un objectif : **100 000 abonnés
