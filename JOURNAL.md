@@ -31,6 +31,8 @@ Décidé avant : nouveau compte en Belgique, TikTok d'abord, Instagram ensuite, 
 - Creator Rewards : la Belgique n'apparaît dans aucune liste de pays publiée en 2026 (recherche du
   09/10), et le programme exige d'y résider. Pas de faux pays.
 
+---
+
 ## 09/10/2026 — Tout regroupé : cinq branches fusionnées en une
 
 Nabil ouvre le projet « C'Nabil-FAMOUS » pour tout centraliser, avec un objectif : **100 000 abonnés
