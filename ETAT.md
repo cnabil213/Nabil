@@ -11,11 +11,11 @@
 ## En une phrase
 
 Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié.**
-**Objectif posé par Nabil le 09/10 : 100 000 abonnés en 3 mois** (début janvier 2027).
+**Objectif posé par Nabil le 09/10 : 100 000 abonnés fin janvier 2027** (précisé par Nabil le 09/10 à 13:11).
 
 ## 🎯 Les objectifs (posés le 09/10, proposés par Claude, à valider par Nabil)
 
-- **Final : 100 000 abonnés TikTok le 9 janvier 2027.** Paliers : 10 000 le 9/11, 40 000 le 9/12.
+- **Final : 100 000 abonnés TikTok fin janvier 2027** (Nabil, 09/10 ; le « 9 janvier » proposé avant est remplacé). Paliers proposés : 10 000 le 9/11, 40 000 le 9/12, à recaler.
 - **Ce qu'il contrôle** : publier dès la semaine du 12/10 · 5 vidéos/semaine minimum, 7 en cible ·
   une session de tournage par semaine (5 à 7 vidéos) · toujours 5 vidéos montées d'avance.
 - **Règle des 10 vidéos** : toutes les 10 publications, classer les formats par abonnés gagnés par

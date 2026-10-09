@@ -3,7 +3,7 @@
 > Écrit le 09/10/2026, à la demande de Nabil : « Je veux que Nabil soit connu. La révélation
 > humoristique de Belgique l'année prochaine. »
 > Contexte arrêté le même jour : **nouveau compte, basé en Belgique, part de 0. TikTok d'abord,
-> Instagram ensuite, pas YouTube.** Objectif chiffré : 100 000 abonnés le 9 janvier 2027 (`ETAT.md`).
+> Instagram ensuite, pas YouTube.** Objectif chiffré : 100 000 abonnés fin janvier 2027 (`ETAT.md`).
 > **Statut : proposition, à valider par Nabil.** Répond aux questions 1 (pseudo) et 2 (sous-titres)
 > de [`04-da-tiktok.md`](04-da-tiktok.md) §5.
 
