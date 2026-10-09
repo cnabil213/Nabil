@@ -124,6 +124,26 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
   de l'environnement, puis mettre le token en variable d'environnement (`APIFY_TOKEN`), jamais dans
   le dépôt.
 
+## Les dispos de Nabil — agenda Google « SADY NABIL »
+
+Roulement **2×8, une semaine sur deux, du lundi au vendredi** (posé le 17/09 dans l'agenda
+partagé avec Sady, jusqu'au vendredi 30/10) :
+
+| Semaines du | Shift | Fenêtre pour tourner en semaine |
+| :--- | :--- | :--- |
+| 14/09 · 28/09 · 12/10 · 26/10 | 6h-14h | **après 14h** |
+| 21/09 · 05/10 · 19/10 | 14h-22h | **avant 14h** |
+
+**Les week-ends sont libres** : c'est là qu'un tournage avec Sady se cale sans négocier.
+Une exception déjà bloquée — **samedi 26/09, 9h-18h : événement jeune entrepreneur Odoo**
+(Nabil + Sady).
+
+**Tournages bookés** — « BAKHALMAN tournage », **lundi 21/09 et mercredi 23/09, 10h-13h**.
+Semaine 14h-22h : le créneau tient, mais il ne reste qu'**1 h** entre 13h et la prise de poste.
+Sujet à préciser avec Nabil (le nom est celui qu'il a épelé, le contenu n'est pas encore connu).
+
+Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
+
 ## Les 3 prochaines actions
 
 0. **Tourner Bakhal Man ép. 2 « Montpellier »** : script prêt en deux longueurs, à lire chrono à deux
