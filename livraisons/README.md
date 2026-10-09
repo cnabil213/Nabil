@@ -9,7 +9,7 @@ débit de l'original, et se téléchargent directement depuis le dépôt.
 | `30aout-business-bro-HQ.mp4` | 36,5 s | 46,8 Mio | 10,8 Mb/s | **99,5 %** du rush |
 | `30aout-otage-du-telephone-HQ.mp4` | 41,7 s | 50,7 Mio | 10,2 Mb/s | **99,2 %** du rush |
 | `tier-fruits-HQ.mp4` | 1 min 42 | 58,6 Mio | 4,8 Mb/s | tier list, temps morts retirés |
-| `15sept-tinquiete-HQ.mp4` | 36,7 s | 28,5 Mio | 6,2 Mb/s | 5 clips assemblés en un seul montage |
+| `15sept-tinquiete-5clips-HQ.mp4` | 36,7 s | 28,5 Mio | 6,2 Mb/s | 5 clips assemblés en un seul montage, 720p (session « stratégie », récupéré le 09/10 : la version 1080p ci-dessous l'avait écrasé sous le même nom) |
 | `tier-foot-HQ.mp4` | 1 min 47 | 59,6 Mio | 4,7 Mb/s | tier list, temps morts retirés (blanc après Musiala conservé) |
 | `15sept-tinquiete-HQ.mp4` | 34,7 s | 78,1 Mio | 18,9 Mb/s | **87,9 %** du rush ramené en 1080p (voir ci-dessous) |
 
