@@ -18,10 +18,12 @@ analyse-*/
 __pycache__/
 *.pyc
 
-# Sorties de ecoute-video / vision-video / comparer-prises : régénérables
+# Sorties de ecoute-video / vision-video / comparer-prises / derusher : régénérables
 ecoute-*/
 vision-*/
 comparaison-*/
+derush/
+derush-*/
 
 # venvs locaux (torch pour l'arousal) et caches python
 venv*/

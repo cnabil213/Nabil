@@ -29,6 +29,8 @@ tient dans 1 min 20 à 1 min 30, pile le plafond.
 « Steve, il sortait du job »). À chercher dans les prochains épisodes : le mensonge et sa version vraie
 partagent un mot.
 
+---
+
 ## 21/09/2026 (suite 2) — Relecture du vocal : trois erreurs de lecture corrigées
 
 Nabil a renvoyé la transcription en demandant de la relire, parce qu'ils tournent bientôt en voiture.
@@ -51,6 +53,8 @@ et « ils m'ont quand même mis sur le côté » (la défense finale, mot pour m
 **Appris** : une transcription vocale ne se lit pas une fois. « Bosser », « avallée », « 23 » étaient des mots
 réels déformés, pas du bruit, et le seul moyen de le voir était de relire avec le contexte (Belgique). Avant
 de jeter une ligne d'un vocal, chercher le mot réel derrière.
+
+---
 
 ## 21/09/2026 (suite) — Bakhal Man, épisode 2 : « Montpellier »
 
@@ -87,6 +91,8 @@ hook pensé pour le concept, deux-trois avis, des blagues, 1 min à 1 min 30 max
 - **La première phrase de Sady contient déjà le mensonge** (Montpellier / Monténégro) et le carton
   répond sans un mot : le format s'explique tout seul, jamais par une intro.
 
+---
+
 ## 21/09/2026 — FORMATS.md : les formats ne se perdent plus
 
 Nabil : « tu as pas mis les idées de format Bakhal Man, l'exploit sportif… j'ai ouvert une autre
@@ -119,6 +125,8 @@ renvoyait que deux fichiers, et rien à la racine.
 - Un format écrit dans le dépôt n'existe que s'il est **retrouvable sous le nom que Nabil emploie**.
   « Le mythomètre » et « Bakhal Man » sont le même format, mais une seule de ces deux entrées est la
   bonne. Désormais : le nom de Nabil est le nom du fichier, les autres sont des alias listés.
+
+---
 
 ## 17/09/2026 — Six scripts solo, calibrés au débit mesuré
 
@@ -226,6 +234,8 @@ le fil débranché du pied). Programme final : six vidéos, six personnages, tro
   rejetés avaient hook, chiffre, escalade et chute. Il manquait la seule chose que la charte ne
   disait pas encore : quelqu'un à jouer. Une règle de plus, tirée d'un refus.
 
+---
+
 ## 17/09/2026 — Le planning de Nabil posé dans l'agenda partagé avec Sady
 
 **Fait**
@@ -255,6 +265,299 @@ le fil débranché du pied). Programme final : six vidéos, six personnages, tro
 - **Demander avant d'écrire chez quelqu'un d'autre.** L'agenda est partagé : un shift posé le
   mauvais jour, c'est Sady qui planifie sur une dispo fausse. Trois questions (jours travaillés,
   horizon, horaire de l'Odoo) ont évité de deviner.
+
+---
+
+## 17/09/2026 (suite) — Un chemin de réglage donné sans le vérifier : corrigé
+
+Nabil : « je trouve pas tes paramètres, je comprends rien (…) y'a moyen d'améliorer la capture
+Snapchat ou pas ? »
+
+**Erreur de ma part, et du type exact que `CLAUDE.md` interdit.** Je lui avais donné
+`Snapchat → Paramètres avancés → Qualité vidéo` comme s'il était établi. En réalité ça venait
+d'articles SEO de **vendeurs de logiciels de réparation vidéo** (EaseUS, HitPaw, iMyFone,
+Wondershare, Tenorshare), qui se contredisent entre eux, et dont aucun n'est la doc de Snapchat.
+Recherche refaite : **aucune source primaire ne confirme ce réglage sur iOS.** Et le fait que Nabil
+ne le trouve pas est une donnée plus fiable que ces articles.
+
+**Réponse rendue : non, la capture Snapchat ne s'améliore pas.** 720p, pas de réglage, et changer
+de méthode de sauvegarde ne récupère rien puisque la perte est à la prise.
+
+**Le vrai déblocage, et il annule tout le débat** : ce que Nabil aime chez Snapchat, c'est le
+**lissage de peau** — et **CapCut le fait**, alors qu'il y est déjà (clip → barre du bas, défiler à
+droite → « Retoucher » → « Lisser la peau »). Donc filmer à l'app Caméra en 1080p et lisser dans
+CapCut lui donne le look **et** la définition.
+
+**Leçon de méthode** : la règle « rien sans mesure » vaut aussi pour les chemins d'interface. Un
+chemin de réglage se cite depuis la doc de l'éditeur, ou se donne comme non vérifié. Un article de
+vendeur de logiciel n'est pas une source.
+
+---
+
+## 17/09/2026 (suite) — « 30 fps c'est le pire truc nan ? » — il a raison sur le principe, pas sur son fichier
+
+Nabil conteste la recommandation « 30 im/s, pas 60 », et demande de me renseigner sur la sauvegarde
+Snapchat.
+
+**Il a raison, et ma réponse précédente était trop sèche.** 60 im/s est effectivement meilleur que
+30 comme format de *capture*. Ce que je n'avais pas expliqué : ça se gagne **à la prise**, pas à
+l'export.
+
+**Mesuré** : les **quatre** vidéos solo livrées sont en `30/1` (`r_frame_rate` et `avg_frame_rate`),
+cadence constante. Et `grep -n "fps\|-r "` sur `monter.py` ne renvoie **rien** : l'outil ne touche
+jamais à la cadence. Donc les 30 im/s viennent bien de Snapchat, pas du pipeline de montage.
+Exporter en 60 depuis du 30 duplique les images (identique, deux fois plus lourd) ou les invente
+(bavures sur la parole rapide).
+
+**Recherché sur la sauvegarde Snapchat** — trois trouvailles utiles :
+
+1. **Un réglage de qualité vidéo existe** : `Réglages → Paramètres avancés → Qualité vidéo`
+   (Automatique / Standard / Faible). Un compte en « Faible » perd de la définition sans prévenir.
+   **Jamais vérifié chez Nabil** — c'est la première chose à regarder.
+2. **L'export depuis Memories ne dégrade ni ne récupère** : « Exporting Memories does not increase
+   resolution or bitrate; it preserves what Snapchat stored. » La perte est **à la capture**, donc
+   chercher un meilleur chemin d'export est une impasse.
+3. **Snapchat n'utilise pas le pipeline caméra natif d'iOS** : il lit le flux capteur et le traite
+   lui-même. C'est ce qui permet le lissage en direct, et ce qui coûte la définition.
+
+**La piste la plus prometteuse, et elle est gratuite :** le « plus beau sur Snap » a trois causes —
+lissage de peau + yeux éclaircis appliqués par défaut, saturation poussée, et **le miroir**. iOS a
+`Réglages → Appareil photo → Miroir photo de face` ; désactivé, la vidéo est enregistrée inversée
+par rapport au retour écran. On se connaît en miroir, donc la version non-miroir paraît étrange.
+**Un bouton, et il récupère peut-être le 1080p sans perdre sa tête.**
+
+**Non mesuré, et demandé** : son NOUVEAU rush Snapchat. Les mesures ci-dessus portent sur les
+anciens fichiers. Demandé 2 s exportées depuis CapCut (~2 Mo, ça passe dans le chat) pour relever
+résolution, cadence, codec et débit réels.
+
+---
+
+## 17/09/2026 (suite) — Réglages d'export CapCut : l'upscale IA ne fabrique rien
+
+Nabil a **refilmé sur Snapchat** — « j'ai l'impression que je suis plus beau sur snap » — et demande
+les meilleurs réglages d'export dans CapCut. Capture d'écran : Ultra HD par l'IA ON, 1080p, 60 im/s,
+20 Mbit/s, Smart HDR ON, 129,2 Mo estimés pour 49 s.
+
+**Mesuré avant de répondre.** Ses deux rushs livrés : **720×1280, 30 im/s, h264, `yuvj420p`,
+`color_range=pc`, `color_transfer=bt709`**. Donc CapCut lui propose de fabriquer du 1080p, du
+60 im/s et du HDR à partir d'une source qui n'a aucun des trois.
+
+**Le test de l'upscale**, sur `12sept-casser-des-nuques-HQ.mp4`, 30 images, aller-retour
+720p → 1080p → 720p en lanczos (meilleur cas possible) :
+
+| | |
+| :--- | ---: |
+| Détail du rush 720p (écart-type du passe-haut) | 3,42 |
+| Détail après l'aller-retour | 3,25 (95,0 %) |
+| **PSNR** | **61,8 dB** |
+
+Au-dessus de 45 dB, l'image 1080p ne contenait rien que le 720p n'avait déjà. À 61,8 dB c'est sans
+appel : **l'upscale étale les mêmes pixels sur 2,25× plus de surface, il ne crée pas d'information.**
+
+**Réglages donnés** : Ultra HD par l'IA OFF · 1080p (pour le format natif TikTok, **pas** pour la
+netteté) · **30 im/s pas 60** (la source est à 30, 60 duplique) · flux optique OFF · 12-20 Mbit/s ·
+**Smart HDR OFF**.
+
+**Le Smart HDR est le point dur**, et c'est un récidiviste : convertir du BT.709 SDR en HDR étire
+les valeurs dans un contenant que la source n'a jamais rempli. C'est le mécanisme exact du bug du
+12/09 (noirs de 3 → 19, « la vidéo perd en qualité »). Commande de vérification écrite dans le doc :
+`color_transfer` doit rester `bt709` après export.
+
+**Sur Snapchat, arbitrage posé sans moraliser.** Sa préférence est fondée — Snap lisse la peau à la
+prise. Le prix (720p) est mesuré et irrécupérable. Proposition : filmer **une seule** vanne à l'app
+Caméra en 1080p + « Retouche » dans CapCut. S'il se trouve aussi bien, il gagne les deux. Sinon on
+reste sur Snap et **on arrête d'en parler** — le confort devant la caméra vaut plus que 360 lignes
+si ça l'empêche de tourner.
+
+**Écrit** : [`outils/README-export-capcut.md`](outils/README-export-capcut.md), plus une ligne dans
+`CLAUDE.md` §5.
+
+---
+
+## 17/09/2026 (suite) — « Je ne suis pas un acteur » : une règle inventée dans la D.A., corrigée par la mesure
+
+Nabil : « tu dois comprendre que je ne suis pas un acteur (…) je suis juste un narrateur (…) quand je
+parlais du mec qui dit toujours "t'inquiète", c'était une narration. Je n'ai pas mimé. »
+
+**Le dépôt disait le contraire — et c'était une invention.** `01-persona-et-regles.md` listait parmi
+les mécaniques qui marchent : « **Le hook acting** — ouvrir sur une mimique muette avant même de
+parler *(Vidéo 2 : l'esquive dans le vide)* ». Et la fiche de la Vidéo 2 affirmait : « Le hook est
+**muet** : la mimique d'esquive démarre avant le premier mot. C'est elle qui arrête le scroll. »
+
+**Mesure sur les quatre vidéos solo livrées — premier son de voix :**
+
+| Vidéo | 1er son de voix |
+| :--- | ---: |
+| Vidéo 2 — MMA de salon | **0,12 s** |
+| Vidéo 3 — Business Bro | **0,05 s** |
+| Vidéo 4 — Otage du téléphone | **0,15 s** |
+| Vidéo 5 — T'inquiète | **0,11 s** |
+
+**Il parle dès la première image, à chaque fois. Aucune ouverture muette n'a jamais existé.** La
+didascalie « [Hook acting] » était une proposition d'écriture qu'une session a recopiée comme un
+fait observé, puis promue en « mécanique qui marche » dans la D.A. Elle a ensuite servi de base à
+**neuf** des douze scripts des séries 2 et 3.
+
+**Corrigé**
+
+- `01-persona-et-regles.md` : nouvelle section **§3 bis « Nabil est un NARRATEUR, pas un acteur »**,
+  avec la mesure, la correction explicite, et un tableau de ce qui est autorisé.
+- `02-scripts-valides.md` : didascalie retirée de la Vidéo 2, note de tournage remplacée par la mesure.
+- `CLAUDE.md` : une ligne de plus au tableau des contre-exemples, et une section dédiée.
+- **Les douze scripts réécrits** : hooks muets refaits en hooks parlés (Clio, Pas faim, Le « ? »),
+  vannes gestuelles renarrées (la fenêtre qui bloque, la main-essuie-glace, les mains vides), toutes
+  les indications de jeu ramenées à **la voix**.
+
+**La ligne qu'on garde, et elle est mesurée** : l'imitation **vocale** d'un personnage qu'on cite
+reste autorisée — c'est son meilleur moment toutes vidéos confondues (Business Bro, **+22,3 dB**,
+score de chute **100/100**). Ce qui est banni, c'est le **geste**, pas la voix.
+
+**Le test ajouté à la D.A. :** *si la vanne ne marche plus les yeux fermés, elle est fausse.*
+Ses quatre vidéos passent ce test ; neuf de mes douze scripts ne le passaient pas.
+
+**Effet de bord mesuré** : un hook muet coûte 0 mot, un hook parlé en coûte ~20. Trois scripts de la
+série 2 sont repassés au-dessus du plafond après réécriture, et ont été resserrés. Trois restent à
+233-234 mots, soit 0,3 s au-dessus des 232 — **sous le bruit de la mesure** (3,87 mots/s viennent
+d'une seule vidéo). Noté comme tel dans les fichiers au lieu d'être raboté pour faire joli.
+
+---
+
+## 17/09/2026 (suite) — Plafond fixé à 60 s : les douze scripts recalibrés
+
+Nabil : « nan ça doit faire maximum 60 secondes. » La consigne précédente (« au moins 50 secondes,
+une minute ») était un plancher ; c'est un **plafond**.
+
+**Traduit en chiffre tout de suite** : 3,87 mots/s mesurés sur « T'inquiète » → **60 s = 232 mots,
+maximum**. Quatre scripts dépassaient.
+
+**Méthode de coupe** : retirer **le maillon le plus faible en entier**, jamais raboter partout.
+Raboter enlève les détails précis (les chiffres, les noms) et c'est exactement ce qui fait rire.
+
+| Retiré | De |
+| :--- | :--- |
+| Le palier « 9,99 de musique » | Abonnements |
+| « Il écoute même pas la réponse » | Le tonton |
+| « Celui qui se reprend dans le même vocal » | Les vocaux |
+| « S'il appelle deux fois de suite » | La peur d'appeler |
+| Le point relais à quatre kilomètres | Le colis |
+
+Résultat : **les six de la série 3 tiennent en 55 à 58 s**, les six de la série 2 en 57 à 60 s.
+
+**Le cas de la clope, et il est intéressant.** Le script fait **264 mots → 68 s**, et **Nabil l'a
+déjà tourné**. On ne réécrit pas un script tourné. À la place, l'**ordre de sacrifice au montage**
+est écrit dans sa fiche, à froid : le concert à 150 € part en premier (~12 s) — **avec** son rappel
+« ah non, plus de Netflix », sinon le rappel tombe sur rien (chaîne de sens, `CLAUDE.md` §2 bis). Ne
+jamais toucher à « vous êtes des moines ? », « moi j'ai jamais fumé » et la chute.
+
+**Deux défauts attrapés par le recomptage**, invisibles à la relecture : « résilier » écrit deux fois
+à trois lignes d'écart dans les abonnements, et une note de tournage qui citait encore des chiffres
+supprimés du script. Les deux corrigés. **Compter force à relire vraiment.**
+
+---
+
+## 17/09/2026 (suite) — Série 3 : six sujets en adresse directe, zéro « on a tous ce pote »
+
+Nabil a tourné la vanne sur la clope « au feeling » et redemande des thèmes.
+
+**Fait** — [`phase-1-solo/08-serie-3-adresse-directe.md`](phase-1-solo/08-serie-3-adresse-directe.md),
+six scripts complets, **255 à 269 mots → 60 à 70 s** de montage serré.
+
+**La correction appliquée, et c'est la leçon de la journée.** La série 2 a été jugée « pas ouf ». Le
+défaut n'était pas les sujets mais le **regard** : six fois « on a TOUS ce pote qui », soit un
+personnage qu'on observe de l'extérieur — la même formule que trois des cinq vidéos déjà faites.
+L'idée de Nabil sur la clope a montré l'autre voie : on parle **à** l'audience de **sa** vie.
+
+Pour ne pas remplacer une formule par une autre, les six utilisent **six mécaniques d'adresse
+différentes** : l'accusation (« Je sais ce que vous faites »), la prise de nouvelles (« Vous allez
+bien ? », son format), l'aveu collectif (« Avouez »), le rappel de service public, le constat
+générationnel (« On est la première génération qui… »), l'exigence d'explication (« Expliquez-moi »).
+
+**Sujets** : seul dans ta voiture · les abonnements qu'on utilise pas · le tonton au repas de famille
+· les vocaux de 7 minutes · la peur d'appeler · le colis « livré ».
+
+**Méthode, identique à la série 2 et elle a resservi** : premier comptage → cinq scripts courts
+(187 à 218 mots, le plus court à 48 s, sous le minimum). Un **vrai palier** ajouté à chacun plutôt
+que du délayage — la ligne mystère « GLBL DIGITAL LIMITED » sur le relevé, le tonton qui n'écoute pas
+la réponse à sa propre question, les six vocaux d'affilée (« c'est une série »), la messagerie non
+écoutée qu'on préfère rappeler, le colis « reporté suite à un incident ». Recomptés : 60-70 s partout.
+
+**Risque noté** : « la peur d'appeler » frôle le thème brûlé « angoisse de la batterie sociale ». La
+ligne est écrite dans le script : rester sur l'absurde et les gestes concrets (la pizza, la phrase
+répétée, le « ouais ? »), jamais sur la fatigue sociale. À vérifier au tournage.
+
+**En attente** : les rushs de la clope, tournés mais pas encore envoyés.
+
+---
+
+## 17/09/2026 (suite) — Nabil retourne le script 5, et met le doigt sur le défaut des six
+
+Nabil : « les idées, je les ai vraiment pas trouvées ouf. » Puis il propose son angle sur la clope :
+« Eh les gars, ceux qui ont arrêté de fumer, vous allez bien ? (…) vous avez arrêté quand l'essence
+était pas chère (…) comment vous faites pour toujours pas fumer ? Moi si j'avais fumé, j'aurais fumé
+là, maintenant. »
+
+**Sa version est meilleure, et la raison est structurelle** : la mienne *décrivait un pote* (« il fume
+les tiennes »), la sienne *interpelle l'audience* (« vous allez bien ? »). Le spectateur est dedans,
+il se tague. Et ça révèle le défaut des six : **six fois « on a TOUS ce pote qui »**, la même formule
+que trois des cinq vidéos déjà faites. Compétent, mais une formule — il l'a senti avant moi.
+
+**Fait**
+
+- Script 5 réécrit sur son idée : hook à contre-emploi (ton grave, « vous tenez le coup ? »),
+  escalade des « depuis » (le plein à 90 balles → le grec à 9 € → Netflix qui t'a séparé de ta mère →
+  le concert à 150 €), sommet « vous êtes des moines ? », aveu « moi j'ai jamais fumé de ma vie »,
+  **deux chutes à tourner** : la sienne (« j'aurais fumé là, maintenant ») et un retournement
+  (« 13 balles le paquet, laissez tomber, je vais pleurer, c'est encore gratuit »). 264 mots → ~68 s.
+- Ma version écartée, **documentée avec sa raison** dans le fichier, pour ne pas y revenir.
+- Risque plateforme noté à part : TikTok bride ce qui « représente ou promeut » le tabac. Ironie OK,
+  aucune vraie cigarette à l'écran, et la chute B retourne le propos contre la clope — en réserve.
+
+**À trancher par Nabil**
+
+- Les cinq autres : les tourner tels quels, ou les réécrire dans son registre (adresse directe à
+  l'audience, pas portrait de pote) ? Le fix dépend de ce qu'il a trouvé « pas ouf » : la formule, ou
+  les sujets.
+- **Proposition DA** : « Eh les gars, ceux qui [X], vous allez bien ? » peut devenir un **format
+  récurrent** — un hook reconnaissable en une seconde, c'est ce qui fait abonner (cf. la tier list
+  chez Sady). À valider avant d'en écrire d'autres.
+
+---
+
+## 17/09/2026 — Série 2 : six scripts écrits pour un tournage immédiat
+
+Nabil, en voiture : « je vais au moins tourner les corps (…) 5-6 thèmes (…) au moins 50 secondes,
+une minute (…) un peu comme "T'inquiète" (…) t'es mon manager, mon directeur artistique. »
+
+**Fait**
+
+- **Calibré avant d'écrire** : « T'inquiète » livré = 142 mots pour 36,7 s, soit **3,9 mots/s**.
+  Donc 55-60 s de montage serré = 215-235 mots utiles. Cible d'écriture fixée à 220-260 mots pour
+  laisser de la marge à la coupe (le rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées).
+- **Six scripts complets** dans [`phase-1-solo/07-serie-2-six-scripts.md`](phase-1-solo/07-serie-2-six-scripts.md),
+  chacun avec hook au mot près, escalade, chute isolée, indications de tournage, titre TikTok
+  (verdict, jamais le sujet) et risque au filtre. Comptés : **220 à 242 mots → 57 à 63 s**.
+- Ordre de tournage donné : **la Clio d'abord**, Nabil est dedans, la voiture est l'accessoire.
+- Après le premier comptage, trois scripts étaient courts (200, 200 et **178 mots → 46 s**, sous le
+  minimum demandé). Un vrai palier ajouté à chacun (le sondage de dates, la paille du Coca, le
+  « en ligne il y a 4 min » + l'avis de recherche dans le groupe), pas du remplissage. Recomptés.
+- Filtre des interdits passé mécaniquement (`grep` sur bestie / batterie sociale / coiffeur / en
+  retard / contrôle de maths) : rien.
+
+**Décidé**
+
+- Les six vivent dans `07-serie-2-six-scripts.md` et sont pointés depuis le backlog. Ils montent dans
+  `02-scripts-valides.md` **un par un, une fois tournés et validés** — pas avant.
+- Deux scripts (« Je gère », « Arrêté de fumer ») reposent sur le contraste discours/réalité, comme
+  le Business Bro. Sujets sans rapport, mécanique partagée : assumé, c'est la mécanique qui marche le
+  mieux chez lui.
+
+**Appris**
+
+- **Whisper compte 184 « mots » là où le script en compte 142** (il sépare les apostrophes). Pour
+  calibrer une longueur de script, compter les mots *écrits*, pas les tokens Whisper. Le débit de
+  référence est donc 3,9 mots/s, pas 5,05.
+- Un thème qui se tourne **là où Nabil est** (la voiture) vaut plus qu'un meilleur thème qu'il devra
+  tourner plus tard. L'ordre de tournage fait partie du script.
 
 ---
 
@@ -294,6 +597,172 @@ compte.
 
 **À retenir** : la vidéo d'aujourd'hui doit être la première publiée. Sixième rappel.
 
+---
+
+## 16/09/2026 (suite) — « ChatGPT est-il meilleur que toi ? » — comparaison chiffrée, et portage préparé
+
+Nabil : « est-ce que tu penses que ChatGPT est beaucoup plus performant que toi pour faire des
+montages vidéo ? (…) prends un maximum de data, renseigne-toi. »
+
+**La réponse, et elle n'est pas flatteuse pour moi non plus : ce n'est pas le modèle qui monte.**
+C'est ffmpeg, numpy et un conteneur avec du réseau. La comparaison ne porte donc pas sur
+l'intelligence mais sur l'environnement d'exécution.
+
+| | Ici | Codex Cloud | ChatGPT (chat) |
+| :--- | :--- | :--- | :--- |
+| Fichier déposé dans le chat | 30 Mio | **impossible** | 512 Mo, mais vidéo/audio non supportés |
+| ffmpeg | installé | oui, via le setup | pas garanti |
+| Internet pendant le travail | oui, 15 Mo/s | **OFF par défaut**, activable | **aucun** |
+| Persistance | git | git | session éphémère |
+
+Sources : Help Center OpenAI (vidéo/audio non supportés à l'upload), `openai-node#1778` (pas de
+vidéo dans l'API), doc Codex Cloud (« Setup scripts run with internet access » / « Agent internet
+access is off by default »), doc Skills OpenAI.
+
+**Trois trouvailles qui comptent**
+
+1. **Le sandbox de ChatGPT n'a pas de réseau.** « Essentially an Ubuntu sandbox with no root or
+   internet access. » Ça tue `recuperer.sh`, `icloud.py`, la banque de sons et l'installation de
+   Whisper d'un seul coup. ChatGPT en chat est hors course pour *exécuter* un montage.
+2. **Le skill est portable, et c'est une bonne nouvelle.** ChatGPT et Codex utilisent un `SKILL.md`
+   avec frontmatter `name`/`description` — « built on the open agent skills standard ». C'est
+   exactement le fichier écrit ce matin. Aucun enfermement.
+3. **Chez Codex, aucun fichier n'entre par le chat.** « Cloud tasks (…) do not automatically receive
+   additional inputs beyond what is explicitly provided in the repository. » Donc le raccourci iOS
+   « Audio pour Claude » n'y servirait plus à rien : même 872 Ko d'audio devraient passer par un
+   lien. **Le portage n'enlève aucun problème d'envoi de fichier, il en ajoute un.**
+
+**Fait**
+
+- `AGENTS.md` → lien symbolique vers `CLAUDE.md` (Codex lit `AGENTS.md`). Un seul fichier, donc
+  aucune dérive possible.
+- `.agents/skills/montage/` → lien symbolique vers `.claude/skills/montage/`. C'est bien
+  **`.agents/skills`** que Codex balaie, pas `.codex/skills` (vieux tutos périmés). Les deux liens
+  se résolvent, vérifié.
+- [`outils/setup-codex.sh`](outils/setup-codex.sh) écrit : ffmpeg + deps + **pré-téléchargement du
+  modèle Whisper**, parce que chez Codex le réseau n'existe que pendant le setup.
+- [`outils/README-portage-codex.md`](outils/README-portage-codex.md) : les deux réglages à faire,
+  la comparaison chiffrée, et la limite qu'aucun réglage ne résout.
+
+**Non vérifié**
+
+- **Le portage n'a jamais tourné sur un vrai Codex.** Emplacements et comportements viennent de la
+  doc OpenAI, pas d'un essai. Seuls les liens symboliques sont mesurés. Quatre points à vérifier au
+  premier lancement, listés en fin de `README-portage-codex.md`.
+- **Le test des 512 Mo côté ChatGPT est à faire par Nabil** : uploader un mp4 de 100 Mo et demander
+  un `ffprobe`. C'est le seul chiffre manquant de la comparaison, et il est falsifiable.
+
+**Ce qui n'a pas changé**
+
+Six montages prêts, zéro publié. Changer d'outil n'en sortira pas un de plus.
+
+---
+
+## 16/09/2026 (suite) — Les 30 Mio du chat : contournés par l'audio, pas par un tuyau plus gros
+
+Nabil : « à chaque fois je dois t'envoyer une vidéo de 30 Mo maximum (…) faire un lien WeTransfer
+c'est trop, trop chiant. »
+
+**Mesuré d'abord, proposé ensuite**
+
+| Piste | Verdict |
+| :--- | :--- |
+| Augmenter la limite du chat | **Impossible** — fixée par le client, pas par Claude |
+| Page web d'upload (artifact, capacité `assets`) | **20 Mio** de plafond : pire que le chat |
+| Connecteur Google Drive pour les octets | Rend le fichier **en base64 dans la conversation** : 100 Mo → ~133 Mo de texte. Inutilisable |
+| Connecteur Google Drive pour *trouver* un fichier | Marcherait (métadonnées), mais **pas autorisé** : `Insufficient scope` |
+| `transfer.sh`, `0x0.st`, `bashupload.com` | **Injoignables** depuis le conteneur |
+| Hébergeurs anonymes publics | Joignables, mais y déposer des sketchs non publiés : non (et refusé par la politique de session) |
+| iCloud, Drive, Dropbox, WeTransfer, GitHub | **Tous joignables**. Débit mesuré : **15 Mo/s**, 29 Go de libre |
+
+**La vraie trouvaille : le tuyau n'était pas le problème.**
+
+Pour **décider** d'un montage, la vidéo ne sert à rien. Mesuré sur `tier-foot-HQ.mp4`, dérush sur la
+vidéo complète contre l'audio seul (AAC 64 kb/s) :
+
+- **60 Mo → 872 Ko** (69× moins)
+- **0,04 s d'écart maximum** sur les bornes de coupe, **0,00 s sur 4 segments / 5**
+- blanc long détecté à l'identique (3,94 s), seuil de silence à 0,3 dB près
+
+Donc : les étapes 0 à 3 du skill tournent sur l'audio, et **le fichier lourd ne bouge qu'une fois**,
+à la fin, quand la liste de coupes est validée — au lieu d'à chaque aller-retour.
+
+**Fait**
+
+- Nabil a choisi **iCloud** (son réflexe iPhone). Écrit `outils/icloud.py` : un lien de partage
+  iCloud est une page JavaScript, `curl` n'y voit que du HTML. L'outil extrait le *shortGUID* et
+  interroge l'API publique CloudKit (`ckdatabasews.icloud.com/.../records/resolve`). Branché dans
+  `recuperer.sh` sur tout lien `icloud.com`.
+- **`icloud.py` REFUSE les liens d'album partagé** et explique le bon chemin : Apple y ré-encode et
+  rabote les vidéos. C'était le rush Snapchat du 12/09 prêt à se reproduire.
+- Écrit [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md) : le raccourci iOS
+  « Audio pour Claude » (un tap, ~1 Mo/clip), le chemin iCloud Drive pour le fichier lourd, et les
+  trois pièges qui coûtent de la qualité.
+- Skill `montage` étape 0 complétée : **ne pas réclamer la vidéo avant l'étape 4.**
+
+**Pas vérifié**
+
+- **Le chemin de succès d'`icloud.py` n'a jamais tourné sur un vrai lien.** Les trois chemins
+  d'erreur sont testés (album partagé, lien sans GUID, GUID inconnu → l'API répond
+  « Cannot resolve shortGUID »), le succès non. À faire au premier rush envoyé par iCloud, et à
+  corriger tout de suite si la forme de la réponse diffère.
+
+---
+
+## 16/09/2026 — Le montage devient un skill (et un outil qui refuse de couper)
+
+**Fait**
+
+- Nabil envoie une vidéo de Lucas Reverdy, *« Comment Automatiser ses Montages Vidéo avec Claude »*
+  (14 min 11). Transcription récupérée par `yt-dlp` — **le client `web_embedded` est le seul qui passe**
+  l'anti-bot YouTube, avec `--ignore-no-formats-error` (les autres : 429 puis « Sign in to confirm
+  you're not a bot »).
+- **Skill [`montage`](.claude/skills/montage/SKILL.md) écrit** : 7 étapes, dont **2 qui s'arrêtent et
+  attendent Nabil** (la chaîne de sens, la sonorisation). Deux fiches de référence :
+  `chartes.md` (solo vs tier list) et `verification.md` (les commandes de mesure avant livraison).
+- **`outils/derusher.py` écrit** : fiche captation + silences mesurés à l'enveloppe + proposition de
+  segments avec le niveau vérifié à chaque raccord. **Il n'encode rien et ne décide rien.**
+- Hook de session : ffmpeg s'installe désormais **en fond** au démarrage au lieu d'être seulement signalé.
+
+**Ce qu'on a pris de sa vidéo, et ce qu'on a refusé**
+
+Pris : l'**architecture** (des étapes nommées, chacune suivie d'une relecture de son propre travail),
+le **point d'arrêt humain à un endroit défini** (lui fait valider sa liste de plans ; nous, la chaîne
+de sens), le **choix de la charte au démarrage**, et l'idée qu'une procédure doit être un skill et
+pas de la prose.
+
+Refusé : sa règle numéro un, *« couper tous les blancs et toutes les reprises, cut chirurgical »*.
+Elle marche sur une vidéo explicative ; **sur un sketch c'est exactement ce qui a cassé deux
+montages** (Business Bro du 13/09, tier list foot du 14/09). Et il juge son résultat à l'œil — « là
+on voit que les cuts sont absolument parfaits », zéro mesure. C'est l'interdit du dépôt.
+
+**Appris / mesuré**
+
+- **Le seuil de silence n'a pas besoin d'être fixé à la main.** `plancher + 0,35 × (parole − plancher)`
+  tombe à **−39,1 dBFS** sur « T'inquiète » et **−37,5 dBFS** sur la tier list foot, soit le −40 dBFS
+  de `CLAUDE.md` — mais il s'adapte à un rush bruyant, ce qu'une constante ne fait pas.
+- **Le silence gardé dans le montage vaut `2 × --marge`.** Je l'avais d'abord lu à l'envers dans mon
+  propre calcul (j'ai pris ce qui est *retiré* pour ce qui *reste*). Corrigé en **mesurant le fichier
+  de sortie** sur un test à silences connus : 0,20 s → 0,19 s intact · 0,50 s → 0,24 s · 1,00 s →
+  0,21 s · 2,00 s → 1,99 s gardé entier. D'où : `--silence-min 0.45 --marge 0.11` **reproduit
+  exactement** la règle §2.3 du format tier list.
+- **Contrôle de non-régression utile** : sur un montage déjà serré, l'outil doit proposer très peu.
+  Mesuré : 5 % sur `15sept-tinquiete-HQ.mp4`, 1 % sur `tier-foot-HQ.mp4`. S'il propose beaucoup plus,
+  c'est lui qui a tort.
+- **La règle du 14/09 est maintenant dans le code, pas seulement dans un document** : sur
+  `tier-foot-HQ.mp4`, `derusher.py` retrouve le blanc de **3,94 s** (à 4,17 s) que Nabil avait fait
+  remettre, et **refuse de le couper**. Même logique pour une redite sans silence mesuré autour.
+
+**Pas fait**
+
+- Les sous-titres. Lui les sort automatiquement, nous jamais — et la question 2 de la D.A. solo
+  (police Monument Extended ou native TikTok) est toujours ouverte. C'est le vrai trou restant.
+- Le montage sur fichier allégé (proxy) puis retour en pleine résolution. Utile chez lui (vidéos
+  YouTube de 20-30 min) ; sur des sketchs de 40 s à 1 min 45, ça ne rapporte rien pour l'instant.
+- Toujours **rien de publié**. Six montages prêts, aucun compte ouvert.
+
+---
+
 ## 15/09/2026 (soir) — Nabil a retourné « T'inquiète » et l'a montée lui-même
 
 « J'ai monté moi-même finalement, tu en penses quoi ? » Le fichier reçu n'est pas un montage de mes
@@ -323,6 +792,8 @@ remanié, veste différente, 46 s.
 est propre sur ses coupes ; il manque le geste le plus dur, couper ce qu'on a dit deux fois et
 s'arrêter à la chute. Pas de coupe possible dans le doublon « études » (aucun silence ≥ 0,10 s entre
 24,3 et 27,9 s) : celui-là ne se sauve qu'à la prise.
+
+---
 
 ## 15/09/2026 (suite) — « T'inquiète » tournée, montée, livrée
 
@@ -359,6 +830,8 @@ d'une autre, y a des trucs que j'ai refaits ».
 - Whisper a transcrit « On va là-bas, il » sur le montage alors que le « t'inquiète » est là (0,2 s,
   −18 dBFS à l'enveloppe) : vérifier à l'enveloppe avant de croire à un mot coupé.
 
+---
+
 ## 15/09/2026 — Quatre scripts pour un tournage en voiture, et la question Apify
 
 Nabil, sur le parking, avec le temps de tourner 3-4 vidéos. Il demande des thèmes, des scripts, et
@@ -391,6 +864,32 @@ si Apify (scraper TikTok) me servirait.
   test « ce thème est-il déjà saturé ? » par une recherche chiffrée avant d'écrire. Ça ne
   remplace ni l'écriture ni TikTok Studio (rétention, trafic : seul le compte les voit).
 
+---
+
+## 15/09/2026 — « T'inquiète » : 5 clips assemblés en une vidéo
+
+**Fait**
+
+- Cinq clips reçus (1 min 44 au total), tournés en 3 minutes : une prise principale, une escalade
+  sur le médecin, et **trois prises de la même fin**. Nabil : « ya des moments où je bug dans ma
+  tête, prends les meilleurs moments les plus drôles. »
+- **`outils/assembler.py` écrit** : monte une vidéo à partir de morceaux `FICHIER:DEBUT-FIN` venus
+  de plusieurs fichiers, en un seul encodage. `monter.py` ne savait couper que dans un seul fichier.
+- Montage livré : **36,7 s** gardées sur 1 min 44, soit 65 % jeté.
+
+**Appris**
+
+- **Transcrire tous les clips AVANT de décider.** Les horodatages des fichiers se chevauchaient et
+  donnaient un ordre faux ; seule la transcription a révélé l'ordre réel et les trois prises
+  jumelles de la fin.
+- **Quand plusieurs prises disent la même chose, mesurer avant de choisir.** Débit : 6,86 mots/s
+  pour la retenue, 6,56 et 5,21 pour les autres. Et surtout : une des trois ratait la négation de la
+  chute (« je m'inquiète » au lieu de « je m'inquiète pas »).
+- **Ne pas couper un mot au ras du raccord.** Deux raccords finissaient pile sur la fin d'un mot
+  (−33 dBFS au point de coupe) : repoussés de 0,4 s dans le silence qui suit.
+
+---
+
 ## 14/09/2026 (suite) — Tier list sport, montage perso
 
 Nabil : « c'est pas pour TikTok, c'est pour moi, donc garde [les deux passages]. Fluidifie un peu
@@ -403,6 +902,8 @@ qui reste le dossier des vidéos destinées à sortir.
 Les cinq blancs les plus longs sont notés dans le relevé (88,7 s / 19,5 s / 7,7 s / 14,0 s /
 4,3 s) : ce sont ceux qui risquent de porter une information, comme celui de Musiala.
 
+---
+
 ## 14/09/2026 (suite) — Un silence qui portait une information
 
 Nabil, sur la tier list foot : « au départ, après Musiala, je veux que tu laisses, car avec le cut
@@ -414,6 +915,8 @@ laissaient croire à un effet préparé. **Remis entier.** 1 min 43 → 1 min 47
 
 Règle ajoutée à `CLAUDE.md` §2 bis et à la D.A. du format : un silence n'est pas toujours un temps
 mort. Entre deux locuteurs surtout, la simultanéité se lit comme une intention.
+
+---
 
 ## 14/09/2026 (suite) — Deux fichiers livrés corrompus
 
@@ -439,6 +942,8 @@ qui ne gardait que la ligne de succès, donc même le message d'erreur ne me ser
 - **Ne jamais filtrer la sortie d'un outil sur sa ligne de succès.** C'est ce qui a caché l'erreur.
 - La règle « rien sans mesure » vaut aussi pour ses propres livrables : un fichier n'est livré que
   s'il a été relu.
+
+---
 
 ## 14/09/2026 — Les tier lists avec Sady, et la D.A. du format
 
@@ -466,6 +971,8 @@ qui ne gardait que la ligne de succès, donc même le message d'erreur ne me ser
 - Méthode de compression reproductible : tout silence ≥ 0,45 s ramené à 0,22 s. 11 à 15 % de gagné
   sur ces rushs, sans toucher au contenu.
 
+---
+
 ## 13/09/2026 (nuit) — Les trois vidéos sont montées
 
 **Fait**
@@ -485,6 +992,8 @@ qui ne gardait que la ligne de succès, donc même le message d'erreur ne me ser
   → une fois, deux fois, trois fois » retombe de 8 dB. C'est un maillon du sens, on ne le coupe pas.
   Noté dans `livraisons/README.md` pour que Nabil décide s'il le retourne.
 
+---
+
 ## 13/09/2026 (nuit) — Business Bro monté, après un premier montage raté
 
 **Fait**
@@ -501,6 +1010,8 @@ ouverture, en invoquant la règle du hook. Mais **les mesures disent où ça ret
 pas ce qui se comprend.** Une vanne est une chaîne de sens : qui est le personnage, ce qu'il fait,
 ce que toi tu fais face à lui, l'escalade, la chute. On coupe DANS les maillons, jamais un maillon
 entier. Et on relit la transcription du montage avant de livrer.
+
+---
 
 ## 13/09/2026 (soir) — Les deux rushs du 30/08 enfin analysés
 
@@ -524,6 +1035,8 @@ entier. Et on relit la transcription du montage avant de livrer.
   automatique du téléphone. À traiter à la prise, pas au montage.
 - **Ne jamais nommer un fichier d'après une hypothèse.** Nommer d'après ce qu'il contient, ou par
   sa date. Un nom inventé devient un fait dans la mémoire du projet.
+
+---
 
 ## 13/09/2026 — Montage, son, retouche, et une leçon sur la qualité
 
@@ -552,6 +1065,8 @@ entier. Et on relit la transcription du montage avant de livrer.
   **Vérifier que c'est la même image avant de comparer quoi que ce soit.**
 - Le rush venait de Snapchat (720p). J'en ai conclu à tort que l'original était en 1080p ;
   ses métadonnées disaient 720p. **Lire les métadonnées avant de conclure.**
+
+---
 
 ## 12/09/2026 — Premier rush analysé et monté
 

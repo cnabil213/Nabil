@@ -99,10 +99,24 @@ ce projet :
 | « Son original est en 1080p » | Ses métadonnées disaient 720p |
 | « Ces deux captures montrent le même moment » | 0,17 s d'écart : l'une nette, l'autre floue |
 | « La qualité a baissé » → une explication | Mesurer **d'abord**, répondre ensuite |
+| « Son hook s'ouvre sur une mimique muette » (écrit dans sa D.A.) | Il parle dès **0,05–0,15 s** sur ses 4 vidéos solo : aucune n'a jamais eu d'ouverture muette |
 
 Corollaire : quand Nabil signale un problème, la première réponse est une mesure, pas une
 hypothèse. Et quand une mesure contredit ce qu'on a affirmé plus tôt, **on se corrige
 explicitement** — dans la réponse et dans le dépôt.
+
+---
+
+## Nabil est un narrateur, pas un acteur
+
+**Il raconte, il ne joue pas.** Il rapporte ce que les gens disent, il imite leur voix, il commente
+face caméra. **Il ne mime rien.** Une vanne dont la charge est un geste n'est pas pour lui.
+
+Le test : **si la vanne ne marche plus les yeux fermés, elle est fausse.** Ses quatre vidéos solo
+passent ce test.
+
+Détail, tableau de ce qui est autorisé, et la mesure qui a corrigé l'erreur :
+[`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §3 bis.
 
 ---
 
@@ -111,6 +125,11 @@ explicitement** — dans la réponse et dans le dépôt.
 Le mode d'emploi complet des outils est dans [`outils/README.md`](outils/README.md).
 Ce qui suit, ce sont les règles qu'on ne redécouvre pas.
 
+**La procédure de montage, elle, n'est plus de la prose : c'est un skill.**
+[`.claude/skills/montage/`](.claude/skills/montage/SKILL.md) — sept étapes, dont **deux qui
+s'arrêtent et attendent Nabil** (la chaîne de sens, et la sonorisation). Il se déclenche tout seul
+dès qu'un rush arrive à monter. Les règles ci-dessous restent le *pourquoi* ; le skill est le *comment*.
+
 ### 1. Relire un rush → [`outils/ecoute-video.py`](outils/ecoute-video.py)
 
 Les chiffres d'abord (`RAPPORT-ECOUTE.md` borne les zones en secondes), **l'image seulement pour
@@ -118,7 +137,14 @@ décrire** ce que les chiffres ont déjà trouvé. Ne jamais lire un dB sur un g
 Vocabulaire et limites : [`outils/README-ecoute.md`](outils/README-ecoute.md). Pistes closes :
 [`outils/RECHERCHE-ECOUTE.md`](outils/RECHERCHE-ECOUTE.md).
 
-### 2. Monter → [`outils/monter.py`](outils/monter.py)
+### 2. Dérusher → [`outils/derusher.py`](outils/derusher.py), puis monter → [`outils/monter.py`](outils/monter.py)
+
+`derusher.py` **propose** les coupes et n'encode rien : fiche captation, silences mesurés à
+l'enveloppe, segments à garder avec le niveau vérifié à chaque raccord. Il **refuse** de couper un
+blanc ≥ 1,5 s et une redite sans silence autour — les deux erreurs qui ont coûté un montage chacune.
+Le silence gardé vaut `2 × --marge` (mesuré sur la sortie encodée, pas déduit).
+
+Puis `monter.py` :
 
 **Un seul réencodage**, toujours : coupe, étalonnage et retouche dans la même passe. Conserver la
 plage de couleur de la source. Poser les coupes dans un silence réel, mesuré à l'enveloppe — pas
@@ -205,9 +231,22 @@ plus net que son rush.
 
 - **Filmer avec l'app Caméra**, pas dans Snapchat, qui plafonne à 720p là où l'iPhone fait du
   1080p et du 4K.
-- **Envoyer le fichier tel quel** : Photos → « Enregistrer dans Fichiers », puis WeTransfer par
-  Safari ou AirDrop. Un partage direct vers une app fait reconvertir le HEVC en H.264 par iOS
+- **Envoyer le fichier tel quel** : Photos → « Enregistrer dans Fichiers » → **iCloud Drive**, puis
+  partager ce fichier depuis l'app Fichiers. Mode d'emploi complet (dont le raccourci iOS qui
+  extrait l'audio en un tap) : [`outils/README-envoyer-un-rush.md`](outils/README-envoyer-un-rush.md).
+  **Jamais un album partagé iCloud** : Apple y ré-encode les vidéos, `icloud.py` refuse ces liens.
+  **Jamais un partage direct vers une app** non plus : iOS reconvertit alors le HEVC en H.264
   (c'est pourquoi le fichier reçu pesait 98 Mo pour la même image que 57 Mo d'original).
+- **Et le plus souvent, le fichier lourd ne part pas du tout** : les étapes 0 à 3 d'un montage
+  tournent entièrement sur l'audio seul. Mesuré sur `tier-foot-HQ.mp4` — 60 Mo → 872 Ko, **0,04 s
+  d'écart maximum** sur les bornes de coupe (0,00 s sur 4 segments / 5), blanc long détecté à
+  l'identique. La vidéo ne sert qu'au dernier encodage, donc elle ne bouge **qu'une fois**, à la
+  fin, quand la liste de coupes est validée.
+- **Quand Nabil monte lui-même (CapCut)** : couper **Ultra HD par l'IA** et **Smart HDR**, rester à
+  la cadence de la source (30 im/s, pas 60). Mesuré sur son rush Snapchat : l'aller-retour
+  720p → 1080p → 720p sort à **61,8 dB de PSNR**, donc le 1080p ne contient rien que le 720p n'avait.
+  **Aucun réglage d'export ne rattrape un rush 720p.** Détail et commandes de vérification :
+  [`outils/README-export-capcut.md`](outils/README-export-capcut.md).
 - **Premier réflexe sur un rush reçu** : `ffprobe -v error -show_format -show_streams`, lire la
   résolution et les tags, et le dire à Nabil **avant** de monter.
 
