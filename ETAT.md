@@ -13,6 +13,15 @@
 Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié.**
 **Objectif posé par Nabil le 09/10 : 100 000 abonnés en 3 mois** (début janvier 2027).
 
+## 🎯 Les objectifs (posés le 09/10, proposés par Claude, à valider par Nabil)
+
+- **Final : 100 000 abonnés TikTok le 9 janvier 2027.** Paliers : 10 000 le 9/11, 40 000 le 9/12.
+- **Ce qu'il contrôle** : publier dès la semaine du 12/10 · 5 vidéos/semaine minimum, 7 en cible ·
+  une session de tournage par semaine (5 à 7 vidéos) · toujours 5 vidéos montées d'avance.
+- **Règle des 10 vidéos** : toutes les 10 publications, classer les formats par abonnés gagnés par
+  vidéo ; le meilleur prend la moitié des 10 suivantes, le pire passe en pause.
+- **GENZED gelé** jusqu'aux 100K.
+
 ## 🔀 Le 09/10 : tout est regroupé
 
 Le travail était éparpillé sur **5 branches** de sessions qui ne se voyaient pas. Elles sont fusionnées
