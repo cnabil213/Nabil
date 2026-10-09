@@ -6,6 +6,31 @@
 
 ---
 
+## 09/10/2026 (suite) — Le branding TikTok
+
+Nabil : « Je veux que Nabil soit connu. La révélation humoristique de Belgique l'année prochaine. »
+Décidé avant : nouveau compte en Belgique, TikTok d'abord, Instagram ensuite, pas YouTube.
+
+**Fait**
+
+- [`phase-1-solo/12-branding-tiktok.md`](phase-1-solo/12-branding-tiktok.md) : positionnement, 5 pseudos
+  classés, bio prête à copier (74 caractères), photo, couvertures, signature, monétisation.
+
+**Décidé (proposé, à valider par Nabil)**
+
+- Positionnement : **« Nabil démasque les mythos que t'as tous autour de toi. »** Il relie le solo
+  (contraste prétend/est) et les formats duo (Bakhal Man = mythomètre). Les mythos sortent en premier.
+- Pseudo : @cnabil, puis @cestnabil, @justenabil, @nabil.be, @nabilunefois. Nom affiché : « Nabil ».
+- Signature : le carton de fin muet « TAUX DE MYTHO x/10 », incrusté au montage. Jugé à la 10e vidéo
+  sur les commentaires qui citent la note.
+
+**Appris**
+
+- 3 des 4 solos montés et ~10 des 21 sujets en stock sont des mythos (comptage sur les titres, à
+  revérifier sur les textes).
+- Creator Rewards : la Belgique n'apparaît dans aucune liste de pays publiée en 2026 (recherche du
+  09/10), et le programme exige d'y résider. Pas de faux pays.
+
 ## 09/10/2026 — Tout regroupé : cinq branches fusionnées en une
 
 Nabil ouvre le projet « C'Nabil-FAMOUS » pour tout centraliser, avec un objectif : **100 000 abonnés

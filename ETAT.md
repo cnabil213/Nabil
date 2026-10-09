@@ -37,6 +37,14 @@ dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
   **À faire confirmer par Nabil** avant toute stratégie.
 - Synthèse lisible du tout : `/mnt/project-files/cnabil/SYNTHESE.md` (projet C'Nabil-FAMOUS).
 
+## 🏷️ Branding TikTok (09/10) → [`phase-1-solo/12-branding-tiktok.md`](phase-1-solo/12-branding-tiktok.md)
+
+**Proposé, pas encore validé par Nabil.** Nouveau compte, basé en Belgique, part de 0 ; TikTok d'abord,
+Instagram ensuite, pas YouTube. Positionnement : **« Nabil démasque les mythos que t'as tous autour de
+toi. »** Pseudo recommandé **@cnabil** (4 replis dans l'ordre), nom affiché « Nabil ». Signature : le
+**carton de fin « TAUX DE MYTHO x/10 »**, muet, incrusté au montage. Pas de faux pays pour la
+monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
+
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 
 **Catalogue à la racine du dépôt, à lire avant de proposer un format.** Les deux formats annexes
@@ -129,7 +137,7 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 - **Le montage de l'otage du téléphone garde un point faible assumé** : la section « on connaît tous
   ces humains-là → une fois, deux fois, trois fois » retombe de 8 dB et ralentit à 56 % du débit.
   C'est un maillon du sens, donc elle reste. À retourner avec de l'énergie si Nabil veut la hisser.
-- **Publication** : aucun compte ouvert, aucun nom arrêté, rien en ligne.
+- **Publication** : aucun compte ouvert, rien en ligne. Pseudo proposé le 09/10 (`12-branding-tiktok.md`), pas encore pris.
 - **Sous-titres** : proposés dans la D.A. solo, jamais produits. Écartés sur le format tier list
   (le classement incrusté occupe déjà le tiers gauche). À trancher : une identité visuelle ou deux.
 - **Tier list sport du 13/09 : écartée de la publication**, deux passages non coupables proprement.
