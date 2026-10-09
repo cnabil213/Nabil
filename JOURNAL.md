@@ -27,6 +27,8 @@ faire. L'actualité, une story time, un sketch. Que les gens me suivent pour moi
   gagne par la répétition d'un mec reconnaissable : même cadre, même attitude, même fin, une bande
   récurrente (Sady, les 8 €), des réponses aux commentaires, les LIVE.
 
+---
+
 ## 09/10/2026 (suite) — Le branding TikTok
 
 Nabil : « Je veux que Nabil soit connu. La révélation humoristique de Belgique l'année prochaine. »
