@@ -11,26 +11,56 @@
 
 ## 1. Le positionnement, en une phrase
 
-**Nabil démasque les mythos que t'as tous autour de toi.**
+**Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il dit le verdict que personne n'ose
+dire.**
 
-Pourquoi celui-là et pas « le pote drôle » :
+> Corrigé le 09/10, le jour même. La première version (« Nabil démasque les mythos ») faisait du
+> mytho le sujet du compte. Nabil l'a recadré : « je veux que dans mon contenu je puisse tout faire.
+> Si je veux parler de l'actualité, je parle. Si je veux une story time, je peux. Si je veux faire un
+> sketch, je fais. Que les gens me suivent pour moi. » **Le compte est centré sur lui, pas sur un
+> thème.** Le mytho reste son angle le plus fort, pas sa limite.
 
-- C'est déjà ce qu'il fait. Le contraste « ce qu'il prétend être / ce qu'il est » est dans
-  `CLAUDE.md`, et **3 des 4 solos montés** sont des mecs qui prétendent (MMA de salon, Business Bro,
-  T'inquiète ; l'otage du téléphone non).
-- Sur les 21 scripts en stock (`SYNTHESE.md` §3), **10 sont des mythos à la lecture du titre**
-  (six mois de plus, contact pour tout, rien fait, au volant, jamais perdu, businessman 2.0,
-  « économisé », Clio Lambo, « pas faim », « je gère »). Comptage fait sur les titres, pas sur les
-  textes : à revérifier script par script.
-- Ça relie le solo et les formats duo : **Bakhal Man** est littéralement un mythomètre, **Le
-  Journaliste** démonte la langue de bois, **Le Contrôle technique** inspecte. Partout, Nabil est
-  celui qui ne rit pas et qui rend le verdict.
+C'est la posture déjà écrite dans `01-persona-et-regles.md` (« le pote lucide qui dit tout haut ce
+que tout le monde a remarqué »), élargie à trois terrains :
 
-Ce que ça exclut : jouer un personnage (il est narrateur), les trends danse et sons recyclés, les
-thèmes déjà vus (`03-backlog-idees.md`). Les sujets hors mytho (le tonton, le père au téléphone, le
-prof) restent tournables, mais **les mythos sortent en premier** : ce sont eux qui installent l'image.
+| Terrain | Ce qu'il fait | Déjà en stock |
+| :--- | :--- | :--- |
+| **Les gens** (sketch) | Il raconte un type de personne et rend le verdict | 4 solos montés, ~20 scripts |
+| **Sa vie** (storytime) | Il raconte ce qui lui est arrivé, et il est le premier à se juger | Montpellier (écrit pour Bakhal Man) |
+| **L'actu** | Il donne son verdict sur ce dont tout le monde parle | rien |
 
----
+Le storytime est le terrain le plus naturel pour lui : c'est exactement la règle « narrateur, pas
+acteur ». Il parle, il ne joue pas.
+
+## 1 bis. Faire suivre la personne quand on part de 0 : ce qui marche vraiment
+
+**À zéro abonné, personne ne te suit pour toi.** Personne ne te connaît. TikTok ne pousse pas une
+personne, il pousse une vidéo, à des inconnus, selon ce que cette vidéo retient. On suit une personne
+**après l'avoir vue plusieurs fois et l'avoir reconnue**. Le « pour moi » se gagne vidéo après vidéo ;
+il ne se décrète pas dans la bio.
+
+Donc, dans l'ordre :
+
+1. **Varié, oui. Méconnaissable, non.** Le format peut changer, le mec ne change pas : même cadre,
+   même voix, même attitude (il ne rit pas de ses propres vannes), **même fin**. Celui qui tombe sur
+   sa troisième vidéo doit le reconnaître en deux secondes, que ce soit un storytime ou un sketch.
+2. **Un fil rouge commun à tous les formats** : la note de fin (§5). Sketch, storytime, actu : chaque
+   vidéo finit par son verdict sur 10. C'est le seul élément qui traverse tout.
+3. **Des gens récurrents.** Sady, et les 8 euros qu'il doit. Plus tard ceux de sa vie (le boulot en
+   2×8, la famille) s'il veut. Le public s'attache à une bande, pas à un format.
+4. **Il se met lui-même sur la balance.** Dans les storytimes, il se note aussi (« moi dans cette
+   histoire : 7/10 de mytho »). Celui qui juge tout le monde et se juge aussi, on l'aime ; celui qui
+   juge sans se juger, on le trouve prétentieux.
+5. **Répondre aux commentaires en vidéo**, et passer en LIVE dès que c'est ouvert (1 000 abonnés).
+   C'est là que les gens parlent à la personne, pas au contenu.
+6. **L'ordre de sortie.** D'abord ce qui est prêt (les sketchs montés), le storytime dès la 5e vidéo
+   environ, l'actu en dernier. Ce ne sont pas des goûts : **la règle des 10 vidéos tranche** quel
+   terrain prend la moitié des suivantes.
+
+**L'actu, avec deux limites.** Elle meurt en 48 h, donc elle se tourne et se publie le jour même. Et
+pas de politique, de religion, de guerre ni de faits divers graves au début : la tier list sport a déjà
+été écartée pour risque de restriction du compte. Foot, people, culture, ce dont parlent les gens de
+son âge.
 
 ## 2. Le pseudo — 5 choix, dans l'ordre
 
@@ -52,22 +82,25 @@ le premier libre **à la fois sur TikTok et sur Instagram**, le même jour, mêm
 
 ## 3. La bio, prête à copier
 
-**TikTok** (74 caractères, limite 80) :
+**TikTok** (67 caractères, limite 80) :
 
 ```
-Les mythos que t'as autour de toi, je les note sur 10.
+Je raconte tout ce que je vois. Même sur moi.
 🇧🇪 Sady me doit 8 €
 ```
 
 **Instagram** (même texte + une ligne contact) :
 
 ```
-Les mythos que t'as autour de toi, je les note sur 10.
+Je raconte tout ce que je vois. Même sur moi.
 🇧🇪 Sady me doit 8 €
 Collab : [adresse mail dédiée]
 ```
 
-- La première ligne dit ce qu'on gagne à s'abonner. La seconde place le running gag du compte (les
+> Première version (« Les mythos que t'as autour de toi, je les note sur 10 ») abandonnée le 09/10 :
+> elle enfermait le compte dans un thème. Nabil veut un compte centré sur lui.
+
+- La première ligne dit ce qu'on gagne à s'abonner : lui, sur tout, y compris sur lui-même. La seconde place le running gag du compte (les
   8 euros de Sady, déjà dans Business Bro, Le Journaliste, Le Contrôle technique) : ceux qui
   connaissent rient, les autres demandent en commentaire.
 - **Adresse mail dédiée** aux marques, pas la perso. C'est par là que passera l'argent.
@@ -101,23 +134,25 @@ sous-titres, le classement occupe l'écran.)
 
 ---
 
-## 5. La signature récurrente : le carton de fin
+## 5. La signature récurrente : la note de fin
 
-**À la fin de chaque vidéo de mytho, une seconde après la chute : un carton noir, muet, avec la
-note en vert lime.**
+**À la fin de chaque vidéo, sketch, storytime ou actu, une seconde après la chute : un carton noir,
+muet, avec sa note en vert lime.**
 
 ```
-TAUX DE MYTHO
-      9/10
+VERDICT
+  9/10
 ```
 
+- **Sur tout** : le mec du sketch, l'actu du jour, et **lui-même** dans ses storytimes. C'est le fil
+  rouge qui fait qu'une vidéo de lui se reconnaît, quel que soit le format.
 - **Il ne la dit pas, il ne la joue pas** : c'est une incrustation au montage. Zéro geste en plus au
   tournage, donc compatible avec « narrateur, pas acteur ».
-- **Le même carton que Bakhal Man**, où il est tenu à la main. Au bout de dix vidéos, le carton = Nabil,
-  dans le solo comme dans le duo.
-- **Il fabrique le commentaire** : les gens contestent la note (« il mérite 10 », « 9 c'est gentil »).
-  C'est le levier « le public fournit l'épisode suivant » de `FORMATS.md`.
-- Applicable **tout de suite** aux montages déjà livrés (MMA de salon, Business Bro, T'inquiète).
+- **Le même carton que Bakhal Man**, où il est tenu à la main. Dans les vidéos de mytho, le carton peut
+  dire « TAUX DE MYTHO » au lieu de « VERDICT ».
+- **Il fabrique le commentaire** : les gens contestent la note. C'est le levier « le public fournit
+  l'épisode suivant » de `FORMATS.md`.
+- Applicable **tout de suite** aux montages déjà livrés.
 - Une seconde maximum, pour ne pas casser la boucle.
 
 **Comment on saura si ça marche** : à la 10e vidéo, compter les commentaires qui citent la note. Si
@@ -145,4 +180,4 @@ Le compte se crée avec la vraie localisation : la Belgique.
 2. Tester les pseudos dans l'ordre du §2, prendre le premier libre sur TikTok **et** Instagram.
 3. Mettre le nom affiché « Nabil » et la bio du §3.
 4. Envoyer le pseudo pris et une photo de profil (de jour, fond uni, sans sourire).
-5. De notre côté : le carton de fin posé sur les montages mytho déjà livrés, et l'ordre de sortie.
+5. De notre côté : la note de fin posée sur les montages déjà livrés, et l'ordre de sortie.

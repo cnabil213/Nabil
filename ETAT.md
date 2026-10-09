@@ -40,10 +40,11 @@ dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
 ## 🏷️ Branding TikTok (09/10) → [`phase-1-solo/12-branding-tiktok.md`](phase-1-solo/12-branding-tiktok.md)
 
 **Proposé, pas encore validé par Nabil.** Nouveau compte, basé en Belgique, part de 0 ; TikTok d'abord,
-Instagram ensuite, pas YouTube. Positionnement : **« Nabil démasque les mythos que t'as tous autour de
-toi. »** Pseudo recommandé **@cnabil** (4 replis dans l'ordre), nom affiché « Nabil ». Signature : le
-**carton de fin « TAUX DE MYTHO x/10 »**, muet, incrusté au montage. Pas de faux pays pour la
-monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
+Instagram ensuite, pas YouTube. **Compte centré sur sa personne** (il l'a précisé le 09/10) : sketchs,
+storytime, actu. Positionnement : **« Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il
+dit le verdict que personne n'ose dire. »** Pseudo recommandé **@cnabil**, nom affiché « Nabil ». Fil
+rouge entre les formats : **la note de fin « VERDICT x/10 »**, muette, incrustée au montage, sur tout,
+lui compris. Pas de faux pays pour la monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
 
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 

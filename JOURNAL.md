@@ -6,6 +6,27 @@
 
 ---
 
+## 09/10/2026 (suite 2) — Le branding recadré : un compte centré sur Nabil
+
+Nabil, quelques minutes après la première version : « je veux que dans mon contenu je puisse tout
+faire. L'actualité, une story time, un sketch. Que les gens me suivent pour moi. »
+
+**Décidé (proposé, à valider)**
+
+- Le mytho n'est plus le thème du compte, c'est un angle. Positionnement : « Nabil raconte tout ce qu'il
+  voit, les gens, sa vie, l'actu, et il dit le verdict que personne n'ose dire. »
+- Bio : « Je raconte tout ce que je vois. Même sur moi. / 🇧🇪 Sady me doit 8 € » (67 caractères).
+- Signature : la note de fin devient « VERDICT x/10 », posée sur **tous** les formats, lui compris dans
+  ses storytimes. C'est le fil rouge commun.
+- Ordre : sketchs prêts d'abord, storytime vers la 5e vidéo, actu en dernier et légère (pas de
+  politique, religion, guerre ni faits divers graves : risque de restriction).
+
+**Appris**
+
+- Dit franchement à Nabil : à 0 abonné, TikTok pousse une vidéo, pas une personne. Le « pour moi » se
+  gagne par la répétition d'un mec reconnaissable : même cadre, même attitude, même fin, une bande
+  récurrente (Sady, les 8 €), des réponses aux commentaires, les LIVE.
+
 ## 09/10/2026 (suite) — Le branding TikTok
 
 Nabil : « Je veux que Nabil soit connu. La révélation humoristique de Belgique l'année prochaine. »
