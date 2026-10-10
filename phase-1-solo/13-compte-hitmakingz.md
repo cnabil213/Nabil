@@ -12,7 +12,7 @@
 | Créé le | **24/12/2021** |
 | Abonnés | **12 700** · abonnements 14 · J'aime 378 300 |
 | Vidéos publiques | **5**, toutes publiées entre le **25/12/2021 et le 17/01/2022** (23 jours) |
-| Dernière publication | 17/01/2022 : **3 ans et 9 mois de silence** |
+| Dernière publication | 17/01/2022 : **4 ans et 9 mois de silence** |
 | Pseudo | jamais changé depuis la création → modifiable |
 | Nom affiché | « CHARGEMENT ⏳ 60% », bio vide |
 
@@ -40,7 +40,7 @@ capture envoyée par Nabil). **77 % des vues viennent d'une seule vidéo**, la p
 
 **Contre (déduit, pas mesuré)**
 
-- **Ces gens ne le suivent pas, lui.** Ils ont suivi une vidéo de quelqu'un d'autre il y a quatre ans.
+- **Ces gens ne le suivent pas, lui.** Ils ont suivi une vidéo de quelqu'un d'autre il y a presque cinq ans.
   Beaucoup ne sont plus actifs ou ne reconnaîtront rien.
 - **Le ratio vues / abonnés partira bas.** Une marque qui calcule l'engagement sur 12 700 verra un
   compte qui engage peu au début.
@@ -65,5 +65,5 @@ pas des critères directs de la recommandation (TikTok Newsroom, « How TikTok r
    contre « Pour toi ». Si les anciens abonnés ne regardent pas, c'est sans effet ; c'est le « Pour toi »
    qui fait la croissance.
 
-**Une idée de première vidéo qui sort de là** : « 12 700 personnes me suivent depuis quatre ans. Aucune
+**Une idée de première vidéo qui sort de là** : « 12 700 personnes me suivent depuis presque cinq ans. Aucune
 ne connaît ma tête. » Ça transforme le défaut du compte en hook.
