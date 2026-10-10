@@ -287,6 +287,15 @@ Le stock : **6 vidéos prêtes** (7 fichiers, « T'inquiète » existe en deux m
 Par défaut je prends **la version 1080p de T'inquiète** (34,7 s) : c'est la plus nette. Si tu préfères
 la tienne (46 s), tu remplaces, c'est ton fichier.
 
+**⚠️ Le bon fichier de T'inquiète.** Sur la branche par défaut du dépôt GitHub
+(`claude/nabil-content-strategy-2025-ihrj59`), le fichier `livraisons/15sept-tinquiete-HQ.mp4` est
+**l'ancienne version 720p de 36,7 s** (28,5 Mio), sous le même nom. La version 1080p de 34,7 s
+(78,1 Mio) n'est que sur les branches `claude/project-thread-*`. Vérifié le 10/10 (tailles des fichiers
+sur les deux branches). Lien direct vers la bonne :
+https://github.com/cnabil213/Nabil/raw/claude/project-thread-hzlxyx/livraisons/15sept-tinquiete-HQ.mp4
+**Contrôle sur ton téléphone : le fichier doit faire environ 78 Mo et durer 34 s.** S'il fait 29 Mo et
+37 s, c'est le mauvais.
+
 **Envoyer un rush** : jamais par le chat (plafond 30 Mo). Vidéo originale sur Google Drive ou iCloud
 Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/README-envoyer-un-rush.md`).
 
