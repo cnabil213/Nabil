@@ -22,6 +22,9 @@
   pas de renommage tant que le connecteur n'y a pas accès.
 - Les .mov du Drive sont des **exports CapCut** (`TEEditor`, `DreaminaMetaInfo`), pas des originaux ;
   les trois tier lists du 14/09 y sont en **540×960**.
+- **Erreur de rangement corrigée** : j'avais classé les exports CapCut comme rushs. Un export CapCut =
+  un montage de Nabil. Ne jamais déduire l'état d'une vidéo de ses métadonnées seules : demander, ou
+  mesurer (coupes franches, durée par rapport au rush).
 - `faster-whisper` installé par pip casse sur `av` récent (`metadata_errors`) : passer un tableau numpy
   lu depuis un wav extrait par ffmpeg.
 

@@ -107,3 +107,17 @@ Les 4 vidéos arrivées après le premier inventaire :
 
 Convention pour la suite : `date-de-tournage_format_sujet_état`, état = `export` (CapCut), `rush`
 (original iPhone), `monte-…` (fini). Une vidéo publiée passe dans `3-publiés`.
+
+## 6. Correction (10/10, 14:06) : les exports CapCut sont TES montages
+
+**Erreur de classement.** J'avais rangé les 6 exports CapCut du 17/09 et du 09/10 dans `1-rushs` en
+partant du principe qu'« export CapCut » voulait dire « rush pas encore monté ». C'était une
+supposition, pas une mesure : un export CapCut, c'est une vidéo que Nabil a **montée lui-même**.
+Nabil les a déplacés dans `2-montés` ; je les ai renommés `…_monte-capcut.mov`.
+
+Le §2 (« les 4 solos du 17/09 ne sont pas encore montés ») et le §4 sont donc à lire autrement : le
+rapport coach sur « arrêté de fumer » porte sur **son montage**, pas sur un rush. Les conseils restent
+valables (couper après « comment tu vas faire ? », resserrer 5-15 s).
+
+Les 5 tier lists du 14/09 restent dans `1-rushs` : Nabil ne les a pas montées. Elles sont quand même
+passées par CapCut (métadonnées) et en sont ressorties en 540p.
