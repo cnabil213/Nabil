@@ -81,6 +81,10 @@ Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
   la case « le Belge ». Test ajouté au §3 : un Marseillais et un Bruxellois comprennent la vanne sans
   explication.
 
+- **« C'est pas l'actu, c'est la trend. »** (12h55) Nabil ne traite pas l'actualité, il n'est pas
+  journaliste : il reprend ce qui marche sur TikTok, X et Instagram, à sa sauce, au second degré. Le
+  mot « actu » est retiré du plan, remplacé par « trend » (§3 ter, §5 bis).
+
 **Appris**
 
 - Nabil : « j'ai l'impression qu'on avance à l'aveugle ». Le plan existait mais n'était pas relié à

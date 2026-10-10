@@ -95,7 +95,7 @@ après 14h · semaine du 19/10 en 14h-22h → tu tournes avant 14h · week-ends 
 > « le Belge qui fait le Belge », elle ne sort pas. Écartés pour cette raison le 10/10 : le stitch
 > « Réponse d'un Belge » et le sketch « Le Belge de mauvaise foi ».
 
-Tu veux pouvoir tout faire : storytime, actu, sketch. D'accord, mais **un compte neuf qui fait tout dès
+Tu veux pouvoir tout faire : storytime, trend, sketch. D'accord, mais **un compte neuf qui fait tout dès
 le jour 1 n'est rien pour personne**. Le spectateur doit pouvoir dire en une phrase pourquoi il te
 suit. Ce qui relie tous les formats, c'est toi : **ta voix de narrateur et ton apostrophe** (« frère,
 redescends sur terre »). C'est la constante. Le format change, le mec qui parle ne change pas.
@@ -107,7 +107,7 @@ redescends sur terre »). C'est la constante. Le format change, le mec qui parle
 | **Sketch solo** « on a TOUS ce pote qui… » | **3** | Le rire de reconnaissance, le partage (« c'est toi ») | `10-scripts-narrateur-17-09.md`. 35 à 60 s. Narrateur, jamais acteur |
 | **Storytime** (ta vraie vie) | **2** | **L'attachement à ta personne.** C'est le format qui fait s'abonner à un humain, pas à un concept 🔸 | §3 bis ci-dessous. 45 à 75 s |
 | **Duo avec Sady** (Bakhal Man, Le Journaliste, Note cachée, tier list) | **1** | Une audience déjà là (Sady, médiane 38 K ✅), et le format qui se renouvelle tout seul | `FORMATS.md`. Sady tagué, il reposte |
-| **Actu / ton avis** | **1** | Montre que t'as un avis : on suit quelqu'un qui pense, pas seulement qui vanne | §3 ter ci-dessous. Tourné le jour même |
+| **La trend, à ta sauce** | **1, plus si une trend explose** | Tu surfes sur ce dont tout le monde parle cette semaine, avec ton angle : c'est la porte d'entrée la plus large vers des inconnus | §3 ter ci-dessous. Tourné le jour même |
 
 Les semaines 1 et 2 vident d'abord le stock (6 vidéos prêtes, toutes des sketchs ou des duos), donc
 le mix y est plus chargé en sketch. **Ensuite, c'est la règle des 10 vidéos qui décide** (§6), pas ce
@@ -133,15 +133,24 @@ l'événement jeune entrepreneur du 26/09 · ton ancienne vie de rappeur, si ell
 l'a noté, tu ne l'as jamais confirmé). **Montpellier est réservé à Bakhal Man ép. 2** : on ne le grille
 pas en solo.
 
-### 3 ter. L'actu, sans te faire restreindre
+### 3 ter. La trend, à ta sauce (pas l'actu)
 
-- **Une par semaine maximum**, publiée **dans les 24 h** de l'actu, sinon elle ne sert plus à rien.
-- **Que du léger** : foot, buzz du moment, une pub, un people, un fait divers absurde, compris partout en francophonie.
+> Corrigé le 10/10 par Nabil : « Je suis pas un journaliste. Je traite pas l'actualité. C'est pas
+> l'actu, c'est la trend. » Le mot du plan est donc **trend**, plus jamais « actu ».
+
+- **Ce que c'est** : ce qui marche en ce moment sur TikTok, X (Twitter) et Instagram. Un son, un
+  format, une phrase qui tourne, un débat du moment, un buzz. Parfois c'est lié à un événement, mais
+  **tu ne le traites jamais comme une info** : tu le reprends au second degré, avec ton angle.
+- **La méthode** : voir ce qui marche, puis le refaire **à ta sauce**. Ta sauce, c'est ta voix de
+  narrateur, ton apostrophe (« frère, redescends ») et ton verdict. Si la vidéo serait la même faite
+  par n'importe qui, c'est une copie : elle ne sort pas.
+- **Le timing** : une trend vit quelques jours. Elle se tourne et se publie **le jour où on la repère**.
+- **Arriver deuxième sur la même vanne, c'est être la copie.** Si quelqu'un a déjà fait ton angle
+  cette semaine, on cherche un autre angle ou on passe.
 - **Jamais** : politique, religion, drame, faits divers avec victimes, une personne réelle qu'on
   humilie (ta règle : la tension, jamais l'humiliation). 🔸 Ce sont aussi les sujets qui font limiter
   la distribution d'un compte neuf.
-- Forme : ton avis tranché en 30 à 40 s. Hook = ton verdict, pas l'info (« Le transfert de X, c'est
-  une arnaque, et je vais te le prouver »).
+- Le test de toute vidéo s'applique : un Marseillais et un Bruxellois comprennent sans explication.
 
 ---
 
@@ -193,15 +202,17 @@ la semaine + une capture par vidéo). Je calcule, je classe, je te dis quoi tour
 
 ---
 
-## 5 bis. La veille du matin (depuis le 10/10, chaque jour à 7h26)
+## 5 bis. Le dénicheur de trends (veille du matin, chaque jour à 7h26)
 
 Elle tourne dans le fil « Connecter Claude à TikTok » : chaque matin, environ 50 vidéos francophones des
 dernières 24 h, aspirées depuis la Belgique (scraper Apify, 8 à 10 $ par mois, ok de Nabil le 10/10).
+Le fil « Dénicheur d'idées » cherche en plus du côté de X (Twitter) et d'Instagram. Nabil, le 10/10 :
+« les tendances qu'il y a sur Twitter, sur TikTok, sur Insta. C'est ça le travail du dénicheur. »
 **Elle ne sert pas à copier. Elle nourrit trois cases du plan :**
 
 | Ce qu'elle cherche | Pour quelle case du mix (§3) | Ce que tu reçois |
 | :--- | :--- | :--- |
-| **Un buzz léger qui cartonne en francophonie depuis moins de 24 h, sur un angle que personne n'a encore pris** | L'actu (1 par semaine, plus si la veille trouve) | Une idée **stitch** à tourner le jour même. Rien de chaud → « pas d'actu aujourd'hui », on ne force pas |
+| **Une trend qui monte en francophonie depuis moins de 24 h** (son, format, phrase, débat), sur un angle que personne n'a encore pris | La trend (§3 ter) | Une idée **stitch ou trend à ta sauce** à tourner le jour même. Rien de chaud → « pas de trend aujourd'hui », on ne force pas |
 | **Le type de personne qui revient dans les vidéos les plus partagées**, et qui n'est pas déjà usé | Les 3 sketchs de la semaine | Une idée **sketch** écrite (hook, escalade, chute), passée au filtre des interdits |
 | **La durée et la forme qui font le plus de partages** (face caméra, stitch, duo) | Les réglages de §4 | Une ligne de chiffres, pour corriger le plan quand le terrain bouge |
 
@@ -270,11 +281,15 @@ On ne fait **rien de spécifique** pour Instagram avant 10 000 abonnés TikTok :
 
 > **Mis à jour le 10/10.** Le compte n'existe pas encore : on démarre **ce week-end** au lieu du
 > lundi. Les deux idées France-Belgique de la veille du 10/10 sont **écartées** (cible francophone,
-> §3) : à leur place, l'actu du jour que la veille de dimanche 7h26 remontera.
+> §3) : à leur place, la trend du jour que le dénicheur de dimanche 7h26 remontera.
 
 Le stock : **6 vidéos prêtes** (7 fichiers, « T'inquiète » existe en deux montages) dans `livraisons/`.
 Par défaut je prends **la version 1080p de T'inquiète** (34,7 s) : c'est la plus nette. Si tu préfères
 la tienne (46 s), tu remplaces, c'est ton fichier.
+
+**⚠️ Le bon fichier de T'inquiète** : la version 1080p de 34,7 s, environ 78 Mo. Sur la page
+d'accueil du dépôt GitHub, le fichier du même nom est l'ancien montage 720p (29 Mo, 37 s). Le lien
+à utiliser est celui du kit du fil Community manager (`cm/kit-lancement.md` §2).
 
 **Envoyer un rush** : jamais par le chat (plafond 30 Mo). Vidéo originale sur Google Drive ou iCloud
 Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/README-envoyer-un-rush.md`).
@@ -284,16 +299,16 @@ Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/READ
 | Jour | Heure | À faire |
 | :--- | :-: | :--- |
 | **Sam. 10/10** | dans la journée | **Créer le compte** (§1, pseudo et bio du fil Branding). Réserver le nom sur Instagram. 20 min de commentaires sur des comptes humour FR/BE |
-| | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. Légende : « Il a qu'un seul mot. Même en garde à vue. » + « identifie-le » |
-| **Dim. 11/10** | 7h26 | La veille du matin tombe : s'il y a une actu francophone chaude, elle passe en tête du tournage |
-| | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① l'actu de la veille, s'il y en a une · ② le pote au volant · ③ le pote qui a jamais perdu · ④ le père au téléphone (`10-scripts-narrateur-17-09.md`) · ⑤⑥ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
+| | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. **Fichier, légende, hashtags, couverture et premier commentaire : le kit du fil Community manager** (`/mnt/project-files/cnabil/cm/kit-lancement.md` §2), c'est lui qui fait foi pour le lancement |
+| **Dim. 11/10** | 7h26 | Le dénicheur tombe : s'il y a une trend chaude, elle passe en tête du tournage |
+| | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① la trend du dénicheur, s'il y en a une · ② le pote au volant · ③ le pote qui a jamais perdu · ④ le père au téléphone (`10-scripts-narrateur-17-09.md`) · ⑤⑥ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
 | | 19h | **V2 · Business Bro** (stock). Légende : « Il diversifie ses actifs. Son frigo, c'est un demi-citron. » |
 
 ### Semaine 1 — du 12 au 18/10 (tu bosses 6h-14h, publication à 19h00)
 
 | Jour | Heure | Vidéo | Légende (le titre qui promet) |
 | :--- | :-: | :--- | :--- |
-| **Lun. 12/10** | 19h | **V3 · L'actu tournée dimanche**, si elle tient encore. Sinon **L'otage du téléphone** (stock) | Ton verdict en hook |
+| **Lun. 12/10** | 19h | **V3 · La trend tournée dimanche**, si elle tient encore. Sinon **L'otage du téléphone** (stock) | Ton angle en hook |
 | **Mar. 13/10** | 19h | **V4 · Tier list foot** avec Sady (stock), Sady tagué, il reposte | La note la plus scandaleuse de la vidéo + « venez nous insulter » (jamais « tier list foot ») |
 | **Mer. 14/10** | 19h | **V5 · Storytime #1** (tournage #1) : le premier où on te découvre, toi | Le détail le plus absurde de l'histoire. Carton de fin : ta note sur toi-même |
 | **Jeu. 15/10** | 19h | **V6 · MMA de salon** (stock) | « Il fait du shadow boxing en attendant que les pâtes cuisent. » |
@@ -313,12 +328,12 @@ Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/READ
 | **Jeu. 22/10** | 10h-12h | **TOURNAGE #3, solo** : 3 sketchs (les types de personne remontés par la veille) + 1 storytime + 1 réponse en vidéo à un commentaire | Avant ton poste |
 | | 19h | **V13 · Le Journaliste « après le kebab »** (tournage #2) | « Ses impressions après le kebab. » |
 | **Ven. 23/10** | 19h | **V14 · Storytime #2** (tournage #1) | |
-| **Sam. 24/10** | 12h | **V15 · Actu de la semaine**, l'idée stitch ou actu de la veille du matin, tournée le jour même | Ton verdict en hook |
+| **Sam. 24/10** | 12h | **V15 · Trend de la semaine**, l'idée du dénicheur, tournée le jour même | Ton angle en hook |
 | **Dim. 25/10** | 12h | **V16 · La Note cachée fast-foods** avec Sady (tournage #2) | Heure d'hiver cette nuit |
 | | 20h | **BILAN S2** → la répartition de la semaine 3 | Stock restant : le tournage #3 = 5 vidéos ✅ |
 
 **Le montage** : chaque rush doit être monté dans les 48 h qui suivent le tournage, et le jour même
-pour une actu. Soit tu montes toi-même (tu le fais déjà), soit tu m'envoies les rushs et je monte
+pour une trend. Soit tu montes toi-même (tu le fais déjà), soit tu m'envoies les rushs et je monte
 (skill `montage`, un seul encodage, livraison dans `livraisons/`).
 
 ---
