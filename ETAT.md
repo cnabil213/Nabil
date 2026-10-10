@@ -76,9 +76,8 @@ lui compris. Pas de faux pays pour la monétisation : l'argent passe par les mar
 ## 📱 Le compte : @hitmakingz plutôt qu'un neuf ? (10/10) → [`phase-1-solo/strategie/07-compte-hitmakingz.md`](phase-1-solo/strategie/07-compte-hitmakingz.md)
 
 Nabil a un vieux compte de mèmes, **@hitmakingz : 12 700 abonnés**, 5 reposts de micro-trottoirs
-(déc. 2021–janv. 2022), muet depuis 4 ans et 9 mois. **Avis : oui, on part de là, si le statut du compte
-est propre** (capture « Statut du compte » demandée). Puis vidéos en privé, pseudo/nom/bio changés.
-**Décision à Nabil.**
+(déc. 2021–janv. 2022), muet depuis 4 ans et 9 mois. **Vérifié le 10/10 : compte propre, 7/7 contrôles verts → on
+part de là.** Reste : vidéos en privé, pseudo (@cnabil.tv si libre sur Insta), nom « Nabil », bio, photo.
 
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 
