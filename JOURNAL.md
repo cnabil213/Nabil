@@ -6,6 +6,113 @@
 
 ---
 
+## 10/10/2026 (suite) — Les relances, case fixe de chaque fiche
+
+**Décidé par Nabil (10/10, 14h17)** : chaque vidéo préparée arrive avec son hook écrit **et des
+phrases drôles sur lesquelles rebondir**. Case ⑧ ajoutée à la fiche, remplie pour les trois sketchs
+du tournage #1 (4 relances chacun), dites à la fin du fichier « hooks » pour être montables sans
+retourner. Écrites d'après les scripts validés du dépôt ; ses vidéos du Drive n'ont pas été vues.
+
+---
+
+## 10/10/2026 (suite) — Les sources du Dénicheur ouvertes une par une
+
+**Fait** : les quatre sources du classement téléchargées (yt-dlp, API de syndication de X) et
+regardées en entier : coupes de plan mesurées (ffmpeg, seuil de scène), voix transcrite
+(faster-whisper), image la plus nette choisie par variance du laplacien. Captures recadrées dans
+`/mnt/project-files/cnabil/coach-tournage/fond-vert/`.
+
+**Appris** : deux miniatures sur quatre trompaient. La vidéo jointe au « menu à 15 balles » montre
+des tirs d'armes à feu ; le faux Mbappé tient un pistolet. Et l'Akatsuki n'a **aucune cape visible** :
+le script disait le contraire. Une trouvaille jugée sur sa miniature est non vérifiée.
+
+---
+
+## 10/10/2026 (suite) — La réaction fond vert
+
+**Fait** : section 4 de `13-coach-tournage.md`. Règle photo / vidéo, choix de l'extrait (mesuré sur la
+source, jamais de tête), tournage en app Caméra sans l'effet TikTok, cadre plus bas. Lot 2 du
+Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
+
+**Décidé (à confirmer par Nabil)** : la fausse vidéo IA de Mbappé ne s'affiche pas, même floutée.
+
+**Vérifié** : la superposition d'une capture sur une vidéo 1080×1920 fonctionne (ffmpeg, 10/10).
+**Non vérifié** : le détourage pour un vrai fond derrière lui (mediapipe absent du conteneur).
+
+---
+
+## 10/10/2026 — Coach tournage : préparer pour ne jamais refaire
+
+**Fait**
+
+- `phase-1-solo/13-coach-tournage.md` : la fiche de préparation (à remplir la veille), le protocole
+  sur place, et les fiches du tournage #1 (pote au volant, pote qui a jamais perdu, père au
+  téléphone), plus la fiche express de l'actu et six questions pour que Nabil raconte ses storytimes.
+
+**Appris (mesuré, mots du script ÷ 3,23 mots/s)**
+
+- Les trois sketchs « définitifs » du 17/09 font **65 à 70 s** montés, au-dessus des 35-60 s du plan.
+  Hooks : 5,9 s (volant), 5,0 s (jamais perdu), 3,4 s (père). Scripts non réécrits : un hook B à
+  tourner en plus et un bloc coupable désignés par vidéo, choix au montage.
+- Chaque chute est un **rappel** d'un bloc précédent (l'agneau, le débrief, « comme ça ») : ce bloc
+  est le maillon qu'on ne coupe jamais. Leçon Business Bro appliquée avant le tournage, pas après.
+- Ce qui a fait perdre des prises jusqu'ici (prémisse coupée, négation ratée, ventre à −8 dB,
+  720p de nuit) se corrige **avant** ou **sur place** : 3 fichiers par vidéo (intégrale, hooks,
+  chutes) et un contrôle de 2 minutes avant de démarrer le moteur.
+
+---
+
+## 10/10/2026 — Le plan recalé : démarrage ce week-end, veille du matin branchée dessus
+
+**Fait**
+
+- `12-plan-croissance-100k.md` mis à jour : le compte n'est pas encore créé, et la veille du 10/10 a
+  trouvé une tendance France-Belgique qu'aucun Belge n'a prise. Le lancement passe au week-end
+  (V1 samedi ou dimanche 19h, stitch « Réponse d'un Belge » le dimanche), le stock glisse de deux
+  jours, 16 vidéos au 25/10 au lieu de 14.
+- Nouvelle section §5 bis : ce que la veille de 7h26 cherche (actu < 24 h non prise par un Belge,
+  type de personne qui revient dans les plus partagées, durée et forme qui font partager) et à quelle
+  case du mix chaque idée sert. Metricool pour les stats, captures TikTok Studio pour la rétention.
+
+**Décidé par Nabil (10/10, 12h43)**
+
+- **Cible : toute la francophonie**, « de Bruxelles à Marseille ». Pas d'angle belge. Le stitch
+  « Réponse d'un Belge » et le sketch « Le Belge de mauvaise foi » sont écartés : ils le rangent dans
+  la case « le Belge ». Test ajouté au §3 : un Marseillais et un Bruxellois comprennent la vanne sans
+  explication.
+
+**Appris**
+
+- Nabil : « j'ai l'impression qu'on avance à l'aveugle ». Le plan existait mais n'était pas relié à
+  la veille ni validé par lui. Un outil sans case dans le plan, c'est ça qu'il appelle avancer à l'aveugle.
+
+## 09/10/2026 (suite) — Le plan de croissance 0 → 100 K
+
+**Fait**
+
+- Plan d'exécution complet : [`phase-1-solo/12-plan-croissance-100k.md`](phase-1-solo/12-plan-croissance-100k.md).
+  Rythme, mix de formats, règles de hook, routine quotidienne, seuils par vidéo, et les deux
+  premières semaines jour par jour (12/10 → 25/10), stock d'abord, puis trois tournages.
+
+**Décidé (par défaut, à faire confirmer)**
+
+- Échéance **31/01/2027**, pas le 09/01 : c'est ce que Nabil a écrit (« fin janvier »).
+- T'inquiète sort en version 1080p (la plus nette) ; L'otage du téléphone passe en dernier du stock.
+- Sous-titres automatiques de TikTok dès le départ, en attendant qu'il tranche la question de la DA.
+- Instagram à partir du 26/10, en repost du fichier de `livraisons/`.
+
+**Appris**
+
+- Au niveau de Sady (38 K de médiane) sur 112 vidéos, on finit vers 21 à 42 K abonnés (hypothèse de
+  conversion 0,5 à 1 %). Les 100 K se jouent sur 4 à 8 vidéos au-delà du million : d'où le volume et
+  la règle « suite dans les 48 h » quand une vidéo fait 10 fois la médiane.
+- TikTok (page officielle) : ni le nombre d'abonnés ni les vidéos passées ne sont des facteurs directs,
+  et le pays est un signal faible. Un compte belge touche la France.
+- Creator Rewards : aucune source ne liste la Belgique. On ne rallonge pas les vidéos au-delà d'une
+  minute pour une monétisation qu'il ne touchera peut-être pas.
+
+---
+
 ## 10/10/2026 (suite 3) — Repartir de @hitmakingz (12 700 abonnés) ?
 
 Nabil propose de repartir d'un vieux compte de mèmes au lieu d'un compte neuf.
