@@ -77,7 +77,7 @@ lui compris. Pas de faux pays pour la monétisation : l'argent passe par les mar
 
 Nabil a un vieux compte de mèmes, **@hitmakingz : 12 700 abonnés**, 5 reposts de micro-trottoirs
 (déc. 2021–janv. 2022), muet depuis 4 ans et 9 mois. **Vérifié le 10/10 : compte propre, 7/7 contrôles verts → on
-part de là.** Reste : vidéos en privé, pseudo **@cnabil_213** (repris du compte rap, qu'il renomme ; même pseudo que son Insta), nom « Nabil », bio, photo.
+part de là.** Reste : vidéos en privé, pseudo **@cnabil_213** (compte rap renommé le 10/10, mais TikTok garde cnabil_213 en réserve : Nabil réessaie chaque jour), nom « Nabil », bio, photo.
 
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 

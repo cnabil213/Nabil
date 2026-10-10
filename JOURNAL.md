@@ -6,6 +6,15 @@
 
 ---
 
+## 10/10/2026 (suite 6) — cnabil_213 refusé : TikTok garde l'ancien pseudo en réserve
+
+Le compte rap a été renommé (page @cnabil_213 introuvable, vérifié), mais @hitmakingz ne peut pas prendre
+cnabil_213 tout de suite. **Appris** : TikTok réserve un pseudo abandonné pendant une durée non publiée, et
+cette réserve est invisible de l'extérieur : je ne peux pas surveiller sa libération, seul l'essai de Nabil
+le dit. Je l'avais promis à tort, corrigé dans le fil.
+
+---
+
 ## 10/10/2026 (suite 5) — Le pseudo : @cnabil_213, repris du compte rap
 
 Nabil propose de renommer son compte rap et de donner @cnabil_213 à @hitmakingz. Retenu : il possède déjà

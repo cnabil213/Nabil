@@ -125,6 +125,12 @@ Ordre : (1) renommer le compte rap (ex. @cnabil.archives), (2) tout de suite apr
 @cnabil_213. **Non confirmé** : le délai avant que TikTok libère un ancien pseudo (témoignages de
 quelques heures à 30 jours, aucun chiffre officiel). Chaque compte renommé est ensuite bloqué 30 jours.
 
+**Mesuré le 10/10 à 16:51** : le compte rap a bien changé de pseudo (la page `tiktok.com/@cnabil_213` est
+introuvable), mais @hitmakingz se voit refuser cnabil_213 (« Mise à jour du nom d'utilisateur impossible »).
+TikTok garde donc un ancien pseudo en réserve après un changement. Durée inconnue ; **un pseudo réservé et
+un pseudo libre sont identiques vus de l'extérieur** : seul un essai dans l'app tranche. Consigne : réessayer
+une fois par jour, ne pas accepter les suggestions (cnabil_2133…), faire le reste du profil en attendant.
+
 **Instagram : non vérifié.** Instagram refuse toute consultation sans être connecté. À tester dans
 l'app, dans l'ordre du tableau, avant de créer le compte TikTok : on prend le premier libre **des deux
 côtés**.
