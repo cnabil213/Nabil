@@ -15,7 +15,7 @@
 
 ## 1. Le positionnement, en une phrase
 
-**Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il dit le verdict que personne n'ose
+**Nabil raconte tout ce qu'il voit, les gens, sa vie, les trends, et il dit le verdict que personne n'ose
 dire.**
 
 > Corrigé le 09/10, le jour même. La première version (« Nabil démasque les mythos ») faisait du
@@ -31,7 +31,10 @@ que tout le monde a remarqué »), élargie à trois terrains :
 | :--- | :--- | :--- |
 | **Les gens** (sketch) | Il raconte un type de personne et rend le verdict | 4 solos montés, ~20 scripts |
 | **Sa vie** (storytime) | Il raconte ce qui lui est arrivé, et il est le premier à se juger | Montpellier (écrit pour Bakhal Man) |
-| **L'actu** | Il donne son verdict sur ce dont tout le monde parle | rien |
+| **Les trends** | Il reprend ce qui tourne sur TikTok, X, Insta, à sa sauce, au second degré | rien |
+
+> **Pas d'actu (Nabil, 10/10 12:55, relevé dans la mémoire du projet) :** « je suis pas un journaliste… c'est la
+> trend ». L'actu est remplacée par les trends partout dans ce fichier.
 
 Le storytime est le terrain le plus naturel pour lui : c'est exactement la règle « narrateur, pas
 acteur ». Il parle, il ne joue pas.
@@ -48,7 +51,7 @@ Donc, dans l'ordre :
 1. **Varié, oui. Méconnaissable, non.** Le format peut changer, le mec ne change pas : même cadre,
    même voix, même attitude (il ne rit pas de ses propres vannes), **même fin**. Celui qui tombe sur
    sa troisième vidéo doit le reconnaître en deux secondes, que ce soit un storytime ou un sketch.
-2. **Un fil rouge commun à tous les formats** : la note de fin (§5). Sketch, storytime, actu : chaque
+2. **Un fil rouge commun à tous les formats** : la note de fin (§5). Sketch, storytime, trend : chaque
    vidéo finit par son verdict sur 10. C'est le seul élément qui traverse tout.
 3. **Des gens récurrents.** Sady, et les 8 euros qu'il doit. Plus tard ceux de sa vie (le boulot en
    2×8, la famille) s'il veut. Le public s'attache à une bande, pas à un format.
@@ -58,13 +61,12 @@ Donc, dans l'ordre :
 5. **Répondre aux commentaires en vidéo**, et passer en LIVE dès que c'est ouvert (1 000 abonnés).
    C'est là que les gens parlent à la personne, pas au contenu.
 6. **L'ordre de sortie.** D'abord ce qui est prêt (les sketchs montés), le storytime dès la 5e vidéo
-   environ, l'actu en dernier. Ce ne sont pas des goûts : **la règle des 10 vidéos tranche** quel
+   environ, les trends en dernier. Ce ne sont pas des goûts : **la règle des 10 vidéos tranche** quel
    terrain prend la moitié des suivantes.
 
-**L'actu, avec deux limites.** Elle meurt en 48 h, donc elle se tourne et se publie le jour même. Et
-pas de politique, de religion, de guerre ni de faits divers graves au début : la tier list sport a déjà
-été écartée pour risque de restriction du compte. Foot, people, culture, ce dont parlent les gens de
-son âge.
+**Les trends, avec une limite.** Elles meurent vite, donc elles se tournent et se publient dans la foulée. Et
+pas de sujet politique, religieux, de guerre ni de fait divers grave, même en trend : risque de restriction
+du compte (la tier list sport a déjà été écartée pour ça).
 
 ## 1 ter. Francophone, pas belge : la règle d'écriture qui va avec
 
@@ -73,7 +75,7 @@ Décision du 10/10. Une vanne doit marcher **de Bruxelles à Marseille** sans no
 - **Un mot ou une référence que seul un Belge comprend** (septante, une enseigne, une ligne de bus, un
   quartier) **ne porte jamais la vanne.** Il peut être là en décor ; si la chute repose dessus, on
   réécrit.
-- **L'actu** : celle dont parle toute la francophonie (foot, people, réseaux), pas l'actu belge.
+- **Les trends** : celles qui tournent dans toute la francophonie, pas une trend belge.
 - **Ton accent et ta façon de parler ne bougent pas.** On ne gomme pas qui tu es, on n'en fait juste
   pas le sujet.
 
@@ -176,7 +178,7 @@ sous-titres, le classement occupe l'écran.)
 
 ## 5. La signature récurrente : la note de fin
 
-**À la fin de chaque vidéo, sketch, storytime ou actu, une seconde après la chute : un carton noir,
+**À la fin de chaque vidéo, sketch, storytime ou trend, une seconde après la chute : un carton noir,
 muet, avec sa note en vert lime.**
 
 ```
@@ -184,7 +186,7 @@ VERDICT
   9/10
 ```
 
-- **Sur tout** : le mec du sketch, l'actu du jour, et **lui-même** dans ses storytimes. C'est le fil
+- **Sur tout** : le mec du sketch, la trend du jour, et **lui-même** dans ses storytimes. C'est le fil
   rouge qui fait qu'une vidéo de lui se reconnaît, quel que soit le format.
 - **Il ne la dit pas, il ne la joue pas** : c'est une incrustation au montage. Zéro geste en plus au
   tournage, donc compatible avec « narrateur, pas acteur ».
