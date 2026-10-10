@@ -18,6 +18,7 @@
 | **Le ventre mou.** La section du milieu retombe de **8 dB** et ralentit à **56 %** du débit | L'otage du téléphone | Le bloc du milieu a sa consigne de voix sur la fiche |
 | **L'image.** 720p (Snapchat) et une image sur deux floue (voiture, la nuit) | MMA de salon, 12/09 | App Caméra, de jour, garé : vérifié **avant** le premier mot |
 | **La redite non coupable.** Une phrase répétée sans silence autour ne se coupe pas | Business Bro (« s'immiscent » ×3) | Une phrase ratée se reprend **depuis son début**, après une respiration |
+| **La redite après la chute.** Chute dite à ~33 s, puis 13 s qui la répètent ; creux de 5 à 15 s sur quatre phrases de contexte | « Arrêté de fumer », montage CapCut de Nabil (analyse du 10/10, `02-drive-inventaire-et-coach-fumer.md`) | La chute est écrite **avant** ; tu t'arrêtes dès qu'elle est dite. **Une** phrase de contexte, pas quatre |
 | **Le bug en pleine prise.** 1 min 44 de rush pour 36,7 s gardées (65 % jeté) | T'inquiète | Les mots-clés par bloc sous les yeux, pas le texte entier en tête |
 
 ---
