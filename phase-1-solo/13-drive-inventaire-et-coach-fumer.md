@@ -90,3 +90,20 @@ pas quatre.
 *Limite : la transcription est automatique ; deux passages sont peut-être mal entendus (16-19 s,
 « il faut passer aux étudiants, aux commerciaux », et la dernière phrase). Les chiffres de rythme et de
 blanc, eux, ne dépendent pas de ça.*
+
+## 5. Rangement fait (10/10, 13:52, validé par Nabil)
+
+15 vidéos renommées et rangées, rien de supprimé. La racine du dossier ne contient plus que
+`1-rushs` (11 vidéos), `2-montés` (4) et `3-publiés` (vide).
+
+Les 4 vidéos arrivées après le premier inventaire :
+
+| Nouveau nom | Contenu (transcription) | Durée | Résolution |
+| :--- | :--- | ---: | :--- |
+| `2026-09-14_tier_red-flags-copine_sady_540p.mov` | Tier list des comportements de copine (elle check tes followers, elle veut te quitter à chaque dispute) | 101,7 s | 540×960 |
+| `2026-09-14_tier_rappeurs_sady_540p.mov` | Tier list rappeurs (Jul, Alonzo…) | 111,7 s | 540×960 |
+| `2026-09-17_solo_tinquiete_export.mov` | « T'inquiète », export CapCut d'une seule prise | 46,1 s | 720×1280 |
+| `2026-09-12_solo_casser-des-nuques_monte-HQ.mp4` | Notre montage livré « Casser des nuques » | 42,9 s | 720×1280 |
+
+Convention pour la suite : `date-de-tournage_format_sujet_état`, état = `export` (CapCut), `rush`
+(original iPhone), `monte-…` (fini). Une vidéo publiée passe dans `3-publiés`.
