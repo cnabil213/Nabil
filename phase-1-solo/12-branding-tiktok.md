@@ -15,7 +15,7 @@
 
 ## 1. Le positionnement, en une phrase
 
-**Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il dit le verdict que personne n'ose
+**Nabil raconte tout ce qu'il voit, les gens, sa vie, les trends, et il dit le verdict que personne n'ose
 dire.**
 
 > Corrigé le 09/10, le jour même. La première version (« Nabil démasque les mythos ») faisait du
@@ -31,7 +31,10 @@ que tout le monde a remarqué »), élargie à trois terrains :
 | :--- | :--- | :--- |
 | **Les gens** (sketch) | Il raconte un type de personne et rend le verdict | 4 solos montés, ~20 scripts |
 | **Sa vie** (storytime) | Il raconte ce qui lui est arrivé, et il est le premier à se juger | Montpellier (écrit pour Bakhal Man) |
-| **L'actu** | Il donne son verdict sur ce dont tout le monde parle | rien |
+| **Les trends** | Il reprend ce qui tourne sur TikTok, X, Insta, à sa sauce, au second degré | rien |
+
+> **Pas d'actu (Nabil, 10/10 12:55, relevé dans la mémoire du projet) :** « je suis pas un journaliste… c'est la
+> trend ». L'actu est remplacée par les trends partout dans ce fichier.
 
 Le storytime est le terrain le plus naturel pour lui : c'est exactement la règle « narrateur, pas
 acteur ». Il parle, il ne joue pas.
@@ -48,7 +51,7 @@ Donc, dans l'ordre :
 1. **Varié, oui. Méconnaissable, non.** Le format peut changer, le mec ne change pas : même cadre,
    même voix, même attitude (il ne rit pas de ses propres vannes), **même fin**. Celui qui tombe sur
    sa troisième vidéo doit le reconnaître en deux secondes, que ce soit un storytime ou un sketch.
-2. **Un fil rouge commun à tous les formats** : la note de fin (§5). Sketch, storytime, actu : chaque
+2. **Un fil rouge commun à tous les formats** : la note de fin (§5). Sketch, storytime, trend : chaque
    vidéo finit par son verdict sur 10. C'est le seul élément qui traverse tout.
 3. **Des gens récurrents.** Sady, et les 8 euros qu'il doit. Plus tard ceux de sa vie (le boulot en
    2×8, la famille) s'il veut. Le public s'attache à une bande, pas à un format.
@@ -58,13 +61,12 @@ Donc, dans l'ordre :
 5. **Répondre aux commentaires en vidéo**, et passer en LIVE dès que c'est ouvert (1 000 abonnés).
    C'est là que les gens parlent à la personne, pas au contenu.
 6. **L'ordre de sortie.** D'abord ce qui est prêt (les sketchs montés), le storytime dès la 5e vidéo
-   environ, l'actu en dernier. Ce ne sont pas des goûts : **la règle des 10 vidéos tranche** quel
+   environ, les trends en dernier. Ce ne sont pas des goûts : **la règle des 10 vidéos tranche** quel
    terrain prend la moitié des suivantes.
 
-**L'actu, avec deux limites.** Elle meurt en 48 h, donc elle se tourne et se publie le jour même. Et
-pas de politique, de religion, de guerre ni de faits divers graves au début : la tier list sport a déjà
-été écartée pour risque de restriction du compte. Foot, people, culture, ce dont parlent les gens de
-son âge.
+**Les trends, avec une limite.** Elles meurent vite, donc elles se tournent et se publient dans la foulée. Et
+pas de sujet politique, religieux, de guerre ni de fait divers grave, même en trend : risque de restriction
+du compte (la tier list sport a déjà été écartée pour ça).
 
 ## 1 ter. Francophone, pas belge : la règle d'écriture qui va avec
 
@@ -73,25 +75,63 @@ Décision du 10/10. Une vanne doit marcher **de Bruxelles à Marseille** sans no
 - **Un mot ou une référence que seul un Belge comprend** (septante, une enseigne, une ligne de bus, un
   quartier) **ne porte jamais la vanne.** Il peut être là en décor ; si la chute repose dessus, on
   réécrit.
-- **L'actu** : celle dont parle toute la francophonie (foot, people, réseaux), pas l'actu belge.
+- **Les trends** : celles qui tournent dans toute la francophonie, pas une trend belge.
 - **Ton accent et ta façon de parler ne bougent pas.** On ne gomme pas qui tu es, on n'en fait juste
   pas le sujet.
 
-## 2. Le pseudo — 5 choix, dans l'ordre
+## 2. Le pseudo — le choix final (10/10)
 
 **Nom affiché partout : `Nabil`. Rien d'autre**, pas d'emoji, pas de « humour ». C'est ce nom-là
-qu'on veut entendre dans la bouche des gens.
+qu'on veut entendre dans la bouche des gens. **Le même pseudo sur TikTok et sur Instagram.**
 
-Disponibilité **non vérifiée** (TikTok ne se consulte pas depuis ici). Tester dans l'ordre, prendre
-le premier libre **à la fois sur TikTok et sur Instagram**, le même jour, même si Insta attend.
+### Vérifié sur TikTok le 10/10/2026
 
-| # | Pseudo | Pour | Contre |
-| :-- | :--- | :--- | :--- |
-| **1 ✅** | **@cnabil** | « C'Nabil » = « c'est Nabil ». C'est déjà ton nom ici (le projet, ton GitHub). 6 lettres. | Quelqu'un qui l'entend à l'oral peut taper « cestnabil » |
-| 2 | @cestnabil | Même idée, écrit en entier : personne ne se trompe en le tapant | 10 lettres |
-| 3 | @justenabil | « Juste Nabil » : le prénom seul. Et « juste » comme un verdict juste | Moins évident à l'oral |
-| 4 | @nabiltoutcourt | « Nabil tout court » : exactement ce que tu veux, être connu par ton prénom seul | 14 lettres |
-| 5 | @nabilenvrai | « En vrai », le tic de langage de toute la francophonie de ton âge | Plus banal que les quatre autres |
+Méthode : la page publique `tiktok.com/@pseudo`, étalonnée sur un compte connu (@khaby.lame, trouvé)
+et sur un pseudo tapé au hasard (introuvable, même code que les pseudos libres ci-dessous).
+
+| Pseudo | TikTok | Verdict |
+| :--- | :--- | :--- |
+| **@justenabil** | **libre** | ✅ **Premier choix.** Ton prénom seul, et « juste » comme un verdict juste |
+| **@nabilenvrai** | **libre** | Repli n°1. « En vrai », le tic de toute la francophonie de ton âge |
+| @cnabil | pris : compte privé « nabil H », 78 abonnés | **Repli n°2 seulement si c'est le tien** |
+| @cestnabil | pris : « Darfilal Nabil », 2 abonnés, 0 vidéo | ❌ |
+| @nabiltoutcourt | pris : 23 abonnés, 0 vidéo | ❌ |
+| @c.nabil · @c_nabil · @cnabil_ · @lenabil | pris tous les quatre | ❌ |
+
+### Deuxième tour, 10/10 à 14:27 : Nabil refuse @justenabil, et @cnabil n'est pas à lui
+
+Nabil : « Justenabil j'aime pas et cnabil c pas mon compte. » On reste donc sur **C'Nabil**, son nom
+de rappeur (Cnabil_213), en variante libre. Vérifié sur TikTok le 10/10 à 14:27 :
+
+| Pseudo | TikTok | Verdict |
+| :--- | :--- | :--- |
+| **@cnabil.tv** | **libre** | ✅ **Premier choix.** C'Nabil exact, « .tv » le lit comme une chaîne |
+| **@yacnabil** | **libre** | Repli n°1. « Y'a C'Nabil » : ça s'annonce à l'oral |
+| **@levraicnabil** | **libre** | Repli n°2. Répond au fait que @cnabil est pris par un autre |
+| @cnabil.live · @cnabil.x · @cnabil.off · @cnabil.prod · @cestcnabil · @itscnabil · @vraicnabil · @cnabill | libres | écartés : moins clairs, anglais ou « off » (cliché) |
+| @cnabiil | **pris, 1 747 abonnés** | ❌ et c'est pour ça qu'on écarte @cnabill : une lettre doublée renverrait les gens chez lui |
+| @ccnabil | pris | ❌ |
+
+@justenabil et @nabilenvrai ci-dessus : écartés par Nabil.
+
+**Instagram : non vérifié.** Instagram refuse toute consultation sans être connecté. À tester dans
+l'app, dans l'ordre du tableau, avant de créer le compte TikTok : on prend le premier libre **des deux
+côtés**.
+
+Un nom libre aujourd'hui peut être pris demain : la vérification vaut pour le 10/10.
+
+### L'ancien compte rap @cnabil_213
+
+Mesuré le 10/10 : **compte privé, « C'Nabil🚸 », 1 152 abonnés** (une note business de fin septembre
+disait 2 000 à 3 000 ; c'est 1 152).
+
+- **On ne le réutilise pas pour le nouveau contenu.** Ses abonnés sont venus pour du rap : sur les
+  premières vidéos, ils ne regarderaient pas, et c'est leur réaction que TikTok lit en premier.
+- **On ne le supprime pas.** Le jour où le nouveau compte publie, un seul post sur l'ancien : « je suis
+  passé ici » avec le nouveau pseudo. Une partie des 1 152 suit, le reste ne coûte rien. Ensuite on le
+  laisse dormir.
+- **Pas de « 213 » dans le nouveau pseudo.** Un chiffre dans un pseudo se lit « le nom était déjà
+  pris », et ça le rattache au compte rap.
 
 > Retirés le 10/10 parce qu'ils collaient une étiquette belge à la marque : **@nabil.be** (le drapeau
 > dans le pseudo) et **@nabilunefois** (le « une fois » que les Français collent aux Belges).
@@ -154,7 +194,7 @@ sous-titres, le classement occupe l'écran.)
 
 ## 5. La signature récurrente : la note de fin
 
-**À la fin de chaque vidéo, sketch, storytime ou actu, une seconde après la chute : un carton noir,
+**À la fin de chaque vidéo, sketch, storytime ou trend, une seconde après la chute : un carton noir,
 muet, avec sa note en vert lime.**
 
 ```
@@ -162,7 +202,7 @@ VERDICT
   9/10
 ```
 
-- **Sur tout** : le mec du sketch, l'actu du jour, et **lui-même** dans ses storytimes. C'est le fil
+- **Sur tout** : le mec du sketch, la trend du jour, et **lui-même** dans ses storytimes. C'est le fil
   rouge qui fait qu'une vidéo de lui se reconnaît, quel que soit le format.
 - **Il ne la dit pas, il ne la joue pas** : c'est une incrustation au montage. Zéro geste en plus au
   tournage, donc compatible avec « narrateur, pas acteur ».

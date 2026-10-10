@@ -42,10 +42,17 @@ dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
 **Proposé, pas encore validé par Nabil.** Nouveau compte, basé en Belgique, part de 0 ; TikTok d'abord,
 Instagram ensuite, pas YouTube. **Cible : toute la francophonie, pas la Belgique** (Nabil, 10/10 : « de
 Bruxelles à Marseille ») : drapeau et pseudos belges retirés. **Compte centré sur sa personne** (il l'a précisé le 09/10) : sketchs,
-storytime, actu. Positionnement : **« Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il
-dit le verdict que personne n'ose dire. »** Pseudo recommandé **@cnabil**, nom affiché « Nabil ». Fil
+storytime, trends (pas d'actu, Nabil 10/10). Positionnement : **« Nabil raconte tout ce qu'il voit, les gens, sa vie, les trends, et il
+dit le verdict que personne n'ose dire. »** Pseudo : **@cnabil.tv** (libre sur TikTok au 10/10 14:27, Instagram non vérifié), replis @yacnabil, @levraicnabil. Nabil a refusé @justenabil ; @cnabil est pris par un autre (pas le sien). Ancien compte rap @cnabil_213 : 1 152 abonnés, privé, on le garde sans y publier, nom affiché « Nabil ». Fil
 rouge entre les formats : **la note de fin « VERDICT x/10 »**, muette, incrustée au montage, sur tout,
 lui compris. Pas de faux pays pour la monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
+
+## 📱 Le compte : @hitmakingz plutôt qu'un neuf ? (10/10) → [`phase-1-solo/13-compte-hitmakingz.md`](phase-1-solo/13-compte-hitmakingz.md)
+
+Nabil a un vieux compte de mèmes, **@hitmakingz : 12 700 abonnés**, 5 reposts de micro-trottoirs
+(déc. 2021–janv. 2022), muet depuis 4 ans et 9 mois. **Avis : oui, on part de là, si le statut du compte
+est propre** (capture « Statut du compte » demandée). Puis vidéos en privé, pseudo/nom/bio changés.
+**Décision à Nabil.**
 
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 

@@ -6,6 +6,46 @@
 
 ---
 
+## 10/10/2026 (suite 3) — Repartir de @hitmakingz (12 700 abonnés) ?
+
+Nabil propose de repartir d'un vieux compte de mèmes au lieu d'un compte neuf.
+
+**Mesuré** : créé le 24/12/2021, 12 700 abonnés, 5 vidéos publiques (reposts de micro-trottoirs) toutes
+entre le 25/12/2021 et le 17/01/2022, 77 % des vues sur une seule (2,5 M). Pseudo jamais changé.
+
+**Avis** : oui, si le statut du compte est propre (à vérifier par capture). TikTok dit que le nombre
+d'abonnés et les anciens succès ne sont pas des critères directs de recommandation (Newsroom, 2020) :
+le compte ne bloque rien, et il apporte la preuve sociale et le LIVE débloqué. Détail :
+`phase-1-solo/13-compte-hitmakingz.md`.
+
+---
+
+## 10/10/2026 (suite 2) — Le pseudo, deuxième tour : C'Nabil
+
+Nabil : « Justenabil j'aime pas et cnabil c pas mon compte. » On garde son nom de rappeur, C'Nabil, en
+variante libre. Vérifié sur TikTok à 14:27 : **@cnabil.tv** (proposé en premier), @yacnabil,
+@levraicnabil libres. @cnabiil est pris (1 747 abonnés) : toute variante à lettre doublée enverrait les
+gens chez lui. Instagram toujours non vérifiable sans connexion.
+
+---
+
+## 10/10/2026 (suite) — Le pseudo : vérifié sur TikTok
+
+Nabil : « on n'a toujours pas inventé de pseudo pour Insta, etc. » Son pseudo de rappeur : Cnabil_213.
+
+**Mesuré** (page publique TikTok, étalonnée sur un compte connu et un pseudo au hasard)
+
+- Pris : @cnabil (privé, « nabil H », 78 abonnés), @cestnabil, @nabiltoutcourt, @c.nabil, @c_nabil,
+  @cnabil_, @lenabil. **Le premier choix d'hier était pris** : on l'aurait su avant en vérifiant.
+- Libres : **@justenabil**, @nabilenvrai.
+- @cnabil_213 : privé, « C'Nabil🚸 », **1 152 abonnés** (pas 2 000-3 000 comme noté fin septembre).
+- Instagram : impossible à consulter sans connexion. Non vérifié.
+
+**Décidé (proposé)** : @justenabil, repli @nabilenvrai, @cnabil seulement s'il est à lui. L'ancien compte
+rap est gardé, pas réutilisé : un post de passage vers le nouveau, puis il dort.
+
+---
+
 ## 10/10/2026 — Blow Up, et premier passage du dossier Drive
 
 **Fait**
