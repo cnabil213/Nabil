@@ -114,6 +114,17 @@ de rappeur (Cnabil_213), en variante libre. Vérifié sur TikTok le 10/10 à 14:
 
 @justenabil et @nabilenvrai ci-dessus : écartés par Nabil.
 
+### Troisième tour, 10/10 à 14:48 : @cnabil_213, transféré depuis le compte rap
+
+Idée de Nabil, retenue : renommer le compte rap (@cnabil_213, 1 152 abonnés) puis donner **@cnabil_213**
+à @hitmakingz, le compte retenu. Avantage décisif : **il possède déjà @cnabil_213 sur Instagram**, donc
+même pseudo des deux côtés sans rien à vérifier. Mon objection précédente (« pas de 213 ») était une
+question de goût ; je l'ai retirée.
+
+Ordre : (1) renommer le compte rap (ex. @cnabil.archives), (2) tout de suite après, @hitmakingz →
+@cnabil_213. **Non confirmé** : le délai avant que TikTok libère un ancien pseudo (témoignages de
+quelques heures à 30 jours, aucun chiffre officiel). Chaque compte renommé est ensuite bloqué 30 jours.
+
 **Instagram : non vérifié.** Instagram refuse toute consultation sans être connecté. À tester dans
 l'app, dans l'ordre du tableau, avant de créer le compte TikTok : on prend le premier libre **des deux
 côtés**.

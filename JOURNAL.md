@@ -6,6 +6,14 @@
 
 ---
 
+## 10/10/2026 (suite 5) — Le pseudo : @cnabil_213, repris du compte rap
+
+Nabil propose de renommer son compte rap et de donner @cnabil_213 à @hitmakingz. Retenu : il possède déjà
+@cnabil_213 sur Instagram, donc même pseudo sur les deux plateformes. Objection « pas de 213 » retirée
+(goût, pas mesure). Non confirmé : le délai de libération d'un ancien pseudo sur TikTok.
+
+---
+
 ## 10/10/2026 (suite) — Le plan part de @hitmakingz, plus de zéro
 
 **Décidé par Nabil** : on relance son ancien compte @hitmakingz (12 700 abonnés, créé le 24/12/2021,
