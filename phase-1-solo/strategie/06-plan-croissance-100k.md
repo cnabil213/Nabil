@@ -1,6 +1,8 @@
-# Plan de croissance TikTok — 0 → 100 000 abonnés pour fin janvier 2027
+# Plan de croissance TikTok — 12 700 → 100 000 abonnés pour fin janvier 2027
 
-> Écrit le 09/10/2026, mis à jour le 10/10 (compte pas encore créé, démarrage ce week-end, veille du matin, **cible : toute la francophonie**). Compte TikTok **neuf**, basé en **Belgique**, TikTok d'abord, Instagram ensuite,
+> Écrit le 09/10/2026, mis à jour le 10/10 (démarrage ce week-end, veille du matin, **cible : toute la
+> francophonie**, et **on part de l'ancien compte @hitmakingz**, pas d'un compte neuf). Compte basé en
+> **Belgique**, TikTok d'abord, Instagram ensuite,
 > pas YouTube. Croissance **100 % propre** : zéro abonné, vue, like ou « booster » acheté.
 > Le nom, la bio et l'identité viennent du fil **« Branding TikTok de Nabil »** : ce plan ne les refait pas.
 >
@@ -11,6 +13,21 @@
 
 ## 0. La vérité sur l'objectif, avant tout le reste
 
+### Le point de départ : @hitmakingz (décision du 10/10)
+
+| | |
+| :--- | :--- |
+| Abonnés au départ | **12 700** ✅ (page publique, mesurée le 10/10, `07-compte-hitmakingz.md`) |
+| Statut du compte | **Les 7 contrôles « Account check » au vert** ✅ (capture de Nabil, lue par le fil Branding le 10/10) |
+| Historique | 5 vidéos de 2021-2022, des micro-trottoirs filmés par d'autres, rien depuis 4 ans et 9 mois → **passées en privé** |
+| Déjà débloqué | Le LIVE (1 000 abonnés minimum, ✅ aide TikTok citée dans `07-compte-hitmakingz.md`) |
+| Ce qu'on ne sait pas | 🔸 Combien de ces 12 700 sont encore actifs et regarderont. Ils ont suivi une vidéo de quelqu'un d'autre, pas toi. **On le mesure sur les 10 premières vidéos** : part du trafic « Abonnés » contre « Pour toi » (TikTok Studio) |
+
+Ces 12 700 ne font pas monter tes vidéos (✅ TikTok : le nombre d'abonnés n'est pas un facteur direct
+de recommandation). Ils servent à deux choses : la preuve sociale sur le profil, et le LIVE. **La
+croissance, elle, viendra comme pour un compte neuf : du « Pour toi ».** Donc on compte les
+**abonnés gagnés depuis le 10/10**, pas le total affiché.
+
 **Échéance : 31/01/2027** (toi, le 09/10 à 13h11 : « fin janvier »). Ça fait **16 semaines** à partir
 du samedi 10/10, soit **114 vidéos** à une par jour.
 
@@ -19,9 +36,9 @@ Le calcul qui dit où est la barre :
 | | |
 | :--- | :--- |
 | Conversion vues → abonnés sur une vidéo d'humour | 🔸 0,5 à 1 % |
-| Donc 100 000 abonnés demandent | 🔸 **10 à 20 millions de vues cumulées** |
-| Si tu fais le niveau de Sady sur chaque vidéo (médiane **37 843 vues** ✅ relevé du 14/09, 7 vidéos, `04-benchmark-rodman.md`) | 114 × 38 K = 4,3 M de vues → 🔸 **21 000 à 43 000 abonnés** |
-| Ce qui manque pour 100 K | 🔸 **4 à 8 vidéos qui dépassent le million** |
+| Il manque **87 300 abonnés** (100 000 − 12 700), ce qui demande | 🔸 **9 à 17 millions de vues cumulées** |
+| Si tu fais le niveau de Sady sur chaque vidéo (médiane **37 843 vues** ✅ relevé du 14/09, 7 vidéos, `04-benchmark-rodman.md`) | 114 × 38 K = 4,3 M de vues → 🔸 **21 000 à 43 000 abonnés gagnés**, soit 34 000 à 56 000 au total |
+| Ce qui manque pour 100 K | 🔸 **4 à 7 vidéos qui dépassent le million** |
 
 Donc : **100 K en 16 semaines, c'est un objectif qui se joue sur une poignée de vidéos qui explosent.**
 On ne contrôle pas laquelle explose. On contrôle **combien on en sort** (le volume), **à quel point
@@ -37,7 +54,7 @@ Ce qui ne sert à rien, et pourquoi on n'y touche pas :
   rapporté par un site tiers qui cite le rapport de TikTok. Tu perds l'argent et tu salis tes stats.
 - **Le nombre d'abonnés ne fait pas monter tes vidéos.** ✅ TikTok, même page : ni le nombre
   d'abonnés ni les vidéos qui ont marché avant ne sont des facteurs directs de recommandation.
-  Chaque vidéo repart de zéro. C'est une bonne nouvelle pour un compte neuf.
+  Chaque vidéo repart de zéro. Les 12 700 de @hitmakingz ne te portent pas, mais ils ne te freinent pas non plus.
 - **Déclarer un faux pays.** ✅ TikTok, même page : être dans le même pays que le spectateur est un
   signal **faible**, beaucoup moins fort que finir la vidéo. Un compte belge qui parle français touche
   la France si les gens regardent jusqu'au bout. Pas besoin de mentir, et mentir peut bloquer tes gains.
@@ -50,18 +67,19 @@ Ce qui ne sert à rien, et pourquoi on n'y touche pas :
 
 ---
 
-## 1. Le réglage du compte (samedi 10/10 : pas encore fait au 10/10 midi)
+## 1. Le réglage du compte @hitmakingz (samedi 10/10)
 
-1. **Compte Créateur (personnel), pas Entreprise** : 🔸 les comptes Entreprise ont une bibliothèque
-   musicale réduite, et le Creator Rewards exige un compte personnel (✅ guides concordants). Les
-   statistiques de TikTok Studio sont là dans les deux cas.
-2. **Pseudo, nom affiché, bio, photo : ceux du fil Branding** (`/mnt/project-files/cnabil/BRANDING-TIKTOK.md`) :
-   premier pseudo libre dans l'ordre @cnabil, @cestnabil, @justenabil…, nom affiché « Nabil », photo
-   de jour, fond uni, sans sourire.
-3. **Réserve le même nom sur Instagram tout de suite**, même si tu n'y publies qu'à partir du 26/10.
-   Lie Instagram dans le profil TikTok.
-4. Pays réel : Belgique. Pas de VPN.
-5. 🔸 Avant de publier, 20 min à regarder et commenter des comptes d'humour francophones, en
+Les étapes viennent du fil Branding (message du 10/10, 14h44), qui fait foi pour le pseudo et la bio.
+
+1. **Les 5 anciennes vidéos en privé** : chaque vidéo → ••• → Paramètres de confidentialité → « Seulement moi ».
+2. **Le pseudo** : celui choisi dans le fil Branding (@cnabil.tv en premier, s'il est libre aussi sur
+   Instagram). ✅ Il ne se change qu'une fois tous les 30 jours : on choisit avant de toucher.
+3. **Nom affiché « Nabil »**, à la place de « CHARGEMENT ⏳ 60% ». Bio et photo : celles du fil Branding.
+4. **Compte Créateur (personnel), pas Entreprise** : 🔸 les comptes Entreprise ont une bibliothèque
+   musicale réduite, et le Creator Rewards exige un compte personnel (✅ guides concordants).
+5. **Réserve le même nom sur Instagram tout de suite**, même si tu n'y publies qu'à partir du 26/10.
+6. Pays réel : Belgique. Pas de VPN.
+7. 🔸 Avant de publier, 20 min à regarder et commenter des comptes d'humour francophones, en
    vrai (pas « 🔥🔥 », une vraie phrase). Ça ne coûte rien et ça aide l'appli à situer ton compte.
 
 ---
@@ -95,7 +113,7 @@ après 14h · semaine du 19/10 en 14h-22h → tu tournes avant 14h · week-ends 
 > « le Belge qui fait le Belge », elle ne sort pas. Écartés pour cette raison le 10/10 : le stitch
 > « Réponse d'un Belge » et le sketch « Le Belge de mauvaise foi ».
 
-Tu veux pouvoir tout faire : storytime, trend, sketch. D'accord, mais **un compte neuf qui fait tout dès
+Tu veux pouvoir tout faire : storytime, trend, sketch. D'accord, mais **un compte qui fait tout dès
 le jour 1 n'est rien pour personne**. Le spectateur doit pouvoir dire en une phrase pourquoi il te
 suit. Ce qui relie tous les formats, c'est toi : **ta voix de narrateur et ton apostrophe** (« frère,
 redescends sur terre »). C'est la constante. Le format change, le mec qui parle ne change pas.
@@ -149,7 +167,7 @@ pas en solo.
   cette semaine, on cherche un autre angle ou on passe.
 - **Jamais** : politique, religion, drame, faits divers avec victimes, une personne réelle qu'on
   humilie (ta règle : la tension, jamais l'humiliation). 🔸 Ce sont aussi les sujets qui font limiter
-  la distribution d'un compte neuf.
+  la distribution d'un compte qui redémarre.
 - Le test de toute vidéo s'applique : un Marseillais et un Bruxellois comprennent sans explication.
 
 ---
@@ -239,7 +257,7 @@ Tous les seuils ci-dessous sont des 🔸 **hypothèses de départ**. Après 10 v
 | :--- | :-: | :-: | :--- |
 | Durée moyenne ÷ durée de la vidéo | ≥ 50 % | < 30 % | **Le début ne tient pas.** Retravailler les 3 premières secondes : couper ce qui précède la vanne, démarrer sur la contradiction |
 | % vue en entier | ≥ 25 % | < 10 % | **Le ventre est mou ou la fin traîne.** Couper un palier, couper après la chute |
-| Nouveaux abonnés pour 1000 vues | ≥ 5 | < 2 | **Ça fait rire mais ça n'attache pas à toi.** Plus de « je » : storytime, avis, apostrophe |
+| Nouveaux abonnés pour 1000 vues (les gagnés, pas le total) | ≥ 5 | < 2 | **Ça fait rire mais ça n'attache pas à toi.** Plus de « je » : storytime, avis, apostrophe |
 | Commentaires pour 1000 vues | ≥ 2 | < 1 | **Pas de question à la fin**, ou une question molle. Repère Sady : 1,16 à 2,10 ✅ |
 | Partages pour 1000 vues | ≥ 2 | < 1 | **Le sujet n'est pas assez « c'est toi ».** Le type de personne doit être reconnaissable. Repère Sady : 1,3 à 2,4 ✅ (calculé sur ses 7 vidéos) |
 | Part du trafic « Pour toi » | ≥ 70 % | < 30 % | Voir « compte bloqué » ci-dessous |
@@ -252,20 +270,21 @@ Tous les seuils ci-dessous sont des 🔸 **hypothèses de départ**. Après 10 v
 | **La règle des 10 vidéos** (toutes les 10 publications) | On classe les formats par **abonnés gagnés par vidéo**, pas par vues. Le meilleur prend la moitié des 10 suivantes, le pire passe en pause |
 | **3 vidéos d'affilée sous 300 vues avec moins de 30 % de « Pour toi »** | Vérifier TikTok Studio → statut du compte (avertissement, restriction). **Ne rien supprimer**, ne rien republier, continuer la cadence. Me l'envoyer |
 | **Stock sous 3 vidéos** | Tournage le week-end suivant, avant tout le reste |
-| **Moins de 10 000 abonnés le 15/11** | On change de format dominant, quel qu'il soit |
-| **Moins de 40 000 le 15/12** | 2 vidéos par jour sur le format qui convertit le mieux, si le stock suit |
+| **Moins de 20 000 abonnés le 15/11** (soit moins de 7 300 gagnés) | On change de format dominant, quel qu'il soit |
+| **Moins de 45 000 le 15/12** | 2 vidéos par jour sur le format qui convertit le mieux, si le stock suit |
 
 ### Les paliers 🔸
 
 | Date | Cible |
 | :--- | :--- |
 | **Dim. 25/10** | **16 vidéos publiées.** Objectif de volume, pas d'abonnés : c'est trop tôt |
-| **Dim. 15/11** | **10 000 abonnés** |
-| **Mar. 15/12** | **40 000 abonnés** |
+| **Sam. 10/10** | **12 700 abonnés** : le point de départ ✅ |
+| **Dim. 15/11** | **20 000 abonnés** (+7 300) |
+| **Mar. 15/12** | **45 000 abonnés** (+32 300) |
 | **Dim. 31/01/2027** | **100 000 abonnés** |
 
 Pourquoi la courbe démarre lentement : sur TikTok, la croissance vient par bonds, sur une ou deux
-vidéos. Un 25/10 à 800 abonnés n'est pas un échec. Un 25/10 à 9 vidéos publiées, si.
+vidéos. Un 25/10 à 13 500 abonnés (+800) n'est pas un échec. Un 25/10 à 9 vidéos publiées, si.
 
 ---
 
@@ -273,13 +292,13 @@ vidéos. Un 25/10 à 800 abonnés n'est pas un échec. Un 25/10 à 9 vidéos pub
 
 **À partir du lundi 26/10**, la même vidéo part sur Reels, à la même heure, depuis le fichier de
 `livraisons/` (jamais la vidéo téléchargée de TikTok, avec son logo). Ça te coûte 2 minutes par jour.
-On ne fait **rien de spécifique** pour Instagram avant 10 000 abonnés TikTok : la priorité, c'est TikTok.
+On ne fait **rien de spécifique** pour Instagram avant le palier des 20 000 abonnés TikTok : la priorité, c'est TikTok.
 
 ---
 
 ## 8. Les deux premières semaines, jour par jour
 
-> **Mis à jour le 10/10.** Le compte n'existe pas encore : on démarre **ce week-end** au lieu du
+> **Mis à jour le 10/10.** On repart de @hitmakingz (§0, §1) : on démarre **ce week-end** au lieu du
 > lundi. Les deux idées France-Belgique de la veille du 10/10 sont **écartées** (cible francophone,
 > §3) : à leur place, la trend du jour que le dénicheur de dimanche 7h26 remontera.
 
@@ -298,8 +317,8 @@ Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/READ
 
 | Jour | Heure | À faire |
 | :--- | :-: | :--- |
-| **Sam. 10/10** | dans la journée | **Créer le compte** (§1, pseudo et bio du fil Branding). Réserver le nom sur Instagram. 20 min de commentaires sur des comptes humour FR/BE |
-| | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. **Fichier, légende, hashtags, couverture et premier commentaire : le kit du fil Community manager** (`/mnt/project-files/cnabil/cm/kit-lancement.md` §2), c'est lui qui fait foi pour le lancement |
+| **Sam. 10/10** | dans la journée | **Préparer @hitmakingz** (§1) : anciennes vidéos en privé, pseudo, nom, bio, photo du fil Branding. Réserver le nom sur Instagram. 20 min de commentaires sur des comptes humour francophones |
+| | 19h | **V1 · T'inquiète** (stock) si le profil est prêt, sinon elle passe dimanche 19h. **Fichier, légende, hashtags, couverture et premier commentaire : le kit du fil Community manager** (`/mnt/project-files/cnabil/cm/kit-lancement.md` §2), c'est lui qui fait foi pour le lancement |
 | **Dim. 11/10** | 7h26 | Le dénicheur tombe : s'il y a une trend chaude, elle passe en tête du tournage |
 | | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① la trend du dénicheur, s'il y en a une · ② le pote au volant · ③ le pote qui a jamais perdu · ④ le père au téléphone (`phase-1-solo/scripts/07-scripts-narrateur-17-09.md`) · ⑤⑥ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
 | | 19h | **V2 · Business Bro** (stock). Légende : « Il diversifie ses actifs. Son frigo, c'est un demi-citron. » |

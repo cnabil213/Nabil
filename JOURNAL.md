@@ -6,6 +6,19 @@
 
 ---
 
+## 10/10/2026 (suite) — Le plan part de @hitmakingz, plus de zéro
+
+**Décidé par Nabil** : on relance son ancien compte @hitmakingz (12 700 abonnés, créé le 24/12/2021,
+5 micro-trottoirs repostés, rien depuis 4 ans et 9 mois) au lieu d'un compte neuf. Account check : 7
+contrôles au vert (capture lue par le fil Branding). Analyse : `phase-1-solo/strategie/07-compte-hitmakingz.md`.
+
+**Fait** : le plan (`strategie/06-plan-croissance-100k.md`) part de 12 700. Il manque 87 300 abonnés,
+soit 9 à 17 M de vues (hypothèse de conversion 0,5 à 1 %). Paliers relevés : 20 K le 15/11, 45 K le
+15/12. §1 remplacé par le réglage du compte existant (vidéos en privé, pseudo une fois tous les 30 jours).
+
+**Appris** : ces 12 700 ne portent pas les vidéos (TikTok : les abonnés ne sont pas un facteur direct).
+On mesure les abonnés **gagnés**, et la part « Abonnés » contre « Pour toi » sur les 10 premières vidéos.
+
 ## 10/10/2026 (regroupement) — Une seule branche `main`, `phase-1-solo/` rangé en trois
 
 Nabil : « est-ce qu'il est bien rangé ou c'est le bordel ? » Mesuré avant de répondre : la branche par

@@ -24,11 +24,11 @@ montés (cible 35-60) et 2 hooks sur 3 dépassent 4 s → hook B et bloc coupabl
 ## 🎯 Les objectifs → [`phase-1-solo/strategie/06-plan-croissance-100k.md`](phase-1-solo/strategie/06-plan-croissance-100k.md)
 
 - **Final : 100 000 abonnés TikTok le 31/01/2027** (Nabil, 09/10 : « fin janvier », remplace le 09/01).
-  Compte **neuf**, Belgique, TikTok d'abord, Instagram à partir du 26/10, pas YouTube. 100 % propre.
+  **On repart de l'ancien compte @hitmakingz : 12 700 abonnés**, Account check vert (10/10). Belgique, TikTok d'abord, Instagram à partir du 26/10, pas YouTube. 100 % propre.
 - **Plan d'exécution écrit le 09/10** : 1 vidéo/jour (19h en semaine, 12h le week-end), mix 3 sketchs ·
   2 storytimes · 1 duo Sady · 1 trend à sa sauce par semaine dès la S3, 6 contrôles de hook, seuils par vidéo,
   et **les 14 premiers jours calés jour par jour à partir du lundi 12/10** (V1 = T'inquiète 1080p).
-- Paliers (hypothèses) : 14 vidéos le 25/10 · 10 K le 15/11 · 40 K le 15/12 · 100 K le 31/01.
+- Paliers (hypothèses) : 16 vidéos le 25/10 · 20 K le 15/11 · 45 K le 15/12 · 100 K le 31/01. On suit les abonnés **gagnés** depuis le 10/10.
 - **Règle des 10 vidéos** : classer les formats par abonnés gagnés par vidéo ; le meilleur prend la
   moitié des 10 suivantes, le pire passe en pause. **Bilan chaque dimanche 20h** sur captures TikTok Studio.
 - Vérifié le 09/10 : la Belgique n'est dans **aucune** liste de pays du Creator Rewards trouvée ; le
@@ -213,8 +213,8 @@ Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 
 ## Les 3 prochaines actions
 
-**Au 10/10, plan de croissance recalé** : compte TikTok **pas encore créé** (à faire le 10/10).
-V1 T'inquiète le 10/10 à 19h si le compte est prêt, tournage #1 dimanche 11/10. **Cible : toute la
+**Au 10/10, plan de croissance recalé** : on repart de **@hitmakingz** (anciennes vidéos en privé, pseudo/nom/bio du fil Branding, le 10/10).
+V1 T'inquiète le 10/10 à 19h si le profil est prêt (kit du fil Community manager), tournage #1 dimanche 11/10. **Cible : toute la
 francophonie, de Bruxelles à Marseille** (Nabil, 10/10) : pas d'angle belge, les deux idées
 France-Belgique de la veille sont écartées. Veille FR/BE chaque matin à
 7h26 (fil « Connecter Claude à TikTok »). Calendrier : `phase-1-solo/strategie/06-plan-croissance-100k.md` §8,
