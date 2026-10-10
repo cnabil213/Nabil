@@ -18,7 +18,7 @@ Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié
 - **Final : 100 000 abonnés TikTok le 31/01/2027** (Nabil, 09/10 : « fin janvier », remplace le 09/01).
   Compte **neuf**, Belgique, TikTok d'abord, Instagram à partir du 26/10, pas YouTube. 100 % propre.
 - **Plan d'exécution écrit le 09/10** : 1 vidéo/jour (19h en semaine, 12h le week-end), mix 3 sketchs ·
-  2 storytimes · 1 duo Sady · 1 actu par semaine dès la S3, 6 contrôles de hook, seuils par vidéo,
+  2 storytimes · 1 duo Sady · 1 trend à sa sauce par semaine dès la S3, 6 contrôles de hook, seuils par vidéo,
   et **les 14 premiers jours calés jour par jour à partir du lundi 12/10** (V1 = T'inquiète 1080p).
 - Paliers (hypothèses) : 14 vidéos le 25/10 · 10 K le 15/11 · 40 K le 15/12 · 100 K le 31/01.
 - **Règle des 10 vidéos** : classer les formats par abonnés gagnés par vidéo ; le meilleur prend la
