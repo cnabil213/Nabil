@@ -332,6 +332,22 @@ Je te renvoie les deux fiches remplies avant le tournage.
 > (`/mnt/project-files/cnabil/veille/`). **Ce fil** décide pour chacune : photo ou vidéo, quel
 > morceau exactement, et comment tu le tournes.
 
+### D'abord : quelle forme pour cette trouvaille ? (Nabil, 10/10 : « il faut pas se limiter »)
+
+Le fond vert n'est qu'une forme parmi d'autres. Pour chaque trouvaille, je choisis **celle qui
+montre le moins possible pour que la vanne marche** :
+
+| Forme | Quand | Montage |
+| :--- | :--- | :--- |
+| **Face caméra brut** | Le sujet se comprend en le disant : tout le monde le connaît, ou une phrase suffit à le poser | Des cuts, rien d'autre |
+| **Fond vert photo** | Il faut **lire** quelque chose pour comprendre (tweet, titre, prix, classement) | Cuts + la capture au-dessus de toi |
+| **Fond vert vidéo** | Il faut **voir ou entendre** un moment précis | Cuts + l'extrait mesuré, de X s à Y s |
+| **Réponse à un commentaire** | Un commentaire sous ta vidéo mérite une vidéo | Le commentaire en incrustation (fonction TikTok) |
+| **Duo avec Sady** | Le sujet a deux camps, ou se joue mieux à deux (`FORMATS.md`) | Selon le format |
+
+Si une forme qui n'est pas dans ce tableau colle mieux à une trouvaille, on l'ajoute ici.
+Chaque fiche du Dénicheur sort de ce fil avec **sa forme écrite en tête**.
+
 ### Photo ou vidéo : la règle
 
 | | **Fond vert PHOTO** | **Fond vert VIDÉO** |
@@ -384,7 +400,7 @@ CADRE : tête dans la moitié basse
 | « Mon oncle croit toutes les vidéos IA » | **Aucune capture de la fausse vidéo Mbappé**, même floutée. Photo d'un **tweet texte** qui en parle, ou rien | C'est une fausse image d'une vraie personne dans une baignoire : la montrer, c'est la diffuser. La vanne vise le tonton, elle marche sans l'image |
 | « Le pote qui vit dans un anime » | **Photo**, une capture où l'on voit la cape sur le toit, **sans manifestants ni police** dans le cadre | Le filtre du Dénicheur dit déjà de ne rien montrer du mouvement. Il me faut le lien de @a7tila ou de @attilazro pour choisir l'image |
 | « 15 balles le menu » | **Photo** : le tweet de @Iiaburi | La vanne est dans le texte. **Logo et nom de l'enseigne cachés**, comme le dit le filtre |
-| « Le mec qui regarde pas la Star Ac' » | **Pas de fond vert** | C'est un sketch « type de personne » : rien à montrer, tout se dit |
+| « Le mec qui regarde pas la Star Ac' » | **Face caméra brut** | C'est un sketch « type de personne » : rien à montrer, tout se dit |
 
 Aucune idée du lot 2 n'a besoin d'un extrait vidéo. Le jour où une en a besoin, j'ai besoin du lien
 avant de te donner les secondes.
