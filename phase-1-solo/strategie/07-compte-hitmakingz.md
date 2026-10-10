@@ -3,7 +3,9 @@
 > Écrit le 10/10/2026. Nabil : « J'ai ce compte-là que j'ai créé il y a longtemps où je mettais des
 > mèmes. J'ai réussi à faire des abonnés. Est-ce que c'est possible de partir de cette base-là ? Mettre
 > toutes mes vidéos en privé et commencer mon contenu directement dessus. »
-> **Statut : avis donné, décision à Nabil.**
+> **Statut : décidé le 10/10 — on part de @hitmakingz.** Vérification du compte (capture de Nabil, 16:44) :
+> « Aucun problème en suspens », 7/7 contrôles verts (connexion, publications, commentaires, profil,
+> messages, découvrabilité, sanctions et avertissements).
 
 ## Ce qui est mesuré (10/10/2026, page publique TikTok + scraper Apify)
 

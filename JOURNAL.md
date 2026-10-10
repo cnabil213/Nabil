@@ -6,6 +6,15 @@
 
 ---
 
+## 10/10/2026 (suite 4) — @hitmakingz est propre : on part de là
+
+Vérification du compte (TikTok Studio → Plus d'outils), capture de Nabil à 16:44 : « Aucun problème en
+suspens », 7/7 contrôles verts, découvrabilité et sanctions compris. Décision : le contenu se lance sur
+@hitmakingz. Étapes envoyées : vidéos en privé, pseudo choisi avant d'être changé (30 jours de
+blocage), nom « Nabil », bio, photo.
+
+---
+
 ## 10/10/2026 (regroupement) — Une seule branche `main`, `phase-1-solo/` rangé en trois
 
 Nabil : « est-ce qu'il est bien rangé ou c'est le bordel ? » Mesuré avant de répondre : la branche par
