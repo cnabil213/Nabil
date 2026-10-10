@@ -55,7 +55,7 @@ pas des critères directs de la recommandation (TikTok Newsroom, « How TikTok r
 
 **Oui, on part de @hitmakingz**, à une condition : que le statut du compte soit propre.
 
-1. **TikTok → Profil → ☰ → Paramètres et confidentialité → Statut du compte.** Si c'est vert, sans
+1. **TikTok → Profil → TikTok Studio → Plus d'outils → « Account check » (Vérification du compte).** Autre chemin : Paramètres et confidentialité → Assistance → Centre de sécurité → Account check (aide officielle TikTok, consultée le 10/10). Le chemin « Paramètres → Statut du compte » donné d'abord était faux : Nabil ne l'a pas trouvé. Si c'est vert, sans
    avertissement : on y va. S'il y a des avertissements ou une restriction : compte neuf. Envoyer la
    capture.
 2. Passer les 5 vidéos en **privé** (ce n'est pas son contenu, et rien ne colle avec la suite).
