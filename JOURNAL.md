@@ -6,6 +6,21 @@
 
 ---
 
+## 10/10/2026 (suite 6) — Six mods Claude Code dans le dépôt
+
+**Fait** (session du professeur, dépôt PROFESSEUR-, à la demande de Nabil : « ajoute-le directement toi ») :
+six mods copiés dans `mods/` et déclarés dans `.claude/settings.json` (le hook SessionStart est gardé).
+`cnabil-hud` (abonnés TikTok Metricool, palier 20 K, contexte, forfait au-dessus de la saisie, `/hud`),
+`feu-vert-famous`, `garde-regles`, `deux-gestes`, `objectif-100k` (`/abonnes`), `refus` (`/refus`).
+
+**Vérifié** : `claude plugin validate ./mods` passe, 37 tests sur 37 réussis, et sur une configuration
+vierge avec le dossier en confiance, `/refus` a répondu sans aucune installation.
+
+**Appris** : les mods ne tournent que sur ordinateur (terminal ≥ 2.1.287, Desktop ≥ 2.1.286), jamais en
+session cloud ni sur téléphone. Pour le téléphone : la page épinglée « C'Nabil HUD » (Metricool en direct).
+
+---
+
 ## 10/10/2026 (suite 5) — Le pseudo : @cnabil_213, repris du compte rap
 
 Nabil propose de renommer son compte rap et de donner @cnabil_213 à @hitmakingz. Retenu : il possède déjà

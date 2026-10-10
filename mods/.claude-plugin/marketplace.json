@@ -1,0 +1,39 @@
+{
+  "name": "mods-cnabil-famous",
+  "owner": {
+    "name": "NABIL"
+  },
+  "description": "Les mods de NABIL pour C'Nabil-Famous (dépôt Nabil) : le HUD, feu vert publication et Drive, règles du dépôt en verrous, fin de session, objectif 100 K, idées brûlées.",
+  "plugins": [
+    {
+      "name": "cnabil-hud",
+      "source": "./cnabil-hud",
+      "description": "Le HUD : abonnés TikTok, dernière vidéo, palier 100 K, contexte et forfait, au-dessus de la saisie et dans /hud"
+    },
+    {
+      "name": "feu-vert-famous",
+      "source": "./feu-vert-famous",
+      "description": "Publier, toucher au Drive, dépenser des crédits : seulement avec le feu vert de Nabil"
+    },
+    {
+      "name": "garde-regles",
+      "source": "./garde-regles",
+      "description": "Pas de grep sur un outil de montage, pas de livraison sans ffprobe, pas de « bestie », scripts validés protégés"
+    },
+    {
+      "name": "deux-gestes",
+      "source": "./deux-gestes",
+      "description": "ETAT.md et JOURNAL.md avant de finir : bandeau, push gardé, /fin"
+    },
+    {
+      "name": "objectif-100k",
+      "source": "./objectif-100k",
+      "description": "/abonnes, le palier à tenir au-dessus de la saisie, rappel du bilan du dimanche"
+    },
+    {
+      "name": "refus",
+      "source": "./refus",
+      "description": "/refus idée — raison : la liste des idées brûlées sans faire travailler Claude"
+    }
+  ]
+}

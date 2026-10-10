@@ -1,0 +1,7 @@
+{
+  "name": "cnabil-hud",
+  "version": "1.0.0",
+  "description": "Le HUD de C'Nabil-Famous : abonnés TikTok, vues, likes et dernière vidéo (lus dans Metricool), palier 100 K, fenêtre de contexte et limites du forfait, au-dessus de la saisie et dans un panneau /hud.",
+  "author": { "name": "NABIL" },
+  "types": "./types/index.d.ts"
+}

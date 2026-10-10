@@ -1,0 +1,7 @@
+{
+  "name": "objectif-100k",
+  "version": "1.0.0",
+  "description": "/abonnes note le nombre d'abonnés TikTok ; le bandeau dit le prochain palier du plan 100 K et le rythme à tenir ; rappel du bilan le dimanche à 20 h.",
+  "author": { "name": "NABIL" },
+  "types": "./types/index.d.ts"
+}

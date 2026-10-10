@@ -1,0 +1,6 @@
+{
+  "name": "refus",
+  "version": "1.0.0",
+  "description": "/refus idée — raison : ajoute l'idée, avec sa raison et la date, à la liste des idées brûlées de C'Nabil-Famous, sans faire travailler Claude.",
+  "author": { "name": "NABIL" }
+}

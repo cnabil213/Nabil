@@ -1,0 +1,7 @@
+{
+  "name": "garde-regles",
+  "version": "1.0.0",
+  "description": "Les règles du CLAUDE.md de C'Nabil-Famous deviennent des verrous : pas de grep sur un outil de montage, pas de livraison sans ffprobe, pas de « bestie », pas de script validé réécrit sans Nabil.",
+  "author": { "name": "NABIL" },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "deux-gestes",
+  "version": "1.0.0",
+  "description": "Fin de session de C'Nabil-Famous : un bandeau tant qu'ETAT.md et JOURNAL.md ne sont pas à jour, un push refusé s'il contient l'un sans l'autre, et /fin pour le bilan.",
+  "author": { "name": "NABIL" },
+  "types": "./types/index.d.ts"
+}

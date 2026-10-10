@@ -1,0 +1,6 @@
+{
+  "name": "feu-vert-famous",
+  "version": "1.0.0",
+  "description": "Retient toute publication (Metricool), toute modification du Drive et toute dépense de crédits (Apify, ElevenLabs) jusqu'au feu vert de Nabil. Complète le mod feu-vert de C'Nabil Rich.",
+  "author": { "name": "NABIL" }
+}

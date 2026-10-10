@@ -63,6 +63,15 @@ Dossier Drive et Blow Up : [`phase-1-solo/tournage/02-drive-inventaire-et-coach-
   **À faire confirmer par Nabil** avant toute stratégie.
 - Synthèse lisible du tout : `/mnt/project-files/cnabil/SYNTHESE.md` (projet C'Nabil-FAMOUS).
 
+## 🧩 Les mods Claude Code (10/10) → [`mods/README.md`](mods/README.md)
+
+Six mods dans `mods/`, déclarés dans `.claude/settings.json` : ils se chargent seuls quand Nabil ouvre ce
+dossier dans Claude Code **sur son ordinateur** (terminal ou onglet Code de Desktop), pas sur téléphone ni en
+session cloud. Le HUD (abonnés TikTok via Metricool, palier, contexte, forfait) s'affiche au-dessus de la saisie ;
+les autres verrouillent des règles de ce fichier et du CLAUDE.md : feu vert avant publication/Drive/crédits,
+ffprobe avant commit d'un mp4 de `livraisons/`, ETAT.md + JOURNAL.md avant push, `/abonnes`, `/refus`.
+37 tests réussis le 10/10. **Pour en changer un : modifier `mods/<mod>/` et monter sa `version`.**
+
 ## 🏷️ Branding TikTok (09/10) → [`phase-1-solo/strategie/05-branding-tiktok.md`](phase-1-solo/strategie/05-branding-tiktok.md)
 
 **Proposé, pas encore validé par Nabil.** Nouveau compte, basé en Belgique, part de 0 ; TikTok d'abord,

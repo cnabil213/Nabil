@@ -10,5 +10,21 @@
         ]
       }
     ]
+  },
+  "extraKnownMarketplaces": {
+    "mods-cnabil-famous": {
+      "source": {
+        "source": "directory",
+        "path": "./mods"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "cnabil-hud@mods-cnabil-famous": true,
+    "feu-vert-famous@mods-cnabil-famous": true,
+    "garde-regles@mods-cnabil-famous": true,
+    "deux-gestes@mods-cnabil-famous": true,
+    "objectif-100k@mods-cnabil-famous": true,
+    "refus@mods-cnabil-famous": true
   }
 }
