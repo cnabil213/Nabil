@@ -43,7 +43,7 @@ dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
 Instagram ensuite, pas YouTube. **Cible : toute la francophonie, pas la Belgique** (Nabil, 10/10 : « de
 Bruxelles à Marseille ») : drapeau et pseudos belges retirés. **Compte centré sur sa personne** (il l'a précisé le 09/10) : sketchs,
 storytime, actu. Positionnement : **« Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il
-dit le verdict que personne n'ose dire. »** Pseudo recommandé **@cnabil**, nom affiché « Nabil ». Fil
+dit le verdict que personne n'ose dire. »** Pseudo : **@justenabil** (libre sur TikTok au 10/10, Instagram non vérifié), repli @nabilenvrai ; @cnabil est pris (à lui ?). Ancien compte rap @cnabil_213 : 1 152 abonnés, privé, on le garde sans y publier, nom affiché « Nabil ». Fil
 rouge entre les formats : **la note de fin « VERDICT x/10 »**, muette, incrustée au montage, sur tout,
 lui compris. Pas de faux pays pour la monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
 

@@ -77,21 +77,43 @@ Décision du 10/10. Une vanne doit marcher **de Bruxelles à Marseille** sans no
 - **Ton accent et ta façon de parler ne bougent pas.** On ne gomme pas qui tu es, on n'en fait juste
   pas le sujet.
 
-## 2. Le pseudo — 5 choix, dans l'ordre
+## 2. Le pseudo — le choix final (10/10)
 
 **Nom affiché partout : `Nabil`. Rien d'autre**, pas d'emoji, pas de « humour ». C'est ce nom-là
-qu'on veut entendre dans la bouche des gens.
+qu'on veut entendre dans la bouche des gens. **Le même pseudo sur TikTok et sur Instagram.**
 
-Disponibilité **non vérifiée** (TikTok ne se consulte pas depuis ici). Tester dans l'ordre, prendre
-le premier libre **à la fois sur TikTok et sur Instagram**, le même jour, même si Insta attend.
+### Vérifié sur TikTok le 10/10/2026
 
-| # | Pseudo | Pour | Contre |
-| :-- | :--- | :--- | :--- |
-| **1 ✅** | **@cnabil** | « C'Nabil » = « c'est Nabil ». C'est déjà ton nom ici (le projet, ton GitHub). 6 lettres. | Quelqu'un qui l'entend à l'oral peut taper « cestnabil » |
-| 2 | @cestnabil | Même idée, écrit en entier : personne ne se trompe en le tapant | 10 lettres |
-| 3 | @justenabil | « Juste Nabil » : le prénom seul. Et « juste » comme un verdict juste | Moins évident à l'oral |
-| 4 | @nabiltoutcourt | « Nabil tout court » : exactement ce que tu veux, être connu par ton prénom seul | 14 lettres |
-| 5 | @nabilenvrai | « En vrai », le tic de langage de toute la francophonie de ton âge | Plus banal que les quatre autres |
+Méthode : la page publique `tiktok.com/@pseudo`, étalonnée sur un compte connu (@khaby.lame, trouvé)
+et sur un pseudo tapé au hasard (introuvable, même code que les pseudos libres ci-dessous).
+
+| Pseudo | TikTok | Verdict |
+| :--- | :--- | :--- |
+| **@justenabil** | **libre** | ✅ **Premier choix.** Ton prénom seul, et « juste » comme un verdict juste |
+| **@nabilenvrai** | **libre** | Repli n°1. « En vrai », le tic de toute la francophonie de ton âge |
+| @cnabil | pris : compte privé « nabil H », 78 abonnés | **Repli n°2 seulement si c'est le tien** |
+| @cestnabil | pris : « Darfilal Nabil », 2 abonnés, 0 vidéo | ❌ |
+| @nabiltoutcourt | pris : 23 abonnés, 0 vidéo | ❌ |
+| @c.nabil · @c_nabil · @cnabil_ · @lenabil | pris tous les quatre | ❌ |
+
+**Instagram : non vérifié.** Instagram refuse toute consultation sans être connecté. À tester dans
+l'app, dans l'ordre du tableau, avant de créer le compte TikTok : on prend le premier libre **des deux
+côtés**.
+
+Un nom libre aujourd'hui peut être pris demain : la vérification vaut pour le 10/10.
+
+### L'ancien compte rap @cnabil_213
+
+Mesuré le 10/10 : **compte privé, « C'Nabil🚸 », 1 152 abonnés** (une note business de fin septembre
+disait 2 000 à 3 000 ; c'est 1 152).
+
+- **On ne le réutilise pas pour le nouveau contenu.** Ses abonnés sont venus pour du rap : sur les
+  premières vidéos, ils ne regarderaient pas, et c'est leur réaction que TikTok lit en premier.
+- **On ne le supprime pas.** Le jour où le nouveau compte publie, un seul post sur l'ancien : « je suis
+  passé ici » avec le nouveau pseudo. Une partie des 1 152 suit, le reste ne coûte rien. Ensuite on le
+  laisse dormir.
+- **Pas de « 213 » dans le nouveau pseudo.** Un chiffre dans un pseudo se lit « le nom était déjà
+  pris », et ça le rattache au compte rap.
 
 > Retirés le 10/10 parce qu'ils collaient une étiquette belge à la marque : **@nabil.be** (le drapeau
 > dans le pseudo) et **@nabilunefois** (le « une fois » que les Français collent aux Belges).

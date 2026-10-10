@@ -6,6 +6,23 @@
 
 ---
 
+## 10/10/2026 (suite) — Le pseudo : vérifié sur TikTok
+
+Nabil : « on n'a toujours pas inventé de pseudo pour Insta, etc. » Son pseudo de rappeur : Cnabil_213.
+
+**Mesuré** (page publique TikTok, étalonnée sur un compte connu et un pseudo au hasard)
+
+- Pris : @cnabil (privé, « nabil H », 78 abonnés), @cestnabil, @nabiltoutcourt, @c.nabil, @c_nabil,
+  @cnabil_, @lenabil. **Le premier choix d'hier était pris** : on l'aurait su avant en vérifiant.
+- Libres : **@justenabil**, @nabilenvrai.
+- @cnabil_213 : privé, « C'Nabil🚸 », **1 152 abonnés** (pas 2 000-3 000 comme noté fin septembre).
+- Instagram : impossible à consulter sans connexion. Non vérifié.
+
+**Décidé (proposé)** : @justenabil, repli @nabilenvrai, @cnabil seulement s'il est à lui. L'ancien compte
+rap est gardé, pas réutilisé : un post de passage vers le nouveau, puis il dort.
+
+---
+
 ## 10/10/2026 — Branding : francophone, pas belge
 
 Nabil : « je veux être connu dans la francophonie. J'ai pas de problématique avec le contenu belge,
