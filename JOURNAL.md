@@ -6,6 +6,20 @@
 
 ---
 
+## 10/10/2026 (suite 3) — Repartir de @hitmakingz (12 700 abonnés) ?
+
+Nabil propose de repartir d'un vieux compte de mèmes au lieu d'un compte neuf.
+
+**Mesuré** : créé le 24/12/2021, 12 700 abonnés, 5 vidéos publiques (reposts de micro-trottoirs) toutes
+entre le 25/12/2021 et le 17/01/2022, 77 % des vues sur une seule (2,5 M). Pseudo jamais changé.
+
+**Avis** : oui, si le statut du compte est propre (à vérifier par capture). TikTok dit que le nombre
+d'abonnés et les anciens succès ne sont pas des critères directs de recommandation (Newsroom, 2020) :
+le compte ne bloque rien, et il apporte la preuve sociale et le LIVE débloqué. Détail :
+`phase-1-solo/13-compte-hitmakingz.md`.
+
+---
+
 ## 10/10/2026 (suite 2) — Le pseudo, deuxième tour : C'Nabil
 
 Nabil : « Justenabil j'aime pas et cnabil c pas mon compte. » On garde son nom de rappeur, C'Nabil, en

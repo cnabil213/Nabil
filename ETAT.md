@@ -47,6 +47,13 @@ dit le verdict que personne n'ose dire. »** Pseudo : **@cnabil.tv** (libre sur 
 rouge entre les formats : **la note de fin « VERDICT x/10 »**, muette, incrustée au montage, sur tout,
 lui compris. Pas de faux pays pour la monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
 
+## 📱 Le compte : @hitmakingz plutôt qu'un neuf ? (10/10) → [`phase-1-solo/13-compte-hitmakingz.md`](phase-1-solo/13-compte-hitmakingz.md)
+
+Nabil a un vieux compte de mèmes, **@hitmakingz : 12 700 abonnés**, 5 reposts de micro-trottoirs
+(déc. 2021–janv. 2022), muet depuis 3 ans et 9 mois. **Avis : oui, on part de là, si le statut du compte
+est propre** (capture « Statut du compte » demandée). Puis vidéos en privé, pseudo/nom/bio changés.
+**Décision à Nabil.**
+
 ## 📼 Les formats du compte → [`FORMATS.md`](FORMATS.md)
 
 **Catalogue à la racine du dépôt, à lire avant de proposer un format.** Les deux formats annexes
