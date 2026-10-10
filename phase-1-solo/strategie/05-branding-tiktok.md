@@ -9,7 +9,7 @@
 > maximum de monde. Je veux qu'on me connaisse de Bruxelles à Marseille. » Tout marqueur belge est
 > retiré de la marque (drapeau, pseudos belges). Le compte reste déclaré là où il vit (§6). Objectif chiffré : 100 000 abonnés fin janvier 2027 (`ETAT.md`).
 > **Statut : proposition, à valider par Nabil.** Répond aux questions 1 (pseudo) et 2 (sous-titres)
-> de [`04-da-tiktok.md`](04-da-tiktok.md) §5.
+> de [`02-da-tiktok.md`](02-da-tiktok.md) §5.
 
 ---
 
@@ -180,13 +180,13 @@ Collab : [adresse mail dédiée]
 
 - Une image **nette** de son visage, prise dans la vidéo (même règle que la première image).
 - **Trois mots maximum**, en capitales blanches, **un seul mot en vert lime `#CCFF00`** (la couleur
-  GENZED, déjà proposée pour les sous-titres dans `04-da-tiktok.md`).
+  GENZED, déjà proposée pour les sous-titres dans `02-da-tiktok.md`).
 - Le texte va **dans la bande du milieu** : la grille du profil recadre le haut et le bas.
 - Même gabarit sur toutes les vidéos. Le but : que la grille du profil se lise comme une série.
 
 ### Les sous-titres
 
-Ceux de `04-da-tiktok.md` §4.3 : blanc, capitales, un mot par phrase en vert lime. Mêmes couleurs
+Ceux de `02-da-tiktok.md` §4.3 : blanc, capitales, un mot par phrase en vert lime. Mêmes couleurs
 que les couvertures, donc une seule identité visuelle. (Les tier lists gardent leur règle : pas de
 sous-titres, le classement occupe l'écran.)
 

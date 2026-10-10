@@ -4,7 +4,7 @@
 > narrateur. Je vais pas commencer à faire de l'acting, c'est pas ça mon but. »
 >
 > Ces six scripts se disent **assis, sans bouger, sans rien mimer**. Aucune indication de jeu.
-> La règle complète : [`01-persona-et-regles.md`](01-persona-et-regles.md) §2 bis.
+> La règle complète : [`phase-1-solo/strategie/01-persona-et-regles.md`](../strategie/01-persona-et-regles.md) §2 bis.
 
 ## Comment ils sont écrits (la structure de *T'inquiète*, relevée puis appliquée)
 
@@ -270,7 +270,7 @@ de STAPS »). Écrit sur demande.
 # Le thème « vente / business 2.0 » — version retravaillée
 
 > Nabil sur la première version (« les ventes entre particuliers », dans
-> [`09-scripts-solo-17-09.md`](09-scripts-solo-17-09.md)) : « le thème a un potentiel mais comme ça
+> [`06-scripts-solo-17-09.md`](06-scripts-solo-17-09.md)) : « le thème a un potentiel mais comme ça
 > il est vraiment mid. Faut un vrai hook qui fait rester les gens. Autour de Vinted, les business man
 > 2.0 ou un autre sujet sur ce thème. Faut que ça soit hilarant. »
 

@@ -20,7 +20,7 @@ Le calcul qui dit où est la barre :
 | :--- | :--- |
 | Conversion vues → abonnés sur une vidéo d'humour | 🔸 0,5 à 1 % |
 | Donc 100 000 abonnés demandent | 🔸 **10 à 20 millions de vues cumulées** |
-| Si tu fais le niveau de Sady sur chaque vidéo (médiane **37 843 vues** ✅ relevé du 14/09, 7 vidéos, `05-benchmark-rodman.md`) | 114 × 38 K = 4,3 M de vues → 🔸 **21 000 à 43 000 abonnés** |
+| Si tu fais le niveau de Sady sur chaque vidéo (médiane **37 843 vues** ✅ relevé du 14/09, 7 vidéos, `04-benchmark-rodman.md`) | 114 × 38 K = 4,3 M de vues → 🔸 **21 000 à 43 000 abonnés** |
 | Ce qui manque pour 100 K | 🔸 **4 à 8 vidéos qui dépassent le million** |
 
 Donc : **100 K en 16 semaines, c'est un objectif qui se joue sur une poignée de vidéos qui explosent.**
@@ -104,7 +104,7 @@ redescends sur terre »). C'est la constante. Le format change, le mec qui parle
 
 | Format | Par semaine | Ce qu'il apporte | Règles |
 | :--- | :-: | :--- | :--- |
-| **Sketch solo** « on a TOUS ce pote qui… » | **3** | Le rire de reconnaissance, le partage (« c'est toi ») | `10-scripts-narrateur-17-09.md`. 35 à 60 s. Narrateur, jamais acteur |
+| **Sketch solo** « on a TOUS ce pote qui… » | **3** | Le rire de reconnaissance, le partage (« c'est toi ») | `phase-1-solo/scripts/07-scripts-narrateur-17-09.md`. 35 à 60 s. Narrateur, jamais acteur |
 | **Storytime** (ta vraie vie) | **2** | **L'attachement à ta personne.** C'est le format qui fait s'abonner à un humain, pas à un concept 🔸 | §3 bis ci-dessous. 45 à 75 s |
 | **Duo avec Sady** (Bakhal Man, Le Journaliste, Note cachée, tier list) | **1** | Une audience déjà là (Sady, médiane 38 K ✅), et le format qui se renouvelle tout seul | `FORMATS.md`. Sady tagué, il reposte |
 | **La trend, à ta sauce** | **1, plus si une trend explose** | Tu surfes sur ce dont tout le monde parle cette semaine, avec ton angle : c'est la porte d'entrée la plus large vers des inconnus | §3 ter ci-dessous. Tourné le jour même |
@@ -301,7 +301,7 @@ Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/READ
 | **Sam. 10/10** | dans la journée | **Créer le compte** (§1, pseudo et bio du fil Branding). Réserver le nom sur Instagram. 20 min de commentaires sur des comptes humour FR/BE |
 | | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. **Fichier, légende, hashtags, couverture et premier commentaire : le kit du fil Community manager** (`/mnt/project-files/cnabil/cm/kit-lancement.md` §2), c'est lui qui fait foi pour le lancement |
 | **Dim. 11/10** | 7h26 | Le dénicheur tombe : s'il y a une trend chaude, elle passe en tête du tournage |
-| | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① la trend du dénicheur, s'il y en a une · ② le pote au volant · ③ le pote qui a jamais perdu · ④ le père au téléphone (`10-scripts-narrateur-17-09.md`) · ⑤⑥ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
+| | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① la trend du dénicheur, s'il y en a une · ② le pote au volant · ③ le pote qui a jamais perdu · ④ le père au téléphone (`phase-1-solo/scripts/07-scripts-narrateur-17-09.md`) · ⑤⑥ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
 | | 19h | **V2 · Business Bro** (stock). Légende : « Il diversifie ses actifs. Son frigo, c'est un demi-citron. » |
 
 ### Semaine 1 — du 12 au 18/10 (tu bosses 6h-14h, publication à 19h00)
@@ -314,7 +314,7 @@ Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/READ
 | **Jeu. 15/10** | 19h | **V6 · MMA de salon** (stock) | « Il fait du shadow boxing en attendant que les pâtes cuisent. » |
 | **Ven. 16/10** | 19h | **V7 · Le pote qui a jamais perdu** (tournage #1) | « Il a jamais perdu de sa vie. C'est toujours la manette. » |
 | **Sam. 17/10** | 12h | **V8 · Tier list fruits** avec Sady (stock) | Le verdict le plus contestable + « et j'assume » |
-| | après-midi | **TOURNAGE #2 avec Sady** : Bakhal Man ép. 2 « Montpellier » (`11-bakhal-man-montpellier.md`), Le Journaliste « après le kebab », La Note cachée fast-foods (`FORMATS.md`) | |
+| | après-midi | **TOURNAGE #2 avec Sady** : Bakhal Man ép. 2 « Montpellier » (`phase-1-solo/scripts/09-bakhal-man-montpellier.md`), Le Journaliste « après le kebab », La Note cachée fast-foods (`FORMATS.md`) | |
 | **Dim. 18/10** | 12h | **V9 · Le pote au volant** (tournage #1) | « Dans la rue c'est un agneau. Il met sa ceinture. » |
 | | 20h | **BILAN S1** : captures TikTok Studio → je classe V1 à V8 | |
 
@@ -360,5 +360,5 @@ de l'achat de vues ou d'abonnés, et c'est exactement ce qu'on refuse. Ton équi
 - Buffer, « The Best Time to Post on TikTok in 2026 » (7,1 M de posts) — buffer.com/resources/best-time-to-post-on-tiktok
 - Creator Rewards (conditions et pays) : toptal.com, metricool.com/tiktok-creator-fund, miracamp.com, ttcalculator.net/learn/creator-rewards-program
 - Faux abonnés supprimés : chiffre rapporté par un site d'analyse de créateurs qui cite le rapport d'application des règles de TikTok (non vérifié à la source)
-- Benchmark de Sady : `phase-1-solo/05-benchmark-rodman.md` (relevé du 14/09/2026)
-- Tes mesures : `01-persona-et-regles.md`, `02-scripts-valides.md`, `livraisons/README.md`
+- Benchmark de Sady : `phase-1-solo/strategie/04-benchmark-rodman.md` (relevé du 14/09/2026)
+- Tes mesures : `01-persona-et-regles.md`, `phase-1-solo/scripts/01-scripts-valides.md`, `livraisons/README.md`

@@ -13,7 +13,7 @@
 Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié.**
 **Objectif posé par Nabil le 09/10 : 100 000 abonnés fin janvier 2027** (précisé par Nabil le 09/10 à 13:11).
 
-## 🎬 Coach tournage → [`phase-1-solo/13-coach-tournage.md`](phase-1-solo/13-coach-tournage.md)
+## 🎬 Coach tournage → [`phase-1-solo/tournage/01-coach-tournage.md`](phase-1-solo/tournage/01-coach-tournage.md)
 
 Écrit le 10/10 : une fiche par vidéo (chaîne de sens, 2 hooks, antisèche par bloc, bloc coupable,
 chute), le protocole sur place (3 fichiers par vidéo, contrôle de 2 min avant de partir), et les
@@ -21,7 +21,7 @@ fiches remplies du **tournage #1 du dim. 11/10**. Mesuré : les 3 sketchs du tou
 montés (cible 35-60) et 2 hooks sur 3 dépassent 4 s → hook B et bloc coupable désignés.
 **En attente de Nabil** : un vocal par storytime (6 questions dans le fichier, §3 ⑤⑥).
 
-## 🎯 Les objectifs → [`phase-1-solo/12-plan-croissance-100k.md`](phase-1-solo/12-plan-croissance-100k.md)
+## 🎯 Les objectifs → [`phase-1-solo/strategie/06-plan-croissance-100k.md`](phase-1-solo/strategie/06-plan-croissance-100k.md)
 
 - **Final : 100 000 abonnés TikTok le 31/01/2027** (Nabil, 09/10 : « fin janvier », remplace le 09/01).
   Compte **neuf**, Belgique, TikTok d'abord, Instagram à partir du 26/10, pas YouTube. 100 % propre.
@@ -35,13 +35,26 @@ montés (cible 35-60) et 2 hooks sur 3 dépassent 4 s → hook B et bloc coupabl
   pays est un signal faible pour TikTok (page officielle), donc pas de faux pays.
 - **GENZED gelé** jusqu'aux 100K.
 
-## 🔀 Le 09/10 : tout est regroupé
+## 🔀 Le 10/10 : une seule branche, `main`, et des dossiers rangés
 
-Le travail était éparpillé sur **5 branches** de sessions qui ne se voyaient pas. Elles sont fusionnées
-dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
-- Deux séries de scripts ont été écrites **en parallèle le 17/09** : `07-serie-2`, `08-serie-3`
-  (adresse directe) d'un côté, `09-` et `10-scripts-narrateur` de l'autre. Doublons de sujets (le tonton,
-  la voiture) et **une contradiction** : `01-persona-et-regles.md` §2 bis dit « pas de changement de
+Le 09/10, cinq branches avaient été regroupées dans `claude/project-thread-qvwcj2`, mais dès le 10/10
+quatre fils (branding, plan 100K, coach tournage, Drive) repartaient chacun sur leur branche. **Le 10/10,
+avec l'ok de Nabil, tout est fusionné dans `main`** (les 10 anciennes branches restent en archive, aucune
+supprimée). **Toute session part de `main`.** Tant que Nabil n'a pas fait de `main` la branche par défaut
+(GitHub → Settings → Branches), GitHub ouvre encore l'ancienne `nabil-content-strategy-2025-ihrj59`.
+
+`phase-1-solo/` est coupé en trois, numéroté sans doublon :
+- `strategie/` : persona et règles, D.A., format tier list, benchmark, branding, plan 100K, compte @hitmakingz ;
+- `scripts/` : scripts validés, backlog, toutes les séries, concepts duo, Bakhal Man et ses cartons (`scripts/cartes/`) ;
+- `tournage/` : coach tournage, inventaire du Drive.
+
+Dossier Drive et Blow Up : [`phase-1-solo/tournage/02-drive-inventaire-et-coach-fumer.md`](phase-1-solo/tournage/02-drive-inventaire-et-coach-fumer.md),
+[`outils/RECHERCHE-BLOWUP.md`](outils/RECHERCHE-BLOWUP.md).
+
+À savoir, hérité du regroupement du 09/10 :
+- Deux séries de scripts ont été écrites **en parallèle le 17/09** : `scripts/04-serie-2`, `scripts/05-serie-3`
+  (adresse directe) d'un côté, `scripts/06-` et `scripts/07-scripts-narrateur` de l'autre. Doublons de sujets (le tonton,
+  la voiture) et **une contradiction** : `phase-1-solo/strategie/01-persona-et-regles.md` §2 bis dit « pas de changement de
   voix », §3 et §3 bis autorisent « imiter la voix ». **À trancher par Nabil.**
 - « T'inquiète » existe en deux montages : `15sept-tinquiete-HQ.mp4` (1080p, 34,7 s) et
   `15sept-tinquiete-5clips-HQ.mp4` (720p, 36,7 s, récupéré : il avait été écrasé).
@@ -50,7 +63,7 @@ dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
   **À faire confirmer par Nabil** avant toute stratégie.
 - Synthèse lisible du tout : `/mnt/project-files/cnabil/SYNTHESE.md` (projet C'Nabil-FAMOUS).
 
-## 🏷️ Branding TikTok (09/10) → [`phase-1-solo/12-branding-tiktok.md`](phase-1-solo/12-branding-tiktok.md)
+## 🏷️ Branding TikTok (09/10) → [`phase-1-solo/strategie/05-branding-tiktok.md`](phase-1-solo/strategie/05-branding-tiktok.md)
 
 **Proposé, pas encore validé par Nabil.** Nouveau compte, basé en Belgique, part de 0 ; TikTok d'abord,
 Instagram ensuite, pas YouTube. **Cible : toute la francophonie, pas la Belgique** (Nabil, 10/10 : « de
@@ -60,7 +73,7 @@ dit le verdict que personne n'ose dire. »** Pseudo : **@cnabil.tv** (libre sur 
 rouge entre les formats : **la note de fin « VERDICT x/10 »**, muette, incrustée au montage, sur tout,
 lui compris. Pas de faux pays pour la monétisation : l'argent passe par les marques et les LIVE. Répond aux questions 1 et 2 de la DA.
 
-## 📱 Le compte : @hitmakingz plutôt qu'un neuf ? (10/10) → [`phase-1-solo/13-compte-hitmakingz.md`](phase-1-solo/13-compte-hitmakingz.md)
+## 📱 Le compte : @hitmakingz plutôt qu'un neuf ? (10/10) → [`phase-1-solo/strategie/07-compte-hitmakingz.md`](phase-1-solo/strategie/07-compte-hitmakingz.md)
 
 Nabil a un vieux compte de mèmes, **@hitmakingz : 12 700 abonnés**, 5 reposts de micro-trottoirs
 (déc. 2021–janv. 2022), muet depuis 4 ans et 9 mois. **Avis : oui, on part de là, si le statut du compte
@@ -73,12 +86,12 @@ est propre** (capture « Statut du compte » demandée). Puis vidéos en privé,
 prioritaires : **BAKHAL MAN** (les cartons 0-10, le taux de mytho d'une histoire noté en direct, ex
 « le mythomètre ») et **LE JOURNALISTE** (l'interview d'après-match d'un truc banal, le déo en micro,
 ex « l'exploit sportif »). Plus : La Note cachée, Le GPS de la vie, Le Contrôle technique, la tier
-list. Cartons prêts à imprimer dans `phase-1-solo/cartes/`.
+list. Cartons prêts à imprimer dans `phase-1-solo/scripts/cartes/`.
 
 ## Le chantier en cours
 
 **Bakhal Man, épisode 2 « Montpellier » (21/09), à tourner en voiture, bientôt.** Le brainstorming vocal de
-Nabil × Sady est remis au propre dans [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md).
+Nabil × Sady est remis au propre dans [`phase-1-solo/scripts/09-bakhal-man-montpellier.md`](phase-1-solo/scripts/09-bakhal-man-montpellier.md).
 Tel que Nabil l'a pensé : **deux histoires, le carton change de mains** (Nabil raconte Montpellier, Sady
 tient le carton ; puis l'inverse). Version courte écrite (Montpellier en 45-50 s, il reste 30-35 s à Sady,
 soit 90-100 mots) et version longue de secours (Montpellier seul, 1 min 10-1 min 20). Le vrai trajet est
@@ -88,20 +101,20 @@ Reste : le lire chrono à deux dans la voiture. Sady n'a pas encore validé le t
 Cette branche a **fusionné** la branche `video-ideas-social-media` (FORMATS.md, cartons).
 
 **Le tournage solo du 17/09.** Six scripts définitifs, **en mode narrateur**, dans
-[`phase-1-solo/10-scripts-narrateur-17-09.md`](phase-1-solo/10-scripts-narrateur-17-09.md) : le pote
+[`phase-1-solo/scripts/07-scripts-narrateur-17-09.md`](phase-1-solo/scripts/07-scripts-narrateur-17-09.md) : le pote
 au volant · le mec du groupe qui a rien fait · le pote qui a jamais perdu (console) · le prof qui
 rendait les copies par ordre de note · le père qui crie au téléphone · le tonton (« et le vrai
 travail ? »). 187 à 228 mots, soit 58 à 71 s au montage (débit mesuré 3,23 mots/s). Ordre de
-tournage dans le fichier. Le fichier `09-…` est de l'historique (calibrage + 4 sujets brûlés).
+tournage dans le fichier. Le fichier `scripts/06-…` est de l'historique (calibrage + 4 sujets brûlés).
 À la prochaine session : savoir ce qui a été tourné, demander les rushs (`ffprobe` d'abord).
 
 **⚖️ LE HOOK OUVRE UNE QUESTION (17/09).** Un hook qui annonce le sujet est « mid » (mot de Nabil) :
 il donne une raison de partir. Un hook qui pose une contradiction (« il a lancé son entreprise, c'est
 un compte Vinted ») oblige à rester. Et le corps doit être une **descente sur un seul type de
 personne**, pas une liste de plaintes sur six inconnus. Test : si deux paliers sont interchangeables,
-c'est une liste, donc c'est mid. Détail : `01-persona-et-regles.md` §2 ter. Deux scripts écrits sur
+c'est une liste, donc c'est mid. Détail : `phase-1-solo/strategie/01-persona-et-regles.md` §2 ter. Deux scripts écrits sur
 ce principe le 17/09 : **le businessman 2.0** (71 s) et **le mec qui a « économisé »** (62 s), dans
-[`phase-1-solo/10-scripts-narrateur-17-09.md`](phase-1-solo/10-scripts-narrateur-17-09.md).
+[`phase-1-solo/scripts/07-scripts-narrateur-17-09.md`](phase-1-solo/scripts/07-scripts-narrateur-17-09.md).
 
 **⚖️ NABIL EST NARRATEUR, JAMAIS ACTEUR — règle posée par lui le 17/09, elle prime.** « Je tourne
 pas, je parle juste avec ma bouche. Je joue pas de personnage. J'ai pas un jeu d'acteur. » Ses trois
@@ -112,10 +125,10 @@ monte, où ça se dit bas, où on marque un temps) sont autorisées. Le sujet, l
 de personne** (7/7 sur ses scripts gardés, 0/4 sur les rejetés), dont il PARLE et qu'il ne joue pas.
 ⚠️ Cette règle **corrige une erreur de l'IA le 17/09** (« la loi du personnage : Nabil joue et
 imite »), qui avait produit six scripts avec des indications de jeu. Détail et formes de hook :
-[`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §2 bis.
+[`phase-1-solo/strategie/01-persona-et-regles.md`](phase-1-solo/strategie/01-persona-et-regles.md) §2 bis.
 
 **Le duo avec Sady, 16/09.** Cinq concepts **validés par Nabil** (« très très drôle »), tous avec un
-script complet dans [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) : **la note
+script complet dans [`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md) : **la note
 cachée** (tier list à révélation simultanée, script fast-foods), **l'interview d'après-match de la
 vie** (déo-micro), **le mythomètre** (carton 0-10), **le GPS de la vie**, **le contrôle technique**.
 Rôles fixes : Nabil = l'institution qui ne rit jamais, Sady = celui qui subit. Quatre concepts brûlés
@@ -129,12 +142,12 @@ Ce qu'il lui reste à faire s'il la publie : couper trois doublons et raccourcir
 le journal). Le rush de cette nouvelle prise n'a pas été envoyé.
 
 **Le tournage du 15/09.** Quatre scripts donnés (A → B → C → D, dans
-[`phase-1-solo/07-scripts-proposes-15-09.md`](phase-1-solo/07-scripts-proposes-15-09.md)). Nabil a tourné
+[`phase-1-solo/scripts/03-scripts-proposes-15-09.md`](phase-1-solo/scripts/03-scripts-proposes-15-09.md)). Nabil a tourné
 le **B « T'inquiète »** en trois fichiers 4K ; **monté et livré le jour même** (34,7 s). A, C et D restent
 à tourner. À vérifier avec lui : est-ce qu'il a tourné autre chose.
 
 **La DA TikTok.** Proposition complète écrite dans
-[`phase-1-solo/04-da-tiktok.md`](phase-1-solo/04-da-tiktok.md). Les 5 questions de sa section 5
+[`phase-1-solo/strategie/02-da-tiktok.md`](phase-1-solo/strategie/02-da-tiktok.md). Les 5 questions de sa section 5
 sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouvertes, la DA est bloquée.
 
 ## Fait
@@ -151,19 +164,19 @@ sont à poser à Nabil dès le début de la session ; tant qu'elles sont ouverte
 | **Vidéo 5 — « T'inquiète »** | ✅ **Tournée et livrée le 15/09** : [`livraisons/15sept-tinquiete-HQ.mp4`](livraisons/) — 34,7 s, 1080p |
 | **Tier list fruits** (avec Sady) | ✅ Montée et livrée — 1 min 42 |
 | **Tier list footballeurs** (avec Sady) | ✅ Montée et livrée — 1 min 43 |
-| **Benchmark du compte de Sady** | ✅ 7 vidéos relevées : [`phase-1-solo/05-benchmark-rodman.md`](phase-1-solo/05-benchmark-rodman.md) |
-| **D.A. du format tier list** | ✅ Tranchée : [`phase-1-solo/06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) |
+| **Benchmark du compte de Sady** | ✅ 7 vidéos relevées : [`phase-1-solo/strategie/04-benchmark-rodman.md`](phase-1-solo/strategie/04-benchmark-rodman.md) |
+| **D.A. du format tier list** | ✅ Tranchée : [`phase-1-solo/strategie/03-format-tier-list.md`](phase-1-solo/strategie/03-format-tier-list.md) |
 
 ## En cours / pas fait
 
 - **Le montage de l'otage du téléphone garde un point faible assumé** : la section « on connaît tous
   ces humains-là → une fois, deux fois, trois fois » retombe de 8 dB et ralentit à 56 % du débit.
   C'est un maillon du sens, donc elle reste. À retourner avec de l'énergie si Nabil veut la hisser.
-- **Publication** : aucun compte ouvert, rien en ligne. Pseudo proposé le 09/10 (`12-branding-tiktok.md`), pas encore pris.
+- **Publication** : aucun compte ouvert, rien en ligne. Pseudo proposé le 09/10 (`phase-1-solo/strategie/05-branding-tiktok.md`), pas encore pris.
 - **Sous-titres** : proposés dans la D.A. solo, jamais produits. Écartés sur le format tier list
   (le classement incrusté occupe déjà le tiers gauche). À trancher : une identité visuelle ou deux.
 - **Tier list sport du 13/09 : écartée de la publication**, deux passages non coupables proprement.
-  À retourner. Raison dans [`06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) §5.
+  À retourner. Raison dans [`phase-1-solo/strategie/03-format-tier-list.md`](phase-1-solo/strategie/03-format-tier-list.md) §5.
   Un montage **perso** (blancs resserrés, 1 min 33) a été fait à la demande de Nabil ; il n'est
   volontairement pas dans `livraisons/`, qui est le dossier des vidéos destinées à sortir.
 - **Sons du soundboard 3kh0** : 6 mèmes proposés à Nabil, jamais validés ni importés.
@@ -204,7 +217,7 @@ Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 V1 T'inquiète le 10/10 à 19h si le compte est prêt, tournage #1 dimanche 11/10. **Cible : toute la
 francophonie, de Bruxelles à Marseille** (Nabil, 10/10) : pas d'angle belge, les deux idées
 France-Belgique de la veille sont écartées. Veille FR/BE chaque matin à
-7h26 (fil « Connecter Claude à TikTok »). Calendrier : `phase-1-solo/12-plan-croissance-100k.md` §8,
+7h26 (fil « Connecter Claude à TikTok »). Calendrier : `phase-1-solo/strategie/06-plan-croissance-100k.md` §8,
 veille §5 bis. **Le plan attend l'ok de Nabil.**
 
 **Au 09/10, avant tout le reste** : savoir sur quel compte on publie (l'ancien compte rap ou un neuf),
@@ -219,7 +232,7 @@ si les tournages BAKHALMAN des 21 et 23/09 ont eu lieu, et quels rushs dorment s
    (pas de diarisation) : les coupes se posent à l'enveloppe, pas aux verdicts par phrase.
 1. **Publier.** Six montages prêts dans [`livraisons/`](livraisons/). Rien n'est en ligne, aucun
    compte n'est ouvert : c'est le seul blocage de la Phase 1.
-2. Poser à Nabil les 5 questions de la DA (`04-da-tiktok.md`, section 5).
+2. Poser à Nabil les 5 questions de la DA (`phase-1-solo/strategie/02-da-tiktok.md`, section 5).
 3. Écrire la chute de la Vidéo 4, à partir de ce qu'il a trouvé en improvisant.
 
 ## À savoir avant de commencer

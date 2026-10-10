@@ -11,7 +11,7 @@
 > **Les six ci-dessous n'ont aucun « on a tous ce pote ».** Et ils utilisent six mécaniques d'adresse
 > différentes, pour que ça ne devienne pas une formule à son tour :
 >
-> ⚠️ **Tout est NARRÉ.** Nabil est narrateur, pas acteur (`01-persona-et-regles.md` §3 bis) : aucune
+> ⚠️ **Tout est NARRÉ.** Nabil est narrateur, pas acteur (`phase-1-solo/strategie/01-persona-et-regles.md` §3 bis) : aucune
 > vanne ci-dessous ne dépend d'un geste, d'un accessoire ou d'une mimique. **Elles marchent toutes
 > les yeux fermés.** Les seules indications de jeu qui restent portent sur la VOIX — ton, rythme,
 > silences, imitation d'un personnage qu'on cite.
@@ -363,4 +363,4 @@ livre, c'est la seule ligne à ne pas passer ici.
 Sélectionne tous les clips → Partager → **Audio pour Claude** → dans le chat. Y compris ceux de la
 clope que tu viens de tourner. Je transcris tout, je mesure les prises, j'écris la chaîne de sens, et
 je te renvoie la liste de coupes à valider. **La vidéo lourde une seule fois, à la fin** — via un lien
-iCloud Drive (voir [`outils/README-envoyer-un-rush.md`](../outils/README-envoyer-un-rush.md)).
+iCloud Drive (voir [`outils/README-envoyer-un-rush.md`](../../outils/README-envoyer-un-rush.md)).

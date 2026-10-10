@@ -125,7 +125,7 @@ Le test : **si la vanne ne marche plus les yeux fermés, elle est fausse.** Ses 
 passent ce test.
 
 Détail, tableau de ce qui est autorisé, et la mesure qui a corrigé l'erreur :
-[`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §3 bis.
+[`phase-1-solo/strategie/01-persona-et-regles.md`](phase-1-solo/strategie/01-persona-et-regles.md) §3 bis.
 
 ---
 

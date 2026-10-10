@@ -2,7 +2,7 @@
 
 > **Fichier d'index. Toute IA qui travaille sur ce dépôt le lit avant de proposer un format.**
 > Créé le 21/09/2026 parce qu'une autre session n'a pas retrouvé **Bakhal Man** et **Le Journaliste**
-> (ils étaient enterrés dans `phase-1-solo/08-concepts-duo.md` sous les noms « mythomètre » et
+> (ils étaient enterrés dans `phase-1-solo/scripts/08-concepts-duo.md` sous les noms « mythomètre » et
 > « interview d'après-match »). Les noms officiels sont ceux de ce fichier.
 >
 > **Mots-clés de recherche** : bakhal man · bakhalman · mythomètre · mytho · carton 0-10 ·
@@ -40,7 +40,7 @@
 > ⚠️ **Nabil ne joue pas la comédie.** Dans les formats annexes il tient un rôle par la **voix et le
 > texte** (ton neutre de journaliste, ton plat de GPS), jamais par le jeu d'acteur : pas de mime,
 > pas de déplacement, pas de scène à deux personnages qu'il jouerait seul. Règle complète :
-> [`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) §2 bis.
+> [`phase-1-solo/strategie/01-persona-et-regles.md`](phase-1-solo/strategie/01-persona-et-regles.md) §2 bis.
 
 ---
 
@@ -82,11 +82,11 @@ descend quand Sady le retire.
 
 ### Le matériel
 
-Les cartons sont dessinés et prêts à imprimer : **`phase-1-solo/cartes/bakhal-man-A4.pdf`** et
+Les cartons sont dessinés et prêts à imprimer : **`phase-1-solo/scripts/cartes/bakhal-man-A4.pdf`** et
 **`bakhal-man-A3.pdf`** (une carte par page, chiffre plein cadre), et
 **`cartes-jeu-A4.pdf`** (format carte à jouer, 63 × 88 mm, 9 par page, deux jeux). Noir et blanc,
 étiquette « BAKHAL MAN », « /10 », **aucun texte d'échelle sur la carte**. Papier 160 g minimum,
-sinon le chiffre d'en face se voit à travers. Aperçu : `phase-1-solo/cartes/apercu.png`.
+sinon le chiffre d'en face se voit à travers. Aperçu : `phase-1-solo/scripts/cartes/apercu.png`.
 
 ### Épisode de référence — « La bagarre »
 
@@ -120,7 +120,7 @@ dans la valise qui pèse 300 grammes. **Décision de Nabil dans le vocal du 21/0
 Nabil tient le carton (« Le bus » : sponsorisé Apple, Steve Jobs, zombies stade 10) : deux histoires de
 45 s. **Ton du carton, dit par Nabil : « presque agacé, bon allez, huit »**, blasé, pas neutre-poli. Script complet (version courte à deux histoires et
 version longue à une seule), hook et durée dans
-[`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md).
+[`phase-1-solo/scripts/09-bakhal-man-montpellier.md`](phase-1-solo/scripts/09-bakhal-man-montpellier.md).
 
 **Réserves d'épisodes** : l'histoire de la boîte de nuit · le contrôle de police · « j'ai failli
 signer dans un club » · la fois où il a vu une célébrité · l'histoire de vacances au bled.
@@ -198,7 +198,7 @@ parle plus ». **Fin** : « L'écart le plus gros, tranchez en commentaire : c'e
 **Matériel** : les mêmes cartons que Bakhal Man, deux jeux (un chacun).
 
 **Script complet du premier épisode (les fast-foods)** :
-[`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) § « LA NOTE CACHÉE — le script
+[`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md) § « LA NOTE CACHÉE — le script
 du premier épisode ». Les deux notes scandaleuses sont décidées d'avance : le 3 de Nabil à McDo, le 5
 de Sady au grec du quartier. Chute : « lui, il rentre à pied ».
 
@@ -214,7 +214,7 @@ l'itinéraire. »
 depuis 2019. »
 
 Script complet et épisodes suivants (lundi matin, la soirée, le mode éco, la rupture) :
-[`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) § « LE GPS DE LA VIE ».
+[`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md) § « LE GPS DE LA VIE ».
 
 ---
 
@@ -228,7 +228,7 @@ interdiction de circuler, contre-visite.
 « C'est quoi la contre-visite ? » — « Dans deux mois. Avec les huit euros. »
 
 Script complet et épisodes suivants (l'inverse, le daron, le téléphone de Sady) :
-[`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) § « LE CONTRÔLE TECHNIQUE ».
+[`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md) § « LE CONTRÔLE TECHNIQUE ».
 
 ---
 
@@ -243,15 +243,15 @@ compte** : une IA qui écrit un nouvel épisode doit pouvoir le replacer.
 
 Quatre concepts duo refusés par Nabil le 16/09 (« vraiment pas drôle ») : Sady note ce que je mange ·
 on a tous ce pote à deux · expose ton pote avec droit de réponse · le débat à 30 s avec gage · le duel
-à 10 balles. Raisons dans [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md).
+à 10 balles. Raisons dans [`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md).
 
 ## Où est le reste
 
 | | |
 | :--- | :--- |
-| Les règles d'écriture (narrateur, hook, interdits) | [`phase-1-solo/01-persona-et-regles.md`](phase-1-solo/01-persona-et-regles.md) |
-| Les scripts solo tournables | [`phase-1-solo/10-scripts-narrateur-17-09.md`](phase-1-solo/10-scripts-narrateur-17-09.md) |
-| Les scripts solo validés et tournés | [`phase-1-solo/02-scripts-valides.md`](phase-1-solo/02-scripts-valides.md) |
-| La D.A. du format tier list | [`phase-1-solo/06-format-tier-list.md`](phase-1-solo/06-format-tier-list.md) |
-| Le benchmark chiffré du compte de Sady | [`phase-1-solo/05-benchmark-rodman.md`](phase-1-solo/05-benchmark-rodman.md) |
-| Les détails et scripts complets des formats annexes | [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md) |
+| Les règles d'écriture (narrateur, hook, interdits) | [`phase-1-solo/strategie/01-persona-et-regles.md`](phase-1-solo/strategie/01-persona-et-regles.md) |
+| Les scripts solo tournables | [`phase-1-solo/scripts/07-scripts-narrateur-17-09.md`](phase-1-solo/scripts/07-scripts-narrateur-17-09.md) |
+| Les scripts solo validés et tournés | [`phase-1-solo/scripts/01-scripts-valides.md`](phase-1-solo/scripts/01-scripts-valides.md) |
+| La D.A. du format tier list | [`phase-1-solo/strategie/03-format-tier-list.md`](phase-1-solo/strategie/03-format-tier-list.md) |
+| Le benchmark chiffré du compte de Sady | [`phase-1-solo/strategie/04-benchmark-rodman.md`](phase-1-solo/strategie/04-benchmark-rodman.md) |
+| Les détails et scripts complets des formats annexes | [`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md) |

@@ -1,8 +1,8 @@
 # Phase 1 — Quatre scripts proposés le 15/09/2026
 
 > **Statut : 🟡 proposés, pas validés.** Écrits pour être tournés le jour même, en voiture, garé.
-> Ils montent dans [`02-scripts-valides.md`](02-scripts-valides.md) quand Nabil en a tourné un et
-> l'a gardé. Les idées écartées le même jour sont dans le [`03-backlog-idees.md`](03-backlog-idees.md),
+> Ils montent dans [`01-scripts-valides.md`](01-scripts-valides.md) quand Nabil en a tourné un et
+> l'a gardé. Les idées écartées le même jour sont dans le [`02-backlog-idees.md`](02-backlog-idees.md),
 > avec leur raison.
 
 **Ordre de tournage conseillé :** A → B → C → D. A et B ont les hooks les plus courts.
@@ -64,7 +64,7 @@ partage direct vers une app.
 ## 🎬 B — « T'inquiète »
 
 > ✅ **TOURNÉE le 15/09 à 14 h 53**, en trois fichiers (38 s + 12 s + 16 s), 4K, app Caméra.
-> Montée le jour même : voir [`02-scripts-valides.md`](02-scripts-valides.md#-vidéo-5--tinquiète).
+> Montée le jour même : voir [`01-scripts-valides.md`](01-scripts-valides.md#-vidéo-5--tinquiète).
 
 **L'observation :** le pote qui répond « t'inquiète » à tout, surtout aux trucs inquiétants.
 **Mécanique :** hook acting (le visage hyper calme du pote) + escalade.

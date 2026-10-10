@@ -23,8 +23,11 @@ JOURNAL.md         ← une entrée par session : fait / décidé / appris
 CLAUDE.md          ← les règles de travail, chargées automatiquement par Claude Code
 README.md          ← ce fichier : l'index
 
-phase-1-solo/      01-persona-et-regles · 02-scripts-valides · 03-backlog-idees
-                   04-da-tiktok  ← la direction artistique + la passation
+phase-1-solo/      strategie/  persona et règles · D.A. TikTok · format tier list · benchmark
+                               branding · plan 100K · compte @hitmakingz
+                   scripts/    scripts validés · backlog · séries · concepts duo · Bakhal Man
+                               cartes/  les cartons à imprimer
+                   tournage/   coach tournage · inventaire du Drive
 phase-2-genzed/    01-bible-production · 02-direction-artistique
                    03-technique-et-budget · 04-historique-concepts
 
@@ -63,7 +66,7 @@ permanent.
 **Avec Claude Code, dans ce dépôt :** rien à faire. `CLAUDE.md` et `ETAT.md` se chargent seuls.
 
 **Avec une autre IA (ChatGPT, Gemini…) :** coller `CLAUDE.md` + `ETAT.md` +
-`phase-1-solo/01-persona-et-regles.md` + `phase-1-solo/02-scripts-valides.md` avant de demander
+`phase-1-solo/strategie/01-persona-et-regles.md` + `phase-1-solo/scripts/01-scripts-valides.md` avant de demander
 des idées. Sans ça, l'IA repart sur de l'humour générique et des thèmes déjà vus.
 
 **Rôle attendu de l'IA** (arbitré par Nabil) : outil personnel de génération d'idées
@@ -71,7 +74,7 @@ des idées. Sans ça, l'IA repart sur de l'humour générique et des thèmes dé
 
 ## ✍️ Convention de mise à jour
 
-- Un script passe de `03-backlog-idees.md` → `02-scripts-valides.md` uniquement
+- Un script passe de `phase-1-solo/scripts/02-backlog-idees.md` → `phase-1-solo/scripts/01-scripts-valides.md` uniquement
   quand il est **tournable en l'état**.
 - Une idée rejetée n'est **jamais supprimée** : elle descend dans les sections
   « brûlées » / « historique » avec la raison du refus. C'est ce qui empêche les

@@ -1,7 +1,7 @@
 # Format TIER LIST — la D.A. du duo Nabil × Sady
 
 > Décidé le 14/09/2026. Nabil : « fais notre D.A., t'es notre manager. »
-> Fondé sur le benchmark chiffré de [`05-benchmark-rodman.md`](05-benchmark-rodman.md) (7 vidéos).
+> Fondé sur le benchmark chiffré de [`04-benchmark-rodman.md`](04-benchmark-rodman.md) (7 vidéos).
 > Ce fichier tranche. Ce qui n'est pas tranché ici est marqué comme tel.
 
 ---
@@ -23,7 +23,7 @@ sans le débat qui l'a produite. **Dans une tier list, la prémisse c'est la lis
 
 > Erreur commise le 14/09 : deux extraits de 20 s taillés dans la tier list fruits.
 > Nabil : « vu que c'est une tier list, si tu fais ça on comprend plus rien. » Il avait raison.
-> C'est le corollaire de la règle §2 bis de [`CLAUDE.md`](../CLAUDE.md) appliqué à ce format.
+> C'est le corollaire de la règle §2 bis de [`CLAUDE.md`](../../CLAUDE.md) appliqué à ce format.
 
 ### 2.2 La durée est libre
 
@@ -105,7 +105,7 @@ tournage coûtent deux minutes.
 
 ## 6. Ce que je n'ai PAS fait, et pourquoi
 
-- **Pas de sous-titres.** La D.A. solo ([`04-da-tiktok.md`](04-da-tiktok.md)) en fait la signature
+- **Pas de sous-titres.** La D.A. solo ([`02-da-tiktok.md`](02-da-tiktok.md)) en fait la signature
   visuelle du compte. Ici, le tiers gauche de l'image est déjà occupé par le classement incrusté, et
   il y a deux locuteurs à distinguer. Des sous-titres par-dessus, c'est illisible. **Sur le format
   tier list, la signature visuelle c'est le classement lui-même.** À trancher : est-ce qu'on garde
@@ -118,6 +118,6 @@ tournage coûtent deux minutes.
 
 | fichier | durée d'origine | durée livrée | gagné |
 | :--- | --: | --: | --: |
-| [`livraisons/tier-fruits-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 42 | −15 % |
-| [`livraisons/tier-foot-HQ.mp4`](../livraisons/) | 2 min 00 | 1 min 47 | −11 % |
+| [`livraisons/tier-fruits-HQ.mp4`](../../livraisons/) | 2 min 00 | 1 min 42 | −15 % |
+| [`livraisons/tier-foot-HQ.mp4`](../../livraisons/) | 2 min 00 | 1 min 47 | −11 % |
 | tier list sport | 1 min 50 | 1 min 33 *(copie perso, hors `livraisons/`)* | **écartée de la publication, à retourner** |

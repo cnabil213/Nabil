@@ -2,13 +2,13 @@
 
 > **Les scripts de ce fichier sont périmés.** Les six définitifs, réécrits **en mode narrateur**
 > (sans aucune indication de jeu), sont dans
-> [`10-scripts-narrateur-17-09.md`](10-scripts-narrateur-17-09.md).
+> [`07-scripts-narrateur-17-09.md`](07-scripts-narrateur-17-09.md).
 > Ce fichier est gardé pour deux raisons : le calibrage de longueur (mesuré, toujours valable) et la
 > trace des quatre sujets brûlés avec leur raison.
 
 > Demande de Nabil : « 5-6 thèmes, des sketchs solo comme *T'inquiète*, Gen Z, qui parlent à tout le
 > monde, avec un script d'au moins 50 s à 1 min, et des indications. »
-> Statut : **proposés, pas validés.** Ils montent dans [`02-scripts-valides.md`](02-scripts-valides.md)
+> Statut : **proposés, pas validés.** Ils montent dans [`01-scripts-valides.md`](01-scripts-valides.md)
 > quand ils sont tournés et gardés.
 
 ## La longueur, mesurée (pas estimée)
@@ -352,7 +352,7 @@ ici. Tu le dis plat, presque étonné.
 
 ## Ce qui est encore en stock, non tourné
 
-Trois scripts du 15/09 dans [`07-scripts-proposes-15-09.md`](07-scripts-proposes-15-09.md) :
+Trois scripts du 15/09 dans [`03-scripts-proposes-15-09.md`](03-scripts-proposes-15-09.md) :
 **A** le pote qui a six mois de plus · **C** le pote qui a un contact pour tout · **D** le pote qui te
 corrige quand tu racontes. Avec les six d'aujourd'hui, ça fait **neuf scripts tournables**.
 
@@ -378,7 +378,7 @@ monde avec ça. »
 **Ce que la mesure dit de ce tri** (test appliqué à ses 11 scripts connus) : ses 7 scripts validés,
 tournés ou gardés ont **tous** un personnage qu'il joue ; les 4 rejetés n'en ont **aucun**. Ils
 parlaient d'un groupe WhatsApp, d'une appli, d'un mariage et d'un compte en banque. Pas de quelqu'un.
-La règle est écrite dans [`01-persona-et-regles.md`](01-persona-et-regles.md) §2 bis — **la loi du
+La règle est écrite dans [`phase-1-solo/strategie/01-persona-et-regles.md`](../strategie/01-persona-et-regles.md) §2 bis — **la loi du
 personnage** — et elle passe devant tout le reste désormais.
 
 Les quatre scripts de remplacement ci-dessous ont chacun **un personnage imité**, dans les trois

@@ -292,8 +292,8 @@ notes.
 
 > Demande de Nabil : « un concept drôle, divertissant, qui pourrait marcher… soit inventer, soit
 > prendre un truc qui marche et l'améliorer ». Statut : **proposés, pas validés.**
-> Ce sur quoi ils s'appuient : [`05-benchmark-rodman.md`](05-benchmark-rodman.md) (le compte de Sady)
-> et [`06-format-tier-list.md`](06-format-tier-list.md) (ce qui est déjà tranché sur le duo).
+> Ce sur quoi ils s'appuient : [`phase-1-solo/strategie/04-benchmark-rodman.md`](../strategie/04-benchmark-rodman.md) (le compte de Sady)
+> et [`phase-1-solo/strategie/03-format-tier-list.md`](../strategie/03-format-tier-list.md) (ce qui est déjà tranché sur le duo).
 
 **Ce qui fait percer un duo, et qu'on ne discute plus :**
 

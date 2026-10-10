@@ -20,7 +20,7 @@ segments, chaque source décodée séparément (synchro son/image mesurée à �
 fichier). Coupé : les trois blancs de réflexion dans la liste (ramenés à 0,38 s), la fin cherchée à voix
 haute du premier fichier, la deuxième formulation du « 9 ans d'études », et le second final « algorithme »
 qui venait après la chute mesurée 91/100. Détail dans
-[`02-scripts-valides.md`](../phase-1-solo/02-scripts-valides.md#-vidéo-5--tinquiète).
+[`phase-1-solo/scripts/01-scripts-valides.md`](../phase-1-solo/scripts/01-scripts-valides.md#-vidéo-5--tinquiète).
 
 **Pourquoi 1080p et pas 4K.** Le rush est en 2160×3840 à 25 Mb/s. Le même montage en 4K à CRF 18
 conserve 99,4 % du détail mais pèse **194 Mio à 46,8 Mb/s** (x264 garde tout le grain de jour de

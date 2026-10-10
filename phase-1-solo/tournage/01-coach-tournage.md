@@ -92,7 +92,7 @@ TYPE DE PERSONNE (sketch) ou FAIT (storytime/actu) : ______________________
    L'iPhone affiche la taille par minute de chaque réglage dans ce menu : envoie-moi la capture.
 2. **Ne pas déranger.** Une notification au milieu d'une prise, c'est la prise perdue.
 3. **De jour, garé, moteur coupé, visage tourné vers la vitre.** [La nuit, une image sur deux était
-   floue : netteté de 1,94 à 0,77 en quatre images, `04-da-tiktok.md` §3.]
+   floue : netteté de 1,94 à 0,77 en quatre images, `phase-1-solo/strategie/02-da-tiktok.md` §3.]
 4. **Plan poitrine, téléphone à hauteur des yeux, à un bras**, et le même cadre pour toutes les vidéos
    de la session. Un support (pince ou ventouse) évite le bras qui tombe à la quatrième vidéo
    (conseil, pas mesuré).
@@ -453,7 +453,7 @@ mieux le travail, donc aucune trouvaille de ce lot ne demande un extrait de X s 
 ## Pour les tournages suivants
 
 - **Tournage #2 avec Sady (sam. 17/10)** : Bakhal Man ép. 2, Le Journaliste « après le kebab », La Note
-  cachée fast-foods. Fiches à faire dans la semaine, à partir de `11-bakhal-man-montpellier.md` et
+  cachée fast-foods. Fiches à faire dans la semaine, à partir de `phase-1-solo/scripts/09-bakhal-man-montpellier.md` et
   `FORMATS.md`. En duo, une règle de plus : **un silence entre deux locuteurs ne se comprime pas**
   [tier list foot, 14/09 : le blanc après Musiala faisait croire à une réplique préparée].
 - **Après chaque tournage**, on note ici ce qui a quand même dû être refait, et pourquoi. Le but est

@@ -1,27 +1,27 @@
 # Phase 1 — Backlog des idées
 
 Pipeline des idées short-form. Une idée monte dans
-[`02-scripts-valides.md`](02-scripts-valides.md) **uniquement** quand elle est
+[`01-scripts-valides.md`](01-scripts-valides.md) **uniquement** quand elle est
 tournable en l'état.
 
 ## 🟡 En cours
 
 | Idée | Où ça en est |
 | :--- | :--- |
-| **L'otage du téléphone** | 🟠 **Déjà tournée en impro le 30/08** (61 s). Il manque la chute et le hook → [`02-scripts-valides.md`](02-scripts-valides.md#-vidéo-4--le-syndrome-de-lotage-du-téléphone) |
-| **Business Bro (Vidéo 3)** | 🟠 **Déjà tournée en impro le 30/08** (59 s). Montable en l'état, la fin est à couper → [`02-scripts-valides.md`](02-scripts-valides.md#-les-rushs-du-30082026--ce-qui-est-dans-la-boîte) |
+| **L'otage du téléphone** | 🟠 **Déjà tournée en impro le 30/08** (61 s). Il manque la chute et le hook → [`01-scripts-valides.md`](01-scripts-valides.md#-vidéo-4--le-syndrome-de-lotage-du-téléphone) |
+| **Business Bro (Vidéo 3)** | 🟠 **Déjà tournée en impro le 30/08** (59 s). Montable en l'état, la fin est à couper → [`01-scripts-valides.md`](01-scripts-valides.md#-les-rushs-du-30082026--ce-qui-est-dans-la-boîte) |
 
 ## 🔵 À creuser
 
 | Idée | Où ça en est |
 | :--- | :--- |
-| **A — Le pote qui a six mois de plus** | 🟡 Script complet, proposé le 15/09 → [`07-scripts-proposes-15-09.md`](07-scripts-proposes-15-09.md) |
+| **A — Le pote qui a six mois de plus** | 🟡 Script complet, proposé le 15/09 → [`03-scripts-proposes-15-09.md`](03-scripts-proposes-15-09.md) |
 | **B — « T'inquiète »** | 🟡 Script complet, proposé le 15/09 → idem |
 | **C — Le pote qui a un contact pour tout** | 🟡 Script complet, proposé le 15/09 → idem |
 | **D — Le pote qui te corrige quand tu racontes** | 🟡 Script complet, proposé le 15/09 → idem (risque « humour de couple », à tourner en dernier) |
 
 **Série 3 — six scripts en ADRESSE DIRECTE, écrits le 17/09** :
-[`08-serie-3-adresse-directe.md`](08-serie-3-adresse-directe.md). Écrits après que Nabil ait jugé la
+[`05-serie-3-adresse-directe.md`](05-serie-3-adresse-directe.md). Écrits après que Nabil ait jugé la
 série 2 « pas ouf » : le défaut était le **regard** (six fois « on a tous ce pote », un mec vu de
 l'extérieur), pas les sujets. Ici on parle **à** l'audience de **sa** vie, avec six mécaniques
 d'adresse différentes pour que ça ne devienne pas une formule à son tour.
@@ -36,7 +36,7 @@ d'adresse différentes pour que ça ne devienne pas une formule à son tour.
 | Le colis « livré » | l'exigence d'explication — « Expliquez-moi un truc » | 223 | 58 |
 
 **Série 2 — six scripts complets écrits le 17/09, en attente de tournage et de validation** :
-[`07-serie-2-six-scripts.md`](07-serie-2-six-scripts.md). Ils montent dans `02-scripts-valides.md`
+[`04-serie-2-six-scripts.md`](04-serie-2-six-scripts.md). Ils montent dans `01-scripts-valides.md`
 un par un, quand Nabil les a tournés et validés — pas avant.
 
 | Titre de travail | Mécanique | Mots | ≈ s serré |
@@ -84,5 +84,5 @@ de panne d'idée) ne les remette sur la table.
 ## 📌 Rappel de méthode
 
 Avant de proposer quoi que ce soit, relire les interdits dans
-[`01-persona-et-regles.md`](01-persona-et-regles.md#2-les-interdits-absolus).
+[`phase-1-solo/strategie/01-persona-et-regles.md`](../strategie/01-persona-et-regles.md#2-les-interdits-absolus).
 Une idée qui touche un interdit est refusée en une ligne, sans négociation.

@@ -6,6 +6,29 @@
 
 ---
 
+## 10/10/2026 (regroupement) — Une seule branche `main`, `phase-1-solo/` rangé en trois
+
+Nabil : « est-ce qu'il est bien rangé ou c'est le bordel ? » Mesuré avant de répondre : la branche par
+défaut (`nabil-content-strategy-2025-ihrj59`) s'arrêtait au 15/09, il lui manquait 51 commits ; le
+travail du 10/10 était sur quatre branches qui ne se voyaient pas ; `livraisons/15sept-tinquiete-HQ.mp4`
+y est en **720p, 36,7 s** contre **1080p, 34,7 s** sur les branches récentes (ffprobe sur les deux).
+
+**Fait** (ok de Nabil sur la carte « Oui, regroupe »)
+
+- `y6378j`, `jlzjd4`, `b25fqi`, `hzlxyx`, `qvwcj2` fusionnés dans `main`. Vérifié : aucune des 10 branches
+  distantes n'a un commit absent de `main`. Conflits seulement dans `ETAT.md` et `JOURNAL.md` : les entrées
+  des deux côtés sont gardées, et pour les objectifs la version la plus récente (coach tournage).
+- `phase-1-solo/` coupé en `strategie/`, `scripts/` (avec `cartes/`), `tournage/`, renuméroté : il y avait
+  deux 07, deux 08, deux 12 et trois 13. Tous les liens entre fichiers réécrits et vérifiés (0 lien cassé).
+- Aucune branche supprimée, la branche par défaut n'a pas été changée : c'est Nabil qui le fait.
+
+**Appris**
+
+- Chaque fil crée sa branche depuis l'état qu'il trouve. Sans branche commune, on re-divise en un jour.
+  Règle : toute session part de `main` et y revient.
+
+---
+
 ## 10/10/2026 (suite) — Les relances, case fixe de chaque fiche
 
 **Décidé par Nabil (10/10, 14h17)** : chaque vidéo préparée arrive avec son hook écrit **et des
@@ -30,7 +53,7 @@ le script disait le contraire. Une trouvaille jugée sur sa miniature est non v�
 
 ## 10/10/2026 (suite) — La réaction fond vert
 
-**Fait** : section 4 de `13-coach-tournage.md`. Règle photo / vidéo, choix de l'extrait (mesuré sur la
+**Fait** : section 4 de `phase-1-solo/tournage/01-coach-tournage.md`. Règle photo / vidéo, choix de l'extrait (mesuré sur la
 source, jamais de tête), tournage en app Caméra sans l'effet TikTok, cadre plus bas. Lot 2 du
 Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
 
@@ -45,7 +68,7 @@ Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
 
 **Fait**
 
-- `phase-1-solo/13-coach-tournage.md` : la fiche de préparation (à remplir la veille), le protocole
+- `phase-1-solo/tournage/01-coach-tournage.md` : la fiche de préparation (à remplir la veille), le protocole
   sur place, et les fiches du tournage #1 (pote au volant, pote qui a jamais perdu, père au
   téléphone), plus la fiche express de l'actu et six questions pour que Nabil raconte ses storytimes.
 
@@ -66,7 +89,7 @@ Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
 
 **Fait**
 
-- `12-plan-croissance-100k.md` mis à jour : le compte n'est pas encore créé, et la veille du 10/10 a
+- `phase-1-solo/strategie/06-plan-croissance-100k.md` mis à jour : le compte n'est pas encore créé, et la veille du 10/10 a
   trouvé une tendance France-Belgique qu'aucun Belge n'a prise. Le lancement passe au week-end
   (V1 samedi ou dimanche 19h, stitch « Réponse d'un Belge » le dimanche), le stock glisse de deux
   jours, 16 vidéos au 25/10 au lieu de 14.
@@ -94,7 +117,7 @@ Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
 
 **Fait**
 
-- Plan d'exécution complet : [`phase-1-solo/12-plan-croissance-100k.md`](phase-1-solo/12-plan-croissance-100k.md).
+- Plan d'exécution complet : [`phase-1-solo/strategie/06-plan-croissance-100k.md`](phase-1-solo/strategie/06-plan-croissance-100k.md).
   Rythme, mix de formats, règles de hook, routine quotidienne, seuils par vidéo, et les deux
   premières semaines jour par jour (12/10 → 25/10), stock d'abord, puis trois tournages.
 
@@ -127,7 +150,7 @@ entre le 25/12/2021 et le 17/01/2022, 77 % des vues sur une seule (2,5 M). Pseud
 **Avis** : oui, si le statut du compte est propre (à vérifier par capture). TikTok dit que le nombre
 d'abonnés et les anciens succès ne sont pas des critères directs de recommandation (Newsroom, 2020) :
 le compte ne bloque rien, et il apporte la preuve sociale et le LIVE débloqué. Détail :
-`phase-1-solo/13-compte-hitmakingz.md`.
+`phase-1-solo/strategie/07-compte-hitmakingz.md`.
 
 ---
 
@@ -165,7 +188,7 @@ rap est gardé, pas réutilisé : un post de passage vers le nouveau, puis il do
   mesures. Rapport : [`outils/RECHERCHE-BLOWUP.md`](outils/RECHERCHE-BLOWUP.md).
 - Dossier Drive de Nabil (11 vidéos) lu par son lien public avec `recuperer.sh` ; inventaire, rangement
   proposé et premier rapport coach (« arrêté de fumer ») :
-  [`phase-1-solo/13-drive-inventaire-et-coach-fumer.md`](phase-1-solo/13-drive-inventaire-et-coach-fumer.md).
+  [`phase-1-solo/tournage/02-drive-inventaire-et-coach-fumer.md`](phase-1-solo/tournage/02-drive-inventaire-et-coach-fumer.md).
 
 **Appris**
 
@@ -228,7 +251,7 @@ Décidé avant : nouveau compte en Belgique, TikTok d'abord, Instagram ensuite, 
 
 **Fait**
 
-- [`phase-1-solo/12-branding-tiktok.md`](phase-1-solo/12-branding-tiktok.md) : positionnement, 5 pseudos
+- [`phase-1-solo/strategie/05-branding-tiktok.md`](phase-1-solo/strategie/05-branding-tiktok.md) : positionnement, 5 pseudos
   classés, bio prête à copier (74 caractères), photo, couvertures, signature, monétisation.
 
 **Décidé (proposé, à valider par Nabil)**
@@ -279,7 +302,7 @@ en 3 mois**.
 
 Deuxième vocal de Nabil : le bus. En vrai, bus en retard, iPhone à plat, son gars Steve qui sortait du
 taf, des gens qui toussaient. Trois mensonges par-dessus : bus sponsorisé Apple, Steve Jobs, zombies
-stade 10. Écrit dans `11-bakhal-man-montpellier.md` § Histoire 2, 100 mots, 30-35 s. L'épisode complet
+stade 10. Écrit dans `phase-1-solo/scripts/09-bakhal-man-montpellier.md` § Histoire 2, 100 mots, 30-35 s. L'épisode complet
 tient dans 1 min 20 à 1 min 30, pile le plafond.
 
 **Décidé**
@@ -313,7 +336,7 @@ La relecture ligne par ligne a montré que ma première version lisait le vocal 
 | Sady raconte, Nabil tient le carton, pas de deuxième histoire | **Nabil raconte Montpellier, Sady tient le carton, puis on inverse.** C'est la construction de Nabil, elle prime sur les rôles fixes de FORMATS.md |
 | le TGV direct | l'avion (« je prends l'avion ») : « y'a un vol direct Charleroi–Montpellier » |
 
-**Fait** : le fichier `11-bakhal-man-montpellier.md` réécrit avec une section 0 qui liste ces corrections,
+**Fait** : le fichier `phase-1-solo/scripts/09-bakhal-man-montpellier.md` réécrit avec une section 0 qui liste ces corrections,
 une **version courte** pour l'épisode à deux histoires (Montpellier 4 → 10 → 0 → 2, mots comptés, 45-50 s,
 il reste 30-35 s à Sady) et la **version longue** de secours. FORMATS.md § A1 note que le carton change de
 mains à chaque histoire. Deux vrais détails du vocal récupérés : « t'as attendu ta valise » (dans le récap)
@@ -334,9 +357,9 @@ hook pensé pour le concept, deux-trois avis, des blagues, 1 min à 1 min 30 max
 **Fait**
 
 - **Fusion de la branche `video-ideas-social-media`** dans celle-ci : le concept n'existait que là-bas
-  (FORMATS.md, `08-concepts-duo.md`, les cartons). Sur les conflits (ETAT, JOURNAL, « T'inquiète »), la
+  (FORMATS.md, `phase-1-solo/scripts/08-concepts-duo.md`, les cartons). Sur les conflits (ETAT, JOURNAL, « T'inquiète »), la
   version de l'autre branche a été gardée : elle est postérieure et plus complète.
-- [`phase-1-solo/11-bakhal-man-montpellier.md`](phase-1-solo/11-bakhal-man-montpellier.md) : chaîne de
+- [`phase-1-solo/scripts/09-bakhal-man-montpellier.md`](phase-1-solo/scripts/09-bakhal-man-montpellier.md) : chaîne de
   sens en cinq maillons, script avec le carton à chaque réplique (trajet 4 · 6 · 7 · 3 · 9 · 9 · 5 · 10 ·
   10 · 0 · 2), hook, avis, blagues de réserve, titres, filtre des interdits. Lien ajouté dans FORMATS.md § A1.
 - **200 mots de dialogue** (comptés), soit 62 s de parole au débit mesuré de 3,23 mots/s et 1 min 15 à
@@ -369,7 +392,7 @@ session mais il a pas trouvé les 2 formats dans le dépôt. Crée un fichier md
 le format annexe qu'on peut viser sur mon compte TikTok. »
 
 **Le diagnostic** : les formats existaient bien, mais introuvables. Ils étaient enterrés au milieu de
-`08-concepts-duo.md`, sous les noms « mythomètre » et « interview d'après-match » — pas sous les noms
+`phase-1-solo/scripts/08-concepts-duo.md`, sous les noms « mythomètre » et « interview d'après-match » — pas sous les noms
 que Nabil emploie (**Bakhal Man**, **l'exploit sportif / le journaliste**). Un `grep bakhal` ne
 renvoyait que deux fichiers, et rien à la racine.
 
@@ -407,7 +430,7 @@ Nabil en voiture, prêt à tourner 5-6 vidéos solo « dans le délire de T'inqu
 - Calibrage d'abord, écriture ensuite : **3,23 mots/s** sur ses trois montages livrés (T'inquiète
   3,63 · Business Bro 3,37 · MMA de salon 2,77). Donc 60 s ≈ 195 mots. Les six scripts font 199 à
   218 mots → 62-67 s de montage, 75-85 s de rush avec ses respirations.
-- [`phase-1-solo/09-scripts-solo-17-09.md`](phase-1-solo/09-scripts-solo-17-09.md) : le projet de
+- [`phase-1-solo/scripts/06-scripts-solo-17-09.md`](phase-1-solo/scripts/06-scripts-solo-17-09.md) : le projet de
   groupe · le groupe WhatsApp qui prévoit rien · les ventes entre particuliers · le mariage où tu
   manges à 1 h du matin · le salaire qui dure quatre jours · « et le vrai travail ? ».
 - Chaque script : hook au mot près, escalade en paliers, chute courte, indications de jeu
@@ -435,7 +458,7 @@ Diagnostic : le script parlait de **six personnes différentes** (le négociateu
 photographe, le vendeur menteur…), son hook était un mème déjà vu, et le corps était une liste de
 plaintes interchangeables. On peut partir à n'importe quel palier sans rien manquer.
 
-Deux règles écrites en §2 ter de `01-persona-et-regles.md` :
+Deux règles écrites en §2 ter de `phase-1-solo/strategie/01-persona-et-regles.md` :
 1. **Le hook ouvre une question, il n'annonce pas un sujet.** « Il a lancé son entreprise. C'est un
    compte Vinted » pose « à quel point c'est pire que ce que j'imagine ? ».
 2. **Le corps est une descente sur UN seul type de personne**, pas une liste. Test : si deux paliers
@@ -461,12 +484,12 @@ ton frigo »). L'apostrophe est son moteur, pas le jeu.
 
 Ma règle de la veille (« la loi du personnage : Nabil joue et imite quelqu'un ») était fausse sur sa
 conclusion. Ce qui restait juste : **le sujet doit être un type de personne** (7/7 des gardés, 0/4
-des rejetés). Mais une personne dont il PARLE. §2 bis de `01-persona-et-regles.md` est réécrit en
+des rejetés). Mais une personne dont il PARLE. §2 bis de `phase-1-solo/strategie/01-persona-et-regles.md` est réécrit en
 conséquence, avec ses formes de hook relevées sur ses vidéos et l'interdiction explicite de toute
 indication de jeu dans un script.
 
 Les six scripts sont réécrits en mode narrateur dans
-[`10-scripts-narrateur-17-09.md`](10-scripts-narrateur-17-09.md) : 187 à 228 mots, 58 à 71 s, zéro
+[`phase-1-solo/scripts/07-scripts-narrateur-17-09.md`](phase-1-solo/scripts/07-scripts-narrateur-17-09.md) : 187 à 228 mots, 58 à 71 s, zéro
 indication de jeu (vérifié automatiquement). Le fichier `09-…` devient de l'historique.
 
 **Appris (et c'est la leçon du jour)** : il ne suffit pas de trouver la corrélation, il faut trouver
@@ -483,7 +506,7 @@ faire rire tout le monde avec ça. »
 Test appliqué à ses 11 scripts connus : **7/7** de ceux qu'il a validés, tournés ou gardés ont un
 personnage qu'il joue ; **0/4** des rejetés. Les quatre parlaient d'un groupe WhatsApp, d'une appli,
 d'un mariage et d'un compte en banque : des situations, personne à imiter. C'est devenu la
-**LOI DU PERSONNAGE**, écrite dans `01-persona-et-regles.md` §2 bis, et elle passe devant les autres
+**LOI DU PERSONNAGE**, écrite dans `phase-1-solo/strategie/01-persona-et-regles.md` §2 bis, et elle passe devant les autres
 filtres. Corollaire : le personnage doit lui faire quelque chose À LUI, et sa voix se joue, elle ne
 se rapporte pas (l'imitation du Business Bro reste le meilleur moment jamais mesuré : +22,3 dB,
 chute 100/100).
@@ -648,7 +671,7 @@ si ça l'empêche de tourner.
 Nabil : « tu dois comprendre que je ne suis pas un acteur (…) je suis juste un narrateur (…) quand je
 parlais du mec qui dit toujours "t'inquiète", c'était une narration. Je n'ai pas mimé. »
 
-**Le dépôt disait le contraire — et c'était une invention.** `01-persona-et-regles.md` listait parmi
+**Le dépôt disait le contraire — et c'était une invention.** `phase-1-solo/strategie/01-persona-et-regles.md` listait parmi
 les mécaniques qui marchent : « **Le hook acting** — ouvrir sur une mimique muette avant même de
 parler *(Vidéo 2 : l'esquive dans le vide)* ». Et la fiche de la Vidéo 2 affirmait : « Le hook est
 **muet** : la mimique d'esquive démarre avant le premier mot. C'est elle qui arrête le scroll. »
@@ -669,9 +692,9 @@ fait observé, puis promue en « mécanique qui marche » dans la D.A. Elle a en
 
 **Corrigé**
 
-- `01-persona-et-regles.md` : nouvelle section **§3 bis « Nabil est un NARRATEUR, pas un acteur »**,
+- `phase-1-solo/strategie/01-persona-et-regles.md` : nouvelle section **§3 bis « Nabil est un NARRATEUR, pas un acteur »**,
   avec la mesure, la correction explicite, et un tableau de ce qui est autorisé.
-- `02-scripts-valides.md` : didascalie retirée de la Vidéo 2, note de tournage remplacée par la mesure.
+- `phase-1-solo/scripts/01-scripts-valides.md` : didascalie retirée de la Vidéo 2, note de tournage remplacée par la mesure.
 - `CLAUDE.md` : une ligne de plus au tableau des contre-exemples, et une section dédiée.
 - **Les douze scripts réécrits** : hooks muets refaits en hooks parlés (Clio, Pas faim, Le « ? »),
   vannes gestuelles renarrées (la fenêtre qui bloque, la main-essuie-glace, les mains vides), toutes
@@ -728,7 +751,7 @@ supprimés du script. Les deux corrigés. **Compter force à relire vraiment.**
 
 Nabil a tourné la vanne sur la clope « au feeling » et redemande des thèmes.
 
-**Fait** — [`phase-1-solo/08-serie-3-adresse-directe.md`](phase-1-solo/08-serie-3-adresse-directe.md),
+**Fait** — [`phase-1-solo/scripts/05-serie-3-adresse-directe.md`](phase-1-solo/scripts/05-serie-3-adresse-directe.md),
 six scripts complets, **255 à 269 mots → 60 à 70 s** de montage serré.
 
 **La correction appliquée, et c'est la leçon de la journée.** La série 2 a été jugée « pas ouf ». Le
@@ -802,7 +825,7 @@ une minute (…) un peu comme "T'inquiète" (…) t'es mon manager, mon directeu
 - **Calibré avant d'écrire** : « T'inquiète » livré = 142 mots pour 36,7 s, soit **3,9 mots/s**.
   Donc 55-60 s de montage serré = 215-235 mots utiles. Cible d'écriture fixée à 220-260 mots pour
   laisser de la marge à la coupe (le rush de « T'inquiète » faisait 1 min 44 pour 36,7 s gardées).
-- **Six scripts complets** dans [`phase-1-solo/07-serie-2-six-scripts.md`](phase-1-solo/07-serie-2-six-scripts.md),
+- **Six scripts complets** dans [`phase-1-solo/scripts/04-serie-2-six-scripts.md`](phase-1-solo/scripts/04-serie-2-six-scripts.md),
   chacun avec hook au mot près, escalade, chute isolée, indications de tournage, titre TikTok
   (verdict, jamais le sujet) et risque au filtre. Comptés : **220 à 242 mots → 57 à 63 s**.
 - Ordre de tournage donné : **la Clio d'abord**, Nabil est dedans, la voiture est l'accessoire.
@@ -814,8 +837,8 @@ une minute (…) un peu comme "T'inquiète" (…) t'es mon manager, mon directeu
 
 **Décidé**
 
-- Les six vivent dans `07-serie-2-six-scripts.md` et sont pointés depuis le backlog. Ils montent dans
-  `02-scripts-valides.md` **un par un, une fois tournés et validés** — pas avant.
+- Les six vivent dans `phase-1-solo/scripts/04-serie-2-six-scripts.md` et sont pointés depuis le backlog. Ils montent dans
+  `phase-1-solo/scripts/01-scripts-valides.md` **un par un, une fois tournés et validés** — pas avant.
 - Deux scripts (« Je gère », « Arrêté de fumer ») reposent sur le contraste discours/réalité, comme
   le Business Bro. Sujets sans rapport, mécanique partagée : assumé, c'est la mécanique qui marche le
   mieux chez lui.
@@ -835,7 +858,7 @@ une minute (…) un peu comme "T'inquiète" (…) t'es mon manager, mon directeu
 Nabil : « cette fois je suis pas tout seul mais avec Sady… trouve un concept drôle, divertissant, qui
 pourrait marcher, soit inventer, soit prendre un truc qui marche et l'améliorer. »
 
-**Fait** : [`phase-1-solo/08-concepts-duo.md`](phase-1-solo/08-concepts-duo.md), six concepts, chacun
+**Fait** : [`phase-1-solo/scripts/08-concepts-duo.md`](phase-1-solo/scripts/08-concepts-duo.md), six concepts, chacun
 avec sa mécanique, ses rôles, deux titres et sa fin qui appelle le commentaire. Le n° 3 (le pote joué
 par Sady) a son premier script écrit au mot près. Cinq idées écartées, avec la raison.
 
@@ -1109,7 +1132,7 @@ si Apify (scraper TikTok) me servirait.
 **Fait**
 
 - Quatre scripts complets, au mot près, dans
-  [`phase-1-solo/07-scripts-proposes-15-09.md`](phase-1-solo/07-scripts-proposes-15-09.md) :
+  [`phase-1-solo/scripts/03-scripts-proposes-15-09.md`](phase-1-solo/scripts/03-scripts-proposes-15-09.md) :
   A le pote qui a six mois de plus · B « T'inquiète » · C le pote qui a un contact pour tout ·
   D le pote qui te corrige quand tu racontes. Ordre conseillé A → B → C → D, D en dernier parce
   qu'il frôle l'humour de couple.
@@ -1219,8 +1242,8 @@ qui ne gardait que la ligne de succès, donc même le message d'erreur ne me ser
 **Fait**
 
 - Trois tier lists reçues (sports, fruits, footballeurs), toutes en 720p, deux à deux personnes.
-- **Benchmark du compte de Sady** (@rodman97.3) sur 7 vidéos : `05-benchmark-rodman.md`.
-- **D.A. du format tier list tranchée** : `06-format-tier-list.md`.
+- **Benchmark du compte de Sady** (@rodman97.3) sur 7 vidéos : `phase-1-solo/strategie/04-benchmark-rodman.md`.
+- **D.A. du format tier list tranchée** : `phase-1-solo/strategie/03-format-tier-list.md`.
 - Fruits et footballeurs montées et livrées : temps morts retirés, classement intact.
 
 **Décidé**
@@ -1293,7 +1316,7 @@ entier. Et on relit la transcription du montage avant de livrer.
   - Rush A (18 h 55, 59 s) = la **Vidéo 3, Business Bro**, improvisée.
   - Rush B (19 h 01, 61 s) = la **Vidéo 4, l'otage du téléphone** — que le dépôt déclarait
     « script à écrire ». Elle est tournée.
-- Analyse complète des deux (`ecoute-video.py`), versée dans `02-scripts-valides.md` avant que le
+- Analyse complète des deux (`ecoute-video.py`), versée dans `phase-1-solo/scripts/01-scripts-valides.md` avant que le
   conteneur ne l'efface : transcription, zones molles, scores de chute, son.
 
 **Appris**
@@ -1317,7 +1340,7 @@ entier. Et on relit la transcription du montage avant de livrer.
 - `outils/retoucher.py` écrit : efface un défaut de peau sur toute la vidéo en le suivant sur le
   visage (MediaPipe). Bouton du nez retiré sur 1266 des 1288 images.
 - `livraisons/` créé : les montages finis vivent dans le dépôt, en haute qualité.
-- `phase-1-solo/04-da-tiktok.md` écrit : proposition de DA TikTok + passation.
+- `phase-1-solo/strategie/02-da-tiktok.md` écrit : proposition de DA TikTok + passation.
 
 **Décidé**
 

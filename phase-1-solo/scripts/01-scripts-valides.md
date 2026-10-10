@@ -1,7 +1,7 @@
 # Phase 1 — Scripts validés
 
 > Scripts **tournables en l'état**. Ne pas les réécrire sans demande explicite.
-> Les idées non abouties vivent dans [`03-backlog-idees.md`](03-backlog-idees.md).
+> Les idées non abouties vivent dans [`02-backlog-idees.md`](02-backlog-idees.md).
 
 ---
 
@@ -143,7 +143,7 @@ hook acting + escalade en liste + retour au réel.
 | IMG_7374 | 11,9 s | le médecin : « t'as une maladie grave » → « t'inquiète » → « 9 ans d'études pour s'inquiéter » (dit deux fois, deux formulations) → « toi tu lui dis t'inquiète » |
 | IMG_7375 | 16,4 s | contrôle de police → « il sort de garde à vue, t'inquiète » (chute mesurée **91/100**, +8,3 dB) → puis un second final : « vous connaissez mon algorithme ? deux façons : la baffe, ou supprimer, delete » |
 
-**Livré :** [`livraisons/15sept-tinquiete-HQ.mp4`](../livraisons/) — 34,7 s, 1080×1920, 78,1 Mio, 18,9 Mb/s,
+**Livré :** [`livraisons/15sept-tinquiete-HQ.mp4`](../../livraisons/) — 34,7 s, 1080×1920, 78,1 Mio, 18,9 Mb/s,
 −14,5 LUFS, true peak −1,0 dBTP.
 
 ### Transcription du montage livré (34,7 s)
@@ -225,4 +225,4 @@ Voir la fiche Vidéo 4 ci-dessus.
 | Pauses | 10,0 s sur 59 | 15,0 s sur 61 |
 
 Les deux saturent en crête : le gain automatique du téléphone pousse à fond. C'est la même
-signature que le rush du 12/09 — voir [`CLAUDE.md`](../CLAUDE.md), « Tourner ».
+signature que le rush du 12/09 — voir [`CLAUDE.md`](../../CLAUDE.md), « Tourner ».

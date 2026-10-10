@@ -7,7 +7,7 @@ temps que la validation de la chaîne de sens.
 
 ## Format SOLO — face caméra, TikTok/Reels/Shorts
 
-D.A. complète : [`phase-1-solo/04-da-tiktok.md`](../../../../phase-1-solo/04-da-tiktok.md).
+D.A. complète : [`phase-1-solo/strategie/02-da-tiktok.md`](../../../../phase-1-solo/strategie/02-da-tiktok.md).
 
 ```bash
 python3 outils/derusher.py <rush> -o derush/ --silence-min 0.35 --marge 0.12
@@ -30,7 +30,7 @@ Ce qui est acquis :
 ## Format TIER LIST — Nabil × Sady, en voiture
 
 D.A. tranchée, fondée sur un benchmark de 7 vidéos :
-[`phase-1-solo/06-format-tier-list.md`](../../../../phase-1-solo/06-format-tier-list.md).
+[`phase-1-solo/strategie/03-format-tier-list.md`](../../../../phase-1-solo/strategie/03-format-tier-list.md).
 
 ```bash
 python3 outils/derusher.py <rush> -o derush/ --silence-min 0.45 --marge 0.11

@@ -4,9 +4,9 @@
 > Il dit où on en est, ce qui est arrêté, ce qui reste à trancher, et ce qu'il ne faut
 > surtout pas refaire.
 >
-> **À lire avant celui-ci** (dans cet ordre) : [`CLAUDE.md`](../CLAUDE.md) ·
-> [`01-persona-et-regles.md`](01-persona-et-regles.md) · [`02-scripts-valides.md`](02-scripts-valides.md).
-> La DA de l'émission studio est dans [`phase-2-genzed/02-direction-artistique.md`](../phase-2-genzed/02-direction-artistique.md) —
+> **À lire avant celui-ci** (dans cet ordre) : [`CLAUDE.md`](../../CLAUDE.md) ·
+> [`01-persona-et-regles.md`](01-persona-et-regles.md) · [`phase-1-solo/scripts/01-scripts-valides.md`](../scripts/01-scripts-valides.md).
+> La DA de l'émission studio est dans [`phase-2-genzed/02-direction-artistique.md`](../../phase-2-genzed/02-direction-artistique.md) —
 > elle sert de réservoir, pas de modèle à copier.
 
 ---
@@ -18,7 +18,7 @@
 | **Scripts** | 3 validés et tournables (école, MMA de salon, Business Bro) · 1 en écriture (l'otage du téléphone) |
 | **Tourné** | 1 rush exploité : la vidéo MMA, tournée en voiture, le 12/09 |
 | **Monté** | Oui — 6 coupes, 43 s, son normalisé, sample Doumbé posé, bouton retiré |
-| **Livré** | [`livraisons/12sept-casser-des-nuques-HQ.mp4`](../livraisons/) — 53,7 Mio, 10,3 Mb/s |
+| **Livré** | [`livraisons/12sept-casser-des-nuques-HQ.mp4`](../../livraisons/) — 53,7 Mio, 10,3 Mb/s |
 | **Publié** | ❌ **Rien n'est encore en ligne.** Le compte n'a pas de première vidéo |
 | **DA TikTok** | ❌ **N'existe pas.** C'est l'objet de ce fichier |
 
@@ -119,7 +119,7 @@ gardée est la plus nette des dix premières**, tant que le son reste dans le si
 
 ### 4.5 La ponctuation sonore
 
-Les sons viennent de `banque-son/` (voir [`banque-son/README.md`](../banque-son/README.md)).
+Les sons viennent de `banque-son/` (voir [`banque-son/README.md`](../../banque-son/README.md)).
 Deux sons par vidéo au maximum — au-delà, c'est un compte à mèmes, pas un compte d'auteur.
 
 Le réglage est automatique : le sample s'efface sous la voix dès que Nabil parle et

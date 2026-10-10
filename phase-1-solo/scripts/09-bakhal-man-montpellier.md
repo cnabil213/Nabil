@@ -1,6 +1,6 @@
 # BAKHAL MAN — Épisode 2 : « Montpellier » + « Le bus »
 
-> Format : [`FORMATS.md`](../FORMATS.md) § A1 (alias « le mythomètre »). Règles du carton, échelle 0-10
+> Format : [`FORMATS.md`](../../FORMATS.md) § A1 (alias « le mythomètre »). Règles du carton, échelle 0-10
 > et épisode de référence (« La bagarre ») sont là-bas ; ce fichier ne contient que l'épisode.
 > Source : brainstorming vocal Nabil × Sady du 21/09/2026, remis au propre ici. **Statut : à tourner,
 > en voiture.** Durée visée : **1 min à 1 min 30 max** (demande de Nabil).

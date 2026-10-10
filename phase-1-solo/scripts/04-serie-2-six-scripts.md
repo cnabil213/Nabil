@@ -15,11 +15,11 @@
 > Et de toute façon, **le rush se serre au montage** : « T'inquiète » a jeté 65 % de ce qui a été dit.
 >
 > ⚠️ **Réécrits le 17/09 en NARRATION pure.** Nabil est narrateur, pas acteur
-> (`01-persona-et-regles.md` §3 bis) : les hooks muets et les vannes gestuelles ont été refaits.
+> (`phase-1-solo/strategie/01-persona-et-regles.md` §3 bis) : les hooks muets et les vannes gestuelles ont été refaits.
 > **Tout se comprend les yeux fermés.**
 >
 > Aucun de ces six thèmes n'est dans la liste des brûlés de
-> [`03-backlog-idees.md`](03-backlog-idees.md), et aucun ne recoupe les cinq vidéos déjà faites.
+> [`02-backlog-idees.md`](02-backlog-idees.md), et aucun ne recoupe les cinq vidéos déjà faites.
 
 ---
 
@@ -403,6 +403,6 @@ le **pote** et sa paranoïa, jamais le romantique. Ne pas dériver vers « elle 
 ## Après tournage
 
 Envoie **l'audio** de tous les clips par le raccourci « Audio pour Claude » (voir
-[`outils/README-envoyer-un-rush.md`](../outils/README-envoyer-un-rush.md)). Je transcris tout, je
+[`outils/README-envoyer-un-rush.md`](../../outils/README-envoyer-un-rush.md)). Je transcris tout, je
 mesure, je choisis les prises, et je te renvoie la liste de coupes pour validation. La vidéo lourde,
 une seule fois, à la fin.
