@@ -401,7 +401,9 @@ Chaque fiche du Dénicheur sort de ce fil avec **sa forme écrite en tête**.
 
 ### Comment tu le tournes
 
-- **Toujours en app Caméra, sans l'effet TikTok** : c'est moi qui pose la capture ou l'extrait au
+- **Fond vert PHOTO : l'effet fond vert de TikTok convient** (décidé le 10/10) : la photo est fixe et vérifiée
+  avant, rien à changer après, et c'est le seul moyen d'avoir l'image *derrière* toi. Nom exact du menu non vérifié.
+- **Fond vert VIDÉO : en app Caméra, sans l'effet TikTok** : c'est moi qui pose l'extrait au
   montage. Si l'extrait est mauvais, on le change **sans retourner**. Avec l'effet intégré à l'appli,
   le fond est figé dans le fichier : un mauvais choix = tout à refaire.
 - **Cadre plus bas que d'habitude** : ta tête dans la moitié basse de l'écran. La moitié haute est
