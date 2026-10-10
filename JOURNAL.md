@@ -6,6 +6,15 @@
 
 ---
 
+## 10/10/2026 (suite) — Les relances, case fixe de chaque fiche
+
+**Décidé par Nabil (10/10, 14h17)** : chaque vidéo préparée arrive avec son hook écrit **et des
+phrases drôles sur lesquelles rebondir**. Case ⑧ ajoutée à la fiche, remplie pour les trois sketchs
+du tournage #1 (4 relances chacun), dites à la fin du fichier « hooks » pour être montables sans
+retourner. Écrites d'après les scripts validés du dépôt ; ses vidéos du Drive n'ont pas été vues.
+
+---
+
 ## 10/10/2026 (suite) — Les sources du Dénicheur ouvertes une par une
 
 **Fait** : les quatre sources du classement téléchargées (yt-dlp, API de syndication de X) et

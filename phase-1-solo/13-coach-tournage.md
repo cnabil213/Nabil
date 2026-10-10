@@ -53,6 +53,10 @@ TYPE DE PERSONNE (sketch) ou FAIT (storytime/actu) : ______________________
 ⑥ DURÉE : __ mots ÷ 3,23 = __ s (cible 35-60 s)
 
 ⑦ LÉGENDE (promet, n'annonce pas) : « ______________ » + appel : « ______ »
+
+⑧ RELANCES — 4 à 5 phrases drôles en plus du script, dans ta voix
+   1 « ______ »  2 « ______ »  3 « ______ »  4 « ______ »
+   → elles remplacent un bloc faible, relancent le milieu, ou servent si tu improvises
 ```
 
 **Comment la remplir :**
@@ -67,6 +71,12 @@ TYPE DE PERSONNE (sketch) ou FAIT (storytime/actu) : ______________________
   ressemble à un autre (deux paliers interchangeables = un de trop, plan §4 contrôle 4). Il n'est
   coupable au montage **que s'il y a un silence autour** [coupe seulement dans un silence mesuré
   ≥ 0,10 s, CLAUDE.md §2 bis].
+- **⑧** Les relances (demande de Nabil, 10/10) : **sur chaque fiche, sans exception.** Ce ne sont
+  pas des variantes des phrases du script, ce sont des **cas nouveaux** sur le même type de personne,
+  écrits avec tes trois outils (la narration en « il », la citation jetée, l'apostrophe « frère »).
+  Tu les dis une fois chacune à la fin du fichier 2 : si l'une est meilleure qu'un bloc, elle prend
+  sa place au montage, sans retourner. Elles passent le même filtre que le script (pas de « bestie »,
+  pas de thème saturé, personne de réel humilié).
 - **⑥** Le débit de 3,23 mots/s est mesuré sur tes montages livrés : c'est la durée **après** montage,
   respirations coupées. Le rush fait 15 à 20 % de plus.
 
@@ -94,7 +104,7 @@ TYPE DE PERSONNE (sketch) ou FAIT (storytime/actu) : ______________________
 | Fichier | Ce qu'il contient |
 | :--- | :--- |
 | **1. L'intégrale** | La vidéo d'un trait, du hook A à la chute |
-| **2. Les hooks** | Hook A, respiration, hook B, respiration, hook B encore |
+| **2. Les hooks et les relances** | Hook A, respiration, hook B, respiration, hook B encore, puis chaque relance une fois |
 | **3. Les chutes** | La chute deux fois, avec une respiration entre les deux |
 
 Les fichiers 2 et 3 prennent une minute. Ils couvrent les deux
@@ -196,6 +206,12 @@ sur « volant ».
 
 **⑦ Légende** (plan) : « Dans la rue c'est un agneau. Il met sa ceinture. » + « identifie-le ».
 
+**⑧ Relances**
+1. « Il met son clignotant **après** avoir tourné. C'est pas un clignotant, frère, c'est un compte rendu. »
+2. « Feu orange, il accélère. Il dit : "j'étais engagé." T'étais à cent mètres. T'étais fiancé, à la limite. »
+3. « Il dit : "moi je conduis bien, c'est les autres." Sur l'autoroute, y a quarante mille voitures. Et un seul mec qui conduit bien. »
+4. « Il appelle tout le monde "chef". "Vas-y chef." "Oh, chef !" Y a que des chefs sur la route, et personne qui obéit. »
+
 **Décor** : tu es déjà dans la voiture, c'est le sujet. Les mains restent hors du volant.
 
 ---
@@ -241,6 +257,12 @@ au-dessus de la cible : à trancher au montage, sur la prise (les blancs interne
 
 **⑦ Légende** (plan) : « Il a jamais perdu de sa vie. C'est toujours la manette. » + « identifie ce pote ».
 
+**⑧ Relances**
+1. « Il te dit : "allez, une dernière." Frère, c'est la neuvième dernière. »
+2. « Il a un classement dans sa tête. Il est premier. Y a personne d'autre dans le classement. »
+3. « En ligne, quand il perd, c'est un petit de neuf ans. Il l'a jamais vu. Mais il sait. »
+4. « Il a changé trois fois de manette cette année. Deux cents balles, pour jamais dire "t'es plus fort". »
+
 ---
 
 ### ④ V12 · LE PÈRE AU TÉLÉPHONE — publication mer. 21/10, 19h
@@ -280,6 +302,14 @@ avait rien à me dire ») en est le rappel. **Indispensable.**
 
 **⑦ Légende** : « Mon père met le haut-parleur dans une salle d'attente. » + « identifiez vos darons ».
 Pas la chute dans la légende : elle la grille.
+
+**⑧ Relances**
+1. « Il finit ses messages par "Papa". Je sais que c'est toi, papa. Y a ton nom en haut. »
+2. « Il écrit tout en majuscules. Pas parce qu'il crie : parce qu'il a jamais trouvé comment enlever. »
+3. « Il envoie un vocal, il commence à parler avant d'appuyer. Le vocal commence au milieu d'une phrase. »
+4. « Il t'appelle en visio par erreur. Tu vois le plafond pendant trois minutes. Et tu restes, au cas où. »
+
+La relance 3 peut remplacer le bloc coupable (5, « quelle maison ») : même durée, plus actuelle.
 
 ---
 
