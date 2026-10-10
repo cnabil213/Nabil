@@ -6,6 +6,27 @@
 
 ---
 
+## 10/10/2026 — Coach tournage : préparer pour ne jamais refaire
+
+**Fait**
+
+- `phase-1-solo/13-coach-tournage.md` : la fiche de préparation (à remplir la veille), le protocole
+  sur place, et les fiches du tournage #1 (pote au volant, pote qui a jamais perdu, père au
+  téléphone), plus la fiche express de l'actu et six questions pour que Nabil raconte ses storytimes.
+
+**Appris (mesuré, mots du script ÷ 3,23 mots/s)**
+
+- Les trois sketchs « définitifs » du 17/09 font **65 à 70 s** montés, au-dessus des 35-60 s du plan.
+  Hooks : 5,9 s (volant), 5,0 s (jamais perdu), 3,4 s (père). Scripts non réécrits : un hook B à
+  tourner en plus et un bloc coupable désignés par vidéo, choix au montage.
+- Chaque chute est un **rappel** d'un bloc précédent (l'agneau, le débrief, « comme ça ») : ce bloc
+  est le maillon qu'on ne coupe jamais. Leçon Business Bro appliquée avant le tournage, pas après.
+- Ce qui a fait perdre des prises jusqu'ici (prémisse coupée, négation ratée, ventre à −8 dB,
+  720p de nuit) se corrige **avant** ou **sur place** : 3 fichiers par vidéo (intégrale, hooks,
+  chutes) et un contrôle de 2 minutes avant de démarrer le moteur.
+
+---
+
 ## 10/10/2026 — Le plan recalé : démarrage ce week-end, veille du matin branchée dessus
 
 **Fait**

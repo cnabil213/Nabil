@@ -13,6 +13,14 @@
 Phase 1 : **7 montages livrés, une vingtaine de scripts prêts, rien de publié.**
 **Objectif posé par Nabil le 09/10 : 100 000 abonnés en 3 mois** (début janvier 2027).
 
+## 🎬 Coach tournage → [`phase-1-solo/13-coach-tournage.md`](phase-1-solo/13-coach-tournage.md)
+
+Écrit le 10/10 : une fiche par vidéo (chaîne de sens, 2 hooks, antisèche par bloc, bloc coupable,
+chute), le protocole sur place (3 fichiers par vidéo, contrôle de 2 min avant de partir), et les
+fiches remplies du **tournage #1 du dim. 11/10**. Mesuré : les 3 sketchs du tournage font 65 à 70 s
+montés (cible 35-60) et 2 hooks sur 3 dépassent 4 s → hook B et bloc coupable désignés.
+**En attente de Nabil** : un vocal par storytime (6 questions dans le fichier, §3 ⑤⑥).
+
 ## 🎯 Les objectifs → [`phase-1-solo/12-plan-croissance-100k.md`](phase-1-solo/12-plan-croissance-100k.md)
 
 - **Final : 100 000 abonnés TikTok le 31/01/2027** (Nabil, 09/10 : « fin janvier », remplace le 09/01).
