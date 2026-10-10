@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 09/10/2026**
+**Dernière mise à jour : 10/10/2026**
 
 ---
 
@@ -40,7 +40,8 @@ dans `claude/project-thread-qvwcj2`. Conséquences à connaître :
 ## 🏷️ Branding TikTok (09/10) → [`phase-1-solo/12-branding-tiktok.md`](phase-1-solo/12-branding-tiktok.md)
 
 **Proposé, pas encore validé par Nabil.** Nouveau compte, basé en Belgique, part de 0 ; TikTok d'abord,
-Instagram ensuite, pas YouTube. **Compte centré sur sa personne** (il l'a précisé le 09/10) : sketchs,
+Instagram ensuite, pas YouTube. **Cible : toute la francophonie, pas la Belgique** (Nabil, 10/10 : « de
+Bruxelles à Marseille ») : drapeau et pseudos belges retirés. **Compte centré sur sa personne** (il l'a précisé le 09/10) : sketchs,
 storytime, actu. Positionnement : **« Nabil raconte tout ce qu'il voit, les gens, sa vie, l'actu, et il
 dit le verdict que personne n'ose dire. »** Pseudo recommandé **@cnabil**, nom affiché « Nabil ». Fil
 rouge entre les formats : **la note de fin « VERDICT x/10 »**, muette, incrustée au montage, sur tout,

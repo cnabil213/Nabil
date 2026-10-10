@@ -2,8 +2,12 @@
 
 > Écrit le 09/10/2026, à la demande de Nabil : « Je veux que Nabil soit connu. La révélation
 > humoristique de Belgique l'année prochaine. »
-> Contexte arrêté le même jour : **nouveau compte, basé en Belgique, part de 0. TikTok d'abord,
-> Instagram ensuite, pas YouTube.** Objectif chiffré : 100 000 abonnés fin janvier 2027 (`ETAT.md`).
+> Contexte arrêté le même jour : **nouveau compte, part de 0. TikTok d'abord, Instagram ensuite, pas
+> YouTube.**
+> **Recadré le 10/10 : la cible, c'est la francophonie, pas la Belgique.** Nabil : « je veux être connu
+> dans la francophonie. J'ai pas de problématique avec le contenu belge, mais je veux toucher un
+> maximum de monde. Je veux qu'on me connaisse de Bruxelles à Marseille. » Tout marqueur belge est
+> retiré de la marque (drapeau, pseudos belges). Le compte reste déclaré là où il vit (§6). Objectif chiffré : 100 000 abonnés fin janvier 2027 (`ETAT.md`).
 > **Statut : proposition, à valider par Nabil.** Répond aux questions 1 (pseudo) et 2 (sous-titres)
 > de [`04-da-tiktok.md`](04-da-tiktok.md) §5.
 
@@ -62,6 +66,17 @@ pas de politique, de religion, de guerre ni de faits divers graves au début : l
 été écartée pour risque de restriction du compte. Foot, people, culture, ce dont parlent les gens de
 son âge.
 
+## 1 ter. Francophone, pas belge : la règle d'écriture qui va avec
+
+Décision du 10/10. Une vanne doit marcher **de Bruxelles à Marseille** sans note de bas de page.
+
+- **Un mot ou une référence que seul un Belge comprend** (septante, une enseigne, une ligne de bus, un
+  quartier) **ne porte jamais la vanne.** Il peut être là en décor ; si la chute repose dessus, on
+  réécrit.
+- **L'actu** : celle dont parle toute la francophonie (foot, people, réseaux), pas l'actu belge.
+- **Ton accent et ta façon de parler ne bougent pas.** On ne gomme pas qui tu es, on n'en fait juste
+  pas le sujet.
+
 ## 2. Le pseudo — 5 choix, dans l'ordre
 
 **Nom affiché partout : `Nabil`. Rien d'autre**, pas d'emoji, pas de « humour ». C'est ce nom-là
@@ -75,25 +90,28 @@ le premier libre **à la fois sur TikTok et sur Instagram**, le même jour, mêm
 | **1 ✅** | **@cnabil** | « C'Nabil » = « c'est Nabil ». C'est déjà ton nom ici (le projet, ton GitHub). 6 lettres. | Quelqu'un qui l'entend à l'oral peut taper « cestnabil » |
 | 2 | @cestnabil | Même idée, écrit en entier : personne ne se trompe en le tapant | 10 lettres |
 | 3 | @justenabil | « Juste Nabil » : le prénom seul. Et « juste » comme un verdict juste | Moins évident à l'oral |
-| 4 | @nabil.be | Le drapeau belge dans le pseudo : assume « la révélation de Belgique » | Le point se dit mal (« nabil point bé ») |
-| 5 | @nabilunefois | Le « une fois » que les Français collent aux Belges, retourné comme une arme | La vanne porte sur la Belgique, pas sur toi ; elle vieillit quand le compte dépasse la Belgique |
+| 4 | @nabiltoutcourt | « Nabil tout court » : exactement ce que tu veux, être connu par ton prénom seul | 14 lettres |
+| 5 | @nabilenvrai | « En vrai », le tic de langage de toute la francophonie de ton âge | Plus banal que les quatre autres |
+
+> Retirés le 10/10 parce qu'ils collaient une étiquette belge à la marque : **@nabil.be** (le drapeau
+> dans le pseudo) et **@nabilunefois** (le « une fois » que les Français collent aux Belges).
 
 ---
 
 ## 3. La bio, prête à copier
 
-**TikTok** (67 caractères, limite 80) :
+**TikTok** (62 caractères, limite 80 ; le drapeau 🇧🇪 retiré le 10/10) :
 
 ```
 Je raconte tout ce que je vois. Même sur moi.
-🇧🇪 Sady me doit 8 €
+Sady me doit 8 €
 ```
 
 **Instagram** (même texte + une ligne contact) :
 
 ```
 Je raconte tout ce que je vois. Même sur moi.
-🇧🇪 Sady me doit 8 €
+Sady me doit 8 €
 Collab : [adresse mail dédiée]
 ```
 
@@ -162,7 +180,11 @@ presque personne n'en parle, on l'enlève. On ne le garde pas parce qu'il nous p
 
 ## 6. La monétisation : pas de faux pays
 
-Le compte se crée avec la vraie localisation : la Belgique.
+Le compte se crée avec ta vraie localisation : la Belgique. **Ça ne fait pas de toi un compte belge** :
+la marque (pseudo, bio, sujets) est francophone. Le pays déclaré pèse sans doute un peu sur les
+premières diffusions, mais ce qui fait voyager une vidéo vers la France, c'est surtout sa langue et son
+sujet (déduit, pas mesuré : on le vérifiera dans les stats d'audience par pays dès les 10 premières
+vidéos). Mentir sur le pays pour gagner la France ferait perdre plus qu'il ne rapporte (ci-dessous).
 
 - Le programme de rémunération des vues de TikTok (Creator Rewards) **n'apparaît pas pour la Belgique**
   dans les listes publiées en 2026 (France, Allemagne, Royaume-Uni, États-Unis, Japon, Corée du Sud,
@@ -176,7 +198,7 @@ Le compte se crée avec la vraie localisation : la Belgique.
 
 ## 7. La prochaine action
 
-1. Ouvrir le nouveau compte TikTok, en Belgique, en compte Créateur.
+1. Ouvrir le nouveau compte TikTok en compte Créateur (pays : le vrai, voir §6).
 2. Tester les pseudos dans l'ordre du §2, prendre le premier libre sur TikTok **et** Instagram.
 3. Mettre le nom affiché « Nabil » et la bio du §3.
 4. Envoyer le pseudo pris et une photo de profil (de jour, fond uni, sans sourire).

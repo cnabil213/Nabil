@@ -6,6 +6,25 @@
 
 ---
 
+## 10/10/2026 — Branding : francophone, pas belge
+
+Nabil : « je veux être connu dans la francophonie. J'ai pas de problématique avec le contenu belge,
+mais je veux toucher un maximum de monde. Je veux qu'on me connaisse de Bruxelles à Marseille. »
+
+**Décidé**
+
+- Plus aucun marqueur belge dans la marque : 🇧🇪 retiré de la bio, @nabil.be et @nabilunefois retirés
+  des pseudos (remplacés par @nabiltoutcourt et @nabilenvrai). @cnabil reste le premier choix.
+- Règle d'écriture : une référence que seul un Belge comprend ne porte jamais la vanne. L'actu traitée
+  est celle de toute la francophonie.
+- Le compte reste déclaré en Belgique, où il vit : pas de faux pays.
+
+**À vérifier** : la part de vues venues de France, dans les stats d'audience par pays, dès les 10
+premières vidéos. L'idée que la langue et le sujet comptent plus que le pays déclaré est déduite, pas
+mesurée.
+
+---
+
 ## 09/10/2026 (suite 2) — Le branding recadré : un compte centré sur Nabil
 
 Nabil, quelques minutes après la première version : « je veux que dans mon contenu je puisse tout
