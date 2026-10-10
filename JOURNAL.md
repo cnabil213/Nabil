@@ -6,6 +6,19 @@
 
 ---
 
+## 10/10/2026 (suite) — La réaction fond vert
+
+**Fait** : section 4 de `13-coach-tournage.md`. Règle photo / vidéo, choix de l'extrait (mesuré sur la
+source, jamais de tête), tournage en app Caméra sans l'effet TikTok, cadre plus bas. Lot 2 du
+Dénicheur classé : trois en photo ou sans image, aucun en vidéo.
+
+**Décidé (à confirmer par Nabil)** : la fausse vidéo IA de Mbappé ne s'affiche pas, même floutée.
+
+**Vérifié** : la superposition d'une capture sur une vidéo 1080×1920 fonctionne (ffmpeg, 10/10).
+**Non vérifié** : le détourage pour un vrai fond derrière lui (mediapipe absent du conteneur).
+
+---
+
 ## 10/10/2026 — Coach tournage : préparer pour ne jamais refaire
 
 **Fait**

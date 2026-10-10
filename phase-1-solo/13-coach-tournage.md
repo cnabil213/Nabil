@@ -323,6 +323,74 @@ Je te renvoie les deux fiches remplies avant le tournage.
 
 ---
 
+## 4. LA RÉACTION FOND VERT (ajouté le 10/10)
+
+> Nabil, le 10/10 : « soit je réagis fond vert photo, soit fond vert vidéo (…) il faut me dire (…)
+> est-ce que je dois prendre toute la partie, la première partie, de telle seconde à telle seconde ? »
+>
+> Le partage des rôles : **le Dénicheur** n'envoie que les trouvailles à fort potentiel
+> (`/mnt/project-files/cnabil/veille/`). **Ce fil** décide pour chacune : photo ou vidéo, quel
+> morceau exactement, et comment tu le tournes.
+
+### Photo ou vidéo : la règle
+
+| | **Fond vert PHOTO** | **Fond vert VIDÉO** |
+| :--- | :--- | :--- |
+| Quand | La vanne **se lit** : un tweet, un titre d'article, une capture, un classement, un prix | La vanne **se voit ou s'entend** : ce que quelqu'un dit, comment il le dit, ce qui bouge |
+| Le test | Une seule image montre tout ce qu'il faut pour comprendre | Une image figée tue la vanne |
+| Ce que je te donne | Le fichier exact de la capture, et ce qu'on y lit, mot pour mot | **Le lien, et l'extrait de X,XX s à Y,YY s**, avec ce qu'on y entend mot pour mot |
+| Par défaut | **Photo.** Plus court, plus lisible sans le son, et rien à couper | Seulement si la photo ne suffit pas |
+
+### Comment je choisis l'extrait d'une vidéo
+
+1. **Je ne donne jamais un timecode de tête.** J'ai besoin du lien ou du fichier source ; je le
+   transcris et je mesure les bornes dessus, comme pour tes rushs (règle n°1 : une info non
+   vérifiée est une fausse info).
+2. **L'extrait le plus court qui contient la prémisse ET le moment drôle.** Même règle que le
+   montage : sans le contexte, le moment tombe sur rien (Business Bro, 13/09).
+3. **Les bornes tombent dans un silence**, pas au milieu d'un mot.
+4. **Ta voix d'abord.** Le hook, c'est ton verdict, dit dès la première seconde ; l'extrait vient
+   après. Une vidéo qui démarre sur l'extrait de quelqu'un d'autre, c'est sa vidéo, pas la tienne.
+
+### Comment tu le tournes
+
+- **Toujours en app Caméra, sans l'effet TikTok** : c'est moi qui pose la capture ou l'extrait au
+  montage. Si l'extrait est mauvais, on le change **sans retourner**. Avec l'effet intégré à l'appli,
+  le fond est figé dans le fichier : un mauvais choix = tout à refaire.
+- **Cadre plus bas que d'habitude** : ta tête dans la moitié basse de l'écran. La moitié haute est
+  pour la capture. [Vérifié le 10/10 : poser une capture sur une vidéo 1080×1920 fonctionne avec les
+  outils du dépôt. **Non vérifié** : te détourer pour mettre la capture *derrière* toi, comme un vrai
+  fond vert ; l'outil n'est pas installé ici. Par défaut : la capture au-dessus de toi.]
+- **Tu ne regardes pas l'écran pendant la prise**, tu regardes l'objectif. Tu lis la capture ou tu
+  regardes l'extrait **juste avant** d'appuyer sur rouge.
+- **Tu cites, tu ne lis pas tout.** Le spectateur lit la capture lui-même ; toi, tu dis la phrase
+  qui fait la vanne, puis ton verdict.
+
+### La fiche réaction (en plus de la fiche normale)
+
+```
+SOURCE : lien · auteur · date (vérifiés par le Dénicheur, sinon on ne tourne pas)
+TYPE : PHOTO / VIDÉO — pourquoi : ______________
+PHOTO : fichier ______ · ce qu'on lit : « ______________ »
+VIDÉO : de __,__ s à __,__ s (mesuré sur la source) · ce qu'on entend : « ______ »
+OÙ ÇA TOMBE : ton hook (0-4 s) → la capture/l'extrait → ton escalade → ta chute
+CADRE : tête dans la moitié basse
+```
+
+### Appliqué au lot 2 du Dénicheur (10/10)
+
+| Idée | Fond vert | Pourquoi |
+| :--- | :--- | :--- |
+| « Mon oncle croit toutes les vidéos IA » | **Aucune capture de la fausse vidéo Mbappé**, même floutée. Photo d'un **tweet texte** qui en parle, ou rien | C'est une fausse image d'une vraie personne dans une baignoire : la montrer, c'est la diffuser. La vanne vise le tonton, elle marche sans l'image |
+| « Le pote qui vit dans un anime » | **Photo**, une capture où l'on voit la cape sur le toit, **sans manifestants ni police** dans le cadre | Le filtre du Dénicheur dit déjà de ne rien montrer du mouvement. Il me faut le lien de @a7tila ou de @attilazro pour choisir l'image |
+| « 15 balles le menu » | **Photo** : le tweet de @Iiaburi | La vanne est dans le texte. **Logo et nom de l'enseigne cachés**, comme le dit le filtre |
+| « Le mec qui regarde pas la Star Ac' » | **Pas de fond vert** | C'est un sketch « type de personne » : rien à montrer, tout se dit |
+
+Aucune idée du lot 2 n'a besoin d'un extrait vidéo. Le jour où une en a besoin, j'ai besoin du lien
+avant de te donner les secondes.
+
+---
+
 ## Pour les tournages suivants
 
 - **Tournage #2 avec Sady (sam. 17/10)** : Bakhal Man ép. 2, Le Journaliste « après le kebab », La Note
