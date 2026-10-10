@@ -78,8 +78,8 @@ TYPE DE PERSONNE (sketch) ou FAIT (storytime/actu) : ______________________
 
 1. **App Caméra, pas Snapchat.** Réglages → Appareil photo → Enregistrer une vidéo → **1080p à 30 i/s**.
    [Snapchat plafonnait à 720p, mesuré le 12/09.] Pas besoin de 4K : la vidéo finale fait 1080×1920,
-   et un fichier 4K pèse environ trois fois plus (l'iPhone affiche lui-même les tailles dans ce menu) —
-   c'est autant de temps d'envoi en moins sur Drive.
+   et un fichier 4K est plus lourd, donc plus long à envoyer sur Drive. **Non vérifié** : de combien.
+   L'iPhone affiche la taille par minute de chaque réglage dans ce menu : envoie-moi la capture.
 2. **Ne pas déranger.** Une notification au milieu d'une prise, c'est la prise perdue.
 3. **De jour, garé, moteur coupé, visage tourné vers la vitre.** [La nuit, une image sur deux était
    floue : netteté de 1,94 à 0,77 en quatre images, `04-da-tiktok.md` §3.]
@@ -97,7 +97,7 @@ TYPE DE PERSONNE (sketch) ou FAIT (storytime/actu) : ______________________
 | **2. Les hooks** | Hook A, respiration, hook B, respiration, hook B encore |
 | **3. Les chutes** | La chute deux fois, avec une respiration entre les deux |
 
-Les fichiers 2 et 3 prennent une minute et sauvent la vidéo dans 9 cas sur 10 : ce sont les deux
+Les fichiers 2 et 3 prennent une minute. Ils couvrent les deux
 endroits où une erreur la tue (début = la vignette et les 3 secondes qui décident ; fin = la vanne).
 L'outil `assembler.py` recolle les morceaux de plusieurs fichiers en un seul encodage [utilisé le
 15/09 sur T'inquiète, 5 clips].
