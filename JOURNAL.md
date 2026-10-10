@@ -6,6 +6,23 @@
 
 ---
 
+## 10/10/2026 — Le plan recalé : démarrage ce week-end, veille du matin branchée dessus
+
+**Fait**
+
+- `12-plan-croissance-100k.md` mis à jour : le compte n'est pas encore créé, et la veille du 10/10 a
+  trouvé une tendance France-Belgique qu'aucun Belge n'a prise. Le lancement passe au week-end
+  (V1 samedi ou dimanche 19h, stitch « Réponse d'un Belge » le dimanche), le stock glisse de deux
+  jours, 16 vidéos au 25/10 au lieu de 14.
+- Nouvelle section §5 bis : ce que la veille de 7h26 cherche (actu < 24 h non prise par un Belge,
+  type de personne qui revient dans les plus partagées, durée et forme qui font partager) et à quelle
+  case du mix chaque idée sert. Metricool pour les stats, captures TikTok Studio pour la rétention.
+
+**Appris**
+
+- Nabil : « j'ai l'impression qu'on avance à l'aveugle ». Le plan existait mais n'était pas relié à
+  la veille ni validé par lui. Un outil sans case dans le plan, c'est ça qu'il appelle avancer à l'aveugle.
+
 ## 09/10/2026 (suite) — Le plan de croissance 0 → 100 K
 
 **Fait**

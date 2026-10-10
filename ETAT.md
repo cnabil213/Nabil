@@ -4,7 +4,7 @@
 > Il est court exprès. Le détail est dans les fichiers qu'il pointe.
 > **Règle : il se met à jour à la fin de chaque session, avec une entrée dans [`JOURNAL.md`](JOURNAL.md).**
 
-**Dernière mise à jour : 09/10/2026**
+**Dernière mise à jour : 10/10/2026**
 
 ---
 
@@ -175,8 +175,11 @@ Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 
 ## Les 3 prochaines actions
 
-**Au 09/10, plan de croissance posé** : tournage #1 dimanche 11/10, première publication lundi 12/10
-19h. Calendrier complet : `phase-1-solo/12-plan-croissance-100k.md` §8.
+**Au 10/10, plan de croissance recalé** : compte TikTok **pas encore créé** (à faire le 10/10).
+V1 T'inquiète le 10/10 à 19h si le compte est prêt, tournage #1 dimanche 11/10 avec le stitch
+« Réponse d'un Belge » publié le jour même (tendance France-Belgique). Veille FR/BE chaque matin à
+7h26 (fil « Connecter Claude à TikTok »). Calendrier : `phase-1-solo/12-plan-croissance-100k.md` §8,
+veille §5 bis. **Le plan attend l'ok de Nabil.**
 
 **Au 09/10, avant tout le reste** : savoir sur quel compte on publie (l'ancien compte rap ou un neuf),
 si les tournages BAKHALMAN des 21 et 23/09 ont eu lieu, et quels rushs dorment sur son téléphone

@@ -1,6 +1,6 @@
 # Plan de croissance TikTok — 0 → 100 000 abonnés pour fin janvier 2027
 
-> Écrit le 09/10/2026. Compte TikTok **neuf**, basé en **Belgique**, TikTok d'abord, Instagram ensuite,
+> Écrit le 09/10/2026, mis à jour le 10/10 (compte pas encore créé, démarrage ce week-end, veille du matin). Compte TikTok **neuf**, basé en **Belgique**, TikTok d'abord, Instagram ensuite,
 > pas YouTube. Croissance **100 % propre** : zéro abonné, vue, like ou « booster » acheté.
 > Le nom, la bio et l'identité viennent du fil **« Branding TikTok de Nabil »** : ce plan ne les refait pas.
 >
@@ -12,7 +12,7 @@
 ## 0. La vérité sur l'objectif, avant tout le reste
 
 **Échéance : 31/01/2027** (toi, le 09/10 à 13h11 : « fin janvier »). Ça fait **16 semaines** à partir
-du lundi 12/10, soit **112 vidéos** à une par jour.
+du samedi 10/10, soit **114 vidéos** à une par jour.
 
 Le calcul qui dit où est la barre :
 
@@ -20,7 +20,7 @@ Le calcul qui dit où est la barre :
 | :--- | :--- |
 | Conversion vues → abonnés sur une vidéo d'humour | 🔸 0,5 à 1 % |
 | Donc 100 000 abonnés demandent | 🔸 **10 à 20 millions de vues cumulées** |
-| Si tu fais le niveau de Sady sur chaque vidéo (médiane **37 843 vues** ✅ relevé du 14/09, 7 vidéos, `05-benchmark-rodman.md`) | 112 × 38 K = 4,2 M de vues → 🔸 **21 000 à 42 000 abonnés** |
+| Si tu fais le niveau de Sady sur chaque vidéo (médiane **37 843 vues** ✅ relevé du 14/09, 7 vidéos, `05-benchmark-rodman.md`) | 114 × 38 K = 4,3 M de vues → 🔸 **21 000 à 43 000 abonnés** |
 | Ce qui manque pour 100 K | 🔸 **4 à 8 vidéos qui dépassent le million** |
 
 Donc : **100 K en 16 semaines, c'est un objectif qui se joue sur une poignée de vidéos qui explosent.**
@@ -50,7 +50,7 @@ Ce qui ne sert à rien, et pourquoi on n'y touche pas :
 
 ---
 
-## 1. Le réglage du compte (samedi 10/10)
+## 1. Le réglage du compte (samedi 10/10 : pas encore fait au 10/10 midi)
 
 1. **Compte Créateur (personnel), pas Entreprise** : 🔸 les comptes Entreprise ont une bibliothèque
    musicale réduite, et le Creator Rewards exige un compte personnel (✅ guides concordants). Les
@@ -161,7 +161,7 @@ En plus, sur chaque vidéo :
   une seconde après la chute, une seconde maximum. Sur tout, y compris sur toi dans tes storytimes.
   À la 10e vidéo, on compte les commentaires qui citent la note : si personne n'en parle, on l'enlève.
 - **Sous-titres et couvertures : ceux du fil Branding** (blanc, capitales, un seul mot en vert lime ;
-  couverture = ton visage net + 3 mots max). S'ils ne sont pas prêts le 12/10, sous-titres
+  couverture = ton visage net + 3 mots max). S'ils ne sont pas prêts au lancement, sous-titres
   automatiques de TikTok en dépannage : on ne retarde pas la première vidéo pour ça. Pas de
   sous-titres sur les tier lists (le classement occupe déjà l'écran).
 - **Fichier** : toujours celui de `livraisons/` (pleine qualité), jamais celui reçu dans le chat.
@@ -184,6 +184,30 @@ En plus, sur chaque vidéo :
 la semaine + une capture par vidéo). Je calcule, je classe, je te dis quoi tourner la semaine suivante.
 
 ---
+
+## 5 bis. La veille du matin (depuis le 10/10, chaque jour à 7h26)
+
+Elle tourne dans le fil « Connecter Claude à TikTok » : chaque matin, environ 50 vidéos FR/BE des
+dernières 24 h, aspirées depuis la Belgique (scraper Apify, 8 à 10 $ par mois, ok de Nabil le 10/10).
+**Elle ne sert pas à copier. Elle nourrit trois cases du plan :**
+
+| Ce qu'elle cherche | Pour quelle case du mix (§3) | Ce que tu reçois |
+| :--- | :--- | :--- |
+| **Un buzz léger qui cartonne depuis moins de 24 h et qu'aucun Belge n'a pris** | L'actu (1 par semaine, plus si la veille trouve) | Une idée **stitch** à tourner le jour même. Rien de chaud → « pas d'actu aujourd'hui », on ne force pas |
+| **Le type de personne qui revient dans les vidéos les plus partagées**, et qui n'est pas déjà usé | Les 3 sketchs de la semaine | Une idée **sketch** écrite (hook, escalade, chute), passée au filtre des interdits |
+| **La durée et la forme qui font le plus de partages** (face caméra, stitch, duo) | Les réglages de §4 | Une ligne de chiffres, pour corriger le plan quand le terrain bouge |
+
+Pourquoi le partage : c'est le chiffre qui ramène des inconnus. Mesuré dans la veille du 10/10, la
+vidéo d'un compte de **100 abonnés** a fait 237 191 vues avec **18 875 partages** (8 %).
+
+**Ce qu'elle ne peut pas faire** : trouver tes storytimes. C'est ta vie, c'est toi qui me les racontes.
+**Et une idée de la veille se juge comme le reste** : si elle est déjà faite par un autre cette
+semaine, elle est écartée avec sa raison (exemple du 10/10 : « je deviens français quand la France
+gagne », déjà à 338 000 vues chez un autre).
+
+**Les stats de ton compte** : Metricool (gratuit, à connecter une fois le compte créé) me donnera
+vues, likes, commentaires et partages sans que tu m'envoies rien. La rétention et la durée de
+visionnage, eux, ne sortent que de TikTok Studio : ce sont les captures du dimanche (§5).
 
 ## 6. Les indicateurs, et ce qui déclenche un changement
 
@@ -216,7 +240,7 @@ Tous les seuils ci-dessous sont des 🔸 **hypothèses de départ**. Après 10 v
 
 | Date | Cible |
 | :--- | :--- |
-| **Dim. 25/10** | **14 vidéos publiées.** Objectif de volume, pas d'abonnés : c'est trop tôt |
+| **Dim. 25/10** | **16 vidéos publiées.** Objectif de volume, pas d'abonnés : c'est trop tôt |
 | **Dim. 15/11** | **10 000 abonnés** |
 | **Mar. 15/12** | **40 000 abonnés** |
 | **Dim. 31/01/2027** | **100 000 abonnés** |
@@ -236,49 +260,57 @@ On ne fait **rien de spécifique** pour Instagram avant 10 000 abonnés TikTok :
 
 ## 8. Les deux premières semaines, jour par jour
 
+> **Mis à jour le 10/10.** Le compte n'existe pas encore, et la veille du 10/10 a trouvé une
+> tendance qui ne t'attendra pas (France-Belgique, §5 bis). Donc on démarre **ce week-end** au lieu
+> du lundi : le stock glisse de deux jours et deux vidéos d'actu passent devant.
+
 Le stock : **6 vidéos prêtes** (7 fichiers, « T'inquiète » existe en deux montages) dans `livraisons/`.
 Par défaut je prends **la version 1080p de T'inquiète** (34,7 s) : c'est la plus nette. Si tu préfères
 la tienne (46 s), tu remplaces, c'est ton fichier.
 
-### Avant le départ
+**Envoyer un rush** : jamais par le chat (plafond 30 Mo). Vidéo originale sur Google Drive ou iCloud
+Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/README-envoyer-un-rush.md`).
 
-| Jour | À faire |
-| :--- | :--- |
-| **Ven. 09/10** | Valider le nom dans le fil Branding. **M'envoyer les rushs qui dorment sur ton téléphone** : les ex-fumeurs (17/09), ta version de T'inquiète, Bakhal Man si vous l'avez tourné. App Fichiers → WeTransfer ou AirDrop, jamais par une appli (elle réencode) |
-| **Sam. 10/10** | Créer le compte (§1, pseudo et bio du fil Branding). Réserver le nom sur Instagram. **Ne rien publier.** 20 min de commentaires sur des comptes humour FR/BE |
-| **Dim. 11/10** | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra.** Trois sketchs dans l'ordre du fichier `10-scripts-narrateur-17-09.md` : le pote au volant, le pote qui a jamais perdu, le père au téléphone. Puis **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés le soir même |
+### Le week-end de lancement (10 et 11/10)
+
+| Jour | Heure | À faire |
+| :--- | :-: | :--- |
+| **Sam. 10/10** | dans la journée | **Créer le compte** (§1, pseudo et bio du fil Branding). Réserver le nom sur Instagram. 20 min de commentaires sur des comptes humour FR/BE |
+| | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. Légende : « Il a qu'un seul mot. Même en garde à vue. » + « identifie-le » |
+| **Dim. 11/10** | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① le stitch **« Réponse d'un Belge »** · ② le sketch **« Le Belge de mauvaise foi »** (les deux dans `veille/2026-10-10-veille-fr-be.md`, **vérifie le vrai score avant**) · ③ le pote au volant · ④ le pote qui a jamais perdu · ⑤ le père au téléphone (`10-scripts-narrateur-17-09.md`) · ⑥⑦ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
+| | 19h | **V2 · Stitch « Réponse d'un Belge »** : monté et publié **le jour même**, la tendance se ferme en quelques jours |
 
 ### Semaine 1 — du 12 au 18/10 (tu bosses 6h-14h, publication à 19h00)
 
 | Jour | Heure | Vidéo | Légende (le titre qui promet) |
 | :--- | :-: | :--- | :--- |
-| **Lun. 12/10** | 19h | **V1 · T'inquiète** (stock) | « Il a qu'un seul mot. Même en garde à vue. » + « identifie-le » |
-| **Mar. 13/10** | 19h | **V2 · Business Bro** (stock) | « Il diversifie ses actifs. Son frigo, c'est un demi-citron. » |
-| **Mer. 14/10** | 19h | **V3 · Tier list foot** avec Sady (stock), Sady tagué, il reposte | La note la plus scandaleuse de la vidéo + « venez nous insulter » (jamais « tier list foot ») |
-| **Jeu. 15/10** | 19h | **V4 · MMA de salon** (stock) | « Il fait du shadow boxing en attendant que les pâtes cuisent. » |
-| **Ven. 16/10** | 19h | **V5 · Storytime #1** (tournage #1) : le premier où on te découvre, toi | Le détail le plus absurde de l'histoire. Carton de fin : ta note sur toi-même |
-| **Sam. 17/10** | 12h | **V6 · Tier list fruits** avec Sady (stock) | Le verdict le plus contestable + « et j'assume » |
+| **Lun. 12/10** | 19h | **V3 · Le Belge de mauvaise foi** (tournage #1), tant que la tendance tient | « On a pris [vrai score] et mon pote m'a dit que c'était bon signe. » |
+| **Mar. 13/10** | 19h | **V4 · Business Bro** (stock) | « Il diversifie ses actifs. Son frigo, c'est un demi-citron. » |
+| **Mer. 14/10** | 19h | **V5 · Tier list foot** avec Sady (stock), Sady tagué, il reposte | La note la plus scandaleuse de la vidéo + « venez nous insulter » (jamais « tier list foot ») |
+| **Jeu. 15/10** | 19h | **V6 · Storytime #1** (tournage #1) : le premier où on te découvre, toi | Le détail le plus absurde de l'histoire. Carton de fin : ta note sur toi-même |
+| **Ven. 16/10** | 19h | **V7 · MMA de salon** (stock) | « Il fait du shadow boxing en attendant que les pâtes cuisent. » |
+| **Sam. 17/10** | 12h | **V8 · Tier list fruits** avec Sady (stock) | Le verdict le plus contestable + « et j'assume » |
 | | après-midi | **TOURNAGE #2 avec Sady** : Bakhal Man ép. 2 « Montpellier » (`11-bakhal-man-montpellier.md`), Le Journaliste « après le kebab », La Note cachée fast-foods (`FORMATS.md`) | |
-| **Dim. 18/10** | 12h | **V7 · Le pote au volant** (tournage #1) | « Dans la rue c'est un agneau. Il met sa ceinture. » |
-| | 20h | **BILAN S1** : captures TikTok Studio → je classe V1 à V6 | |
+| **Dim. 18/10** | 12h | **V9 · Le pote au volant** (tournage #1) | « Dans la rue c'est un agneau. Il met sa ceinture. » |
+| | 20h | **BILAN S1** : captures TikTok Studio → je classe V1 à V8 | |
 
 ### Semaine 2 — du 19 au 25/10 (tu bosses 14h-22h : tout est programmé le matin)
 
 | Jour | Heure | Vidéo | Note |
 | :--- | :-: | :--- | :--- |
-| **Lun. 19/10** | 19h (programmée) | **V8 · L'otage du téléphone** (stock) | Le plus faible du stock (une section retombe de 8 dB, mesuré) : il passe après les autres |
-| **Mar. 20/10** | 19h | **V9 · Bakhal Man ép. 2** (tournage #2) | Sady tagué. Fin : « Racontez une histoire, on la passe au Bakhal Man » |
-| **Mer. 21/10** | 19h | **V10 · Le pote qui a jamais perdu** (tournage #1) | **10 vidéos publiées** |
-| **Jeu. 22/10** | 10h-12h | **TOURNAGE #3, solo** : 3 sketchs + 1 storytime + 1 réponse en vidéo à un commentaire | Avant ton poste |
-| | 19h | **V11 · Le Journaliste « après le kebab »** (tournage #2) | « Ses impressions après le kebab. » |
-| **Ven. 23/10** | 19h | **V12 · Storytime #2** (tournage #1) | |
-| **Sam. 24/10** | 12h | **V13 · Actu #1**, tournée le jour même (§3 ter) | Ton verdict en hook |
-| **Dim. 25/10** | 12h | **V14 · Le père au téléphone** (tournage #1) | Heure d'hiver cette nuit |
-| | 20h | **BILAN S2 + première règle des 10 vidéos** (V1 à V10) → la répartition de la semaine 3 | Stock restant : la Note cachée + le tournage #3 = 5 vidéos ✅ |
+| **Lun. 19/10** | 19h (programmée) | **V10 · Bakhal Man ép. 2** (tournage #2) | Sady tagué. Fin : « Racontez une histoire, on la passe au Bakhal Man ». **10 vidéos publiées** |
+| **Mar. 20/10** | 19h | **V11 · L'otage du téléphone** (stock) | Le plus faible du stock (une section retombe de 8 dB, mesuré) : il passe après les autres |
+| **Mer. 21/10** | 19h | **V12 · Le pote qui a jamais perdu** (tournage #1) | **Première règle des 10 vidéos** (V1 à V10, §6) |
+| **Jeu. 22/10** | 10h-12h | **TOURNAGE #3, solo** : 3 sketchs (les types de personne remontés par la veille) + 1 storytime + 1 réponse en vidéo à un commentaire | Avant ton poste |
+| | 19h | **V13 · Le Journaliste « après le kebab »** (tournage #2) | « Ses impressions après le kebab. » |
+| **Ven. 23/10** | 19h | **V14 · Storytime #2** (tournage #1) | |
+| **Sam. 24/10** | 12h | **V15 · Actu de la semaine**, l'idée stitch ou actu de la veille du matin, tournée le jour même | Ton verdict en hook |
+| **Dim. 25/10** | 12h | **V16 · Le père au téléphone** (tournage #1) | Heure d'hiver cette nuit |
+| | 20h | **BILAN S2** → la répartition de la semaine 3 | Stock restant : la Note cachée + le tournage #3 = 5 vidéos ✅ |
 
-**Le montage** : chaque rush doit être monté dans les 48 h qui suivent le tournage. Soit tu montes
-toi-même (tu le fais déjà), soit tu m'envoies les rushs et je monte (`outils/monter.py`,
-`assembler.py`, un seul encodage, livraison dans `livraisons/`).
+**Le montage** : chaque rush doit être monté dans les 48 h qui suivent le tournage, et le jour même
+pour une actu. Soit tu montes toi-même (tu le fais déjà), soit tu m'envoies les rushs et je monte
+(skill `montage`, un seul encodage, livraison dans `livraisons/`).
 
 ---
 
