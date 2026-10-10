@@ -6,6 +6,19 @@
 
 ---
 
+## 10/10/2026 (suite) — Les sources du Dénicheur ouvertes une par une
+
+**Fait** : les quatre sources du classement téléchargées (yt-dlp, API de syndication de X) et
+regardées en entier : coupes de plan mesurées (ffmpeg, seuil de scène), voix transcrite
+(faster-whisper), image la plus nette choisie par variance du laplacien. Captures recadrées dans
+`/mnt/project-files/cnabil/coach-tournage/fond-vert/`.
+
+**Appris** : deux miniatures sur quatre trompaient. La vidéo jointe au « menu à 15 balles » montre
+des tirs d'armes à feu ; le faux Mbappé tient un pistolet. Et l'Akatsuki n'a **aucune cape visible** :
+le script disait le contraire. Une trouvaille jugée sur sa miniature est non vérifiée.
+
+---
+
 ## 10/10/2026 (suite) — La réaction fond vert
 
 **Fait** : section 4 de `13-coach-tournage.md`. Règle photo / vidéo, choix de l'extrait (mesuré sur la

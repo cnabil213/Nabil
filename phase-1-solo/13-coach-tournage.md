@@ -393,17 +393,30 @@ OÙ ÇA TOMBE : ton hook (0-4 s) → la capture/l'extrait → ton escalade → t
 CADRE : tête dans la moitié basse
 ```
 
-### Appliqué au lot 2 du Dénicheur (10/10)
+### Appliqué au classement du Dénicheur (10/10, sources ouvertes et mesurées)
 
-| Idée | Fond vert | Pourquoi |
-| :--- | :--- | :--- |
-| « Mon oncle croit toutes les vidéos IA » | **Aucune capture de la fausse vidéo Mbappé**, même floutée. Photo d'un **tweet texte** qui en parle, ou rien | C'est une fausse image d'une vraie personne dans une baignoire : la montrer, c'est la diffuser. La vanne vise le tonton, elle marche sans l'image |
-| « Le pote qui vit dans un anime » | **Photo**, une capture où l'on voit la cape sur le toit, **sans manifestants ni police** dans le cadre | Le filtre du Dénicheur dit déjà de ne rien montrer du mouvement. Il me faut le lien de @a7tila ou de @attilazro pour choisir l'image |
-| « 15 balles le menu » | **Photo** : le tweet de @Iiaburi | La vanne est dans le texte. **Logo et nom de l'enseigne cachés**, comme le dit le filtre |
-| « Le mec qui regarde pas la Star Ac' » | **Face caméra brut** | C'est un sketch « type de personne » : rien à montrer, tout se dit |
+Le Dénicheur n'avait vu que les miniatures. Ici, chaque source a été **téléchargée et regardée en
+entier** : durée, coupes de plan, transcription de la voix, image retenue. Les captures prêtes sont
+dans `/mnt/project-files/cnabil/coach-tournage/fond-vert/` (pas dans le dépôt : ce sont les images
+d'autres gens).
 
-Aucune idée du lot 2 n'a besoin d'un extrait vidéo. Le jour où une en a besoin, j'ai besoin du lien
-avant de te donner les secondes.
+| # | Trouvaille | Ce que contient vraiment la source | Forme décidée | Ce qu'on montre |
+| --: | :--- | :--- | :--- | :--- |
+| 1 | Mbappé IA (@LeZer54) | 23,8 s. Un faux Mbappé en uniforme militaire **avec un pistolet** sur une piste d'athlétisme, un coureur à terre, voix off « il s'organisait ses propres jeux olympiques » (transcription automatique, à la lettre près non garantie) | **Face caméra brut** | **Rien.** Arme + fausse image d'une vraie personne : on ne la diffuse pas. Le script vise le tonton, il tient sans l'image |
+| 2 | L'Akatsuki au blocus (@attilazro, même vidéo que @a7tila) | 11,5 s, **aucune parole** (musique). 0 → 5,43 s : la vraie manif, foule de face, pancartes, et sur les toits des silhouettes. 5,43 → 11,4 s : des images de Naruto. **Aucune cape visible** : ce sont des silhouettes, et c'est la légende Snap (« Wesh c'est l'Akatsuki ou quoi ») qui fait la vanne | **Fond vert photo, deux images** | ① `akatsuki-toits.png` : la bande des toits à 4,5 s (l'image la plus nette de la partie réelle), **recadrée sans la foule ni les pancartes**. ② `akatsuki-anime.png` : l'Akatsuki alignée sur une corniche, à 10,0 s. Les deux à la suite = la comparaison |
+| 3 | Les clés sous le verre (@guybolt2) | Une photo. Le tweet : « J'ai demandé samedi à un membre du staff de cacher les clés du tiroir caisse de la boutique sous un mug retourné. Ce matin j'arrive… » (texte coupé dans la source lue). Sur la photo : un **mug en verre transparent** retourné sur les clés, et **juste à côté, des mugs bleus opaques** | **Fond vert photo** | `cles-sous-le-verre.jpg` en entier. Le détail qui tue : les mugs opaques étaient **à 10 cm**. Pas encore de script |
+| 4 | Menu à 15 balles (@Iiaburi) | Le texte du tweet, plus une vidéo jointe de 19,7 s : **des tirs d'armes à feu dans un stand de tir**, aucun rapport avec le menu, aucune parole | **Face caméra brut**, ou photo du **texte seul** | Jamais la vidéo jointe (armes). Le texte se dit très bien : c'est déjà ton hook |
+| 5 | New Balance / Steve Jobs | Non ouvert : pas de vanne, donc pas de vidéo à préparer | — | — |
+| 6 | Le mec qui regarde pas la Star Ac' | Pas de source | **Face caméra brut** | Rien |
+
+**Deux corrections pour le script de l'Akatsuki (lot 2 §2)** :
+- Le hook dit « en cape de l'Akatsuki » : **sur la vidéo, aucune cape n'est visible.** Formulation
+  juste : « Cette semaine, il était sur un toit. Et tout le monde l'a pris pour l'Akatsuki. »
+- La partie réelle montre une foule de manifestants de face : **elle ne passe pas à l'écran**, ni en
+  photo ni en vidéo. Seule la bande des toits est gardée.
+
+**Pour le tournage** : un seul extrait vidéo était envisagé (l'Akatsuki) ; deux images fixes font
+mieux le travail, donc aucune trouvaille de ce lot ne demande un extrait de X s à Y s.
 
 ---
 
