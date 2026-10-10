@@ -6,6 +6,25 @@
 
 ---
 
+## 10/10/2026 — Blow Up, et premier passage du dossier Drive
+
+**Fait**
+
+- Enquête Blow Up : aucune des deux apps ne nomme son IA, leurs « vues prédites » ne sont pas des
+  mesures. Rapport : [`outils/RECHERCHE-BLOWUP.md`](outils/RECHERCHE-BLOWUP.md).
+- Dossier Drive de Nabil (11 vidéos) lu par son lien public avec `recuperer.sh` ; inventaire, rangement
+  proposé et premier rapport coach (« arrêté de fumer ») :
+  [`phase-1-solo/13-drive-inventaire-et-coach-fumer.md`](phase-1-solo/13-drive-inventaire-et-coach-fumer.md).
+
+**Appris**
+
+- Le connecteur Google Drive répond « Forbidden » sur ce dossier : lecture possible par le lien public,
+  pas de renommage tant que le connecteur n'y a pas accès.
+- Les .mov du Drive sont des **exports CapCut** (`TEEditor`, `DreaminaMetaInfo`), pas des originaux ;
+  les trois tier lists du 14/09 y sont en **540×960**.
+- `faster-whisper` installé par pip casse sur `av` récent (`metadata_errors`) : passer un tableau numpy
+  lu depuis un wav extrait par ffmpeg.
+
 ## 10/10/2026 — Branding : francophone, pas belge
 
 Nabil : « je veux être connu dans la francophonie. J'ai pas de problématique avec le contenu belge,
