@@ -295,7 +295,7 @@ Drive, lien « tout le monde peut voir », lien collé dans le fil (`outils/READ
 | Jour | Heure | À faire |
 | :--- | :-: | :--- |
 | **Sam. 10/10** | dans la journée | **Créer le compte** (§1, pseudo et bio du fil Branding). Réserver le nom sur Instagram. 20 min de commentaires sur des comptes humour FR/BE |
-| | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. Légende : « Il a qu'un seul mot. Même en garde à vue. » + « identifie-le » |
+| | 19h | **V1 · T'inquiète** (stock) si le compte est prêt, sinon elle passe dimanche 19h. Fichier : `livraisons/15sept-tinquiete-HQ.mp4` (1080p, 34,7 s). Légende : « Il a qu'un seul mot. Même chez le médecin. » + « identifie-le » (pas « garde à vue » : c'est la chute de la vidéo, la légende ne la grille pas) |
 | **Dim. 11/10** | 7h26 | Le dénicheur tombe : s'il y a une trend chaude, elle passe en tête du tournage |
 | | matin | **TOURNAGE #1, solo, 2 h, de jour, garé, app Caméra**, dans cet ordre : ① la trend du dénicheur, s'il y en a une · ② le pote au volant · ③ le pote qui a jamais perdu · ④ le père au téléphone (`10-scripts-narrateur-17-09.md`) · ⑤⑥ **deux storytimes** (§3 bis). Une seconde de silence avant chaque prise. Rushs envoyés dans la foulée |
 | | 19h | **V2 · Business Bro** (stock). Légende : « Il diversifie ses actifs. Son frigo, c'est un demi-citron. » |
