@@ -98,6 +98,22 @@ et sur un pseudo tapé au hasard (introuvable, même code que les pseudos libres
 | @nabiltoutcourt | pris : 23 abonnés, 0 vidéo | ❌ |
 | @c.nabil · @c_nabil · @cnabil_ · @lenabil | pris tous les quatre | ❌ |
 
+### Deuxième tour, 10/10 à 14:27 : Nabil refuse @justenabil, et @cnabil n'est pas à lui
+
+Nabil : « Justenabil j'aime pas et cnabil c pas mon compte. » On reste donc sur **C'Nabil**, son nom
+de rappeur (Cnabil_213), en variante libre. Vérifié sur TikTok le 10/10 à 14:27 :
+
+| Pseudo | TikTok | Verdict |
+| :--- | :--- | :--- |
+| **@cnabil.tv** | **libre** | ✅ **Premier choix.** C'Nabil exact, « .tv » le lit comme une chaîne |
+| **@yacnabil** | **libre** | Repli n°1. « Y'a C'Nabil » : ça s'annonce à l'oral |
+| **@levraicnabil** | **libre** | Repli n°2. Répond au fait que @cnabil est pris par un autre |
+| @cnabil.live · @cnabil.x · @cnabil.off · @cnabil.prod · @cestcnabil · @itscnabil · @vraicnabil · @cnabill | libres | écartés : moins clairs, anglais ou « off » (cliché) |
+| @cnabiil | **pris, 1 747 abonnés** | ❌ et c'est pour ça qu'on écarte @cnabill : une lettre doublée renverrait les gens chez lui |
+| @ccnabil | pris | ❌ |
+
+@justenabil et @nabilenvrai ci-dessus : écartés par Nabil.
+
 **Instagram : non vérifié.** Instagram refuse toute consultation sans être connecté. À tester dans
 l'app, dans l'ordre du tableau, avant de créer le compte TikTok : on prend le premier libre **des deux
 côtés**.

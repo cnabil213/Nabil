@@ -6,6 +6,15 @@
 
 ---
 
+## 10/10/2026 (suite 2) — Le pseudo, deuxième tour : C'Nabil
+
+Nabil : « Justenabil j'aime pas et cnabil c pas mon compte. » On garde son nom de rappeur, C'Nabil, en
+variante libre. Vérifié sur TikTok à 14:27 : **@cnabil.tv** (proposé en premier), @yacnabil,
+@levraicnabil libres. @cnabiil est pris (1 747 abonnés) : toute variante à lettre doublée enverrait les
+gens chez lui. Instagram toujours non vérifiable sans connexion.
+
+---
+
 ## 10/10/2026 (suite) — Le pseudo : vérifié sur TikTok
 
 Nabil : « on n'a toujours pas inventé de pseudo pour Insta, etc. » Son pseudo de rappeur : Cnabil_213.
