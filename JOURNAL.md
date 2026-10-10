@@ -18,6 +18,13 @@
   type de personne qui revient dans les plus partagées, durée et forme qui font partager) et à quelle
   case du mix chaque idée sert. Metricool pour les stats, captures TikTok Studio pour la rétention.
 
+**Décidé par Nabil (10/10, 12h43)**
+
+- **Cible : toute la francophonie**, « de Bruxelles à Marseille ». Pas d'angle belge. Le stitch
+  « Réponse d'un Belge » et le sketch « Le Belge de mauvaise foi » sont écartés : ils le rangent dans
+  la case « le Belge ». Test ajouté au §3 : un Marseillais et un Bruxellois comprennent la vanne sans
+  explication.
+
 **Appris**
 
 - Nabil : « j'ai l'impression qu'on avance à l'aveugle ». Le plan existait mais n'était pas relié à

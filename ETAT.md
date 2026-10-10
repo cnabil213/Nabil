@@ -176,8 +176,9 @@ Au-delà du 30/10 l'agenda est vide : prolonger la série quand on y arrive.
 ## Les 3 prochaines actions
 
 **Au 10/10, plan de croissance recalé** : compte TikTok **pas encore créé** (à faire le 10/10).
-V1 T'inquiète le 10/10 à 19h si le compte est prêt, tournage #1 dimanche 11/10 avec le stitch
-« Réponse d'un Belge » publié le jour même (tendance France-Belgique). Veille FR/BE chaque matin à
+V1 T'inquiète le 10/10 à 19h si le compte est prêt, tournage #1 dimanche 11/10. **Cible : toute la
+francophonie, de Bruxelles à Marseille** (Nabil, 10/10) : pas d'angle belge, les deux idées
+France-Belgique de la veille sont écartées. Veille FR/BE chaque matin à
 7h26 (fil « Connecter Claude à TikTok »). Calendrier : `phase-1-solo/12-plan-croissance-100k.md` §8,
 veille §5 bis. **Le plan attend l'ok de Nabil.**
 
