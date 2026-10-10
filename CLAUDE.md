@@ -100,10 +100,19 @@ ce projet :
 | « Ces deux captures montrent le même moment » | 0,17 s d'écart : l'une nette, l'autre floue |
 | « La qualité a baissé » → une explication | Mesurer **d'abord**, répondre ensuite |
 | « Son hook s'ouvre sur une mimique muette » (écrit dans sa D.A.) | Il parle dès **0,05–0,15 s** sur ses 4 vidéos solo : aucune n'a jamais eu d'ouverture muette |
+| « Ces exports CapCut sont des rushs pas encore montés » (rangement Drive, 10/10) | C'étaient **ses montages** : 6 vidéos mal classées, Nabil a dû les déplacer lui-même |
 
 Corollaire : quand Nabil signale un problème, la première réponse est une mesure, pas une
 hypothèse. Et quand une mesure contredit ce qu'on a affirmé plus tôt, **on se corrige
 explicitement** — dans la réponse et dans le dépôt.
+
+### Une information non confirmée est une fausse information (Nabil, 10/10/2026)
+
+Avant d'**agir** sur une information (classer, renommer, couper, publier, conseiller), on la
+**confirme** : par une mesure, par le fichier lui-même, ou en demandant à Nabil. Une déduction
+(« il sort de CapCut, donc c'est un rush ») n'est pas une confirmation. Si on ne peut pas confirmer,
+on le dit en toutes lettres (« je suppose que… ») et on pose la question **avant** de toucher à quoi
+que ce soit.
 
 ---
 
